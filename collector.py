@@ -628,7 +628,11 @@ def run():
             # История для графика — последние 24 точки
             "history": [p["score"] for p in history[city][-24:]],
         }
-
+    # Дописываем текущий срез в history.json
+    history = load_history()
+    for city, d in snapshot["cities"].items():
+    append_to_history(history, city, d["impact"])
+    save_history(history)
     save_latest(snapshot)
     save_history(history)
 
