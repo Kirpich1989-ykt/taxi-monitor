@@ -277,58 +277,58 @@ def fetch_traffic(city: str, cfg: dict) -> dict:
 # ИСТОЧНИК 4: PyTrends (поисковый интерес)
 # ─────────────────────────────────────────
 
-def fetch_trends(city: str, cfg: dict, pytrends_client) -> dict:
+def fetch_trends(city: str, cfg: dict) -> dict:
     result = {"city": city, "timestamp": datetime.utcnow().isoformat(),
-              "status": "ok", "data": {}, "score": 0.0,
-              "icon": "🔍", "val": "нет данных"}
+              "status": "ok", "data": {}, "score": 0.0}
     geo = cfg.get("trends_geo")
     if not geo:
         result["status"] = "no_geo"
         return result
-    try:
-        pytrends_client.build_payload(
-            kw_list=TAXI_KEYWORDS[:5],
-            timeframe="now 4-H",
-            geo=geo
-        )
-        df = pytrends_client.interest_over_time()
-        if df.empty:
-            result["status"] = "no_data"
-            result["val"]    = "нет данных Google"
-            return result
 
-        scores       = []
-        top_kw       = None
-        top_kw_delta = 0
+    # ── Retry 3 раза с нарастающей паузой ──────────────────
+    last_error = None
+    for attempt in range(3):
+        try:
+            if attempt > 0:
+                wait = 30 * attempt   # 30с, 60с
+                print(f"    retry {attempt}/2 через {wait}с...")
+                time.sleep(wait)
 
-        for kw in TAXI_KEYWORDS:
-            if kw in df.columns:
-                cur = int(df[kw].iloc[-1])
-                avg = float(df[kw].mean())
-                delta = cur - avg
-                result["data"][kw] = {
-                    "current": cur,
-                    "avg_4h":  round(avg, 1),
-                    "trend":   "up" if cur > avg * 1.1 else "down",
-                }
-                if cur > 0:
-                    scores.append(min(cur / 100, 1.0))
-                if delta > top_kw_delta:
-                    top_kw_delta = delta
-                    top_kw       = kw
+            pytrends.build_payload(
+                kw_list=TAXI_KEYWORDS[:5],
+                timeframe='now 4-H',
+                geo=geo
+            )
+            df = pytrends.interest_over_time()
 
-        result["score"] = round(sum(scores) / len(scores), 2) if scores else 0.0
-        if top_kw and top_kw_delta > 0:
-            result["val"] = f'"{top_kw}" ↑ +{round(top_kw_delta)}%'
-        else:
-            result["val"] = "интерес в норме"
+            if df.empty:
+                result["status"] = "no_data"
+                return result
 
-        time.sleep(2)
+            scores = []
+            for kw in TAXI_KEYWORDS:
+                if kw in df.columns:
+                    cur = int(df[kw].iloc[-1])
+                    avg = float(df[kw].mean())
+                    result["data"][kw] = {
+                        "current": cur,
+                        "avg_4h":  round(avg, 1),
+                        "trend":   "up" if cur > avg * 1.1 else "down",
+                    }
+                    if cur > 0:
+                        scores.append(min(cur / 100, 1.0))
 
-    except Exception as ex:
-        result["status"] = "error"
-        result["error"]  = str(ex)
+            result["score"] = round(sum(scores) / len(scores), 2) if scores else 0.0
+            time.sleep(2)
+            return result   # успех — выходим
 
+        except Exception as ex:
+            last_error = str(ex)
+            continue
+
+    # Все попытки провалились
+    result["status"] = "error"
+    result["error"]  = last_error
     return result
 
 
