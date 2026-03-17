@@ -73,6 +73,16 @@ def safe_source_result(source_name: str, city: str, value, default_val: str = "n
         value.setdefault("status", "ok")
         value.setdefault("score", 0.0)
         value.setdefault("val", default_val)
+        try:
+            value["score"] = round(float(value.get("score", 0.0) or 0.0), 2)
+        except (TypeError, ValueError):
+            value["score"] = 0.0
+        if value.get("val") is None:
+            value["val"] = default_val
+        if "items" in value and not isinstance(value.get("items"), list):
+            value["items"] = []
+        if "events" in value and not isinstance(value.get("events"), list):
+            value["events"] = []
         return value
 
     value_type = type(value).__name__
@@ -99,6 +109,38 @@ def call_source(source_name: str, fetcher, city: str, cfg: dict, *args):
             "error": str(ex),
         }
     return safe_source_result(source_name, city, result)
+
+
+def coerce_score(data) -> float:
+    if not isinstance(data, dict):
+        return 0.0
+    try:
+        return round(float(data.get("score", 0.0) or 0.0), 2)
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def safe_items_count(data, key: str) -> int:
+    if not isinstance(data, dict):
+        return 0
+    value = data.get(key, [])
+    return len(value) if isinstance(value, list) else 0
+
+
+def history_scores(history: dict, city: str, limit: int = 24) -> list:
+    city_history = history.get(city, [])
+    if not isinstance(city_history, list):
+        return []
+
+    scores = []
+    for point in city_history[-limit:]:
+        if not isinstance(point, dict):
+            continue
+        try:
+            scores.append(float(point.get("score", 0.0) or 0.0))
+        except (TypeError, ValueError):
+            continue
+    return scores
 
 # ─────────────────────────────────────────
 # WMO WEATHER CODES → русский
@@ -475,12 +517,17 @@ def fetch_news(city: str, cfg: dict) -> dict:
 
 def calc_impact(city: str, w, e, t, tr, n) -> dict:
     ws    = IMPACT_WEIGHTS
+    w_score = coerce_score(w)
+    e_score = coerce_score(e)
+    t_score = coerce_score(t)
+    tr_score = coerce_score(tr)
+    n_score = coerce_score(n)
     total = round(
-        w["score"]  * ws["weather"] +
-        e["score"]  * ws["events"]  +
-        t["score"]  * ws["traffic"] +
-        tr["score"] * ws["trends"]  +
-        n["score"]  * ws["news"],
+        w_score  * ws["weather"] +
+        e_score  * ws["events"]  +
+        t_score  * ws["traffic"] +
+        tr_score * ws["trends"]  +
+        n_score  * ws["news"],
         3
     )
     level = (
@@ -493,11 +540,11 @@ def calc_impact(city: str, w, e, t, tr, n) -> dict:
         "timestamp":     datetime.utcnow().isoformat(),
         "score_total":   total,
         "alert":         level,
-        "score_weather": w["score"],
-        "score_events":  e["score"],
-        "score_traffic": t["score"],
-        "score_trends":  tr["score"],
-        "score_news":    n["score"],
+        "score_weather": w_score,
+        "score_events":  e_score,
+        "score_traffic": t_score,
+        "score_trends":  tr_score,
+        "score_news":    n_score,
     }
 
 
@@ -517,7 +564,10 @@ def send_telegram(impact: dict, weather: dict, news_items: list):
     emoji     = ALERT_EMOJI[impact["alert"]]
     level_ru  = {"yellow": "ВНИМАНИЕ", "red": "КРИТИЧЕСКИЙ"}[impact["alert"]]
     top_news  = ""
-    high_news = [i for i in news_items if i["level"] == "high"]
+    high_news = [
+        i for i in news_items
+        if isinstance(i, dict) and i.get("level") == "high"
+    ]
     if high_news:
         top_news = f"\n📰 {high_news[0]['title'][:80]}"
 
@@ -553,8 +603,17 @@ HISTORY_PATH = os.path.join(DATA_DIR, "history.json")
 
 def load_history() -> dict:
     if os.path.exists(HISTORY_PATH):
-        with open(HISTORY_PATH, "r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(HISTORY_PATH, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            if isinstance(data, dict):
+                history = {}
+                for city in CITIES:
+                    city_history = data.get(city, [])
+                    history[city] = city_history if isinstance(city_history, list) else []
+                return history
+        except (OSError, json.JSONDecodeError, TypeError, ValueError):
+            pass
     # Инициализируем пустую историю для каждого города
     return {city: [] for city in CITIES}
 
@@ -643,33 +702,33 @@ def run():
             "impact":  impact["score_total"],
             "alert":   impact["alert"],
             "weather": {
-                "score": w["score"],
+                "score": coerce_score(w),
                 "val":   w.get("val", "нет данных"),
                 "icon":  w.get("icon", "🌡"),
                 "live":  w["status"] == "ok",
             },
             "events": {
-                "score": e["score"],
+                "score": coerce_score(e),
                 "val":   e.get("val", "нет данных"),
                 "icon":  "🎭",
             },
             "traffic": {
-                "score": t["score"],
+                "score": coerce_score(t),
                 "val":   t.get("val", "нет данных"),
                 "icon":  "🚗",
             },
             "trends": {
-                "score": tr["score"],
+                "score": coerce_score(tr),
                 "val":   tr.get("val", "нет данных"),
                 "icon":  "🔍",
             },
             "news": {
-                "score": n["score"],
+                "score": coerce_score(n),
                 "val":   n.get("val", "нет данных"),
                 "icon":  "📰",
             },
             # История для графика — последние 24 точки
-            "history": [p["score"] for p in history[city][-24:]],
+            "history": history_scores(history, city),
         }
 
     save_latest(snapshot)
