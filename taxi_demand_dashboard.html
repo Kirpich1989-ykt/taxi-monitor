@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TaxiDemand Monitor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+/* ═══════════════════════════════════════
+   VARIABLES & RESET
+═══════════════════════════════════════ */
+:root {
+  --bg0:       #06080f;
+  --bg1:       #0c0f1a;
+  --bg2:       #111525;
+  --bg3:       #181d2e;
+  --border:    rgba(0,220,180,0.12);
+  --border2:   rgba(0,220,180,0.25);
+  --cyan:      #00dcb4;
+  --cyan-dim:  rgba(0,220,180,0.15);
+  --cyan-glow: rgba(0,220,180,0.35);
+  --red:       #ff3d5a;
+  --red-dim:   rgba(255,61,90,0.15);
+  --yellow:    #f5c842;
+  --yellow-dim:rgba(245,200,66,0.15);
+  --green:     #00e676;
+  --green-dim: rgba(0,230,118,0.12);
+  --text1:     #e8edf8;
+  --text2:     #7a8aaa;
+  --text3:     #3d4a66;
+  --mono:      'Share Tech Mono', monospace;
+  --display:   'Rajdhani', sans-serif;
+  --body:      'Inter', sans-serif;
+  --radius:    6px;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { height: 100%; }
+body {
+  background: var(--bg0);
+  color: var(--text1);
+  font-family: var(--body);
+  font-size: 13px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ═══════════════════════════════════════
+   GRID BACKGROUND
+═══════════════════════════════════════ */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0,220,180,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,220,180,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: 0;
+}
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(0,120,100,0.08) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ═══════════════════════════════════════
+   LAYOUT
+═══════════════════════════════════════ */
+.app { position: relative; z-index: 1; display: flex; flex-direction: column; min-height: 100vh; }
+
+/* ═══════════════════════════════════════
+   HEADER
+═══════════════════════════════════════ */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 24px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(6,8,15,0.9);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logo-icon {
+  width: 32px; height: 32px;
+  border: 1.5px solid var(--cyan);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.logo-icon::before {
+  content: '▲';
+  color: var(--cyan);
+  font-size: 14px;
+  font-family: var(--mono);
+}
+.logo-icon::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--cyan-dim);
+  animation: pulse-bg 3s ease-in-out infinite;
+}
+@keyframes pulse-bg {
+  0%,100% { opacity: 0.5; }
+  50%      { opacity: 1; }
+}
+.logo-text { font-family: var(--display); font-size: 18px; font-weight: 700; letter-spacing: 2px; color: var(--text1); }
+.logo-text span { color: var(--cyan); }
+
+.header-meta {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text2);
+}
+.meta-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--green);
+  animation: blink 2s ease-in-out infinite;
+}
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+.btn-refresh {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--cyan);
+  background: var(--cyan-dim);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 6px 14px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all .2s;
+}
+.btn-refresh:hover { background: rgba(0,220,180,0.25); border-color: var(--cyan); }
+
+/* ═══════════════════════════════════════
+   CITY TABS
+═══════════════════════════════════════ */
+.city-tabs {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(6,8,15,0.7);
+  overflow-x: auto;
+}
+.city-tab {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  font-family: var(--display);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: var(--text2);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+  white-space: nowrap;
+  position: relative;
+}
+.city-tab:hover { color: var(--text1); }
+.city-tab.active {
+  color: var(--cyan);
+  border-bottom-color: var(--cyan);
+}
+.city-tab .tab-score {
+  font-family: var(--mono);
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+.tab-score.green  { background: var(--green-dim);  color: var(--green); }
+.tab-score.yellow { background: var(--yellow-dim); color: var(--yellow); }
+.tab-score.red    { background: var(--red-dim);    color: var(--red); animation: tab-pulse 1.5s ease-in-out infinite; }
+@keyframes tab-pulse { 0%,100%{opacity:1} 50%{opacity:0.5} }
+
+/* ═══════════════════════════════════════
+   MAIN CONTENT
+═══════════════════════════════════════ */
+.main {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  grid-template-rows: auto 1fr;
+  gap: 16px;
+  padding: 16px 24px;
+  flex: 1;
+}
+
+/* ═══════════════════════════════════════
+   CARDS / PANELS
+═══════════════════════════════════════ */
+.card {
+  background: var(--bg1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyan-glow), transparent);
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+}
+.card-title {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--text2);
+  text-transform: uppercase;
+}
+.card-badge {
+  font-family: var(--mono);
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  border: 1px solid var(--border2);
+  color: var(--text2);
+}
+
+/* ═══════════════════════════════════════
+   MAP
+═══════════════════════════════════════ */
+.map-card {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  min-height: 520px;
+}
+#map {
+  height: calc(100% - 41px);
+  min-height: 480px;
+  filter: brightness(0.75) saturate(0.6);
+}
+.leaflet-container { background: #0a0d16; }
+
+/* ═══════════════════════════════════════
+   IMPACT SCORE PANEL
+═══════════════════════════════════════ */
+.score-card {
+  grid-column: 2;
+  grid-row: 1;
+}
+.score-body {
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.score-gauge-wrap {
+  position: relative;
+  width: 160px;
+  height: 100px;
+}
+.score-gauge-wrap canvas { position: absolute; top: 0; left: 0; }
+.score-value-overlay {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  text-align: center;
+}
+.score-number {
+  font-family: var(--display);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.score-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--text2);
+}
+
+.alert-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  font-family: var(--display);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  width: 100%;
+  justify-content: center;
+}
+.alert-badge.green  { background: var(--green-dim);  color: var(--green);  border: 1px solid rgba(0,230,118,0.2); }
+.alert-badge.yellow { background: var(--yellow-dim); color: var(--yellow); border: 1px solid rgba(245,200,66,0.2); }
+.alert-badge.red    { background: var(--red-dim);    color: var(--red);    border: 1px solid rgba(255,61,90,0.3);
+  animation: alert-pulse 2s ease-in-out infinite; }
+@keyframes alert-pulse {
+  0%,100% { box-shadow: 0 0 0 0 rgba(255,61,90,0); }
+  50%      { box-shadow: 0 0 20px 4px rgba(255,61,90,0.2); }
+}
+
+/* Factor bars */
+.factor-bars { width: 100%; display: flex; flex-direction: column; gap: 8px; }
+.factor-row {
+  display: grid;
+  grid-template-columns: 80px 1fr 40px;
+  align-items: center;
+  gap: 8px;
+}
+.factor-name {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text2);
+  letter-spacing: 1px;
+}
+.factor-track {
+  height: 4px;
+  background: var(--bg3);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.factor-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 1s ease;
+}
+.factor-val {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text2);
+  text-align: right;
+}
+
+/* ═══════════════════════════════════════
+   FACTOR CARDS ROW
+═══════════════════════════════════════ */
+.factors-row {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.factor-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  display: grid;
+  grid-template-columns: 28px 1fr auto;
+  align-items: start;
+  gap: 10px;
+  cursor: pointer;
+  transition: border-color .2s, background .2s;
+  position: relative;
+  overflow: hidden;
+}
+.factor-card:hover { border-color: var(--border2); background: var(--bg3); }
+.factor-card::after {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 2px;
+}
+.factor-card.weather::after  { background: #4fc3f7; }
+.factor-card.events::after   { background: #ce93d8; }
+.factor-card.traffic::after  { background: #ffb74d; }
+.factor-card.trends::after   { background: var(--cyan); }
+.factor-card.news::after     { background: #ef9a9a; }
+
+.factor-icon {
+  width: 28px; height: 28px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px;
+  border-radius: 4px;
+  background: var(--bg3);
+}
+.factor-info {}
+.factor-title {
+  font-family: var(--display);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--text1);
+  margin-bottom: 2px;
+}
+.factor-detail {
+  font-size: 11px;
+  color: var(--text2);
+  line-height: 1.4;
+}
+.factor-score-pill {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  border: 1px solid;
+  white-space: nowrap;
+}
+
+/* ═══════════════════════════════════════
+   ALERTS PANEL
+═══════════════════════════════════════ */
+.alerts-section {
+  grid-column: 1 / 3;
+  padding: 0 24px 20px;
+}
+.alerts-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.section-title {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: var(--text2);
+  text-transform: uppercase;
+}
+.alerts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 8px;
+}
+.alert-item {
+  display: flex;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--bg1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.alert-item::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+}
+.alert-item.red::before    { background: var(--red); }
+.alert-item.yellow::before { background: var(--yellow); }
+.alert-item.green::before  { background: var(--green); }
+.alert-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  margin-top: 4px; flex-shrink: 0;
+}
+.alert-item.red    .alert-dot { background: var(--red); }
+.alert-item.yellow .alert-dot { background: var(--yellow); }
+.alert-item.green  .alert-dot { background: var(--green); }
+.alert-content {}
+.alert-city {
+  font-family: var(--display);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+}
+.alert-text {
+  font-size: 11px;
+  color: var(--text2);
+  line-height: 1.4;
+}
+.alert-time {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text3);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* ═══════════════════════════════════════
+   HISTORY CHART
+═══════════════════════════════════════ */
+.history-card {
+  grid-column: 1 / 3;
+  margin: 0 24px 20px;
+}
+.history-body { padding: 16px; height: 180px; }
+.history-body canvas { max-height: 148px; }
+
+/* ═══════════════════════════════════════
+   LEAFLET OVERRIDES
+═══════════════════════════════════════ */
+.leaflet-tile-pane { filter: hue-rotate(190deg) brightness(0.4) saturate(0.5); }
+.city-marker-wrap {
+  display: flex; flex-direction: column; align-items: center;
+}
+.city-marker {
+  width: 14px; height: 14px; border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+  position: relative;
+}
+.city-marker::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 1px solid;
+  opacity: 0.5;
+  animation: ring-pulse 2s ease-out infinite;
+}
+@keyframes ring-pulse {
+  0%   { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+.city-marker.green  { background: var(--green);  border-color: var(--green); }
+.city-marker.yellow { background: var(--yellow); border-color: var(--yellow); }
+.city-marker.red    { background: var(--red);    border-color: var(--red); }
+.city-marker.green::after  { border-color: var(--green); }
+.city-marker.yellow::after { border-color: var(--yellow); }
+.city-marker.red::after    { border-color: var(--red); }
+
+.map-tooltip {
+  background: var(--bg1) !important;
+  border: 1px solid var(--border2) !important;
+  border-radius: 4px !important;
+  color: var(--text1) !important;
+  font-family: var(--mono) !important;
+  font-size: 11px !important;
+  padding: 6px 10px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: var(--bg1); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
+
+/* Animations in */
+.card, .factor-card, .alert-item {
+  animation: fadein .4s ease both;
+}
+@keyframes fadein { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:none; } }
+
+/* Glitch text effect for logo */
+.glitch { position: relative; }
+.glitch::before {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 var(--red);
+  animation: glitch1 4s infinite;
+  clip-path: polygon(0 30%, 100% 30%, 100% 50%, 0 50%);
+  color: var(--text1);
+}
+@keyframes glitch1 {
+  0%,90%,100% { opacity: 0; }
+  92% { opacity: 1; transform: translate(-2px); }
+  94% { transform: translate(2px); }
+  96% { opacity: 0; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">
+    <div class="logo-icon"></div>
+    <div class="logo-text glitch" data-text="TAXI·DEMAND·MONITOR">TAXI<span>·DEMAND·</span>MONITOR</div>
+  </div>
+  <div class="header-meta">
+    <div class="meta-item">
+      <div class="meta-dot"></div>
+      <span>LIVE</span>
+    </div>
+    <div class="meta-item" id="weather-live-badge" style="color:var(--cyan)">ПОГОДА: LIVE</div>
+    <div class="meta-item" id="update-time">UPD: --:--:--</div>
+    <div class="meta-item" id="cycle-count">CYCLE #—</div>
+    <button class="btn-refresh" onclick="refreshData()">⟳ REFRESH</button>
+  </div>
+</header>
+
+<!-- CITY TABS -->
+<div class="city-tabs" id="city-tabs"></div>
+
+<!-- MAIN GRID -->
+<div class="main">
+
+  <!-- MAP -->
+  <div class="card map-card">
+    <div class="card-header">
+      <span class="card-title">КАРТА ГОРОДОВ</span>
+      <span class="card-badge" id="map-badge">РОССИЯ · 4 ГОРОДА</span>
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <!-- SCORE CARD -->
+  <div class="card score-card">
+    <div class="card-header">
+      <span class="card-title">IMPACT SCORE</span>
+      <span class="card-badge" id="score-city-label">—</span>
+    </div>
+    <div class="score-body">
+      <div class="score-gauge-wrap">
+        <canvas id="gauge-canvas" width="160" height="100"></canvas>
+        <div class="score-value-overlay">
+          <div class="score-number" id="score-number">—</div>
+          <div class="score-label">DEMAND INDEX</div>
+        </div>
+      </div>
+      <div class="alert-badge green" id="alert-badge">● GREEN · НОРМА</div>
+      <div class="factor-bars" id="factor-bars-mini"></div>
+    </div>
+  </div>
+
+  <!-- FACTORS -->
+  <div class="factors-row" id="factors-row"></div>
+
+</div>
+
+<!-- HISTORY CHART -->
+<div class="history-card card" style="margin:0 24px 16px;">
+  <div class="card-header">
+    <span class="card-title">ИСТОРИЯ IMPACT SCORE · 24Ч</span>
+    <span class="card-badge" id="history-city-label">—</span>
+  </div>
+  <div class="history-body">
+    <canvas id="history-chart"></canvas>
+  </div>
+</div>
+
+<!-- ALERTS -->
+<div class="alerts-section">
+  <div class="alerts-header">
+    <div class="section-title">ПОСЛЕДНИЕ АЛЕРТЫ</div>
+    <span class="card-badge" id="alerts-count">0 СОБЫТИЙ</span>
+  </div>
+  <div class="alerts-grid" id="alerts-grid"></div>
+</div>
+
+</div><!-- /app -->
+
+<script>
+/* ═══════════════════════════════════════
+   OPEN-METEO — WMO WEATHER CODES
+   https://open-meteo.com/en/docs#weathervariables
+═══════════════════════════════════════ */
+const WMO_MAP = {
+  0:  { label: "ясно",                   icon: "☀",  bad: false },
+  1:  { label: "преим. ясно",            icon: "🌤", bad: false },
+  2:  { label: "переменная облачность",  icon: "⛅", bad: false },
+  3:  { label: "пасмурно",               icon: "☁",  bad: false },
+  45: { label: "туман",                  icon: "🌫", bad: false },
+  48: { label: "изморозь",               icon: "🌫", bad: false },
+  51: { label: "морось слабая",          icon: "🌦", bad: true  },
+  53: { label: "морось умеренная",       icon: "🌦", bad: true  },
+  55: { label: "морось сильная",         icon: "🌧", bad: true  },
+  61: { label: "дождь слабый",           icon: "🌧", bad: true  },
+  63: { label: "дождь умеренный",        icon: "🌧", bad: true  },
+  65: { label: "дождь сильный",          icon: "🌧", bad: true  },
+  71: { label: "снег слабый",            icon: "🌨", bad: true  },
+  73: { label: "снег умеренный",         icon: "🌨", bad: true  },
+  75: { label: "снег сильный",           icon: "❄",  bad: true  },
+  77: { label: "снежная крупа",          icon: "🌨", bad: true  },
+  80: { label: "ливень слабый",          icon: "🌧", bad: true  },
+  81: { label: "ливень умеренный",       icon: "🌧", bad: true  },
+  82: { label: "ливень сильный",         icon: "⛈",  bad: true  },
+  85: { label: "снегопад слабый",        icon: "🌨", bad: true  },
+  86: { label: "снегопад сильный",       icon: "❄",  bad: true  },
+  95: { label: "гроза",                  icon: "⛈",  bad: true  },
+  96: { label: "гроза с градом",         icon: "⛈",  bad: true  },
+  99: { label: "гроза, сильный град",    icon: "⛈",  bad: true  },
+};
+
+function wmoInfo(code) {
+  return WMO_MAP[code] || { label: `код ${code}`, icon: "🌡", bad: code >= 51 };
+}
+
+function calcWeatherScore(temp, precip, snow, wind, isBad) {
+  let s = isBad ? 0.5 : 0.0;
+  if (precip > 2)  s += 0.15;
+  if (precip > 8)  s += 0.20;
+  if (precip > 20) s += 0.10;
+  if (snow > 1)    s += 0.10;
+  if (wind > 12)   s += 0.05;
+  if (wind > 20)   s += 0.05;
+  if (temp < -20)  s += 0.10;
+  if (temp > 35)   s += 0.05;
+  return Math.min(s, 1.0);
+}
+
+async function fetchWeatherCity(cityName, lat, lon) {
+  const url = `https://api.open-meteo.com/v1/forecast`
+    + `?latitude=${lat}&longitude=${lon}`
+    + `&current=temperature_2m,apparent_temperature,precipitation,`
+    + `weathercode,windspeed_10m,windgusts_10m,snowfall,rain`
+    + `&timezone=auto`;
+  try {
+    const r   = await fetch(url);
+    const j   = await r.json();
+    const cur = j.current;
+    const wc  = cur.weathercode;
+    const info = wmoInfo(wc);
+    const temp   = cur.temperature_2m;
+    const precip = cur.precipitation;
+    const snow   = cur.snowfall;
+    const wind   = cur.windspeed_10m;
+    const score  = calcWeatherScore(temp, precip, snow, wind, info.bad);
+    const sign   = temp >= 0 ? '+' : '';
+    const val    = `${sign}${Math.round(temp)}°C · ${info.label}`;
+    return { score: +score.toFixed(2), val, icon: info.icon, live: true };
+  } catch(e) {
+    console.warn(`Weather fetch failed for ${cityName}:`, e.message);
+    return null;
+  }
+}
+
+async function fetchAllWeather() {
+  const coords = {
+    "Якутск":       [62.0355, 129.6755],
+    "Москва":       [55.7558,  37.6176],
+    "Краснодар":    [45.0355,  38.9753],
+    "Новосибирск":  [54.9833,  82.8964],
+  };
+  const badge = document.getElementById('weather-live-badge');
+  if (badge) badge.textContent = 'ПОГОДА: ЗАГРУЗКА…';
+
+  const promises = Object.entries(coords).map(async ([city, [lat, lon]]) => {
+    const w = await fetchWeatherCity(city, lat, lon);
+    if (w && CITIES_DATA[city]) {
+      CITIES_DATA[city].weather = w;
+      // Пересчитываем суммарный impact score с новыми данными погоды
+      recomputeImpact(city);
+    }
+  });
+  await Promise.all(promises);
+  if (badge) badge.textContent = 'ПОГОДА: LIVE';
+  renderAll(activeCity);
+  updateAlertBadges();
+  console.log('[OpenMeteo] Данные погоды обновлены');
+}
+
+function recomputeImpact(city) {
+  const d = CITIES_DATA[city];
+  const w = { weather: 0.30, events: 0.25, traffic: 0.20, trends: 0.15, news: 0.10 };
+  d.impact = +(
+    d.weather.score * w.weather +
+    d.events.score  * w.events  +
+    d.traffic.score * w.traffic +
+    d.trends.score  * w.trends  +
+    d.news.score    * w.news
+  ).toFixed(3);
+  d.alert = d.impact >= 0.75 ? 'red' : d.impact >= 0.45 ? 'yellow' : 'green';
+}
+
+/* ═══════════════════════════════════════
+   LIVE DATA — читаем из data/latest.json
+   (коммитится GitHub Actions каждый час).
+   Погода ДОПОЛНИТЕЛЬНО обновляется через
+   Open-Meteo при каждом открытии страницы.
+═══════════════════════════════════════ */
+
+async function fetchLiveData() {
+  const badge = document.getElementById('weather-live-badge');
+  try {
+    // Читаем свежий JSON из репозитория
+    const r = await fetch('data/latest.json?_=' + Date.now());
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const json = await r.json();
+
+    if (!json.cities || Object.keys(json.cities).length === 0) {
+      console.warn('[fetchLiveData] latest.json пустой — используем демо-данные');
+      return false;
+    }
+
+    // Синхронизируем CITIES_DATA из JSON
+    Object.entries(json.cities).forEach(([city, d]) => {
+      if (CITIES_DATA[city]) {
+        CITIES_DATA[city].impact  = d.impact;
+        CITIES_DATA[city].alert   = d.alert;
+        CITIES_DATA[city].weather = d.weather;
+        CITIES_DATA[city].events  = d.events;
+        CITIES_DATA[city].traffic = d.traffic;
+        CITIES_DATA[city].trends  = d.trends;
+        CITIES_DATA[city].news    = d.news;
+        if (d.history && d.history.length > 0) {
+          // Дополняем до 24 точек если история короткая
+          const h = d.history.slice(-24);
+          while (h.length < 24) h.unshift(h[0] || 0);
+          CITIES_DATA[city].history = h;
+        }
+      }
+    });
+
+    // Обновляем метку времени последнего сбора
+    if (json.generated_at) {
+      const dt = new Date(json.generated_at + 'Z');
+      document.getElementById('update-time').textContent =
+        `UPD: ${dt.toLocaleTimeString('ru-RU')}`;
+    }
+
+    console.log(`[fetchLiveData] Загружено из latest.json (${json.generated_at})`);
+    return true;
+
+  } catch(e) {
+    console.warn('[fetchLiveData] Не удалось загрузить latest.json:', e.message);
+    console.warn('→ Работаем с демо-данными. Задеплой репозиторий для live-режима.');
+    return false;
+  }
+}
+
+/* ═══════════════════════════════════════
+   DATA — демо-данные (активны пока
+   GitHub Actions не запустился и не
+   создал data/latest.json)
+═══════════════════════════════════════ */
+
+const CITIES_DATA = {
+  "Якутск": {
+    coords: [62.035, 129.675],
+    impact: 0.68,
+    alert: "yellow",
+    weather:  { score: 0.7,  val: "-28°C · снегопад", icon: "🌨" },
+    events:   { score: 0.2,  val: "2 события", icon: "🎭" },
+    traffic:  { score: 0.45, val: "32 км/ч · пробки", icon: "🚗" },
+    trends:   { score: 0.55, val: "такси ↑ +22%", icon: "🔍" },
+    news:     { score: 0.6,  val: "Перекрытие ул. Ленина", icon: "📰" },
+    history: [0.3,0.35,0.28,0.32,0.4,0.55,0.68,0.7,0.65,0.58,0.6,0.68,0.72,0.68,0.62,0.58,0.55,0.6,0.65,0.7,0.68,0.66,0.68,0.68]
+  },
+  "Москва": {
+    coords: [55.756, 37.617],
+    impact: 0.82,
+    alert: "red",
+    weather:  { score: 0.55, val: "+1°C · дождь", icon: "🌧" },
+    events:   { score: 0.9,  val: "Матч ЦСКА, концерт", icon: "🎭" },
+    traffic:  { score: 0.85, val: "18 км/ч · сильные", icon: "🚗" },
+    trends:   { score: 0.75, val: "яндекс такси ↑ +41%", icon: "🔍" },
+    news:     { score: 0.8,  val: "ДТП Садовое, закрытие", icon: "📰" },
+    history: [0.4,0.42,0.38,0.45,0.5,0.6,0.72,0.78,0.82,0.80,0.76,0.72,0.68,0.7,0.74,0.78,0.80,0.82,0.84,0.82,0.80,0.82,0.82,0.82]
+  },
+  "Краснодар": {
+    coords: [45.035, 38.975],
+    impact: 0.22,
+    alert: "green",
+    weather:  { score: 0.1,  val: "+15°C · ясно", icon: "☀" },
+    events:   { score: 0.15, val: "1 событие", icon: "🎭" },
+    traffic:  { score: 0.2,  val: "48 км/ч · свободно", icon: "🚗" },
+    trends:   { score: 0.3,  val: "такси → норма", icon: "🔍" },
+    news:     { score: 0.1,  val: "Без значимых событий", icon: "📰" },
+    history: [0.2,0.18,0.22,0.2,0.19,0.21,0.24,0.22,0.20,0.19,0.22,0.21,0.20,0.23,0.22,0.21,0.20,0.22,0.21,0.23,0.22,0.22,0.22,0.22]
+  },
+  "Новосибирск": {
+    coords: [54.983, 82.896],
+    impact: 0.47,
+    alert: "green",
+    weather:  { score: 0.4,  val: "-8°C · облачно", icon: "🌥" },
+    events:   { score: 0.35, val: "Выставка, 3 концерта", icon: "🎭" },
+    traffic:  { score: 0.5,  val: "28 км/ч · умеренные", icon: "🚗" },
+    trends:   { score: 0.45, val: "заказ такси ↑ +8%", icon: "🔍" },
+    news:     { score: 0.3,  val: "Ремонт Красного пр.", icon: "📰" },
+    history: [0.3,0.32,0.35,0.38,0.4,0.42,0.45,0.47,0.46,0.44,0.45,0.47,0.46,0.45,0.47,0.48,0.47,0.46,0.47,0.47,0.48,0.47,0.47,0.47]
+  }
+};
+
+const FACTOR_LABELS = {
+  weather: "ПОГОДА",
+  events:  "СОБЫТИЯ",
+  traffic: "ТРАФИК",
+  trends:  "ПОИСК",
+  news:    "НОВОСТИ"
+};
+
+const ALERTS_LOG = [
+  { city:"Москва",    level:"red",    text:"Матч ЦСКА + ДТП на Садовом. Impact 0.82. Рекомендуется surge pricing +30%.", time:"17:00" },
+  { city:"Москва",    level:"yellow", text:"Начался сильный дождь. Поисковый интерес вырос на 41%.", time:"16:00" },
+  { city:"Якутск",    level:"yellow", text:"Снегопад + перекрытие ул. Ленина. Время подачи растёт.", time:"15:30" },
+  { city:"Новосибирск",level:"green", text:"Выставка в Экспоцентре — плановый рост спроса +15% в 19:00.", time:"14:00" },
+  { city:"Краснодар", level:"green",  text:"Все показатели в норме. Спрос соответствует прогнозу.", time:"13:00" },
+];
+
+/* ═══════════════════════════════════════
+   STATE
+═══════════════════════════════════════ */
+let activeCity = "Якутск";
+let cycleCount = 1;
+let historyChartInstance = null;
+let map = null;
+let mapMarkers = {};
+
+/* ═══════════════════════════════════════
+   INIT
+═══════════════════════════════════════ */
+document.addEventListener('DOMContentLoaded', async () => {
+  initTabs();
+  initMap();
+  renderAll(activeCity);
+  renderAlerts();
+  updateMeta();
+
+  // 1. Пробуем загрузить данные из latest.json (GitHub Actions)
+  const liveLoaded = await fetchLiveData();
+  if (liveLoaded) {
+    renderAll(activeCity);
+    updateAlertBadges();
+  }
+
+  // 2. Поверх — живая погода из Open-Meteo
+  await fetchAllWeather();
+
+  // 3. Обновляем погоду каждый час
+  setInterval(fetchAllWeather, 3_600_000);
+
+  // 4. Перечитываем latest.json каждый час + небольшой jitter
+  setInterval(async () => {
+    await fetchLiveData();
+    renderAll(activeCity);
+    updateAlertBadges();
+    updateMeta();
+  }, 3_600_000 + 60_000);
+
+  // 5. Лёгкий nudge прочих факторов (демо-режим)
+  setInterval(() => {
+    nudgeData();
+    renderAll(activeCity);
+    updateMeta();
+  }, 60000);
+});
+
+function updateMeta() {
+  const now = new Date();
+  document.getElementById('update-time').textContent =
+    `UPD: ${now.toLocaleTimeString('ru-RU')}`;
+  document.getElementById('cycle-count').textContent = `CYCLE #${cycleCount}`;
+}
+
+async function refreshData() {
+  cycleCount++;
+  await fetchLiveData();
+  await fetchAllWeather();
+  nudgeData();
+  renderAll(activeCity);
+  updateAlertBadges();
+  updateMeta();
+}
+
+function nudgeData() {
+  // Погода НЕ трогается — она живая из Open-Meteo.
+  // Остальные факторы слегка колеблются до подключения коллектора.
+  Object.entries(CITIES_DATA).forEach(([city, c]) => {
+    ['events','traffic','trends','news'].forEach(f => {
+      c[f].score = +Math.max(0, Math.min(1, c[f].score + (Math.random()-0.5)*0.04)).toFixed(2);
+    });
+    recomputeImpact(city);
+    c.history.shift();
+    c.history.push(+c.impact.toFixed(3));
+  });
+}
+
+/* ═══════════════════════════════════════
+   TABS
+═══════════════════════════════════════ */
+function initTabs() {
+  const cont = document.getElementById('city-tabs');
+  cont.innerHTML = '';
+  Object.entries(CITIES_DATA).forEach(([city, d]) => {
+    const tab = document.createElement('div');
+    tab.className = `city-tab${city === activeCity ? ' active' : ''}`;
+    tab.dataset.city = city;
+    tab.innerHTML = `${city} <span class="tab-score ${d.alert}">${d.impact.toFixed(2)}</span>`;
+    tab.addEventListener('click', () => {
+      activeCity = city;
+      document.querySelectorAll('.city-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      renderAll(city);
+    });
+    cont.appendChild(tab);
+  });
+}
+
+function updateAlertBadges() {
+  document.querySelectorAll('.city-tab').forEach(tab => {
+    const d = CITIES_DATA[tab.dataset.city];
+    const pill = tab.querySelector('.tab-score');
+    pill.className = `tab-score ${d.alert}`;
+    pill.textContent = d.impact.toFixed(2);
+  });
+}
+
+/* ═══════════════════════════════════════
+   MAP
+═══════════════════════════════════════ */
+function initMap() {
+  map = L.map('map', { zoomControl: false, attributionControl: false })
+           .setView([58, 90], 3);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+  L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+  Object.entries(CITIES_DATA).forEach(([city, d]) => {
+    const icon = L.divIcon({
+      className: '',
+      html: `<div class="city-marker-wrap">
+               <div class="city-marker ${d.alert}" data-city="${city}"></div>
+             </div>`,
+      iconSize: [14, 14],
+      iconAnchor: [7, 7],
+    });
+    const marker = L.marker(d.coords, { icon })
+      .bindTooltip(`<b>${city}</b><br>Impact: ${d.impact.toFixed(2)}`, {
+        className: 'map-tooltip', permanent: false
+      })
+      .addTo(map);
+    marker.on('click', () => {
+      activeCity = city;
+      document.querySelectorAll('.city-tab').forEach(t => {
+        t.classList.toggle('active', t.dataset.city === city);
+      });
+      renderAll(city);
+    });
+    mapMarkers[city] = marker;
+  });
+}
+
+function updateMapMarkers() {
+  Object.entries(CITIES_DATA).forEach(([city, d]) => {
+    const icon = L.divIcon({
+      className: '',
+      html: `<div class="city-marker-wrap">
+               <div class="city-marker ${d.alert}" data-city="${city}"></div>
+             </div>`,
+      iconSize: [14, 14],
+      iconAnchor: [7, 7],
+    });
+    if (mapMarkers[city]) {
+      mapMarkers[city].setIcon(icon);
+      mapMarkers[city].setTooltipContent(`<b>${city}</b><br>Impact: ${d.impact.toFixed(2)}`);
+    }
+  });
+}
+
+/* ═══════════════════════════════════════
+   RENDER
+═══════════════════════════════════════ */
+function renderAll(city) {
+  const d = CITIES_DATA[city];
+  renderScoreCard(city, d);
+  renderFactors(city, d);
+  renderHistory(city, d);
+  updateMapMarkers();
+  document.getElementById('score-city-label').textContent = city.toUpperCase();
+  document.getElementById('history-city-label').textContent = city.toUpperCase();
+}
+
+/* ─── Score gauge ─── */
+function renderScoreCard(city, d) {
+  const score = d.impact;
+  const pct = score;
+  const color = d.alert === 'red' ? '#ff3d5a' : d.alert === 'yellow' ? '#f5c842' : '#00e676';
+
+  // Draw gauge
+  const canvas = document.getElementById('gauge-canvas');
+  const ctx = canvas.getContext('2d');
+  ctx.clearRect(0, 0, 160, 100);
+  // Track arc
+  ctx.beginPath();
+  ctx.arc(80, 90, 64, Math.PI, 0, false);
+  ctx.lineWidth = 8;
+  ctx.strokeStyle = 'rgba(255,255,255,0.06)';
+  ctx.lineCap = 'round';
+  ctx.stroke();
+  // Fill arc
+  ctx.beginPath();
+  ctx.arc(80, 90, 64, Math.PI, Math.PI + (Math.PI * pct), false);
+  ctx.lineWidth = 8;
+  ctx.strokeStyle = color;
+  ctx.lineCap = 'round';
+  ctx.stroke();
+  // Glow
+  ctx.beginPath();
+  ctx.arc(80, 90, 64, Math.PI, Math.PI + (Math.PI * pct), false);
+  ctx.lineWidth = 16;
+  ctx.strokeStyle = color.replace(')', ',0.2)').replace('rgb', 'rgba');
+  ctx.lineCap = 'round';
+  ctx.stroke();
+
+  document.getElementById('score-number').textContent = (score * 100).toFixed(0);
+  document.getElementById('score-number').style.color = color;
+
+  const badge = document.getElementById('alert-badge');
+  badge.className = `alert-badge ${d.alert}`;
+  badge.textContent = d.alert === 'red' ? '● RED · КРИТИЧЕСКИЙ' :
+                      d.alert === 'yellow' ? '● YELLOW · ВНИМАНИЕ' : '● GREEN · НОРМА';
+
+  // Factor bars mini
+  const bars = document.getElementById('factor-bars-mini');
+  const factors = ['weather','events','traffic','trends','news'];
+  bars.innerHTML = factors.map(f => {
+    const s = d[f].score;
+    const c = s > 0.7 ? '#ff3d5a' : s > 0.45 ? '#f5c842' : '#00dcb4';
+    return `<div class="factor-row">
+      <span class="factor-name">${FACTOR_LABELS[f]}</span>
+      <div class="factor-track">
+        <div class="factor-fill" style="width:${s*100}%;background:${c}"></div>
+      </div>
+      <span class="factor-val">${(s*100).toFixed(0)}</span>
+    </div>`;
+  }).join('');
+}
+
+/* ─── Factor cards ─── */
+function renderFactors(city, d) {
+  const cont = document.getElementById('factors-row');
+  const factors = ['weather','events','traffic','trends','news'];
+  cont.innerHTML = factors.map(f => {
+    const fd    = d[f];
+    const s     = fd.score;
+    const color = s > 0.7 ? 'var(--red)' : s > 0.45 ? 'var(--yellow)' : 'var(--cyan)';
+    const bg    = s > 0.7 ? 'var(--red-dim)' : s > 0.45 ? 'var(--yellow-dim)' : 'var(--cyan-dim)';
+    const bord  = s > 0.7 ? 'var(--red)' : s > 0.45 ? 'var(--yellow)' : 'var(--border2)';
+    // Погода: показываем метку LIVE если данные получены из Open-Meteo
+    const liveDot = (f === 'weather' && fd.live)
+      ? `<span style="font-family:var(--mono);font-size:9px;color:var(--cyan);
+                      background:var(--cyan-dim);border:1px solid var(--border2);
+                      border-radius:3px;padding:1px 5px;margin-left:6px;
+                      letter-spacing:1px;">LIVE</span>`
+      : '';
+    return `<div class="factor-card ${f}">
+      <div class="factor-icon">${fd.icon}</div>
+      <div class="factor-info">
+        <div class="factor-title">${FACTOR_LABELS[f]}${liveDot}</div>
+        <div class="factor-detail">${fd.val}</div>
+      </div>
+      <div class="factor-score-pill" style="color:${color};background:${bg};border-color:${bord}">
+        ${(s*100).toFixed(0)}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+/* ─── History chart ─── */
+function renderHistory(city, d) {
+  const ctx = document.getElementById('history-chart').getContext('2d');
+  const labels = Array.from({length:24}, (_,i) => {
+    const h = (new Date().getHours() - 23 + i + 24) % 24;
+    return `${String(h).padStart(2,'0')}:00`;
+  });
+
+  if (historyChartInstance) historyChartInstance.destroy();
+
+  const alertColor = d.alert === 'red' ? '#ff3d5a' : d.alert === 'yellow' ? '#f5c842' : '#00dcb4';
+
+  historyChartInstance = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{
+        data: d.history,
+        borderColor: alertColor,
+        borderWidth: 2,
+        pointRadius: 0,
+        pointHoverRadius: 4,
+        fill: true,
+        backgroundColor: (context) => {
+          const gradient = context.chart.ctx.createLinearGradient(0, 0, 0, 148);
+          const hex = alertColor.replace('#','');
+          const r = parseInt(hex.slice(0,2),16), g = parseInt(hex.slice(2,4),16), b = parseInt(hex.slice(4,6),16);
+          gradient.addColorStop(0, `rgba(${r},${g},${b},0.25)`);
+          gradient.addColorStop(1, 'rgba(0,0,0,0)');
+          return gradient;
+        },
+        tension: 0.4,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#111525',
+          borderColor: 'rgba(0,220,180,0.3)',
+          borderWidth: 1,
+          titleColor: '#7a8aaa',
+          bodyColor: '#e8edf8',
+          titleFont: { family: "'Share Tech Mono'" },
+          bodyFont: { family: "'Share Tech Mono'" },
+          callbacks: {
+            label: ctx => ` Impact: ${(ctx.raw * 100).toFixed(0)}`
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: { color: '#3d4a66', font: { family: "'Share Tech Mono'", size: 9 }, maxTicksLimit: 8 },
+          grid: { color: 'rgba(0,220,180,0.04)', drawBorder: false }
+        },
+        y: {
+          min: 0, max: 1,
+          ticks: {
+            color: '#3d4a66',
+            font: { family: "'Share Tech Mono'", size: 9 },
+            callback: v => (v * 100).toFixed(0)
+          },
+          grid: { color: 'rgba(0,220,180,0.06)', drawBorder: false }
+        }
+      }
+    }
+  });
+}
+
+/* ─── Alerts ─── */
+function renderAlerts() {
+  const grid = document.getElementById('alerts-grid');
+  grid.innerHTML = ALERTS_LOG.map((a, i) => `
+    <div class="alert-item ${a.level}" style="animation-delay:${i*0.08}s">
+      <div class="alert-dot"></div>
+      <div class="alert-content">
+        <div class="alert-city">${a.city}</div>
+        <div class="alert-text">${a.text}</div>
+      </div>
+      <div class="alert-time">${a.time}</div>
+    </div>
+  `).join('');
+  document.getElementById('alerts-count').textContent =
+    `${ALERTS_LOG.length} СОБЫТИЙ`;
+}
+
+/* ─── Util: fix rgba for gradient ─── */
+// Gradient fix already inline above
+</script>
+</body>
+</html>
