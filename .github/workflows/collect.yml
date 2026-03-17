@@ -1,0 +1,52 @@
+name: Hourly Demand Collector
+
+on:
+  # Каждый час в :05 (небольшой сдвиг чтобы не попасть в пик нагрузки GitHub)
+  schedule:
+    - cron: '5 * * * *'
+
+  # Ручной запуск из вкладки Actions
+  workflow_dispatch:
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    # Разрешаем джобу коммитить обратно в репозиторий
+    permissions:
+      contents: write
+
+    steps:
+      # 1. Клонируем репозиторий
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Используем токен с правом push
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. Python 3.11
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # 3. Зависимости
+      - name: Install dependencies
+        run: pip install pytrends feedparser requests
+
+      # 4. Запускаем сборщик
+      - name: Run collector
+        env:
+          TELEGRAM_TOKEN:   ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python collector.py
+
+      # 5. Коммитим обновлённые JSON обратно в репо
+      - name: Commit data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json data/history.json
+          # Коммитим только если файлы изменились
+          git diff --staged --quiet || git commit -m "data: hourly update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
