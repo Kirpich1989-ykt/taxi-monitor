@@ -210,20 +210,16 @@ def fetch_events(city: str, cfg: dict, hours_ahead: int = 6) -> dict:
             },
             timeout=10
         )
-
-        # ── Защита от нестандартных ответов ──
         if r.status_code != 200:
             result["status"] = "skipped"
             result["val"]    = f"KudaGo HTTP {r.status_code}"
             return result
-
         try:
             data = r.json()
         except Exception:
             result["status"] = "skipped"
             result["val"]    = "KudaGo вернул не JSON"
             return result
-
         events     = data.get("results", [])
         high_count = 0
         total      = len(events)
@@ -232,14 +228,16 @@ def fetch_events(city: str, cfg: dict, hours_ahead: int = 6) -> dict:
             is_high = bool(HIGH_IMPACT_CATS & set(cats))
             if is_high:
                 high_count += 1
-            result["events"].append({"title": e["title"], "cats": cats, "is_high": is_high})
-
+            result["events"].append({
+                "title":   e["title"],
+                "cats":    cats,
+                "is_high": is_high,
+            })
         result["score"] = round(min(high_count * 0.15, 1.0), 2)
         result["val"]   = (
             f"{high_count} крупных из {total}"
             if total > 0 else "событий нет"
         )
-
     except requests.exceptions.Timeout:
         result["status"] = "skipped"
         result["val"]    = "KudaGo таймаут"
@@ -249,7 +247,7 @@ def fetch_events(city: str, cfg: dict, hours_ahead: int = 6) -> dict:
     except Exception as ex:
         result["status"] = "skipped"
         result["val"]    = f"ошибка: {str(ex)[:40]}"
-
+    return result
 
 # ─────────────────────────────────────────
 # ИСТОЧНИК 3: OSRM (трафик)
