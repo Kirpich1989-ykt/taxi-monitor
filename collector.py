@@ -287,33 +287,40 @@ def fetch_trends(city: str, cfg: dict, pytrends_client=None) -> dict:
               "status": "ok", "data": {}, "score": 0.0,
               "icon": "🔍", "val": "нет данных"}
 
-    # ── Пропуск если запущено из GitHub Actions ──
+    # ── Пропуск в GitHub Actions ──────────────────────────
     if SKIP_TRENDS:
         result["status"] = "skipped"
         result["val"]    = "отключено в Actions"
         return result
 
     geo = cfg.get("trends_geo")
-    # ... остальной код без изменений
+    if not geo:
+        result["status"] = "no_geo"
+        return result
 
-    # ── Retry 3 раза с нарастающей паузой ──────────────────
+    # ── Используем переданный клиент или создаём новый ────
+    client = pytrends_client or TrendReq(
+        hl="ru", tz=180, timeout=(10, 25), retries=3, backoff_factor=0.5
+    )
+
     last_error = None
     for attempt in range(3):
         try:
             if attempt > 0:
-                wait = 30 * attempt   # 30с, 60с
+                wait = 30 * attempt
                 print(f"    retry {attempt}/2 через {wait}с...")
                 time.sleep(wait)
 
-            pytrends.build_payload(
+            client.build_payload(          # ← client вместо pytrends
                 kw_list=TAXI_KEYWORDS[:5],
                 timeframe='now 4-H',
                 geo=geo
             )
-            df = pytrends.interest_over_time()
+            df = client.interest_over_time()
 
             if df.empty:
                 result["status"] = "no_data"
+                result["val"]    = "Google вернул пустой ответ"
                 return result
 
             scores = []
@@ -330,14 +337,14 @@ def fetch_trends(city: str, cfg: dict, pytrends_client=None) -> dict:
                         scores.append(min(cur / 100, 1.0))
 
             result["score"] = round(sum(scores) / len(scores), 2) if scores else 0.0
+            result["val"]   = f"такси · score {round(result['score']*100)}%"
             time.sleep(2)
-            return result   # успех — выходим
+            return result
 
         except Exception as ex:
             last_error = str(ex)
             continue
 
-    # Все попытки провалились
     result["status"] = "error"
     result["error"]  = last_error
     return result
