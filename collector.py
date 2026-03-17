@@ -68,6 +68,7 @@ ALERT_THRESHOLDS = {"green": 0.30, "yellow": 0.55, "red": 0.75}
 # чтобы не получать блокировки от Google на IP Actions
 SKIP_TRENDS = os.environ.get("SKIP_TRENDS", "false").lower() == "true"
 
+
 # ─────────────────────────────────────────
 # WMO WEATHER CODES → русский
 # ─────────────────────────────────────────
@@ -287,7 +288,6 @@ def fetch_trends(city: str, cfg: dict, pytrends_client=None) -> dict:
               "status": "ok", "data": {}, "score": 0.0,
               "icon": "🔍", "val": "нет данных"}
 
-    # ── Пропуск в GitHub Actions ──────────────────────────
     if SKIP_TRENDS:
         result["status"] = "skipped"
         result["val"]    = "отключено в Actions"
@@ -298,7 +298,6 @@ def fetch_trends(city: str, cfg: dict, pytrends_client=None) -> dict:
         result["status"] = "no_geo"
         return result
 
-    # ── Используем переданный клиент или создаём новый ────
     client = pytrends_client or TrendReq(
         hl="ru", tz=180, timeout=(10, 25), retries=3, backoff_factor=0.5
     )
@@ -311,7 +310,7 @@ def fetch_trends(city: str, cfg: dict, pytrends_client=None) -> dict:
                 print(f"    retry {attempt}/2 через {wait}с...")
                 time.sleep(wait)
 
-            client.build_payload(          # ← client вместо pytrends
+            client.build_payload(
                 kw_list=TAXI_KEYWORDS[:5],
                 timeframe='now 4-H',
                 geo=geo
@@ -320,7 +319,7 @@ def fetch_trends(city: str, cfg: dict, pytrends_client=None) -> dict:
 
             if df.empty:
                 result["status"] = "no_data"
-                result["val"]    = "Google вернул пустой ответ"
+                result["val"]    = "нет данных от Google"
                 return result
 
             scores = []
@@ -337,7 +336,7 @@ def fetch_trends(city: str, cfg: dict, pytrends_client=None) -> dict:
                         scores.append(min(cur / 100, 1.0))
 
             result["score"] = round(sum(scores) / len(scores), 2) if scores else 0.0
-            result["val"]   = f"такси · score {round(result['score']*100)}%"
+            result["val"]   = f"такси · score {round(result['score'] * 100)}%"
             time.sleep(2)
             return result
 
