@@ -210,7 +210,21 @@ def fetch_events(city: str, cfg: dict, hours_ahead: int = 6) -> dict:
             },
             timeout=10
         )
-        events     = r.json().get("results", [])
+
+        # ── Защита от нестандартных ответов ──
+        if r.status_code != 200:
+            result["status"] = "skipped"
+            result["val"]    = f"KudaGo HTTP {r.status_code}"
+            return result
+
+        try:
+            data = r.json()
+        except Exception:
+            result["status"] = "skipped"
+            result["val"]    = "KudaGo вернул не JSON"
+            return result
+
+        events     = data.get("results", [])
         high_count = 0
         total      = len(events)
         for e in events:
@@ -226,11 +240,15 @@ def fetch_events(city: str, cfg: dict, hours_ahead: int = 6) -> dict:
             if total > 0 else "событий нет"
         )
 
+    except requests.exceptions.Timeout:
+        result["status"] = "skipped"
+        result["val"]    = "KudaGo таймаут"
+    except requests.exceptions.ConnectionError:
+        result["status"] = "skipped"
+        result["val"]    = "KudaGo недоступен"
     except Exception as ex:
-        result["status"] = "error"
-        result["error"]  = str(ex)
-
-    return result
+        result["status"] = "skipped"
+        result["val"]    = f"ошибка: {str(ex)[:40]}"
 
 
 # ─────────────────────────────────────────
