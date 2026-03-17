@@ -23,28 +23,28 @@ SKIP_TRENDS      = os.environ.get("SKIP_TRENDS", "false").lower() == "true"
 CITIES = {
     "Якутск": {
         "coords":      (62.0355, 129.6755),
-        "kudago_slug": None,
+        "kudago_slug": None,           # Якутск не поддерживается KudaGo
         "trends_geo":  "RU-SA",
         "news_rss":    "https://news.yandex.ru/region/yakutsk/index.rss",
         "osrm_route":  {"from": "129.675,62.035", "to": "129.769,62.093"},
     },
     "Москва": {
         "coords":      (55.7558, 37.6176),
-        "kudago_slug": "msk",
+        "kudago_slug": "msk",          # правильно
         "trends_geo":  "RU-MOW",
         "news_rss":    "https://news.yandex.ru/region/moscow/index.rss",
         "osrm_route":  {"from": "37.617,55.756", "to": "37.561,55.745"},
     },
     "Краснодар": {
         "coords":      (45.0355, 38.9753),
-        "kudago_slug": "krasnodar",
+        "kudago_slug": "krd",          # было "krasnodar" — неверно
         "trends_geo":  "RU-KDA",
         "news_rss":    "https://news.yandex.ru/region/krasnodar/index.rss",
         "osrm_route":  {"from": "38.975,45.035", "to": "39.082,45.005"},
     },
     "Новосибирск": {
         "coords":      (54.9833, 82.8964),
-        "kudago_slug": "nsk",
+        "kudago_slug": "nsk",          # правильно
         "trends_geo":  "RU-NVS",
         "news_rss":    "https://news.yandex.ru/region/novosibirsk/index.rss",
         "osrm_route":  {"from": "82.896,54.983", "to": "82.898,54.966"},
