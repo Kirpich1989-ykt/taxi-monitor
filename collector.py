@@ -63,11 +63,42 @@ IMPACT_WEIGHTS = {
 
 ALERT_THRESHOLDS = {"green": 0.30, "yellow": 0.55, "red": 0.75}
 
-# ── Флаги управления сборщиком ──────────
-# SKIP_TRENDS=true передаётся из collect.yml
-# чтобы не получать блокировки от Google на IP Actions
 SKIP_TRENDS = os.environ.get("SKIP_TRENDS", "false").lower() == "true"
 
+
+def safe_source_result(source_name: str, city: str, value, default_val: str = "no data") -> dict:
+    if isinstance(value, dict):
+        value.setdefault("city", city)
+        value.setdefault("timestamp", datetime.utcnow().isoformat())
+        value.setdefault("status", "ok")
+        value.setdefault("score", 0.0)
+        value.setdefault("val", default_val)
+        return value
+
+    value_type = type(value).__name__
+    return {
+        "city": city,
+        "timestamp": datetime.utcnow().isoformat(),
+        "status": "error",
+        "score": 0.0,
+        "val": f"{source_name} returned no result",
+        "error": f"{source_name} returned {value_type}",
+    }
+
+
+def call_source(source_name: str, fetcher, city: str, cfg: dict, *args):
+    try:
+        result = fetcher(city, cfg, *args)
+    except Exception as ex:
+        result = {
+            "city": city,
+            "timestamp": datetime.utcnow().isoformat(),
+            "status": "error",
+            "score": 0.0,
+            "val": f"{source_name} failed",
+            "error": str(ex),
+        }
+    return safe_source_result(source_name, city, result)
 
 # ─────────────────────────────────────────
 # WMO WEATHER CODES → русский
@@ -212,42 +243,60 @@ def fetch_events(city: str, cfg: dict, hours_ahead: int = 6) -> dict:
         )
         if r.status_code != 200:
             result["status"] = "skipped"
-            result["val"]    = f"KudaGo HTTP {r.status_code}"
+            result["val"] = f"KudaGo HTTP {r.status_code}"
             return result
+
         try:
             data = r.json()
         except Exception:
             result["status"] = "skipped"
-            result["val"]    = "KudaGo вернул не JSON"
+            result["val"] = "KudaGo returned non-JSON"
             return result
-        events     = data.get("results", [])
+
+        events = data.get("results", [])
+        if not isinstance(events, list):
+            result["status"] = "skipped"
+            result["val"] = "KudaGo returned invalid payload"
+            return result
         high_count = 0
         total      = len(events)
         for e in events:
-            cats    = [c.get("slug", "") for c in e.get("categories", [])]
+            if not isinstance(e, dict):
+                continue
+
+            categories = e.get("categories", [])
+            if not isinstance(categories, list):
+                categories = []
+
+            cats    = [c.get("slug", "") for c in categories if isinstance(c, dict)]
             is_high = bool(HIGH_IMPACT_CATS & set(cats))
             if is_high:
                 high_count += 1
             result["events"].append({
-                "title":   e["title"],
-                "cats":    cats,
+                "title": e.get("title", "untitled"),
+                "cats": cats,
                 "is_high": is_high,
             })
+
         result["score"] = round(min(high_count * 0.15, 1.0), 2)
         result["val"]   = (
             f"{high_count} крупных из {total}"
             if total > 0 else "событий нет"
         )
+
     except requests.exceptions.Timeout:
         result["status"] = "skipped"
-        result["val"]    = "KudaGo таймаут"
+        result["val"] = "KudaGo timeout"
     except requests.exceptions.ConnectionError:
         result["status"] = "skipped"
-        result["val"]    = "KudaGo недоступен"
+        result["val"] = "KudaGo unavailable"
     except Exception as ex:
         result["status"] = "skipped"
-        result["val"]    = f"ошибка: {str(ex)[:40]}"
+        result["val"] = f"events error: {str(ex)[:40]}"
+        result["error"]  = str(ex)
+
     return result
+
 
 # ─────────────────────────────────────────
 # ИСТОЧНИК 3: OSRM (трафик)
@@ -303,65 +352,59 @@ def fetch_trends(city: str, cfg: dict, pytrends_client=None) -> dict:
     result = {"city": city, "timestamp": datetime.utcnow().isoformat(),
               "status": "ok", "data": {}, "score": 0.0,
               "icon": "🔍", "val": "нет данных"}
-
     if SKIP_TRENDS:
         result["status"] = "skipped"
-        result["val"]    = "отключено в Actions"
+        result["val"] = "disabled in Actions"
         return result
 
     geo = cfg.get("trends_geo")
     if not geo:
         result["status"] = "no_geo"
         return result
-
-    client = pytrends_client or TrendReq(
-        hl="ru", tz=180, timeout=(10, 25), retries=3, backoff_factor=0.5
-    )
-
-    last_error = None
-    for attempt in range(3):
-        try:
-            if attempt > 0:
-                wait = 30 * attempt
-                print(f"    retry {attempt}/2 через {wait}с...")
-                time.sleep(wait)
-
-            client.build_payload(
-                kw_list=TAXI_KEYWORDS[:5],
-                timeframe='now 4-H',
-                geo=geo
-            )
-            df = client.interest_over_time()
-
-            if df.empty:
-                result["status"] = "no_data"
-                result["val"]    = "нет данных от Google"
-                return result
-
-            scores = []
-            for kw in TAXI_KEYWORDS:
-                if kw in df.columns:
-                    cur = int(df[kw].iloc[-1])
-                    avg = float(df[kw].mean())
-                    result["data"][kw] = {
-                        "current": cur,
-                        "avg_4h":  round(avg, 1),
-                        "trend":   "up" if cur > avg * 1.1 else "down",
-                    }
-                    if cur > 0:
-                        scores.append(min(cur / 100, 1.0))
-
-            result["score"] = round(sum(scores) / len(scores), 2) if scores else 0.0
-            result["val"]   = f"такси · score {round(result['score'] * 100)}%"
-            time.sleep(2)
+    try:
+        pytrends_client.build_payload(
+            kw_list=TAXI_KEYWORDS[:5],
+            timeframe="now 4-H",
+            geo=geo
+        )
+        df = pytrends_client.interest_over_time()
+        if df.empty:
+            result["status"] = "no_data"
+            result["val"]    = "нет данных Google"
             return result
 
-        except Exception as ex:
-            last_error = str(ex)
-            continue
+        scores       = []
+        top_kw       = None
+        top_kw_delta = 0
 
-    result["status"] = "error"
-    result["error"]  = last_error
+        for kw in TAXI_KEYWORDS:
+            if kw in df.columns:
+                cur = int(df[kw].iloc[-1])
+                avg = float(df[kw].mean())
+                delta = cur - avg
+                result["data"][kw] = {
+                    "current": cur,
+                    "avg_4h":  round(avg, 1),
+                    "trend":   "up" if cur > avg * 1.1 else "down",
+                }
+                if cur > 0:
+                    scores.append(min(cur / 100, 1.0))
+                if delta > top_kw_delta:
+                    top_kw_delta = delta
+                    top_kw       = kw
+
+        result["score"] = round(sum(scores) / len(scores), 2) if scores else 0.0
+        if top_kw and top_kw_delta > 0:
+            result["val"] = f'"{top_kw}" ↑ +{round(top_kw_delta)}%'
+        else:
+            result["val"] = "интерес в норме"
+
+        time.sleep(2)
+
+    except Exception as ex:
+        result["status"] = "error"
+        result["error"]  = str(ex)
+
     return result
 
 
@@ -564,26 +607,26 @@ def run():
         print(f"\n─── {city} ─────────────────────────")
 
         print("  [1/5] Погода   ", end="", flush=True)
-        w = fetch_weather(city, cfg)
+        w = call_source("weather", fetch_weather, city, cfg)
         print(f"[{w['status']}] {w.get('val', '')} · score={w['score']:.2f}")
 
         print("  [2/5] События  ", end="", flush=True)
-        e = fetch_events(city, cfg)
+        e = call_source("events", fetch_events, city, cfg)
         print(f"[{e['status']}] {e.get('val', '')} · score={e['score']:.2f}")
         time.sleep(1)
 
         print("  [3/5] Трафик   ", end="", flush=True)
-        t = fetch_traffic(city, cfg)
+        t = call_source("traffic", fetch_traffic, city, cfg)
         print(f"[{t['status']}] {t.get('val', '')} · score={t['score']:.2f}")
 
         time.sleep(3)
         print("  [4/5] Тренды   ", end="", flush=True)
-        tr = fetch_trends(city, cfg, pytrends_client)
+        tr = call_source("trends", fetch_trends, city, cfg, pytrends_client)
         print(f"[{tr['status']}] {tr.get('val', '')} · score={tr['score']:.2f}")
         time.sleep(3)
 
         print("  [5/5] Новости  ", end="", flush=True)
-        n = fetch_news(city, cfg)
+        n = call_source("news", fetch_news, city, cfg)
         print(f"[{n['status']}] {len(n.get('items', []))} значимых · score={n['score']:.2f}")
 
         impact = calc_impact(city, w, e, t, tr, n)
@@ -628,6 +671,7 @@ def run():
             # История для графика — последние 24 точки
             "history": [p["score"] for p in history[city][-24:]],
         }
+
     save_latest(snapshot)
     save_history(history)
 
