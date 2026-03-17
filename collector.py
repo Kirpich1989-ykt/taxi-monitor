@@ -63,6 +63,11 @@ IMPACT_WEIGHTS = {
 
 ALERT_THRESHOLDS = {"green": 0.30, "yellow": 0.55, "red": 0.75}
 
+# ── Флаги управления сборщиком ──────────
+# SKIP_TRENDS=true передаётся из collect.yml
+# чтобы не получать блокировки от Google на IP Actions
+SKIP_TRENDS = os.environ.get("SKIP_TRENDS", "false").lower() == "true"
+
 # ─────────────────────────────────────────
 # WMO WEATHER CODES → русский
 # ─────────────────────────────────────────
@@ -277,13 +282,19 @@ def fetch_traffic(city: str, cfg: dict) -> dict:
 # ИСТОЧНИК 4: PyTrends (поисковый интерес)
 # ─────────────────────────────────────────
 
-def fetch_trends(city: str, cfg: dict) -> dict:
+def fetch_trends(city: str, cfg: dict, pytrends_client=None) -> dict:
     result = {"city": city, "timestamp": datetime.utcnow().isoformat(),
-              "status": "ok", "data": {}, "score": 0.0}
-    geo = cfg.get("trends_geo")
-    if not geo:
-        result["status"] = "no_geo"
+              "status": "ok", "data": {}, "score": 0.0,
+              "icon": "🔍", "val": "нет данных"}
+
+    # ── Пропуск если запущено из GitHub Actions ──
+    if SKIP_TRENDS:
+        result["status"] = "skipped"
+        result["val"]    = "отключено в Actions"
         return result
+
+    geo = cfg.get("trends_geo")
+    # ... остальной код без изменений
 
     # ── Retry 3 раза с нарастающей паузой ──────────────────
     last_error = None
