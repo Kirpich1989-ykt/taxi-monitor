@@ -34,7 +34,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "ошибка: HTTPSConnectionPool(host='trends.google.",
+        "val": "ошибка: HTTPSConnectionPool(host='www.google.com",
         "icon": "🔍"
       },
       "news": {
@@ -90,7 +90,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "ошибка: HTTPSConnectionPool(host='trends.google.",
+        "val": "ошибка: HTTPSConnectionPool(host='www.google.com",
         "icon": "🔍"
       },
       "news": {
@@ -203,7 +203,7 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.173,
+      "impact": 0.092,
       "alert": "green",
       "weather": {
         "score": 0.0,
@@ -230,8 +230,8 @@
         "icon": "🚗"
       },
       "trends": {
-        "score": 0.54,
-        "val": "такси → 80%",
+        "score": 0.0,
+        "val": "ошибка: HTTPSConnectionPool(host='www.google.com",
         "icon": "🔍"
       },
       "news": {
@@ -323,7 +323,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "ошибка: HTTPSConnectionPool(host='trends.google.",
+        "val": "ошибка: HTTPSConnectionPool(host='www.google.com",
         "icon": "🔍"
       },
       "news": {
@@ -423,5 +423,5 @@
       "_raw_trends": {}
     }
   },
-  "trends_updated_at": "2026-03-18T09:26:54.510398+00:00"
+  "trends_updated_at": "2026-03-18T09:37:26.715475+00:00"
 }
