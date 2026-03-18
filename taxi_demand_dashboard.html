@@ -588,6 +588,382 @@ body::after {
   94% { transform: translate(2px); }
   96% { opacity: 0; }
 }
+
+/* ═══════════════════════════════════════
+   FACTOR MODALS
+═══════════════════════════════════════ */
+.modal-bg {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.modal-bg.open { display: flex; }
+
+.modal-box {
+  background: var(--bg1);
+  border: 1px solid var(--border2);
+  border-radius: 10px;
+  width: 360px;
+  max-width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+  animation: fadein .2s ease;
+}
+.modal-box::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyan-glow), transparent);
+}
+.modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: var(--bg1);
+  z-index: 1;
+}
+.modal-head-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.modal-head-icon {
+  font-size: 18px;
+  width: 32px; height: 32px;
+  background: var(--bg3);
+  border-radius: 6px;
+  display: flex; align-items: center; justify-content: center;
+}
+.modal-head-title {
+  font-family: var(--display);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--text1);
+}
+.modal-head-city {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text2);
+  letter-spacing: 1px;
+}
+.modal-close {
+  width: 26px; height: 26px;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  color: var(--text2);
+  cursor: pointer;
+  font-size: 13px;
+  display: flex; align-items: center; justify-content: center;
+  transition: all .15s;
+  flex-shrink: 0;
+}
+.modal-close:hover { background: var(--red-dim); border-color: var(--red); color: var(--red); }
+
+.modal-body { padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; }
+
+.mstat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 12px;
+  background: var(--bg2);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+.mstat-lbl {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text2);
+  letter-spacing: 1px;
+}
+.mstat-val {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text1);
+  font-weight: 500;
+}
+.mstat-val.cyan   { color: var(--cyan); }
+.mstat-val.yellow { color: var(--yellow); }
+.mstat-val.green  { color: var(--green); }
+.mstat-val.red    { color: var(--red); }
+.mstat-val.dim    { color: var(--text3); }
+
+.modal-section-title {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--text3);
+  text-transform: uppercase;
+  padding: 4px 0 2px;
+}
+
+.mstat-bar-wrap { width: 100%; }
+.mstat-bar-row { display: flex; justify-content: space-between; margin-bottom: 5px; }
+.mbar {
+  height: 3px;
+  background: var(--bg3);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.mbar-fill { height: 100%; border-radius: 2px; transition: width .8s ease; }
+
+.mevt-item {
+  padding: 9px 12px;
+  background: var(--bg2);
+  border-radius: var(--radius);
+  border-left: 3px solid var(--cyan);
+  font-size: 11px;
+  color: var(--text2);
+  line-height: 1.4;
+}
+.mevt-item.high   { border-left-color: var(--red); }
+.mevt-item.medium { border-left-color: var(--yellow); }
+.mevt-item.low    { border-left-color: var(--cyan); }
+.mevt-title { color: var(--text1); font-size: 12px; margin-bottom: 2px; }
+
+.mtag {
+  display: inline-block;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 2px 7px;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text3);
+  margin: 2px;
+}
+
+.modal-note {
+  padding: 10px 12px;
+  background: var(--bg2);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  font-size: 11px;
+  color: var(--text2);
+  line-height: 1.6;
+}
+
+/* ═══════════════════════════════════════
+   MAP TOGGLE (mobile)
+═══════════════════════════════════════ */
+.map-toggle-btn {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--text2);
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 6px 12px;
+  cursor: pointer;
+  margin: 0 12px 0;
+  transition: all .2s;
+  width: calc(100% - 24px);
+  justify-content: center;
+}
+.map-toggle-btn:hover { border-color: var(--border2); color: var(--text1); }
+.map-collapsible { transition: max-height .3s ease, opacity .3s ease; overflow: hidden; }
+.map-collapsible.collapsed { max-height: 0 !important; opacity: 0; }
+
+/* ═══════════════════════════════════════
+   RESPONSIVE — TABLET (640–1023px)
+═══════════════════════════════════════ */
+@media (max-width: 1023px) {
+  /* Header */
+  .header { padding: 12px 16px; gap: 8px; }
+  .logo-text { font-size: 15px; letter-spacing: 1px; }
+  .header-meta { gap: 12px; }
+  .meta-item.hide-tablet { display: none; }
+
+  /* City tabs */
+  .city-tabs { padding: 0 16px; }
+  .city-tab { padding: 10px 14px; font-size: 12px; }
+
+  /* Main grid: map full-width on top, score+factors below */
+  .main {
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: auto auto;
+    padding: 12px 16px;
+    gap: 12px;
+  }
+  .map-card {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    min-height: 320px;
+  }
+  #map { min-height: 278px; }
+  .score-card {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .factors-row {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  /* History & alerts */
+  .history-card { margin: 0 16px 12px !important; }
+  .alerts-section { padding: 0 16px 16px; }
+  .alerts-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+}
+
+/* ═══════════════════════════════════════
+   RESPONSIVE — MOBILE (<640px)
+═══════════════════════════════════════ */
+@media (max-width: 639px) {
+  /* Header — compact */
+  .header {
+    padding: 10px 12px;
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+  .logo-text { font-size: 13px; letter-spacing: 0.5px; }
+  .logo-text span { display: none; }
+  .header-meta { gap: 8px; }
+  /* Hide non-essential meta on mobile */
+  #weather-live-badge,
+  #cycle-count { display: none; }
+  #update-time { font-size: 10px; }
+  .btn-refresh { padding: 5px 10px; font-size: 10px; }
+
+  /* City tabs */
+  .city-tabs {
+    padding: 0 8px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .city-tabs::-webkit-scrollbar { display: none; }
+  .city-tab { padding: 9px 12px; font-size: 11px; }
+  .city-tab .tab-score { font-size: 10px; padding: 1px 5px; }
+
+  /* Main grid: single column */
+  .main {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    padding: 10px 12px;
+    gap: 10px;
+  }
+  .map-card {
+    grid-column: 1;
+    grid-row: auto;
+    min-height: unset;
+    order: 3;
+  }
+  #map { min-height: 220px; height: 220px; }
+  .score-card {
+    grid-column: 1;
+    grid-row: auto;
+    order: 1;
+  }
+  .factors-row {
+    grid-column: 1;
+    grid-row: auto;
+    order: 2;
+  }
+
+  /* Score card — horizontal on mobile */
+  .score-body {
+    padding: 14px 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  .score-gauge-wrap {
+    width: 130px;
+    height: 82px;
+    flex-shrink: 0;
+  }
+  .score-number { font-size: 28px; }
+  .alert-badge {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+  .factor-bars { width: 100%; }
+  .factor-row { grid-template-columns: 70px 1fr 32px; }
+
+  /* Factor cards */
+  .factor-card { padding: 10px 12px; gap: 8px; }
+  .factor-title { font-size: 12px; }
+  .factor-detail { font-size: 10px; }
+  .factor-score-pill { font-size: 11px; padding: 2px 6px; }
+
+  /* Map toggle button */
+  .map-toggle-btn { display: flex; }
+  .map-card { margin-top: 0; }
+
+  /* History */
+  .history-card { margin: 0 12px 10px !important; }
+  .history-body { height: 150px; padding: 10px 12px; }
+  .history-body canvas { max-height: 120px; }
+  .card-title { font-size: 9px; letter-spacing: 1.5px; }
+
+  /* Alerts */
+  .alerts-section { padding: 0 12px 16px; }
+  .alerts-grid { grid-template-columns: 1fr; gap: 6px; }
+  .alert-item { padding: 8px 10px; }
+  .alert-text { font-size: 10px; }
+
+  /* Modal — full screen on mobile */
+  .modal-bg { padding: 0; align-items: flex-end; }
+  .modal-box {
+    width: 100%;
+    max-width: 100%;
+    max-height: 90vh;
+    border-radius: 14px 14px 0 0;
+    border-bottom: none;
+  }
+
+  /* Cards general */
+  .card-header { padding: 10px 12px; }
+  .card-badge { font-size: 9px; padding: 2px 6px; }
+}
+
+/* ═══════════════════════════════════════
+   RESPONSIVE — LARGE DESKTOP (≥1280px)
+═══════════════════════════════════════ */
+@media (min-width: 1280px) {
+  .main {
+    grid-template-columns: 1fr 420px;
+    padding: 20px 32px;
+    gap: 20px;
+  }
+  .history-card { margin: 0 32px 20px !important; }
+  .alerts-section { padding: 0 32px 24px; }
+  .city-tabs { padding: 0 32px; }
+  .header { padding: 16px 32px; }
+}
+
+/* ═══════════════════════════════════════
+   TOUCH IMPROVEMENTS
+═══════════════════════════════════════ */
+@media (hover: none) and (pointer: coarse) {
+  .factor-card:hover { border-color: var(--border); background: var(--bg2); }
+  .factor-card:active { border-color: var(--border2); background: var(--bg3); }
+  .btn-refresh:hover { background: var(--cyan-dim); border-color: var(--border2); }
+  .btn-refresh:active { background: rgba(0,220,180,0.25); }
+  .city-tab { -webkit-tap-highlight-color: transparent; }
+  .factor-card { -webkit-tap-highlight-color: transparent; }
+}
 </style>
 </head>
 <body>
@@ -604,9 +980,9 @@ body::after {
       <div class="meta-dot"></div>
       <span>LIVE</span>
     </div>
-    <div class="meta-item" id="weather-live-badge" style="color:var(--cyan)">ПОГОДА: LIVE</div>
+    <div class="meta-item hide-tablet" id="weather-live-badge" style="color:var(--cyan)">ПОГОДА: LIVE</div>
     <div class="meta-item" id="update-time">UPD: --:--:--</div>
-    <div class="meta-item" id="cycle-count">CYCLE #—</div>
+    <div class="meta-item hide-tablet" id="cycle-count">CYCLE #—</div>
     <button class="btn-refresh" onclick="refreshData()">⟳ REFRESH</button>
   </div>
 </header>
@@ -623,7 +999,9 @@ body::after {
       <span class="card-title">КАРТА ГОРОДОВ</span>
       <span class="card-badge" id="map-badge">РОССИЯ · 4 ГОРОДА</span>
     </div>
-    <div id="map"></div>
+    <div class="map-collapsible" id="map-collapsible">
+      <div id="map"></div>
+    </div>
   </div>
 
   <!-- SCORE CARD -->
@@ -649,6 +1027,11 @@ body::after {
   <div class="factors-row" id="factors-row"></div>
 
 </div>
+
+<!-- MAP TOGGLE (mobile only) -->
+<button class="map-toggle-btn" id="map-toggle-btn" onclick="toggleMap()">
+  🗺 ПОКАЗАТЬ КАРТУ
+</button>
 
 <!-- HISTORY CHART -->
 <div class="history-card card" style="margin:0 24px 16px;">
@@ -815,8 +1198,11 @@ async function fetchLiveData() {
         CITIES_DATA[city].traffic = d.traffic;
         CITIES_DATA[city].trends  = d.trends;
         CITIES_DATA[city].news    = d.news;
+        // Сохраняем сырые данные для модальных окон
+        if (d._raw_events) CITIES_DATA[city]._raw_events = d._raw_events;
+        if (d._raw_news)   CITIES_DATA[city]._raw_news   = d._raw_news;
+        if (d._raw_trends) CITIES_DATA[city]._raw_trends = d._raw_trends;
         if (d.history && d.history.length > 0) {
-          // Дополняем до 24 точек если история короткая
           const h = d.history.slice(-24);
           while (h.length < 24) h.unshift(h[0] || 0);
           CITIES_DATA[city].history = h;
@@ -827,8 +1213,8 @@ async function fetchLiveData() {
     // Обновляем метку времени последнего сбора
     if (json.generated_at) {
       const dt = new Date(json.generated_at.endsWith('Z') || json.generated_at.includes('+')
-  ? json.generated_at
-  : json.generated_at + 'Z');
+        ? json.generated_at
+        : json.generated_at + 'Z');
       document.getElementById('update-time').textContent =
         `UPD: ${dt.toLocaleTimeString('ru-RU')}`;
     }
@@ -1150,14 +1536,13 @@ function renderFactors(city, d) {
     const color = s > 0.7 ? 'var(--red)' : s > 0.45 ? 'var(--yellow)' : 'var(--cyan)';
     const bg    = s > 0.7 ? 'var(--red-dim)' : s > 0.45 ? 'var(--yellow-dim)' : 'var(--cyan-dim)';
     const bord  = s > 0.7 ? 'var(--red)' : s > 0.45 ? 'var(--yellow)' : 'var(--border2)';
-    // Погода: показываем метку LIVE если данные получены из Open-Meteo
     const liveDot = (f === 'weather' && fd.live)
       ? `<span style="font-family:var(--mono);font-size:9px;color:var(--cyan);
                       background:var(--cyan-dim);border:1px solid var(--border2);
                       border-radius:3px;padding:1px 5px;margin-left:6px;
                       letter-spacing:1px;">LIVE</span>`
       : '';
-    return `<div class="factor-card ${f}">
+    return `<div class="factor-card ${f}" onclick="openFactorModal('${f}','${city}')" style="cursor:pointer">
       <div class="factor-icon">${fd.icon}</div>
       <div class="factor-info">
         <div class="factor-title">${FACTOR_LABELS[f]}${liveDot}</div>
@@ -1168,6 +1553,163 @@ function renderFactors(city, d) {
       </div>
     </div>`;
   }).join('');
+}
+
+/* ═══════════════════════════════════════
+   MODAL LOGIC
+═══════════════════════════════════════ */
+
+function openFactorModal(factor, city) {
+  const d  = CITIES_DATA[city];
+  const fd = d[factor];
+  const s  = fd.score;
+  const scoreColor = s > 0.7 ? 'red' : s > 0.45 ? 'yellow' : 'green';
+
+  document.getElementById('modal-icon').textContent  = fd.icon;
+  document.getElementById('modal-title').textContent = FACTOR_LABELS[factor];
+  document.getElementById('modal-city').textContent  = city.toUpperCase();
+  document.getElementById('modal-body').innerHTML    = buildModalContent(factor, city, d, fd);
+  document.getElementById('modal-bg').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modal-bg').classList.remove('open');
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+function scoreBar(score, color) {
+  const pct = Math.round(score * 100);
+  const barColor = score > 0.7 ? '#ff3d5a' : score > 0.45 ? '#f5c842' : '#00dcb4';
+  return `<div class="mstat-bar-wrap">
+    <div class="mstat-bar-row">
+      <span class="mstat-lbl">SCORE</span>
+      <span class="mstat-val ${color}">${pct}</span>
+    </div>
+    <div class="mbar"><div class="mbar-fill" style="width:${pct}%;background:${barColor}"></div></div>
+  </div>`;
+}
+
+function buildModalContent(factor, city, d, fd) {
+  const s = fd.score;
+  const sc = s > 0.7 ? 'red' : s > 0.45 ? 'yellow' : 'green';
+
+  if (factor === 'weather') {
+    const temp      = d.weather.temp      ?? '?';
+    const feels     = d.weather.feels_like ?? '?';
+    const wind      = d.weather.wind      ?? '?';
+    const gusts     = d.weather.wind_gusts ?? '?';
+    const precip    = d.weather.precip    ?? 0;
+    const snow      = d.weather.snowfall  ?? 0;
+    const wc        = d.weather.wmo_code  ?? '?';
+    const condition = d.weather.condition ?? fd.val;
+    const sign      = (typeof temp === 'number' && temp >= 0) ? '+' : '';
+    const fSign     = (typeof feels === 'number' && feels >= 0) ? '+' : '';
+    return `
+      <div class="mstat"><span class="mstat-lbl">ТЕМПЕРАТУРА</span><span class="mstat-val cyan">${sign}${Math.round(temp)}°C</span></div>
+      <div class="mstat"><span class="mstat-lbl">ОЩУЩАЕТСЯ</span><span class="mstat-val">${fSign}${Math.round(feels)}°C</span></div>
+      <div class="mstat"><span class="mstat-lbl">СОСТОЯНИЕ</span><span class="mstat-val">${condition}</span></div>
+      <div class="mstat"><span class="mstat-lbl">ОСАДКИ</span><span class="mstat-val ${precip > 2 ? 'yellow' : 'green'}">${precip} мм/ч</span></div>
+      <div class="mstat"><span class="mstat-lbl">СНЕГ</span><span class="mstat-val ${snow > 1 ? 'yellow' : 'dim'}">${snow} мм/ч</span></div>
+      <div class="mstat"><span class="mstat-lbl">ВЕТЕР</span><span class="mstat-val ${wind > 12 ? 'yellow' : ''}">${Math.round(wind)} км/ч</span></div>
+      <div class="mstat"><span class="mstat-lbl">ПОРЫВЫ</span><span class="mstat-val dim">${Math.round(gusts)} км/ч</span></div>
+      <div class="mstat"><span class="mstat-lbl">WMO КОД</span><span class="mstat-val dim">${wc}</span></div>
+      <div class="mstat"><span class="mstat-lbl">ИСТОЧНИК</span><span class="mstat-val dim">Open-Meteo API</span></div>
+      ${scoreBar(s, sc)}`;
+  }
+
+  if (factor === 'events') {
+    const events   = CITIES_DATA[city]._raw_events || [];
+    const total    = fd.val.match(/из (\d+)/) ? fd.val.match(/из (\d+)/)[1] : '?';
+    const highCnt  = fd.val.match(/^(\d+)/) ? fd.val.match(/^(\d+)/)[1] : '0';
+    const highEvts = events.filter(e => e.is_high);
+    let eventsHtml = '';
+    if (highEvts.length > 0) {
+      eventsHtml = `<div class="modal-section-title">КРУПНЫЕ СОБЫТИЯ</div>` +
+        highEvts.slice(0, 6).map(e =>
+          `<div class="mevt-item medium">
+             <div class="mevt-title">${e.title}</div>
+             <div>${e.cats.slice(0,3).join(', ')}</div>
+           </div>`
+        ).join('');
+    } else {
+      eventsHtml = `<div class="modal-note">Крупных событий в ближайшие 6 часов не найдено.</div>`;
+    }
+    return `
+      <div class="mstat"><span class="mstat-lbl">НАЙДЕНО СОБЫТИЙ</span><span class="mstat-val cyan">${total}</span></div>
+      <div class="mstat"><span class="mstat-lbl">КРУПНЫХ (HIGH IMPACT)</span><span class="mstat-val ${highCnt > 0 ? 'yellow' : 'dim'}">${highCnt}</span></div>
+      <div class="mstat"><span class="mstat-lbl">ГОРИЗОНТ</span><span class="mstat-val dim">6 часов</span></div>
+      <div class="mstat"><span class="mstat-lbl">ИСТОЧНИК</span><span class="mstat-val dim">KudaGo API</span></div>
+      ${scoreBar(s, sc)}
+      ${eventsHtml}`;
+  }
+
+  if (factor === 'traffic') {
+    const speed  = fd.val.match(/(\d+) км/) ? fd.val.match(/(\d+) км/)[1] : '?';
+    const status = fd.val.includes('·') ? fd.val.split('·')[1].trim() : fd.val;
+    const jam    = Math.round(s * 100);
+    return `
+      <div class="mstat"><span class="mstat-lbl">СКОРОСТЬ</span><span class="mstat-val ${s > 0.6 ? 'red' : s > 0.3 ? 'yellow' : 'green'}">${speed} км/ч</span></div>
+      <div class="mstat"><span class="mstat-lbl">СТАТУС ПРОБОК</span><span class="mstat-val ${s > 0.6 ? 'red' : s > 0.3 ? 'yellow' : 'green'}">${status}</span></div>
+      <div class="mstat"><span class="mstat-lbl">КОЭ. ЗАГРУЖЕННОСТИ</span><span class="mstat-val">${jam}%</span></div>
+      <div class="mstat"><span class="mstat-lbl">ИСТОЧНИК</span><span class="mstat-val dim">OSRM / OpenStreetMap</span></div>
+      ${scoreBar(s, sc)}
+      <div class="modal-note">Оценка на основе маршрута центр → вокзал/аэропорт. Низкая скорость = высокий спрос на такси.</div>`;
+  }
+
+  if (factor === 'trends') {
+    const isSkipped = fd.val === 'отключено в Actions';
+    const kwData = CITIES_DATA[city]._raw_trends || {};
+    let kwHtml = '';
+    if (Object.keys(kwData).length > 0) {
+      kwHtml = `<div class="modal-section-title">ПО КЛЮЧЕВЫМ СЛОВАМ</div>` +
+        Object.entries(kwData).map(([kw, m]) =>
+          `<div class="mstat">
+            <span class="mstat-lbl">${kw}</span>
+            <span class="mstat-val ${m.trend === 'up' ? 'cyan' : 'dim'}">${m.current} ${m.trend === 'up' ? '↑' : '→'}</span>
+          </div>`
+        ).join('');
+    }
+    return `
+      <div class="mstat"><span class="mstat-lbl">СТАТУС</span>
+        <span class="mstat-val ${isSkipped ? 'dim' : 'cyan'}">${isSkipped ? 'отключено в Actions' : 'активно'}</span>
+      </div>
+      <div class="mstat"><span class="mstat-lbl">ИСТОЧНИК</span><span class="mstat-val dim">Google Trends / PyTrends</span></div>
+      ${scoreBar(s, sc)}
+      ${isSkipped
+        ? `<div class="modal-note">PyTrends запускается вручную раз в день через Google Colab — чтобы избежать блокировок Google на IP-адресах GitHub Actions. После запуска Colab данные обновятся автоматически.</div>`
+        : kwHtml}`;
+  }
+
+  if (factor === 'news') {
+    const items = CITIES_DATA[city]._raw_news || [];
+    const high   = items.filter(i => i.level === 'high');
+    const medium = items.filter(i => i.level === 'medium');
+    const low    = items.filter(i => i.level === 'low');
+    const allItems = [...high, ...medium, ...low].slice(0, 8);
+    let newsHtml = '';
+    if (allItems.length > 0) {
+      newsHtml = `<div class="modal-section-title">ЗНАЧИМЫЕ НОВОСТИ</div>` +
+        allItems.map(item =>
+          `<div class="mevt-item ${item.level}">
+             <div class="mevt-title">${item.title.slice(0,70)}${item.title.length > 70 ? '…' : ''}</div>
+           </div>`
+        ).join('');
+    } else {
+      newsHtml = `<div class="modal-note">Значимых событий не обнаружено. Яндекс.Новости проверяются каждый час.</div>`;
+    }
+    const tags = ['дтп','перекрытие','авария','концерт','матч','снегопад','гроза','пожар','футбол','хоккей'];
+    return `
+      <div class="mstat"><span class="mstat-lbl">ИСТОЧНИК</span><span class="mstat-val cyan">Яндекс.Новости RSS</span></div>
+      <div class="mstat"><span class="mstat-lbl">HIGH IMPACT</span><span class="mstat-val ${high.length > 0 ? 'red' : 'dim'}">${high.length}</span></div>
+      <div class="mstat"><span class="mstat-lbl">MEDIUM</span><span class="mstat-val ${medium.length > 0 ? 'yellow' : 'dim'}">${medium.length}</span></div>
+      <div class="mstat"><span class="mstat-lbl">LOW</span><span class="mstat-val dim">${low.length}</span></div>
+      ${scoreBar(s, sc)}
+      ${newsHtml}
+      <div class="modal-section-title">МОНИТОРЯТСЯ ТЕГИ</div>
+      <div style="display:flex;flex-wrap:wrap">${tags.map(t => `<span class="mtag">${t}</span>`).join('')}</div>`;
+  }
+  return `<div class="modal-note">${fd.val}</div>`;
 }
 
 /* ─── History chart ─── */
@@ -1260,6 +1802,70 @@ function renderAlerts() {
 
 /* ─── Util: fix rgba for gradient ─── */
 // Gradient fix already inline above
+
+/* ═══════════════════════════════════════
+   MAP TOGGLE (mobile)
+═══════════════════════════════════════ */
+let mapVisible = false;
+
+function toggleMap() {
+  const col = document.getElementById('map-collapsible');
+  const btn = document.getElementById('map-toggle-btn');
+  mapVisible = !mapVisible;
+  if (mapVisible) {
+    col.style.maxHeight = '260px';
+    col.classList.remove('collapsed');
+    btn.textContent = '🗺 СКРЫТЬ КАРТУ';
+    // Leaflet requires invalidateSize after container becomes visible
+    setTimeout(() => { if (map) map.invalidateSize(); }, 350);
+  } else {
+    col.style.maxHeight = '0';
+    col.classList.add('collapsed');
+    btn.textContent = '🗺 ПОКАЗАТЬ КАРТУ';
+  }
+}
+
+// On desktop/tablet — ensure map is always visible
+function handleMapVisibility() {
+  const col = document.getElementById('map-collapsible');
+  const btn = document.getElementById('map-toggle-btn');
+  if (window.innerWidth >= 640) {
+    col.style.maxHeight = '';
+    col.classList.remove('collapsed');
+    btn.style.display = 'none';
+    mapVisible = true;
+  } else {
+    if (!mapVisible) {
+      col.style.maxHeight = '0';
+      col.classList.add('collapsed');
+    }
+    btn.style.display = 'flex';
+  }
+  if (map) setTimeout(() => map.invalidateSize(), 100);
+}
+
+window.addEventListener('resize', handleMapVisibility);
+document.addEventListener('DOMContentLoaded', () => {
+  handleMapVisibility();
+});
 </script>
+
+<!-- FACTOR MODALS -->
+<div class="modal-bg" id="modal-bg" onclick="if(event.target===this)closeModal()">
+  <div class="modal-box" id="modal-box">
+    <div class="modal-head">
+      <div class="modal-head-left">
+        <div class="modal-head-icon" id="modal-icon">—</div>
+        <div>
+          <div class="modal-head-title" id="modal-title">—</div>
+          <div class="modal-head-city" id="modal-city">—</div>
+        </div>
+      </div>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
 </body>
 </html>
