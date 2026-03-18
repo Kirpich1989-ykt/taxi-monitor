@@ -401,6 +401,7 @@ body::after {
 .factor-card.traffic::after  { background: #ffb74d; }
 .factor-card.trends::after   { background: var(--cyan); }
 .factor-card.news::after     { background: #ef9a9a; }
+.factor-card.seasonality::after { background: #a5d6a7; }
 
 .factor-icon {
   width: 28px; height: 28px;
@@ -1155,18 +1156,176 @@ async function fetchAllWeather() {
   console.log('[OpenMeteo] Данные погоды обновлены');
 }
 
-function recomputeImpact(city) {
-  const d = CITIES_DATA[city];
-  const w = { weather: 0.30, events: 0.25, traffic: 0.20, trends: 0.15, news: 0.10 };
-  d.impact = +(
-    d.weather.score * w.weather +
-    d.events.score  * w.events  +
-    d.traffic.score * w.traffic +
-    d.trends.score  * w.trends  +
-    d.news.score    * w.news
-  ).toFixed(3);
-  d.alert = d.impact >= 0.75 ? 'red' : d.impact >= 0.45 ? 'yellow' : 'green';
+/* ═══════════════════════════════════════
+   СЕЗОННОСТЬ И ПРАЗДНИКИ
+   H (Holidays) + S (Seasonality)
+   из спецификации D_{t+1} = f(W,T,E,H,S)
+═══════════════════════════════════════ */
+
+// Российские праздники (MM-DD)
+const RU_HOLIDAYS = new Set([
+  '01-01','01-02','01-03','01-04','01-05','01-06','01-07','01-08',
+  '02-23','03-08','05-01','05-09','06-12','11-04','12-31'
+]);
+
+function isHoliday(date) {
+  const mm = String(date.getMonth() + 1).padStart(2, '0');
+  const dd = String(date.getDate()).padStart(2, '0');
+  return RU_HOLIDAYS.has(`${mm}-${dd}`);
 }
+
+// Сезонность: score по часу суток и дню недели
+// Отражает паттерн спроса: утренний пик, вечерний пик, ночной пик пятницы/субботы
+function calcSeasonalityScore() {
+  const now = new Date();
+  const h   = now.getHours();   // 0–23
+  const dow = now.getDay();     // 0=Вс, 1=Пн … 6=Сб
+  const hol = isHoliday(now);
+
+  let score = 0.0;
+
+  // Час дня → базовый паттерн
+  if      (h >= 7  && h <= 9)  score += 0.35;  // утренний час-пик
+  else if (h >= 17 && h <= 19) score += 0.35;  // вечерний час-пик
+  else if (h >= 11 && h <= 14) score += 0.15;  // дневной
+  else if (h >= 22 || h <= 2)  score += 0.25;  // поздний вечер / ночь
+
+  // День недели
+  if (dow === 5 || dow === 6) score += 0.20;   // пятница/суббота — ночные поездки
+  if (dow === 0)              score += 0.10;   // воскресенье — аэропорт/поездки домой
+  if (dow >= 1 && dow <= 4)   score += 0.05;  // будни — стабильный спрос
+
+  // Праздники: смещение паттерна → ночные поездки вместо утренних рабочих
+  if (hol) {
+    score += 0.20;
+    if (h >= 22 || h <= 3) score += 0.15;
+  }
+
+  return { score: +Math.min(score, 1.0).toFixed(2), hour: h, dow, isHoliday: hol };
+}
+
+// Названия дней недели
+const DOW_RU = ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'];
+
+function recomputeImpact(city) {
+  const d   = CITIES_DATA[city];
+  const sea = calcSeasonalityScore();
+
+  // Веса: W=0.28, T=0.19, E=0.23, H+S=0.17, Trends=0.08, News=0.05
+  // (немного скорректированы чтобы сумма = 1.00 с учётом сезонности)
+  const w = {
+    weather:      0.28,
+    events:       0.23,
+    traffic:      0.19,
+    seasonality:  0.17,
+    trends:       0.08,
+    news:         0.05,
+  };
+
+  const raw = (
+    d.weather.score * w.weather    +
+    d.events.score  * w.events     +
+    d.traffic.score * w.traffic    +
+    sea.score       * w.seasonality +
+    d.trends.score  * w.trends     +
+    d.news.score    * w.news
+  );
+
+  d.impact = +Math.min(raw, 1.0).toFixed(3);
+  d.seasonality = sea;
+
+  // Уровень алерта по порогам
+  d.alert = d.impact >= 0.75 ? 'red' : d.impact >= 0.45 ? 'yellow' : 'green';
+
+  // Генерируем причину алерта
+  d.alert_reason = buildAlertReason(city, d, sea);
+}
+
+/* ═══════════════════════════════════════
+   УМНАЯ СИСТЕМА АЛЕРТОВ
+   Уровни: green / yellow / red
+   с причиной и рекомендацией
+═══════════════════════════════════════ */
+
+function buildAlertReason(city, d, sea) {
+  const factors = [];
+  const recs    = [];
+
+  // Собираем триггеры по каждому фактору
+  if (d.weather.score >= 0.5)  factors.push(`осадки/плохая погода (${d.weather.val})`);
+  if (d.weather.score >= 0.7)  recs.push('увеличить зону поиска водителей');
+
+  if (d.traffic.score >= 0.6)  factors.push(`сильные пробки (${d.traffic.val})`);
+  if (d.traffic.score >= 0.8)  recs.push('предупредить о росте времени подачи');
+
+  if (d.events.score >= 0.3)   factors.push(`крупные мероприятия (${d.events.val})`);
+  if (d.events.score >= 0.45)  recs.push('заблаговременно подтянуть водителей к месту');
+
+  if (d.news.score >= 0.5)     factors.push(`значимые новости (${d.news.val})`);
+
+  if (d.trends.score >= 0.5)   factors.push(`рост поисковых запросов (+${Math.round(d.trends.score*100)}%)`);
+
+  if (sea.isHoliday)           factors.push('праздничный день — ночной паттерн спроса');
+  if (sea.score >= 0.5)        factors.push(`пиковое время (${sea.hour}:00, ${DOW_RU[sea.dow]})`);
+
+  // Рекомендации по уровню
+  if (d.alert === 'red') {
+    const surge = Math.round(20 + d.impact * 40);
+    recs.unshift(`🔴 surge pricing +${surge}% — критический уровень спроса`);
+  } else if (d.alert === 'yellow') {
+    recs.unshift('🟡 повысить готовность парка на 15–20%');
+  } else if (factors.length > 0) {
+    recs.push('🟢 плановый рост — водители уведомлены');
+  }
+
+  return {
+    factors,
+    recommendation: recs[0] || null,
+    all_recs: recs,
+  };
+}
+
+/* ═══════════════════════════════════════
+   ЖИВАЯ ЛЕНТА АЛЕРТОВ
+   Генерируется из реальных данных
+   (не захардкожена)
+═══════════════════════════════════════ */
+
+// Живой лог — заполняется при каждом пересчёте
+const LIVE_ALERTS = [];
+const ALERT_SEEN  = new Set(); // дедупликация
+
+function generateLiveAlerts() {
+  const now = new Date();
+  const timeStr = `${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`;
+
+  Object.entries(CITIES_DATA).forEach(([city, d]) => {
+    if (!d.alert_reason) return;
+    if (d.alert === 'green' && d.impact < 0.20) return; // не спамим тихими зелёными
+
+    const key = `${city}-${d.alert}-${Math.round(d.impact * 10)}`;
+    if (ALERT_SEEN.has(key)) return;
+    ALERT_SEEN.add(key);
+
+    const { factors, recommendation } = d.alert_reason;
+    const factorStr = factors.slice(0, 2).join(', ') || 'плановая активность';
+    const text = recommendation
+      ? `${factorStr.charAt(0).toUpperCase() + factorStr.slice(1)}. ${recommendation}`
+      : `${factorStr.charAt(0).toUpperCase() + factorStr.slice(1)}. Impact ${(d.impact*100).toFixed(0)}.`;
+
+    LIVE_ALERTS.unshift({
+      city,
+      level: d.alert,
+      text:  text.slice(0, 120),
+      time:  timeStr,
+      impact: d.impact,
+    });
+  });
+
+  // Ограничиваем лог 20 записями
+  LIVE_ALERTS.splice(20);
+}
+
 
 /* ═══════════════════════════════════════
    LIVE DATA — читаем из data/latest.json
@@ -1283,20 +1442,19 @@ const CITIES_DATA = {
 };
 
 const FACTOR_LABELS = {
-  weather: "ПОГОДА",
-  events:  "СОБЫТИЯ",
-  traffic: "ТРАФИК",
-  trends:  "ПОИСК",
-  news:    "НОВОСТИ"
+  weather:     "ПОГОДА",
+  events:      "СОБЫТИЯ",
+  traffic:     "ТРАФИК",
+  trends:      "ПОИСК",
+  news:        "НОВОСТИ",
+  seasonality: "СЕЗОННОСТЬ",
 };
 
-const ALERTS_LOG = [
-  { city:"Москва",    level:"red",    text:"Матч ЦСКА + ДТП на Садовом. Impact 0.82. Рекомендуется surge pricing +30%.", time:"17:00" },
-  { city:"Москва",    level:"yellow", text:"Начался сильный дождь. Поисковый интерес вырос на 41%.", time:"16:00" },
-  { city:"Якутск",    level:"yellow", text:"Снегопад + перекрытие ул. Ленина. Время подачи растёт.", time:"15:30" },
-  { city:"Новосибирск",level:"green", text:"Выставка в Экспоцентре — плановый рост спроса +15% в 19:00.", time:"14:00" },
-  { city:"Краснодар", level:"green",  text:"Все показатели в норме. Спрос соответствует прогнозу.", time:"13:00" },
-];
+// Инициализируем сезонность в демо-данных
+Object.keys(CITIES_DATA).forEach(city => {
+  CITIES_DATA[city].seasonality = calcSeasonalityScore();
+  recomputeImpact(city);
+});
 
 /* ═══════════════════════════════════════
    STATE
@@ -1314,12 +1472,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   initTabs();
   initMap();
   renderAll(activeCity);
+  generateLiveAlerts();
   renderAlerts();
   updateMeta();
 
   // 1. Пробуем загрузить данные из latest.json (GitHub Actions)
   const liveLoaded = await fetchLiveData();
   if (liveLoaded) {
+    Object.keys(CITIES_DATA).forEach(city => recomputeImpact(city));
     renderAll(activeCity);
     updateAlertBadges();
   }
@@ -1333,12 +1493,25 @@ document.addEventListener('DOMContentLoaded', async () => {
   // 4. Перечитываем latest.json каждый час + небольшой jitter
   setInterval(async () => {
     await fetchLiveData();
+    Object.keys(CITIES_DATA).forEach(city => recomputeImpact(city));
+    generateLiveAlerts();
     renderAll(activeCity);
+    renderAlerts();
     updateAlertBadges();
     updateMeta();
   }, 3_600_000 + 60_000);
 
-  // 5. Лёгкий nudge прочих факторов (демо-режим)
+  // 5. Сезонность обновляется каждые 5 минут (час меняется)
+  setInterval(() => {
+    Object.keys(CITIES_DATA).forEach(city => recomputeImpact(city));
+    generateLiveAlerts();
+    renderAll(activeCity);
+    renderAlerts();
+    updateAlertBadges();
+    updateMeta();
+  }, 5 * 60 * 1000);
+
+  // 6. Лёгкий nudge прочих факторов (демо-режим)
   setInterval(() => {
     nudgeData();
     renderAll(activeCity);
@@ -1530,7 +1703,9 @@ function renderScoreCard(city, d) {
 function renderFactors(city, d) {
   const cont = document.getElementById('factors-row');
   const factors = ['weather','events','traffic','trends','news'];
-  cont.innerHTML = factors.map(f => {
+  const sea = d.seasonality || calcSeasonalityScore();
+
+  const factorCards = factors.map(f => {
     const fd    = d[f];
     const s     = fd.score;
     const color = s > 0.7 ? 'var(--red)' : s > 0.45 ? 'var(--yellow)' : 'var(--cyan)';
@@ -1552,7 +1727,53 @@ function renderFactors(city, d) {
         ${(s*100).toFixed(0)}
       </div>
     </div>`;
-  }).join('');
+  });
+
+  // Карточка сезонности
+  const ss = sea.score;
+  const sc = ss > 0.7 ? 'var(--red)' : ss > 0.45 ? 'var(--yellow)' : 'var(--cyan)';
+  const sb = ss > 0.7 ? 'var(--red-dim)' : ss > 0.45 ? 'var(--yellow-dim)' : 'var(--cyan-dim)';
+  const sbord = ss > 0.7 ? 'var(--red)' : ss > 0.45 ? 'var(--yellow)' : 'var(--border2)';
+  const dowLabel = DOW_RU[sea.dow];
+  const peakLabel = ss >= 0.5 ? 'пиковое время' : ss >= 0.3 ? 'умеренный спрос' : 'низкий спрос';
+  const holBadge = sea.isHoliday
+    ? `<span style="font-family:var(--mono);font-size:9px;color:var(--yellow);
+                    background:var(--yellow-dim);border:1px solid rgba(245,200,66,0.3);
+                    border-radius:3px;padding:1px 5px;margin-left:6px;">ПРАЗДНИК</span>`
+    : '';
+
+  const seaCard = `<div class="factor-card seasonality" onclick="openSeasonalityModal('${city}')" style="cursor:pointer">
+    <div class="factor-icon">🕐</div>
+    <div class="factor-info">
+      <div class="factor-title">${FACTOR_LABELS.seasonality}${holBadge}</div>
+      <div class="factor-detail">${sea.hour}:00 · ${dowLabel} · ${peakLabel}</div>
+    </div>
+    <div class="factor-score-pill" style="color:${sc};background:${sb};border-color:${sbord}">
+      ${(ss*100).toFixed(0)}
+    </div>
+  </div>`;
+
+  // Блок рекомендации если есть
+  let recBlock = '';
+  if (d.alert_reason && d.alert_reason.recommendation) {
+    const recColor = d.alert === 'red' ? 'var(--red)' : d.alert === 'yellow' ? 'var(--yellow)' : 'var(--green)';
+    const recBg    = d.alert === 'red' ? 'var(--red-dim)' : d.alert === 'yellow' ? 'var(--yellow-dim)' : 'var(--green-dim)';
+    recBlock = `<div style="
+      padding: 10px 12px;
+      background: ${recBg};
+      border: 1px solid ${recColor};
+      border-radius: var(--radius);
+      font-size: 11px;
+      color: ${recColor};
+      line-height: 1.5;
+      font-family: var(--body);
+    ">
+      <span style="font-family:var(--mono);font-size:9px;letter-spacing:1px;opacity:0.7;display:block;margin-bottom:3px;">РЕКОМЕНДАЦИЯ</span>
+      ${d.alert_reason.recommendation}
+    </div>`;
+  }
+
+  cont.innerHTML = factorCards.join('') + seaCard + recBlock;
 }
 
 /* ═══════════════════════════════════════
@@ -1783,21 +2004,115 @@ function renderHistory(city, d) {
   });
 }
 
-/* ─── Alerts ─── */
+/* ─── Alerts (live) ─── */
 function renderAlerts() {
   const grid = document.getElementById('alerts-grid');
-  grid.innerHTML = ALERTS_LOG.map((a, i) => `
-    <div class="alert-item ${a.level}" style="animation-delay:${i*0.08}s">
+  const alerts = LIVE_ALERTS.length > 0 ? LIVE_ALERTS : [];
+
+  if (alerts.length === 0) {
+    grid.innerHTML = `<div style="
+      padding:16px; color:var(--text3); font-family:var(--mono);
+      font-size:11px; letter-spacing:1px; grid-column:1/-1;
+    ">Алертов нет — все показатели в норме</div>`;
+    document.getElementById('alerts-count').textContent = '0 СОБЫТИЙ';
+    return;
+  }
+
+  grid.innerHTML = alerts.map((a, i) => `
+    <div class="alert-item ${a.level}" style="animation-delay:${i*0.05}s">
       <div class="alert-dot"></div>
       <div class="alert-content">
-        <div class="alert-city">${a.city}</div>
+        <div class="alert-city">${a.city}
+          <span style="font-family:var(--mono);font-size:10px;
+            color:${a.level==='red'?'var(--red)':a.level==='yellow'?'var(--yellow)':'var(--green)'};
+            margin-left:8px;font-weight:400;">
+            ${(a.impact*100).toFixed(0)}
+          </span>
+        </div>
         <div class="alert-text">${a.text}</div>
       </div>
       <div class="alert-time">${a.time}</div>
     </div>
   `).join('');
-  document.getElementById('alerts-count').textContent =
-    `${ALERTS_LOG.length} СОБЫТИЙ`;
+  document.getElementById('alerts-count').textContent = `${alerts.length} СОБЫТИЙ`;
+}
+
+/* ─── Seasonality modal ─── */
+function openSeasonalityModal(city) {
+  const d   = CITIES_DATA[city];
+  const sea = d.seasonality || calcSeasonalityScore();
+  const now = new Date();
+
+  document.getElementById('modal-icon').textContent  = '🕐';
+  document.getElementById('modal-title').textContent = 'СЕЗОННОСТЬ';
+  document.getElementById('modal-city').textContent  = city.toUpperCase();
+
+  const hourlyPattern = [
+    { h:'00–06', label:'ночь (низкий)', s: 0.15 },
+    { h:'07–09', label:'утренний пик', s: 0.70 },
+    { h:'10–14', label:'дневной',      s: 0.35 },
+    { h:'15–16', label:'предпиковый',  s: 0.45 },
+    { h:'17–19', label:'вечерний пик', s: 0.75 },
+    { h:'20–21', label:'спад',         s: 0.30 },
+    { h:'22–23', label:'ночной (пт/сб)', s: 0.50 },
+  ];
+
+  const patternHtml = hourlyPattern.map(p => {
+    const isActive = (
+      (p.h.startsWith('00') && (now.getHours() < 7)) ||
+      (p.h.startsWith('07') && now.getHours() >= 7 && now.getHours() <= 9) ||
+      (p.h.startsWith('10') && now.getHours() >= 10 && now.getHours() <= 14) ||
+      (p.h.startsWith('15') && now.getHours() >= 15 && now.getHours() <= 16) ||
+      (p.h.startsWith('17') && now.getHours() >= 17 && now.getHours() <= 19) ||
+      (p.h.startsWith('20') && now.getHours() >= 20 && now.getHours() <= 21) ||
+      (p.h.startsWith('22') && now.getHours() >= 22)
+    );
+    const pct = Math.round(p.s * 100);
+    const col = p.s > 0.6 ? '#ff3d5a' : p.s > 0.4 ? '#f5c842' : '#00dcb4';
+    return `<div style="display:grid;grid-template-columns:56px 1fr 32px;align-items:center;gap:8px;
+      padding:6px 10px;background:${isActive?'rgba(0,220,180,0.07)':'var(--bg2)'};
+      border-radius:4px;border:1px solid ${isActive?'var(--border2)':'var(--border)'}">
+      <span style="font-family:var(--mono);font-size:9px;color:${isActive?'var(--cyan)':'var(--text3)'}">${p.h}</span>
+      <div style="height:3px;background:var(--bg3);border-radius:2px;overflow:hidden">
+        <div style="width:${pct}%;height:100%;background:${col};border-radius:2px"></div>
+      </div>
+      <span style="font-family:var(--mono);font-size:9px;color:${isActive?'var(--cyan)':'var(--text3)'};text-align:right">${pct}</span>
+    </div>`;
+  }).join('');
+
+  const weekHtml = ['Пн','Вт','Ср','Чт','Пт','Сб','Вс'].map((day, i) => {
+    const dowIdx = (i + 1) % 7;
+    const isToday = dowIdx === now.getDay();
+    const s = (dowIdx === 5 || dowIdx === 6) ? 0.70 : dowIdx === 0 ? 0.55 : 0.40;
+    const col = s > 0.6 ? '#ff3d5a' : s > 0.4 ? '#f5c842' : '#00dcb4';
+    return `<div style="display:flex;flex-direction:column;align-items:center;gap:4px;flex:1">
+      <span style="font-family:var(--mono);font-size:9px;color:${isToday?'var(--cyan)':'var(--text3)'}">${day}</span>
+      <div style="width:100%;height:32px;background:var(--bg3);border-radius:3px;overflow:hidden;position:relative">
+        <div style="position:absolute;bottom:0;width:100%;height:${Math.round(s*100)}%;background:${col};opacity:${isToday?1:0.5}"></div>
+      </div>
+    </div>`;
+  }).join('');
+
+  document.getElementById('modal-body').innerHTML = `
+    <div class="mstat"><span class="mstat-lbl">ТЕКУЩИЙ ЧАС</span><span class="mstat-val cyan">${sea.hour}:00</span></div>
+    <div class="mstat"><span class="mstat-lbl">ДЕНЬ НЕДЕЛИ</span><span class="mstat-val">${DOW_RU[sea.dow]}</span></div>
+    <div class="mstat"><span class="mstat-lbl">ПРАЗДНИК</span><span class="mstat-val ${sea.isHoliday?'yellow':'dim'}">${sea.isHoliday?'ДА — ночной паттерн':'НЕТ'}</span></div>
+    <div class="mstat-bar-wrap">
+      <div class="mstat-bar-row"><span class="mstat-lbl">SEASONAL SCORE</span><span class="mstat-val ${sea.score>0.6?'red':sea.score>0.4?'yellow':'cyan'}">${Math.round(sea.score*100)}</span></div>
+      <div class="mbar"><div class="mbar-fill" style="width:${Math.round(sea.score*100)}%;background:${sea.score>0.6?'#ff3d5a':sea.score>0.4?'#f5c842':'#00dcb4'}"></div></div>
+    </div>
+    <div class="modal-section-title">ПАТТЕРН ПО ЧАСАМ (базовый)</div>
+    <div style="display:flex;flex-direction:column;gap:4px">${patternHtml}</div>
+    <div class="modal-section-title">ПАТТЕРН ПО ДНЯМ НЕДЕЛИ</div>
+    <div style="display:flex;gap:4px;align-items:flex-end">${weekHtml}</div>
+    <div class="modal-note" style="margin-top:4px">
+      Сезонность учитывает час суток, день недели и праздники. 
+      Праздники смещают пик с утренних рабочих поездок на ночные (пт–сб паттерн).
+      Вес в Impact Score: <strong>17%</strong>.
+    </div>
+  `;
+
+  document.getElementById('modal-bg').classList.add('open');
 }
 
 /* ─── Util: fix rgba for gradient ─── */
