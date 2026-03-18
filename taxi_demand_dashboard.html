@@ -826,7 +826,9 @@ async function fetchLiveData() {
 
     // Обновляем метку времени последнего сбора
     if (json.generated_at) {
-      const dt = new Date(json.generated_at + 'Z');
+      const dt = new Date(json.generated_at.endsWith('Z') || json.generated_at.includes('+')
+  ? json.generated_at
+  : json.generated_at + 'Z');
       document.getElementById('update-time').textContent =
         `UPD: ${dt.toLocaleTimeString('ru-RU')}`;
     }
