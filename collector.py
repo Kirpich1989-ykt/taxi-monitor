@@ -591,13 +591,29 @@ def run():
             "coords":  list(cfg["coords"]),
             "impact":  impact["score_total"],
             "alert":   impact["alert"],
-            "weather": {"score": w["score"],  "val": w.get("val", "нет данных"),
-                        "icon": w.get("icon", "🌡"), "live": w["status"] == "ok"},
+            "weather": {
+                "score":      w["score"],
+                "val":        w.get("val", "нет данных"),
+                "icon":       w.get("icon", "🌡"),
+                "live":       w["status"] == "ok",
+                "temp":       w.get("temp"),
+                "feels_like": w.get("feels_like"),
+                "condition":  w.get("condition"),
+                "wmo_code":   w.get("wmo_code"),
+                "wind":       w.get("wind"),
+                "wind_gusts": w.get("wind_gusts"),
+                "precip":     w.get("precip"),
+                "snowfall":   w.get("snowfall"),
+            },
             "events":  {"score": e["score"],  "val": e.get("val", "нет данных"), "icon": "🎭"},
             "traffic": {"score": t["score"],  "val": t.get("val", "нет данных"), "icon": "🚗"},
             "trends":  {"score": tr["score"], "val": tr.get("val", "нет данных"), "icon": "🔍"},
             "news":    {"score": n["score"],  "val": n.get("val", "нет данных"), "icon": "📰"},
             "history": [p["score"] for p in history[city][-24:]],
+            # Сырые данные для модальных окон дашборда
+            "_raw_events": e.get("events", [])[:10],
+            "_raw_news":   n.get("items",  [])[:10],
+            "_raw_trends": tr.get("data",  {}),
         }
 
     save_latest(snapshot)
