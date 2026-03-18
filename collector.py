@@ -9,7 +9,7 @@ import json
 import time
 import requests
 import feedparser
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pytrends.request import TrendReq
 
 # ─────────────────────────────────────────
@@ -23,28 +23,28 @@ SKIP_TRENDS      = os.environ.get("SKIP_TRENDS", "false").lower() == "true"
 CITIES = {
     "Якутск": {
         "coords":      (62.0355, 129.6755),
-        "kudago_slug": None,           # Якутск не поддерживается KudaGo
+        "kudago_slug": None,
         "trends_geo":  "RU-SA",
         "news_rss":    "https://news.yandex.ru/region/yakutsk/index.rss",
         "osrm_route":  {"from": "129.675,62.035", "to": "129.769,62.093"},
     },
     "Москва": {
         "coords":      (55.7558, 37.6176),
-        "kudago_slug": "msk",          # правильно
+        "kudago_slug": "msk",
         "trends_geo":  "RU-MOW",
         "news_rss":    "https://news.yandex.ru/region/moscow/index.rss",
         "osrm_route":  {"from": "37.617,55.756", "to": "37.561,55.745"},
     },
     "Краснодар": {
         "coords":      (45.0355, 38.9753),
-        "kudago_slug": "krd",          # было "krasnodar" — неверно
+        "kudago_slug": "krd",
         "trends_geo":  "RU-KDA",
         "news_rss":    "https://news.yandex.ru/region/krasnodar/index.rss",
         "osrm_route":  {"from": "38.975,45.035", "to": "39.082,45.005"},
     },
     "Новосибирск": {
         "coords":      (54.9833, 82.8964),
-        "kudago_slug": "nsk",          # правильно
+        "kudago_slug": "nsk",
         "trends_geo":  "RU-NVS",
         "news_rss":    "https://news.yandex.ru/region/novosibirsk/index.rss",
         "osrm_route":  {"from": "82.896,54.983", "to": "82.898,54.966"},
@@ -114,7 +114,7 @@ def wmo_icon(code):
 # ─────────────────────────────────────────
 
 def fetch_weather(city, cfg):
-    result = {"city": city, "timestamp": datetime.utcnow().isoformat(),
+    result = {"city": city, "timestamp": datetime.now(timezone.utc).isoformat(),
               "status": "ok", "score": 0.0, "val": "нет данных", "icon": "🌡"}
     try:
         lat, lon = cfg["coords"]
@@ -176,7 +176,7 @@ def fetch_weather(city, cfg):
 HIGH_IMPACT_CATS = {"concert", "festival", "sport", "theater", "circus", "stand-up"}
 
 def fetch_events(city, cfg, hours_ahead=6):
-    result = {"city": city, "timestamp": datetime.utcnow().isoformat(),
+    result = {"city": city, "timestamp": datetime.now(timezone.utc).isoformat(),
               "status": "ok", "events": [], "score": 0.0,
               "icon": "🎭", "val": "нет данных"}
     try:
@@ -205,13 +205,18 @@ def fetch_events(city, cfg, hours_ahead=6):
             result["val"]    = f"KudaGo HTTP {r.status_code}"
             return result
 
-        data = r.json()
-        events     = data.get("results", [])
+        data   = r.json()
+        events = data.get("results", [])
         high_count = 0
         total      = len(events)
 
         for ev in events:
-            cats    = [c.get("slug", "") for c in ev.get("categories", [])]
+            # ИСПРАВЛЕНИЕ: категории могут быть строками или словарями
+            raw_cats = ev.get("categories", [])
+            cats = [
+                c if isinstance(c, str) else c.get("slug", "")
+                for c in raw_cats
+            ]
             is_high = bool(HIGH_IMPACT_CATS & set(cats))
             if is_high:
                 high_count += 1
@@ -242,7 +247,7 @@ def fetch_events(city, cfg, hours_ahead=6):
 # ─────────────────────────────────────────
 
 def fetch_traffic(city, cfg):
-    result = {"city": city, "timestamp": datetime.utcnow().isoformat(),
+    result = {"city": city, "timestamp": datetime.now(timezone.utc).isoformat(),
               "status": "ok", "jam_score": 0.0, "score": 0.0,
               "icon": "🚗", "val": "нет данных"}
     try:
@@ -289,7 +294,7 @@ def fetch_traffic(city, cfg):
 # ─────────────────────────────────────────
 
 def fetch_trends(city, cfg, pytrends_client=None):
-    result = {"city": city, "timestamp": datetime.utcnow().isoformat(),
+    result = {"city": city, "timestamp": datetime.now(timezone.utc).isoformat(),
               "status": "ok", "data": {}, "score": 0.0,
               "icon": "🔍", "val": "нет данных"}
 
@@ -303,8 +308,9 @@ def fetch_trends(city, cfg, pytrends_client=None):
         result["status"] = "no_geo"
         return result
 
+
     client = pytrends_client or TrendReq(
-        hl="ru", tz=180, timeout=(10, 25), retries=3, backoff_factor=0.5
+        hl="ru", tz=180, timeout=(10, 25), retries=3
     )
 
     last_error = None
@@ -367,15 +373,18 @@ NEWS_IMPACT = {
     "medium": [
         "концерт", "матч", "фестиваль", "марафон", "перекроют",
         "снегопад", "гололёд", "ливень", "штормовое", "метель",
+        "футбол", "хоккей", "выставка", "праздник", "салют",
+        "митинг", "демонстрация", "перекрытие улицы",
     ],
     "low": [
         "пробки", "ремонт дороги", "сужение проезжей",
+        "задержка", "отмена", "перенос",
     ],
 }
 LEVEL_SCORES = {"high": 0.8, "medium": 0.5, "low": 0.2}
 
 def fetch_news(city, cfg):
-    result = {"city": city, "timestamp": datetime.utcnow().isoformat(),
+    result = {"city": city, "timestamp": datetime.now(timezone.utc).isoformat(),
               "status": "ok", "items": [], "score": 0.0,
               "icon": "📰", "val": "без значимых событий"}
     try:
@@ -437,7 +446,7 @@ def calc_impact(city, w, e, t, tr, n):
     )
     return {
         "city":          city,
-        "timestamp":     datetime.utcnow().isoformat(),
+        "timestamp":     datetime.now(timezone.utc).isoformat(),
         "score_total":   total,
         "alert":         level,
         "score_weather": w["score"],
@@ -513,7 +522,7 @@ def append_to_history(history, city, score):
     if city not in history:
         history[city] = []
     history[city].append({
-        "ts":    datetime.utcnow().isoformat(),
+        "ts":    datetime.now(timezone.utc).isoformat(),
         "score": score,
     })
     history[city] = history[city][-168:]
@@ -524,7 +533,6 @@ def append_to_history(history, city, score):
 # ─────────────────────────────────────────
 
 def safe_result(city, icon):
-    """Возвращает пустой результат — защита от None в любом источнике."""
     return {"city": city, "status": "skipped", "val": "нет ответа",
             "score": 0.0, "icon": icon, "items": [], "events": []}
 
@@ -534,13 +542,14 @@ def run():
     print(f"Такси Монитор — старт: {ts_start.strftime('%Y-%m-%d %H:%M:%S UTC')}")
     print(f"{'='*52}")
 
+
     pytrends_client = TrendReq(
-        hl="ru", tz=180, timeout=(10, 25), retries=3, backoff_factor=0.5
+        hl="ru", tz=180, timeout=(10, 25), retries=3
     )
 
     history  = load_history()
     snapshot = {
-        "generated_at": datetime.utcnow().isoformat(),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "cities": {}
     }
 
