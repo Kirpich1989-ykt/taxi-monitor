@@ -1866,21 +1866,44 @@ function buildModalContent(factor, city, d, fd) {
 
   if (factor === 'events') {
     const events   = CITIES_DATA[city]._raw_events || [];
-    const total    = fd.val.match(/из (\d+)/) ? fd.val.match(/из (\d+)/)[1] : '?';
+    const total    = fd.val.match(/из (\d+)/) ? fd.val.match(/из (\d+)/)[1] : events.length || '?';
     const highCnt  = fd.val.match(/^(\d+)/) ? fd.val.match(/^(\d+)/)[1] : '0';
     const highEvts = events.filter(e => e.is_high);
+    const otherEvts = events.filter(e => !e.is_high);
+
+    const CAT_LABELS = {
+      'concert':'концерт','festival':'фестиваль','sport':'спорт',
+      'theater':'театр','circus':'цирк','stand-up':'стэндап',
+      'exhibition':'выставка','entertainment':'развлечения',
+      'kids':'для детей','tour':'экскурсия','party':'вечеринка',
+      'education':'мастер-класс','other':'другое','stock':'акция',
+    };
+    const fmtCats = cats => cats.slice(0,3)
+      .map(c => CAT_LABELS[c] || c).join(', ');
+
     let eventsHtml = '';
     if (highEvts.length > 0) {
-      eventsHtml = `<div class="modal-section-title">КРУПНЫЕ СОБЫТИЯ</div>` +
-        highEvts.slice(0, 6).map(e =>
-          `<div class="mevt-item medium">
-             <div class="mevt-title">${e.title}</div>
-             <div>${e.cats.slice(0,3).join(', ')}</div>
+      eventsHtml += `<div class="modal-section-title">КРУПНЫЕ СОБЫТИЯ</div>` +
+        highEvts.slice(0, 5).map(e =>
+          `<div class="mevt-item high">
+             <div class="mevt-title">${e.title.slice(0,60)}${e.title.length>60?'…':''}</div>
+             <div>${fmtCats(e.cats)}</div>
            </div>`
         ).join('');
-    } else {
-      eventsHtml = `<div class="modal-note">Крупных событий в ближайшие 6 часов не найдено.</div>`;
     }
+    if (otherEvts.length > 0) {
+      eventsHtml += `<div class="modal-section-title">ВСЕ СОБЫТИЯ (${otherEvts.length})</div>` +
+        otherEvts.slice(0, 8).map(e =>
+          `<div class="mevt-item low">
+             <div class="mevt-title">${e.title.slice(0,60)}${e.title.length>60?'…':''}</div>
+             <div>${fmtCats(e.cats)}</div>
+           </div>`
+        ).join('');
+    }
+    if (!eventsHtml) {
+      eventsHtml = `<div class="modal-note">Событий в ближайшие 6 часов не найдено.</div>`;
+    }
+
     return `
       <div class="mstat"><span class="mstat-lbl">НАЙДЕНО СОБЫТИЙ</span><span class="mstat-val cyan">${total}</span></div>
       <div class="mstat"><span class="mstat-lbl">КРУПНЫХ (HIGH IMPACT)</span><span class="mstat-val ${highCnt > 0 ? 'yellow' : 'dim'}">${highCnt}</span></div>
@@ -1936,15 +1959,26 @@ function buildModalContent(factor, city, d, fd) {
     let newsHtml = '';
     if (allItems.length > 0) {
       newsHtml = `<div class="modal-section-title">ЗНАЧИМЫЕ НОВОСТИ</div>` +
-        allItems.map(item =>
-          `<div class="mevt-item ${item.level}">
+        allItems.map(item => {
+          const lvlLabel = item.level === 'high' ? 'HIGH' : item.level === 'medium' ? 'MED' : 'LOW';
+          return `<div class="mevt-item ${item.level}">
              <div class="mevt-title">${item.title.slice(0,70)}${item.title.length > 70 ? '…' : ''}</div>
-           </div>`
-        ).join('');
+             <div style="font-size:9px;opacity:0.6;margin-top:2px">${lvlLabel}</div>
+           </div>`;
+        }).join('');
     } else {
-      newsHtml = `<div class="modal-note">Значимых событий не обнаружено. Яндекс.Новости проверяются каждый час.</div>`;
+      newsHtml = `<div class="modal-note">
+        Новости за последний час проверены — значимых событий не найдено.<br><br>
+        Яндекс.Новости RSS обновляется каждый час вместе с запуском коллектора.
+        Совпадение появится при ДТП, перекрытиях, погодных явлениях или крупных мероприятиях.
+      </div>`;
     }
-    const tags = ['дтп','перекрытие','авария','концерт','матч','снегопад','гроза','пожар','футбол','хоккей'];
+    const tagsHigh   = ['дтп','авария','перекрытие','пожар','взрыв','эвакуация','мчс'];
+    const tagsMedium = ['концерт','матч','фестиваль','снегопад','гроза','гололёд','митинг'];
+    const tagsLow    = ['пробки','ремонт','задержка'];
+    const tagBlock = (tags, color) =>
+      tags.map(t => `<span class="mtag" style="border-color:${color};color:${color}">${t}</span>`).join('');
+
     return `
       <div class="mstat"><span class="mstat-lbl">ИСТОЧНИК</span><span class="mstat-val cyan">Яндекс.Новости RSS</span></div>
       <div class="mstat"><span class="mstat-lbl">HIGH IMPACT</span><span class="mstat-val ${high.length > 0 ? 'red' : 'dim'}">${high.length}</span></div>
@@ -1953,7 +1987,11 @@ function buildModalContent(factor, city, d, fd) {
       ${scoreBar(s, sc)}
       ${newsHtml}
       <div class="modal-section-title">МОНИТОРЯТСЯ ТЕГИ</div>
-      <div style="display:flex;flex-wrap:wrap">${tags.map(t => `<span class="mtag">${t}</span>`).join('')}</div>`;
+      <div style="display:flex;flex-wrap:wrap;gap:2px">
+        ${tagBlock(tagsHigh, 'var(--red)')}
+        ${tagBlock(tagsMedium, 'var(--yellow)')}
+        ${tagBlock(tagsLow, 'var(--text3)')}
+      </div>`;
   }
   return `<div class="modal-note">${fd.val}</div>`;
 }
