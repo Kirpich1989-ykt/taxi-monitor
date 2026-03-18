@@ -6,7 +6,7 @@
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.176,
       "alert": "green",
       "weather": {
         "score": 0.0,
@@ -25,8 +25,8 @@
         "icon": "🚗"
       },
       "trends": {
-        "score": 0.0,
-        "val": "отключено в Actions",
+        "score": 0.75,
+        "val": "такси ↑ 75%",
         "icon": "🔍"
       },
       "news": {
@@ -48,7 +48,7 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.193,
+      "impact": 0.229,
       "alert": "green",
       "weather": {
         "score": 0.0,
@@ -67,8 +67,8 @@
         "icon": "🚗"
       },
       "trends": {
-        "score": 0.0,
-        "val": "отключено в Actions",
+        "score": 0.24,
+        "val": "такси → 53%",
         "icon": "🔍"
       },
       "news": {
@@ -90,7 +90,7 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.092,
+      "impact": 0.176,
       "alert": "green",
       "weather": {
         "score": 0.0,
@@ -109,8 +109,8 @@
         "icon": "🚗"
       },
       "trends": {
-        "score": 0.0,
-        "val": "отключено в Actions",
+        "score": 0.56,
+        "val": "такси → 78%",
         "icon": "🔍"
       },
       "news": {
@@ -132,7 +132,7 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.131,
+      "impact": 0.183,
       "alert": "green",
       "weather": {
         "score": 0.05,
@@ -151,8 +151,8 @@
         "icon": "🚗"
       },
       "trends": {
-        "score": 0.0,
-        "val": "отключено в Actions",
+        "score": 0.35,
+        "val": "такси → 52%",
         "icon": "🔍"
       },
       "news": {
@@ -169,5 +169,6 @@
         0.131
       ]
     }
-  }
+  },
+  "trends_updated_at": "2026-03-18T04:43:50.638410+00:00"
 }
