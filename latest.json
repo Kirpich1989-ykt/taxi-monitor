@@ -1,0 +1,169 @@
+{
+  "generated_at": "2026-03-18T01:48:05.888978",
+  "cities": {
+    "Якутск": {
+      "coords": [
+        62.0355,
+        129.6755
+      ],
+      "impact": 0.064,
+      "alert": "green",
+      "weather": {
+        "score": 0.0,
+        "val": "-7°C · пасмурно",
+        "icon": "☁",
+        "live": true
+      },
+      "events": {
+        "score": 0.0,
+        "val": "город не поддерживается",
+        "icon": "🎭"
+      },
+      "traffic": {
+        "score": 0.32,
+        "val": "45 км/ч · умеренные пробки",
+        "icon": "🚗"
+      },
+      "trends": {
+        "score": 0.0,
+        "val": "отключено в Actions",
+        "icon": "🔍"
+      },
+      "news": {
+        "score": 0.0,
+        "val": "без значимых событий",
+        "icon": "📰"
+      },
+      "history": [
+        0.064,
+        0.064,
+        0.064,
+        0.064,
+        0.064
+      ]
+    },
+    "Москва": {
+      "coords": [
+        55.7558,
+        37.6176
+      ],
+      "impact": 0.118,
+      "alert": "green",
+      "weather": {
+        "score": 0.0,
+        "val": "-1°C · пасмурно",
+        "icon": "☁",
+        "live": true
+      },
+      "events": {
+        "score": 0.0,
+        "val": "ошибка: 'str' object has no attribute 'get'",
+        "icon": "🎭"
+      },
+      "traffic": {
+        "score": 0.59,
+        "val": "33 км/ч · умеренные пробки",
+        "icon": "🚗"
+      },
+      "trends": {
+        "score": 0.0,
+        "val": "отключено в Actions",
+        "icon": "🔍"
+      },
+      "news": {
+        "score": 0.0,
+        "val": "без значимых событий",
+        "icon": "📰"
+      },
+      "history": [
+        0.118,
+        0.118,
+        0.118,
+        0.118,
+        0.118
+      ]
+    },
+    "Краснодар": {
+      "coords": [
+        45.0355,
+        38.9753
+      ],
+      "impact": 0.092,
+      "alert": "green",
+      "weather": {
+        "score": 0.0,
+        "val": "+4°C · переменная облачность",
+        "icon": "⛅",
+        "live": true
+      },
+      "events": {
+        "score": 0.0,
+        "val": "ошибка: 'str' object has no attribute 'get'",
+        "icon": "🎭"
+      },
+      "traffic": {
+        "score": 0.46,
+        "val": "40 км/ч · умеренные пробки",
+        "icon": "🚗"
+      },
+      "trends": {
+        "score": 0.0,
+        "val": "отключено в Actions",
+        "icon": "🔍"
+      },
+      "news": {
+        "score": 0.0,
+        "val": "без значимых событий",
+        "icon": "📰"
+      },
+      "history": [
+        0.092,
+        0.092,
+        0.092,
+        0.092,
+        0.092
+      ]
+    },
+    "Новосибирск": {
+      "coords": [
+        54.9833,
+        82.8964
+      ],
+      "impact": 0.116,
+      "alert": "green",
+      "weather": {
+        "score": 0.0,
+        "val": "-5°C · пасмурно",
+        "icon": "☁",
+        "live": true
+      },
+      "events": {
+        "score": 0.0,
+        "val": "ошибка: 'str' object has no attribute 'get'",
+        "icon": "🎭"
+      },
+      "traffic": {
+        "score": 0.58,
+        "val": "34 км/ч · умеренные пробки",
+        "icon": "🚗"
+      },
+      "trends": {
+        "score": 0.0,
+        "val": "отключено в Actions",
+        "icon": "🔍"
+      },
+      "news": {
+        "score": 0.0,
+        "val": "без значимых событий",
+        "icon": "📰"
+      },
+      "history": [
+        0.116,
+        0.116,
+        0.116,
+        0.116,
+        0.116
+      ]
+    }
+  }
+}
