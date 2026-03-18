@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T08:13:56.543519+00:00",
+  "generated_at": "2026-03-18T10:05:32.103367+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.55,
-        "val": "-3°C · снег слабый",
+        "val": "-5°C · снег слабый",
         "icon": "🌨",
         "live": true,
-        "temp": -3.3,
-        "feels_like": -8.2,
+        "temp": -5.2,
+        "feels_like": -10.2,
         "condition": "снег слабый",
         "wmo_code": 71,
-        "wind": 13.8,
+        "wind": 14.0,
         "wind_gusts": 29.5,
         "precip": 0.0,
         "snowfall": 0.0
@@ -51,6 +51,7 @@
         0.064,
         0.064,
         0.229,
+        0.229,
         0.229
       ],
       "_raw_events": [],
@@ -62,25 +63,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.193,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · пасмурно",
-        "icon": "☁",
+        "val": "+10°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 6.6,
-        "feels_like": 3.0,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 6.4,
-        "wind_gusts": 19.1,
+        "temp": 10.1,
+        "feels_like": 6.1,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 7.2,
+        "wind_gusts": 21.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.3,
-        "val": "2 крупных из 50",
+        "score": 1.0,
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -107,9 +108,19 @@
         0.193,
         0.193,
         0.193,
-        0.193
+        0.193,
+        0.368
       ],
       "_raw_events": [
+        {
+          "title": "иммерсивное шоу «Зеркало Карлоса Сантоса»",
+          "cats": [
+            "theater",
+            "stock",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -117,7 +128,7 @@
             "kids",
             "entertainment"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
@@ -125,7 +136,7 @@
             "exhibition",
             "yarmarki-razvlecheniya-yarmarki"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "развлечения в Smile Park на ВДНХ",
@@ -134,14 +145,14 @@
             "kids",
             "entertainment"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "мультисенсорная выставка «Сон в музее»",
           "cats": [
             "exhibition"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
@@ -150,7 +161,7 @@
             "tour",
             "entertainment"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "экскурсия с представлением в Музее фокусов и иллюзий",
@@ -158,7 +169,7 @@
             "tour",
             "entertainment"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "групповые знакомства GOKON",
@@ -167,7 +178,7 @@
             "other",
             "entertainment"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
@@ -177,22 +188,14 @@
             "education",
             "entertainment"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "выставка «СЕНС. Почувствуй стихии»",
           "cats": [
             "exhibition"
           ],
-          "is_high": false
-        },
-        {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": false
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -203,25 +206,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.092,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · ясно",
-        "icon": "☀",
+        "val": "+14°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 11.8,
-        "feels_like": 9.8,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 6.2,
-        "wind_gusts": 19.1,
+        "temp": 14.3,
+        "feels_like": 12.2,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 7.7,
+        "wind_gusts": 22.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.0,
-        "val": "0 крупных из 5",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -248,7 +251,8 @@
         0.092,
         0.092,
         0.092,
-        0.092
+        0.092,
+        0.242
       ],
       "_raw_events": [
         {
@@ -256,28 +260,28 @@
           "cats": [
             "entertainment"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
             "exhibition"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "выставка  «Мне вечность глянула в глаза…»",
           "cats": [
             "exhibition"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "выставка «Литературная жизнь Кубани» в литмузее",
           "cats": [
             "exhibition"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
@@ -295,25 +299,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.131,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "-1°C · пасмурно",
+        "val": "+0°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -1.0,
-        "feels_like": -5.6,
+        "temp": 0.5,
+        "feels_like": -3.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 13.7,
-        "wind_gusts": 35.3,
+        "wind": 12.2,
+        "wind_gusts": 32.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.0,
-        "val": "0 крупных из 22",
+        "score": 1.0,
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -340,7 +344,8 @@
         0.131,
         0.131,
         0.131,
-        0.131
+        0.131,
+        0.381
       ],
       "_raw_events": [
         {
@@ -349,7 +354,7 @@
             "exhibition",
             "kids"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "беззвучная выставка-квест «Тишина»",
@@ -357,7 +362,7 @@
             "exhibition",
             "entertainment"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
@@ -365,7 +370,7 @@
             "exhibition",
             "kids"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "невидимая выставка-квест Temnota",
@@ -373,7 +378,7 @@
             "exhibition",
             "entertainment"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "выставка морских рыб",
@@ -381,28 +386,28 @@
             "exhibition",
             "kids"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "выставка «Зарубежное искусство»",
           "cats": [
             "exhibition"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "выставка «Иконы»",
           "cats": [
             "exhibition"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
@@ -416,7 +421,7 @@
           "cats": [
             "exhibition"
           ],
-          "is_high": false
+          "is_high": true
         }
       ],
       "_raw_news": [],
