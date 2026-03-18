@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T11:35:10.565774+00:00",
+  "generated_at": "2026-03-18T15:57:21.386188+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.55,
-        "val": "-6°C · снег слабый",
+        "val": "-10°C · снег слабый",
         "icon": "🌨",
         "live": true,
-        "temp": -6.1,
-        "feels_like": -11.3,
+        "temp": -9.6,
+        "feels_like": -14.8,
         "condition": "снег слабый",
         "wmo_code": 71,
-        "wind": 14.3,
-        "wind_gusts": 29.9,
+        "wind": 12.3,
+        "wind_gusts": 27.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -53,6 +53,7 @@
         0.229,
         0.229,
         0.229,
+        0.229,
         0.229
       ],
       "_raw_events": [],
@@ -68,21 +69,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+11°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+6°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 10.9,
-        "feels_like": 6.8,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 8.1,
-        "wind_gusts": 22.7,
+        "temp": 5.7,
+        "feels_like": 2.0,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 5.0,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "47 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -110,6 +111,7 @@
         0.193,
         0.193,
         0.193,
+        0.368,
         0.368,
         0.368
       ],
@@ -148,14 +150,6 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "развлечения в Smile Park на ВДНХ",
           "cats": [
             "stock",
@@ -181,19 +175,28 @@
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «СЕНС. Почувствуй стихии»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         }
@@ -210,15 +213,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · ясно",
-        "icon": "☀",
+        "val": "+13°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 15.2,
-        "feels_like": 12.3,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 6.6,
-        "wind_gusts": 21.6,
+        "temp": 12.9,
+        "feels_like": 10.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 2.5,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -252,6 +255,7 @@
         0.092,
         0.092,
         0.092,
+        0.242,
         0.242,
         0.242
       ],
@@ -300,25 +304,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "нет данных",
-        "icon": "🌡",
-        "live": false,
-        "temp": null,
-        "feels_like": null,
-        "condition": null,
-        "wmo_code": null,
-        "wind": null,
-        "wind_gusts": null,
-        "precip": null,
-        "snowfall": null
+        "val": "-2°C · пасмурно",
+        "icon": "☁",
+        "live": true,
+        "temp": -1.5,
+        "feels_like": -5.5,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 9.4,
+        "wind_gusts": 25.6,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "11 крупных из 14",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -347,49 +351,10 @@
         0.131,
         0.131,
         0.381,
-        0.366
+        0.366,
+        0.266
       ],
       "_raw_events": [
-        {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
         {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
@@ -427,6 +392,21 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock",
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
