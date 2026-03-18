@@ -48,8 +48,8 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/latest.json data/history.json
-          # Коммитим только если файлы изменились
           git diff --staged --quiet || git commit -m "data: hourly update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push
 
       # 6. Публикуем папку data/ в ветку gh-pages
