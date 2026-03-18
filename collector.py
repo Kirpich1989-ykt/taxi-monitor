@@ -173,7 +173,14 @@ def fetch_weather(city, cfg):
 # ИСТОЧНИК 2: KudaGo
 # ─────────────────────────────────────────
 
-HIGH_IMPACT_CATS = {"concert", "festival", "sport", "theater", "circus", "stand-up"}
+HIGH_IMPACT_CATS = {
+    # Прямые триггеры спроса на такси
+    "concert", "festival", "sport", "theater", "circus", "stand-up",
+    # Дополнительные категории KudaGo с массовым посещением
+    "entertainment", "exhibition", "tour", "party",
+    # Ночные мероприятия
+    "night", "club",
+}
 
 def fetch_events(city, cfg, hours_ahead=6):
     result = {"city": city, "timestamp": datetime.now(timezone.utc).isoformat(),
