@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-03-18T15:57:21.386188+00:00",
+  "generated_at": "2026-03-18T19:31:35.226867+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.229,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "-10°C · снег слабый",
-        "icon": "🌨",
+        "score": 0.05,
+        "val": "-12°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": -9.6,
-        "feels_like": -14.8,
-        "condition": "снег слабый",
-        "wmo_code": 71,
-        "wind": 12.3,
-        "wind_gusts": 27.4,
+        "temp": -11.6,
+        "feels_like": -17.2,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 13.6,
+        "wind_gusts": 28.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -54,7 +54,8 @@
         0.229,
         0.229,
         0.229,
-        0.229
+        0.229,
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -69,21 +70,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+6°C · ясно",
+        "val": "+3°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 5.7,
-        "feels_like": 2.0,
+        "temp": 3.4,
+        "feels_like": -0.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.0,
+        "wind": 5.9,
         "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "27 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -113,67 +114,10 @@
         0.193,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "иммерсивное шоу «Зеркало Карлоса Сантоса»",
-          "cats": [
-            "theater",
-            "stock",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультисенсорная выставка «Сон в музее»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -194,9 +138,71 @@
           "is_high": true
         },
         {
-          "title": "выставка «СЕНС. Почувствуй стихии»",
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "cats": [
+            "party",
+            "theater",
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "VR-путешествие «Чудеса света»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "фотовыставка и иммерсивное шоу «Фрида Кало. Несломленная»",
           "cats": [
             "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсии для детей по магазинам ВкусВилл",
+          "cats": [
+            "kids",
+            "tour"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "вокал в Music Community («Музыкальном сообществе»)",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
           ],
           "is_high": true
         }
@@ -213,15 +219,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · пасмурно",
+        "val": "+8°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 12.9,
-        "feels_like": 10.0,
+        "temp": 8.3,
+        "feels_like": 5.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 2.5,
-        "wind_gusts": 10.8,
+        "wind": 5.5,
+        "wind_gusts": 17.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -255,6 +261,7 @@
         0.092,
         0.092,
         0.092,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -311,12 +318,12 @@
         "val": "-2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -1.5,
-        "feels_like": -5.5,
+        "temp": -2.1,
+        "feels_like": -6.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.4,
-        "wind_gusts": 25.6,
+        "wind": 11.2,
+        "wind_gusts": 28.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -352,6 +359,7 @@
         0.131,
         0.381,
         0.366,
+        0.266,
         0.266
       ],
       "_raw_events": [
