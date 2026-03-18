@@ -51,3 +51,12 @@ jobs:
           # Коммитим только если файлы изменились
           git diff --staged --quiet || git commit -m "data: hourly update $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
+
+      # 6. Публикуем папку data/ в ветку gh-pages
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        if: success()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./data
+          keep_files: true
