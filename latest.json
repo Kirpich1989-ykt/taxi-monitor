@@ -34,7 +34,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "отключено в Actions",
+        "val": "ошибка: HTTPSConnectionPool(host='trends.google.",
         "icon": "🔍"
       },
       "news": {
@@ -90,7 +90,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "отключено в Actions",
+        "val": "ошибка: HTTPSConnectionPool(host='trends.google.",
         "icon": "🔍"
       },
       "news": {
@@ -231,7 +231,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "отключено в Actions",
+        "val": "ошибка: HTTPSConnectionPool(host='trends.google.",
         "icon": "🔍"
       },
       "news": {
@@ -323,7 +323,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "отключено в Actions",
+        "val": "ошибка: HTTPSConnectionPool(host='trends.google.",
         "icon": "🔍"
       },
       "news": {
@@ -422,5 +422,6 @@
       "_raw_news": [],
       "_raw_trends": {}
     }
-  }
+  },
+  "trends_updated_at": "2026-03-18T09:25:05.267404+00:00"
 }
