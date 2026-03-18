@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T01:48:05.888978",
+  "generated_at": "2026-03-18T03:53:31.112676+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,7 +10,7 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-7°C · пасмурно",
+        "val": "-4°C · пасмурно",
         "icon": "☁",
         "live": true
       },
@@ -26,7 +26,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "ошибка: Retry.__init__() got an unexpected keywo",
+        "val": "отключено в Actions",
         "icon": "🔍"
       },
       "news": {
@@ -35,6 +35,7 @@
         "icon": "📰"
       },
       "history": [
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -47,17 +48,17 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.118,
+      "impact": 0.193,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-1°C · пасмурно",
-        "icon": "☁",
+        "val": "-1°C · переменная облачность",
+        "icon": "⛅",
         "live": true
       },
       "events": {
-        "score": 0.0,
-        "val": "ошибка: 'str' object has no attribute 'get'",
+        "score": 0.3,
+        "val": "2 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -67,7 +68,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "ошибка: Retry.__init__() got an unexpected keywo",
+        "val": "отключено в Actions",
         "icon": "🔍"
       },
       "news": {
@@ -80,7 +81,8 @@
         0.118,
         0.118,
         0.118,
-        0.118
+        0.118,
+        0.193
       ]
     },
     "Краснодар": {
@@ -92,13 +94,13 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+4°C · переменная облачность",
+        "val": "+3°C · переменная облачность",
         "icon": "⛅",
         "live": true
       },
       "events": {
         "score": 0.0,
-        "val": "ошибка: 'str' object has no attribute 'get'",
+        "val": "0 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -108,7 +110,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "ошибка: Retry.__init__() got an unexpected keywo",
+        "val": "отключено в Actions",
         "icon": "🔍"
       },
       "news": {
@@ -117,6 +119,7 @@
         "icon": "📰"
       },
       "history": [
+        0.092,
         0.092,
         0.092,
         0.092,
@@ -129,17 +132,17 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.116,
+      "impact": 0.131,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "-5°C · пасмурно",
+        "score": 0.05,
+        "val": "-4°C · пасмурно",
         "icon": "☁",
         "live": true
       },
       "events": {
         "score": 0.0,
-        "val": "ошибка: 'str' object has no attribute 'get'",
+        "val": "0 крупных из 21",
         "icon": "🎭"
       },
       "traffic": {
@@ -149,7 +152,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "ошибка: Retry.__init__() got an unexpected keywo",
+        "val": "отключено в Actions",
         "icon": "🔍"
       },
       "news": {
@@ -162,9 +165,9 @@
         0.116,
         0.116,
         0.116,
-        0.116
+        0.116,
+        0.131
       ]
     }
-  },
-  "trends_updated_at": "2026-03-18T03:11:26.612796Z"
+  }
 }
