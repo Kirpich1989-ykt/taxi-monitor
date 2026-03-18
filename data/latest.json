@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T21:52:42.114521+00:00",
+  "generated_at": "2026-03-18T23:03:45.278113+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-13°C · переменная облачность",
-        "icon": "⛅",
+        "val": "-13°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": -12.8,
-        "feels_like": -18.0,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 10.5,
-        "wind_gusts": 23.4,
+        "temp": -13.0,
+        "feels_like": -18.2,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 10.2,
+        "wind_gusts": 22.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -56,6 +56,7 @@
         0.229,
         0.229,
         0.079,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -71,15 +72,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "0°C · ясно",
-        "icon": "☀",
+        "val": "-1°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": -0.1,
-        "feels_like": -3.2,
-        "condition": "ясно",
-        "wmo_code": 0,
+        "temp": -0.6,
+        "feels_like": -3.7,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
         "wind": 2.9,
-        "wind_gusts": 3.6,
+        "wind_gusts": 3.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -117,6 +118,7 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
@@ -148,6 +150,14 @@
           "is_high": true
         },
         {
+          "title": "экскурсии для детей по магазинам ВкусВилл",
+          "cats": [
+            "kids",
+            "tour"
+          ],
+          "is_high": true
+        },
+        {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
@@ -157,10 +167,11 @@
           "is_high": true
         },
         {
-          "title": "экскурсии для детей по магазинам ВкусВилл",
+          "title": "вокал в Music Community («Музыкальном сообществе»)",
           "cats": [
-            "kids",
-            "tour"
+            "stock",
+            "education",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -170,15 +181,6 @@
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "вокал в Music Community («Музыкальном сообществе»)",
-          "cats": [
-            "stock",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         },
         {
           "title": "курс ораторского мастерства от Reforma Lab — официального партнёра МГИМО",
@@ -217,15 +219,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+6°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 6.8,
-        "feels_like": 5.0,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 2.3,
-        "wind_gusts": 7.9,
+        "temp": 6.2,
+        "feels_like": 4.5,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 1.5,
+        "wind_gusts": 3.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -263,6 +265,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -310,12 +313,12 @@
         "val": "-2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -2.2,
+        "temp": -2.4,
         "feels_like": -6.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.0,
-        "wind_gusts": 24.8,
+        "wind": 8.9,
+        "wind_gusts": 23.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -353,6 +356,7 @@
         0.366,
         0.266,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
