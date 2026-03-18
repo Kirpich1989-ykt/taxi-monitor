@@ -26,7 +26,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "отключено в Actions",
+        "val": "ошибка: Retry.__init__() got an unexpected keywo",
         "icon": "🔍"
       },
       "news": {
@@ -65,7 +65,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "отключено в Actions",
+        "val": "ошибка: Retry.__init__() got an unexpected keywo",
         "icon": "🔍"
       },
       "news": {
@@ -104,7 +104,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "отключено в Actions",
+        "val": "ошибка: Retry.__init__() got an unexpected keywo",
         "icon": "🔍"
       },
       "news": {
@@ -143,7 +143,7 @@
       },
       "trends": {
         "score": 0.0,
-        "val": "отключено в Actions",
+        "val": "ошибка: Retry.__init__() got an unexpected keywo",
         "icon": "🔍"
       },
       "news": {
@@ -157,5 +157,6 @@
         0.116
       ]
     }
-  }
+  },
+  "trends_updated_at": "2026-03-18T00:51:20.860182Z"
 }
