@@ -35,12 +35,12 @@ CITIES = {
         "news_rss":    "https://news.yandex.ru/region/moscow/index.rss",
         "osrm_route":  {"from": "37.617,55.756", "to": "37.561,55.745"},
     },
-    "Сочи": {
-        "coords":      (43.5992, 39.7257),
-        "kudago_slug": None,
+    "Краснодар": {
+        "coords":      (45.0355, 38.9753),
+        "kudago_slug": "krd",
         "trends_geo":  "RU-KDA",
-        "news_rss":    "https://news.yandex.ru/region/sochi/index.rss",
-        "osrm_route":  {"from": "39.726,43.599", "to": "39.907,43.432"},
+        "news_rss":    "https://news.yandex.ru/region/krasnodar/index.rss",
+        "osrm_route":  {"from": "38.975,45.035", "to": "39.082,45.005"},
     },
     "Новосибирск": {
         "coords":      (54.9833, 82.8964),
