@@ -290,7 +290,7 @@ body::after {
   width: 160px;
   height: 100px;
 }
-.score-gauge-wrap canvas { position: absolute; top: 0; left: 0; }
+.score-gauge-wrap canvas { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 .score-value-overlay {
   position: absolute;
   bottom: 0; left: 0; right: 0;
@@ -1361,6 +1361,16 @@ async function fetchLiveData() {
         if (d._raw_events) CITIES_DATA[city]._raw_events = d._raw_events;
         if (d._raw_news)   CITIES_DATA[city]._raw_news   = d._raw_news;
         if (d._raw_trends) CITIES_DATA[city]._raw_trends = d._raw_trends;
+        // Чистим длинные сообщения об ошибках для отображения в карточках
+        const cleanVal = v => {
+          if (!v) return v;
+          if (v.startsWith('ошибка:') && v.length > 30) return 'временная ошибка API';
+          if (v.includes('HTTPSConnectionPool')) return 'лимит запросов Google';
+          if (v.includes('429')) return 'лимит запросов Google';
+          return v;
+        };
+        if (CITIES_DATA[city].trends) CITIES_DATA[city].trends.val = cleanVal(d.trends?.val);
+        if (CITIES_DATA[city].events) CITIES_DATA[city].events.val = cleanVal(d.events?.val);
         if (d.history && d.history.length > 0) {
           const h = d.history.slice(-24);
           while (h.length < 24) h.unshift(h[0] || 0);
@@ -1564,9 +1574,15 @@ function initTabs() {
       activeCity = city;
       document.querySelectorAll('.city-tab').forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
+      tab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
       renderAll(city);
     });
     cont.appendChild(tab);
+  });
+  // Прокручиваем к активному табу при инициализации
+  requestAnimationFrame(() => {
+    const active = cont.querySelector('.city-tab.active');
+    if (active) active.scrollIntoView({ block: 'nearest', inline: 'center' });
   });
 }
 
@@ -1649,29 +1665,38 @@ function renderScoreCard(city, d) {
   const pct = score;
   const color = d.alert === 'red' ? '#ff3d5a' : d.alert === 'yellow' ? '#f5c842' : '#00e676';
 
-  // Draw gauge
+  // Draw gauge — динамический размер под любой экран
   const canvas = document.getElementById('gauge-canvas');
+  const wrap   = canvas.parentElement;
+  const W      = wrap.offsetWidth  || 160;
+  const H      = wrap.offsetHeight || 100;
+  canvas.width  = W;
+  canvas.height = H;
   const ctx = canvas.getContext('2d');
-  ctx.clearRect(0, 0, 160, 100);
+  ctx.clearRect(0, 0, W, H);
+  const cx = W / 2;
+  const cy = H * 0.92;
+  const r  = Math.min(W * 0.40, H * 0.70);
+  const lw = Math.max(5, r * 0.12);
   // Track arc
   ctx.beginPath();
-  ctx.arc(80, 90, 64, Math.PI, 0, false);
-  ctx.lineWidth = 8;
+  ctx.arc(cx, cy, r, Math.PI, 0, false);
+  ctx.lineWidth = lw;
   ctx.strokeStyle = 'rgba(255,255,255,0.06)';
   ctx.lineCap = 'round';
   ctx.stroke();
   // Fill arc
   ctx.beginPath();
-  ctx.arc(80, 90, 64, Math.PI, Math.PI + (Math.PI * pct), false);
-  ctx.lineWidth = 8;
+  ctx.arc(cx, cy, r, Math.PI, Math.PI + (Math.PI * pct), false);
+  ctx.lineWidth = lw;
   ctx.strokeStyle = color;
   ctx.lineCap = 'round';
   ctx.stroke();
   // Glow
   ctx.beginPath();
-  ctx.arc(80, 90, 64, Math.PI, Math.PI + (Math.PI * pct), false);
-  ctx.lineWidth = 16;
-  ctx.strokeStyle = color.replace(')', ',0.2)').replace('rgb', 'rgba');
+  ctx.arc(cx, cy, r, Math.PI, Math.PI + (Math.PI * pct), false);
+  ctx.lineWidth = lw * 2;
+  ctx.strokeStyle = color.replace(')', ',0.15)').replace('rgb', 'rgba');
   ctx.lineCap = 'round';
   ctx.stroke();
 
