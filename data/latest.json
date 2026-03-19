@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T08:01:46.886823+00:00",
+  "generated_at": "2026-03-19T10:10:09.402561+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-6°C · преим. ясно",
-        "icon": "🌤",
+        "val": "-7°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": -6.1,
-        "feels_like": -10.7,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 6.2,
-        "wind_gusts": 16.6,
+        "temp": -7.4,
+        "feels_like": -11.4,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 3.4,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -60,6 +60,7 @@
         0.064,
         0.064,
         0.064,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -75,21 +76,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+5°C · ясно",
-        "icon": "☀",
+        "val": "+10°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 5.2,
-        "feels_like": 2.3,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 2.9,
-        "wind_gusts": 9.7,
+        "temp": 9.9,
+        "feels_like": 6.4,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 4.5,
+        "wind_gusts": 14.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "44 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -125,9 +126,19 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "иммерсивное шоу «Зеркало Карлоса Сантоса»",
+          "cats": [
+            "theater",
+            "stock",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -203,14 +214,6 @@
             "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -225,17 +228,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "нет данных",
-        "icon": "🌡",
-        "live": false,
-        "temp": null,
-        "feels_like": null,
-        "condition": null,
-        "wmo_code": null,
-        "wind": null,
-        "wind_gusts": null,
-        "precip": null,
-        "snowfall": null
+        "val": "+16°C · переменная облачность",
+        "icon": "⛅",
+        "live": true,
+        "temp": 15.6,
+        "feels_like": 13.6,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 9.8,
+        "wind_gusts": 28.1,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 0.6,
@@ -275,6 +278,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -326,15 +330,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-1°C · пасмурно",
+        "val": "0°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -0.9,
-        "feels_like": -5.3,
+        "temp": -0.5,
+        "feels_like": -4.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.3,
-        "wind_gusts": 22.7,
+        "wind": 9.0,
+        "wind_gusts": 23.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -372,6 +376,7 @@
         0.366,
         0.266,
         0.266,
+        0.366,
         0.366,
         0.366,
         0.366,
@@ -420,16 +425,16 @@
           "is_high": true
         },
         {
-          "title": "ролевые настольные игры в «Башне»",
+          "title": "выставка «Зарубежное искусство»",
           "cats": [
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "выставка «Зарубежное искусство»",
+          "title": "ролевые настольные игры в «Башне»",
           "cats": [
-            "exhibition"
+            "entertainment"
           ],
           "is_high": true
         },
