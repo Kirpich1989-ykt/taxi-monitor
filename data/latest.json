@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T21:02:40.420971+00:00",
+  "generated_at": "2026-03-19T22:00:01.584483+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-18°C · ясно",
-        "icon": "☀",
+        "val": "-18°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
         "temp": -17.8,
         "feels_like": -22.2,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 3.8,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 3.6,
         "wind_gusts": 4.7,
         "precip": 0.0,
         "snowfall": 0.0
@@ -65,6 +65,7 @@
         0.064,
         0.064,
         0.064,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -80,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+2°C · пасмурно",
+        "val": "+1°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 1.5,
-        "feels_like": -1.7,
+        "temp": 0.7,
+        "feels_like": -2.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.8,
-        "wind_gusts": 9.4,
+        "wind": 4.7,
+        "wind_gusts": 5.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "24 крупных из 47",
+        "val": "24 крупных из 48",
         "icon": "🎭"
       },
       "traffic": {
@@ -122,6 +123,7 @@
         0.193,
         0.193,
         0.193,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -231,25 +233,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+11°C · пасмурно",
+        "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 10.6,
-        "feels_like": 7.3,
+        "temp": 10.0,
+        "feels_like": 6.6,
         "condition": "пасмурно",
         "wmo_code": 3,
         "wind": 11.8,
-        "wind_gusts": 32.8,
+        "wind_gusts": 30.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -290,16 +292,10 @@
         0.242,
         0.242,
         0.257,
-        0.242
+        0.242,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -341,21 +337,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-3°C · пасмурно",
+        "val": "-4°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -3.2,
-        "feels_like": -6.9,
+        "temp": -4.1,
+        "feels_like": -7.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.9,
-        "wind_gusts": 16.6,
+        "wind": 6.5,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "14 крупных из 17",
+        "val": "15 крупных из 18",
         "icon": "🎭"
       },
       "traffic": {
@@ -396,9 +392,18 @@
         0.366,
         0.303,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
           "cats": [
@@ -466,13 +471,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
