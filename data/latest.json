@@ -6,7 +6,7 @@
         62.0355,
         129.6755
       ],
-      "impact": 0.229,
+      "impact": 0.304,
       "alert": "green",
       "weather": {
         "score": 0.55,
@@ -33,8 +33,8 @@
         "icon": "🚗"
       },
       "trends": {
-        "score": 0.0,
-        "val": "отключено в Actions",
+        "score": 0.5,
+        "val": "такси ↑ 50%",
         "icon": "🔍"
       },
       "news": {
@@ -63,7 +63,7 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.434,
       "alert": "green",
       "weather": {
         "score": 0.0,
@@ -90,8 +90,8 @@
         "icon": "🚗"
       },
       "trends": {
-        "score": 0.0,
-        "val": "отключено в Actions",
+        "score": 0.44,
+        "val": "такси ↑ 92%",
         "icon": "🔍"
       },
       "news": {
@@ -206,7 +206,7 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.335,
       "alert": "green",
       "weather": {
         "score": 0.0,
@@ -233,8 +233,8 @@
         "icon": "🚗"
       },
       "trends": {
-        "score": 0.0,
-        "val": "отключено в Actions",
+        "score": 0.62,
+        "val": "такси ↑ 95%",
         "icon": "🔍"
       },
       "news": {
@@ -299,8 +299,8 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.381,
-      "alert": "green",
+      "impact": 0.452,
+      "alert": "yellow",
       "weather": {
         "score": 0.05,
         "val": "+0°C · пасмурно",
@@ -326,8 +326,8 @@
         "icon": "🚗"
       },
       "trends": {
-        "score": 0.0,
-        "val": "отключено в Actions",
+        "score": 0.47,
+        "val": "такси → 67%",
         "icon": "🔍"
       },
       "news": {
@@ -427,5 +427,6 @@
       "_raw_news": [],
       "_raw_trends": {}
     }
-  }
+  },
+  "trends_updated_at": "2026-03-19T04:47:38.462890+00:00"
 }
