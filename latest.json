@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T23:03:45.278113+00:00",
+  "generated_at": "2026-03-18T23:58:01.757261+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "-13°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -13.0,
-        "feels_like": -18.2,
+        "temp": -12.6,
+        "feels_like": -18.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.2,
-        "wind_gusts": 22.3,
+        "wind": 11.1,
+        "wind_gusts": 23.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -57,6 +57,7 @@
         0.229,
         0.079,
         0.064,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -72,13 +73,13 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-1°C · преим. ясно",
-        "icon": "🌤",
+        "val": "-2°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": -0.6,
-        "feels_like": -3.7,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
+        "temp": -2.0,
+        "feels_like": -5.1,
+        "condition": "ясно",
+        "wmo_code": 0,
         "wind": 2.9,
         "wind_gusts": 3.2,
         "precip": 0.0,
@@ -86,7 +87,7 @@
       },
       "events": {
         "score": 1.0,
-        "val": "24 крупных из 48",
+        "val": "25 крупных из 49",
         "icon": "🎭"
       },
       "traffic": {
@@ -119,6 +120,7 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
@@ -136,6 +138,16 @@
           "cats": [
             "exhibition",
             "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
             "recreation",
             "entertainment"
           ],
@@ -198,13 +210,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "бесплатный вводный курс онлайн-магистратуры «Продуктовый маркетинг и аналитика»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -222,12 +227,12 @@
         "val": "+6°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 6.2,
-        "feels_like": 4.5,
+        "temp": 6.1,
+        "feels_like": 4.3,
         "condition": "пасмурно",
         "wmo_code": 3,
         "wind": 1.5,
-        "wind_gusts": 3.2,
+        "wind_gusts": 1.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -265,6 +270,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205
       ],
@@ -313,18 +319,18 @@
         "val": "-2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -2.4,
+        "temp": -2.5,
         "feels_like": -6.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.9,
-        "wind_gusts": 23.8,
+        "wind": 8.4,
+        "wind_gusts": 22.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "16 крупных из 19",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -356,6 +362,7 @@
         0.366,
         0.266,
         0.266,
+        0.366,
         0.366,
         0.366
       ],
