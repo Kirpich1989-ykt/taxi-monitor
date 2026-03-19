@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T18:11:12.336460+00:00",
+  "generated_at": "2026-03-19T21:02:40.420971+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-17°C · ясно",
+        "val": "-18°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": -16.6,
-        "feels_like": -21.1,
+        "temp": -17.8,
+        "feels_like": -22.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.1,
-        "wind_gusts": 6.5,
+        "wind": 3.8,
+        "wind_gusts": 4.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -64,6 +64,7 @@
         0.064,
         0.064,
         0.064,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -79,21 +80,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+4°C · пасмурно",
+        "val": "+2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 3.8,
-        "feels_like": 0.2,
+        "temp": 1.5,
+        "feels_like": -1.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 5.9,
-        "wind_gusts": 7.6,
+        "wind": 3.8,
+        "wind_gusts": 9.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "34 крупных из 50",
+        "val": "24 крупных из 47",
         "icon": "🎭"
       },
       "traffic": {
@@ -133,74 +134,15 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультисенсорная выставка «Сон в музее»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «СЕНС. Почувствуй стихии»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка говорящих картин «Ни в какие рамки»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -216,15 +158,69 @@
           "is_high": true
         },
         {
-          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "title": "быстрые свидания от Fast Life",
           "cats": [
             "party",
-            "theater",
-            "stock",
-            "kids",
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "экскурсии для детей по магазинам ВкусВилл",
+          "cats": [
+            "kids",
+            "tour"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в Music Community («Музыкальном сообществе»)",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "курс ораторского мастерства от Reforma Lab — официального партнёра МГИМО",
+          "cats": [
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Продуктовый маркетинг и аналитика»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -235,19 +231,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+12°C · пасмурно",
+        "score": 0.0,
+        "val": "+11°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 12.4,
-        "feels_like": 9.0,
+        "temp": 10.6,
+        "feels_like": 7.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.3,
-        "wind_gusts": 29.5,
+        "wind": 11.8,
+        "wind_gusts": 32.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -293,7 +289,8 @@
         0.242,
         0.242,
         0.242,
-        0.257
+        0.257,
+        0.242
       ],
       "_raw_events": [
         {
@@ -340,7 +337,7 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.266,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
         "score": 0.0,
@@ -348,17 +345,17 @@
         "icon": "☁",
         "live": true,
         "temp": -3.2,
-        "feels_like": -6.6,
+        "feels_like": -6.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.9,
-        "wind_gusts": 10.8,
+        "wind": 6.9,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 1.0,
+        "val": "14 крупных из 17",
         "icon": "🎭"
       },
       "traffic": {
@@ -398,9 +395,33 @@
         0.366,
         0.366,
         0.303,
-        0.266
+        0.266,
+        0.366
       ],
       "_raw_events": [
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
         {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
@@ -410,6 +431,13 @@
         },
         {
           "title": "экспозиция «Природа Новосибирской области»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Иконы»",
           "cats": [
             "exhibition"
           ],
@@ -442,14 +470,6 @@
         {
           "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
             "education"
           ],
           "is_high": false
