@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T14:33:31.648534+00:00",
+  "generated_at": "2026-03-20T17:25:00.474646+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-11°C · пасмурно",
-        "icon": "☁",
+        "val": "-13°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": -11.4,
-        "feels_like": -15.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 2.9,
+        "temp": -12.9,
+        "feels_like": -16.9,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 2.8,
         "wind_gusts": 3.6,
         "precip": 0.0,
         "snowfall": 0.0
@@ -47,8 +47,8 @@
         0.229,
         0.229,
         0.229,
-        0.229,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · переменная облачность",
+        "val": "+4°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 9.4,
-        "feels_like": 6.4,
+        "temp": 4.4,
+        "feels_like": 1.1,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 1.3,
-        "wind_gusts": 7.2,
+        "wind": 5.4,
+        "wind_gusts": 6.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "48 крупных из 50",
+        "val": "42 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -115,7 +115,7 @@
       },
       "history": [
         0.193,
-        0.193,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -141,34 +141,11 @@
       ],
       "_raw_events": [
         {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
             "kids",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -200,15 +177,6 @@
           "is_high": true
         },
         {
-          "title": "серия культурных завтраков в Котельнической высотке",
-          "cats": [
-            "education",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
           "cats": [
             "exhibition",
@@ -221,6 +189,41 @@
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «СЕНС. Почувствуй стихии»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
             "other",
             "entertainment"
           ],
@@ -239,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · пасмурно",
+        "val": "+9°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 9.8,
-        "feels_like": 7.5,
+        "temp": 8.8,
+        "feels_like": 6.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 5.7,
-        "wind_gusts": 19.1,
+        "wind": 6.4,
+        "wind_gusts": 18.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -273,7 +276,6 @@
       },
       "history": [
         0.092,
-        0.092,
         0.242,
         0.242,
         0.242,
@@ -293,6 +295,7 @@
         0.205,
         0.205,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -346,15 +349,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "0°C · пасмурно",
+        "val": "-1°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -0.3,
-        "feels_like": -5.0,
+        "temp": -1.0,
+        "feels_like": -5.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 15.3,
-        "wind_gusts": 41.4,
+        "wind": 14.0,
+        "wind_gusts": 34.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -380,7 +383,6 @@
       },
       "history": [
         0.131,
-        0.131,
         0.381,
         0.366,
         0.266,
@@ -402,6 +404,7 @@
         0.381,
         0.381,
         0.381,
+        0.281,
         0.281
       ],
       "_raw_events": [
