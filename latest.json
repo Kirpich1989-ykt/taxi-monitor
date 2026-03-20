@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T21:58:15.948903+00:00",
+  "generated_at": "2026-03-20T23:01:32.850934+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "-14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -14.0,
-        "feels_like": -18.2,
+        "temp": -13.7,
+        "feels_like": -17.8,
         "condition": "пасмурно",
         "wmo_code": 3,
         "wind": 4.0,
-        "wind_gusts": 4.7,
+        "wind_gusts": 5.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,8 +43,8 @@
         "icon": "📰"
       },
       "history": [
-        0.229,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+1°C · ясно",
+        "val": "0°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 0.9,
-        "feels_like": -2.6,
+        "temp": -0.1,
+        "feels_like": -3.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.8,
-        "wind_gusts": 7.9,
+        "wind": 5.5,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -242,12 +242,12 @@
         "val": "+7°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 7.1,
-        "feels_like": 5.6,
+        "temp": 7.0,
+        "feels_like": 5.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.2,
-        "wind_gusts": 7.9,
+        "wind": 1.9,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -273,7 +273,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -295,6 +294,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -335,25 +335,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.381,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
-        "score": 0.05,
+        "score": 0.0,
         "val": "-2°C · пасмурно",
         "icon": "☁",
         "live": true,
         "temp": -1.6,
-        "feels_like": -5.9,
+        "feels_like": -5.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.2,
-        "wind_gusts": 31.0,
+        "wind": 11.7,
+        "wind_gusts": 30.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "8 крупных из 11",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -372,7 +372,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.266,
         0.366,
         0.366,
@@ -395,7 +394,8 @@
         0.281,
         0.281,
         0.356,
-        0.381
+        0.381,
+        0.366
       ],
       "_raw_events": [
         {
@@ -423,6 +423,14 @@
           "is_high": true
         },
         {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
@@ -430,7 +438,21 @@
           "is_high": true
         },
         {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
           "title": "экспозиция «Природа Новосибирской области»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Иконы»",
           "cats": [
             "exhibition"
           ],
@@ -451,28 +473,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сибирь в древности»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
