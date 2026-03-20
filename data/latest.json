@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T05:09:26.200481+00:00",
+  "generated_at": "2026-03-20T08:00:15.718027+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-8°C · пасмурно",
-        "icon": "☁",
+        "val": "-8°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": -8.5,
-        "feels_like": -12.6,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 2.3,
-        "wind_gusts": 7.6,
+        "temp": -8.0,
+        "feels_like": -12.3,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 4.0,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -46,13 +46,13 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.229,
         0.229,
         0.229,
         0.229,
         0.229,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-2°C · пасмурно",
+        "val": "+4°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -2.1,
-        "feels_like": -5.4,
+        "temp": 3.9,
+        "feels_like": 1.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.3,
-        "wind_gusts": 5.8,
+        "wind": 3.8,
+        "wind_gusts": 13.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "44 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -115,11 +115,11 @@
       },
       "history": [
         0.118,
-        0.118,
         0.193,
         0.193,
         0.193,
         0.193,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -203,6 +203,16 @@
           "is_high": true
         },
         {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "выставка «СЕНС. Почувствуй стихии»",
           "cats": [
             "exhibition"
@@ -218,14 +228,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -236,25 +238,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.257,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+7°C · пасмурно",
+        "score": 0.05,
+        "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 7.4,
-        "feels_like": 4.0,
+        "temp": 9.5,
+        "feels_like": 6.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 11.6,
-        "wind_gusts": 29.2,
+        "wind": 13.1,
+        "wind_gusts": 37.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -278,7 +280,6 @@
         0.092,
         0.092,
         0.092,
-        0.092,
         0.242,
         0.242,
         0.242,
@@ -296,9 +297,17 @@
         0.205,
         0.205,
         0.205,
-        0.205
+        0.205,
+        0.257
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -340,15 +349,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "-2°C · пасмурно",
+        "val": "+0°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -1.7,
-        "feels_like": -6.1,
+        "temp": 0.1,
+        "feels_like": -4.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.2,
-        "wind_gusts": 30.2,
+        "wind": 15.1,
+        "wind_gusts": 37.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -374,7 +383,6 @@
       },
       "history": [
         0.116,
-        0.116,
         0.131,
         0.131,
         0.131,
@@ -396,6 +404,7 @@
         0.366,
         0.366,
         0.366,
+        0.381,
         0.381
       ],
       "_raw_events": [
@@ -432,18 +441,18 @@
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка морских рыб",
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
+            "entertainment"
           ],
           "is_high": true
         },
