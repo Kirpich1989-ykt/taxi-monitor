@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T08:00:15.718027+00:00",
+  "generated_at": "2026-03-20T10:06:03.221024+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-8°C · преим. ясно",
+        "val": "-9°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": -8.0,
-        "feels_like": -12.3,
+        "temp": -8.7,
+        "feels_like": -12.6,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 4.0,
-        "wind_gusts": 9.7,
+        "wind": 1.8,
+        "wind_gusts": 5.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -45,13 +45,13 @@
       "history": [
         0.064,
         0.064,
-        0.064,
         0.229,
         0.229,
         0.229,
         0.229,
         0.229,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+4°C · пасмурно",
-        "icon": "☁",
+        "val": "+8°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 3.9,
-        "feels_like": 1.0,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 3.8,
-        "wind_gusts": 13.7,
+        "temp": 8.3,
+        "feels_like": 5.3,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 2.7,
+        "wind_gusts": 11.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -114,11 +114,11 @@
         "icon": "📰"
       },
       "history": [
-        0.118,
         0.193,
         0.193,
         0.193,
         0.193,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -140,6 +140,14 @@
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -218,16 +226,6 @@
             "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -238,19 +236,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
+        "score": 0.0,
         "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 9.5,
-        "feels_like": 6.0,
+        "temp": 10.4,
+        "feels_like": 7.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 13.1,
-        "wind_gusts": 37.1,
+        "wind": 9.6,
+        "wind_gusts": 29.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +277,6 @@
         0.092,
         0.092,
         0.092,
-        0.092,
         0.242,
         0.242,
         0.242,
@@ -298,7 +295,8 @@
         0.205,
         0.205,
         0.205,
-        0.257
+        0.257,
+        0.242
       ],
       "_raw_events": [
         {
@@ -352,12 +350,12 @@
         "val": "+0°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 0.1,
-        "feels_like": -4.7,
+        "temp": 0.4,
+        "feels_like": -4.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 15.1,
-        "wind_gusts": 37.8,
+        "wind": 16.3,
+        "wind_gusts": 40.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -382,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.116,
         0.131,
         0.131,
         0.131,
@@ -404,6 +401,7 @@
         0.366,
         0.366,
         0.366,
+        0.381,
         0.381,
         0.381
       ],
@@ -457,16 +455,16 @@
           "is_high": true
         },
         {
-          "title": "выставка «Зарубежное искусство»",
+          "title": "ролевые настольные игры в «Башне»",
           "cats": [
-            "exhibition"
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "ролевые настольные игры в «Башне»",
+          "title": "выставка «Зарубежное искусство»",
           "cats": [
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
