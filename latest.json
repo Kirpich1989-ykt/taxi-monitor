@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T21:04:09.301784+00:00",
+  "generated_at": "2026-03-20T21:58:15.948903+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,13 +10,13 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-14°C · переменная облачность",
-        "icon": "⛅",
+        "val": "-14°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": -13.7,
-        "feels_like": -17.9,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
+        "temp": -14.0,
+        "feels_like": -18.2,
+        "condition": "пасмурно",
+        "wmo_code": 3,
         "wind": 4.0,
         "wind_gusts": 4.7,
         "precip": 0.0,
@@ -44,8 +44,8 @@
       },
       "history": [
         0.229,
-        0.229,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -84,18 +84,18 @@
         "val": "+1°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 1.0,
-        "feels_like": -2.1,
+        "temp": 0.9,
+        "feels_like": -2.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.0,
-        "wind_gusts": 7.2,
+        "wind": 5.8,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "24 крупных из 47",
+        "val": "24 крупных из 48",
         "icon": "🎭"
       },
       "traffic": {
@@ -235,25 +235,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
         "val": "+7°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 7.4,
-        "feels_like": 5.8,
+        "temp": 7.1,
+        "feels_like": 5.6,
         "condition": "пасмурно",
         "wmo_code": 3,
         "wind": 3.2,
-        "wind_gusts": 7.2,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -274,7 +274,6 @@
       "history": [
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -295,16 +294,10 @@
         0.242,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -342,25 +335,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.356,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "-1°C · пасмурно",
+        "val": "-2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -1.0,
-        "feels_like": -5.3,
+        "temp": -1.6,
+        "feels_like": -5.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.7,
-        "wind_gusts": 32.8,
+        "wind": 12.2,
+        "wind_gusts": 31.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 9",
+        "score": 1.0,
+        "val": "8 крупных из 11",
         "icon": "🎭"
       },
       "traffic": {
@@ -379,7 +372,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.266,
         0.266,
         0.366,
@@ -402,9 +394,18 @@
         0.281,
         0.281,
         0.281,
-        0.356
+        0.356,
+        0.381
       ],
       "_raw_events": [
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
           "cats": [
@@ -460,16 +461,15 @@
           "is_high": true
         },
         {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "title": "выставка «Сибирь в древности»",
           "cats": [
-            "education"
+            "exhibition"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
-            "stock",
             "education"
           ],
           "is_high": false
