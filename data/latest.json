@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T04:56:03.544884+00:00",
+  "generated_at": "2026-03-21T07:21:55.660514+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-4°C · пасмурно",
+        "val": "-2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -3.8,
-        "feels_like": -7.5,
+        "temp": -2.2,
+        "feels_like": -6.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 2.4,
-        "wind_gusts": 6.8,
+        "wind": 5.6,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-2°C · пасмурно",
-        "icon": "☁",
+        "val": "+3°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": -2.4,
-        "feels_like": -5.5,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 3.7,
-        "wind_gusts": 7.9,
+        "temp": 2.7,
+        "feels_like": -0.5,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.2,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -150,6 +150,13 @@
           "is_high": true
         },
         {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
           "cats": [
             "exhibition",
@@ -194,15 +201,6 @@
           "is_high": true
         },
         {
-          "title": "серия культурных завтраков в Котельнической высотке",
-          "cats": [
-            "education",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
@@ -222,12 +220,9 @@
           "is_high": true
         },
         {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "title": "концерт «Вивальди. Времена года»",
           "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
+            "concert"
           ],
           "is_high": true
         }
@@ -244,15 +239,15 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+8°C · дождь слабый",
+        "val": "+9°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 7.6,
-        "feels_like": 5.9,
+        "temp": 9.1,
+        "feels_like": 6.8,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 4.7,
-        "wind_gusts": 11.9,
+        "wind": 8.7,
+        "wind_gusts": 22.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +274,6 @@
       "history": [
         0.205,
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -300,6 +294,7 @@
         0.205,
         0.205,
         0.205,
+        0.355,
         0.355
       ],
       "_raw_events": [
@@ -311,14 +306,14 @@
           "is_high": true
         },
         {
-          "title": "выставка «Литературная жизнь Кубани» в литмузее",
+          "title": "выставка  «Мне вечность глянула в глаза…»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "выставка  «Мне вечность глянула в глаза…»",
+          "title": "выставка «Литературная жизнь Кубани» в литмузее",
           "cats": [
             "exhibition"
           ],
@@ -344,15 +339,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-1°C · переменная облачность",
+        "val": "+2°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": -1.0,
-        "feels_like": -5.3,
+        "temp": 1.9,
+        "feels_like": -2.6,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 11.0,
-        "wind_gusts": 28.8,
+        "wind": 11.9,
+        "wind_gusts": 31.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -382,7 +377,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.303,
         0.266,
         0.366,
@@ -398,6 +392,7 @@
         0.281,
         0.356,
         0.381,
+        0.366,
         0.366,
         0.366,
         0.366
@@ -420,18 +415,18 @@
           "is_high": true
         },
         {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
