@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T14:57:51.335105+00:00",
+  "generated_at": "2026-03-21T15:52:51.928216+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-7°C · пасмурно",
+        "val": "-9°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -7.1,
-        "feels_like": -11.3,
+        "temp": -9.2,
+        "feels_like": -13.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.6,
-        "wind_gusts": 14.8,
+        "wind": 5.6,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · ясно",
+        "val": "+5°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 6.7,
-        "feels_like": 3.4,
+        "temp": 4.6,
+        "feels_like": 1.4,
         "condition": "ясно",
         "wmo_code": 0,
         "wind": 3.9,
-        "wind_gusts": 15.8,
+        "wind_gusts": 8.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -141,14 +141,6 @@
       ],
       "_raw_events": [
         {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
@@ -161,14 +153,6 @@
           "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
           "cats": [
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -225,6 +209,25 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Форум колледжей Москвы",
+          "cats": [
+            "kids",
+            "education",
+            "festival",
+            "yarmarki-razvlecheniya-yarmarki",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -242,12 +245,12 @@
         "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 10.3,
-        "feels_like": 7.8,
+        "temp": 10.4,
+        "feels_like": 7.9,
         "condition": "пасмурно",
         "wmo_code": 3,
         "wind": 10.5,
-        "wind_gusts": 28.8,
+        "wind_gusts": 29.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +275,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.242,
         0.205,
         0.205,
@@ -293,6 +295,7 @@
         0.392,
         0.392,
         0.392,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -346,15 +349,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+0°C · пасмурно",
+        "val": "0°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 0.5,
-        "feels_like": -3.4,
+        "temp": -0.4,
+        "feels_like": -4.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.9,
-        "wind_gusts": 24.1,
+        "wind": 9.7,
+        "wind_gusts": 23.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -379,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.366,
         0.366,
         0.366,
@@ -402,6 +404,7 @@
         0.366,
         0.366,
         0.366,
+        0.341,
         0.341
       ],
       "_raw_events": [
