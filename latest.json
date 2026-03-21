@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T20:56:01.462712+00:00",
+  "generated_at": "2026-03-21T21:51:33.680627+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-16°C · пасмурно",
+        "val": "-17°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -16.3,
-        "feels_like": -20.8,
+        "temp": -17.4,
+        "feels_like": -22.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 5.0,
-        "wind_gusts": 10.4,
+        "wind": 5.4,
+        "wind_gusts": 11.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+1°C · ясно",
+        "val": "+0°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 1.0,
-        "feels_like": -2.3,
+        "temp": 0.3,
+        "feels_like": -3.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.3,
-        "wind_gusts": 3.6,
+        "wind": 3.6,
+        "wind_gusts": 4.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "25 крупных из 48",
+        "val": "24 крупных из 48",
         "icon": "🎭"
       },
       "traffic": {
@@ -235,25 +235,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
-        "score": 0.05,
+        "score": 0.0,
         "val": "+8°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 8.5,
-        "feels_like": 5.6,
+        "temp": 8.2,
+        "feels_like": 5.2,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.1,
-        "wind_gusts": 31.0,
+        "wind": 11.9,
+        "wind_gusts": 30.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -272,7 +272,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.257,
         0.242,
         0.242,
@@ -295,16 +294,10 @@
         0.242,
         0.242,
         0.257,
-        0.257
+        0.257,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -346,15 +339,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-2°C · пасмурно",
+        "val": "-3°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -2.0,
-        "feels_like": -6.0,
+        "temp": -2.6,
+        "feels_like": -6.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.7,
-        "wind_gusts": 24.5,
+        "wind": 8.9,
+        "wind_gusts": 22.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -382,7 +375,6 @@
         0.381,
         0.381,
         0.381,
-        0.381,
         0.281,
         0.281,
         0.281,
@@ -402,9 +394,18 @@
         0.341,
         0.341,
         0.341,
+        0.366,
         0.366
       ],
       "_raw_events": [
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
           "cats": [
@@ -418,15 +419,6 @@
           "cats": [
             "exhibition",
             "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "киноночь в антикафе Fun-Time",
-          "cats": [
-            "education",
-            "cinema",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -461,14 +453,6 @@
           "is_high": true
         },
         {
-          "title": "ночь настольных игр в клубе-магазине «ИгРРай»",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
             "education"
@@ -480,6 +464,13 @@
           "cats": [
             "kids",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сибирь в древности»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         }
