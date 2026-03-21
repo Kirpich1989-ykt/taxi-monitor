@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T13:55:39.899630+00:00",
+  "generated_at": "2026-03-21T14:57:51.335105+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-6°C · пасмурно",
+        "val": "-7°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -6.5,
-        "feels_like": -10.6,
+        "temp": -7.1,
+        "feels_like": -11.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.1,
+        "wind": 6.6,
         "wind_gusts": 14.8,
         "precip": 0.0,
         "snowfall": 0.0
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+8°C · ясно",
+        "val": "+7°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 8.3,
-        "feels_like": 4.7,
+        "temp": 6.7,
+        "feels_like": 3.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.0,
-        "wind_gusts": 18.4,
+        "wind": 3.9,
+        "wind_gusts": 15.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "49 крупных из 50",
+        "val": "47 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -218,9 +218,10 @@
           "is_high": true
         },
         {
-          "title": "шоу фокусов «Последний сеанс»",
+          "title": "групповые знакомства GOKON",
           "cats": [
-            "stock",
+            "party",
+            "other",
             "entertainment"
           ],
           "is_high": true
@@ -238,15 +239,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+11°C · пасмурно",
+        "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 10.8,
-        "feels_like": 8.3,
+        "temp": 10.3,
+        "feels_like": 7.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 11.3,
-        "wind_gusts": 29.9,
+        "wind": 10.5,
+        "wind_gusts": 28.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -271,7 +272,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.257,
         0.242,
         0.205,
@@ -293,6 +293,7 @@
         0.392,
         0.392,
         0.392,
+        0.242,
         0.242,
         0.242
       ],
@@ -341,25 +342,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.341,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+1°C · пасмурно",
+        "val": "+0°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 0.9,
-        "feels_like": -2.9,
+        "temp": 0.5,
+        "feels_like": -3.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.6,
-        "wind_gusts": 22.7,
+        "wind": 9.9,
+        "wind_gusts": 24.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "7 крупных из 10",
+        "score": 0.9,
+        "val": "6 крупных из 9",
         "icon": "🎭"
       },
       "traffic": {
@@ -378,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.303,
         0.266,
         0.366,
         0.366,
@@ -401,17 +401,10 @@
         0.381,
         0.366,
         0.366,
-        0.366
+        0.366,
+        0.341
       ],
       "_raw_events": [
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "киноночь в антикафе Fun-Time",
           "cats": [
