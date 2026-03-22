@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T17:00:27.739674+00:00",
+  "generated_at": "2026-03-22T17:55:26.489965+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-13°C · преим. ясно",
+        "val": "-14°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": -13.1,
-        "feels_like": -17.4,
+        "temp": -13.7,
+        "feels_like": -18.0,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 4.0,
-        "wind_gusts": 7.9,
+        "wind": 3.8,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -84,18 +84,18 @@
         "val": "+5°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 5.2,
+        "temp": 5.1,
         "feels_like": 1.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.0,
-        "wind_gusts": 4.0,
+        "wind": 2.5,
+        "wind_gusts": 3.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "41 крупных из 50",
+        "val": "32 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -150,38 +150,9 @@
           "is_high": true
         },
         {
-          "title": "выставка «Всё напоказ?»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультисенсорная выставка «Сон в музее»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -206,14 +177,6 @@
           "is_high": true
         },
         {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «СЕНС. Почувствуй стихии»",
           "cats": [
             "exhibition"
@@ -226,6 +189,43 @@
             "stock",
             "kids",
             "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка говорящих картин «Ни в какие рамки»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "VR-путешествие «Чудеса света»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -243,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+12°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+11°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 12.2,
-        "feels_like": 8.6,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 15.1,
-        "wind_gusts": 37.8,
+        "temp": 11.3,
+        "feels_like": 7.3,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 16.8,
+        "wind_gusts": 42.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +276,6 @@
         "icon": "📰"
       },
       "history": [
-        0.355,
         0.392,
         0.392,
         0.392,
@@ -292,6 +291,7 @@
         0.205,
         0.22,
         0.22,
+        0.257,
         0.257,
         0.257,
         0.257,
@@ -353,12 +353,12 @@
         "val": "-2°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": -1.6,
-        "feels_like": -5.2,
+        "temp": -2.2,
+        "feels_like": -5.7,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 6.3,
-        "wind_gusts": 14.4,
+        "wind": 5.7,
+        "wind_gusts": 14.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -384,7 +384,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.381,
         0.366,
         0.366,
@@ -405,6 +404,7 @@
         0.366,
         0.341,
         0.303,
+        0.266,
         0.266,
         0.266
       ],
