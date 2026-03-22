@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T22:56:37.803936+00:00",
+  "generated_at": "2026-03-21T23:53:06.664551+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-18°C · ясно",
+        "val": "-17°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": -18.4,
-        "feels_like": -23.0,
+        "temp": -16.9,
+        "feels_like": -21.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.1,
-        "wind_gusts": 11.2,
+        "wind": 4.3,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-2°C · ясно",
-        "icon": "☀",
+        "val": "-2°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": -1.6,
-        "feels_like": -4.8,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 3.6,
-        "wind_gusts": 4.3,
+        "temp": -2.2,
+        "feels_like": -5.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 4.0,
+        "wind_gusts": 4.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "24 крупных из 48",
+        "val": "26 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -145,6 +145,27 @@
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Форум колледжей Москвы",
+          "cats": [
+            "kids",
+            "education",
+            "festival",
+            "yarmarki-razvlecheniya-yarmarki",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -208,23 +229,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "бесплатный вводный курс онлайн-магистратуры «Продуктовый маркетинг и аналитика»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids",
-            "quest",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -235,19 +239,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.22,
       "alert": "green",
       "weather": {
-        "score": 0.0,
+        "score": 0.05,
         "val": "+8°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 8.0,
-        "feels_like": 4.9,
+        "temp": 7.8,
+        "feels_like": 4.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 11.9,
-        "wind_gusts": 29.2,
+        "wind": 12.1,
+        "wind_gusts": 30.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -277,7 +281,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -295,7 +298,8 @@
         0.257,
         0.257,
         0.205,
-        0.205
+        0.205,
+        0.22
       ],
       "_raw_events": [
         {
@@ -342,12 +346,12 @@
         "val": "-3°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -2.8,
-        "feels_like": -6.8,
+        "temp": -3.1,
+        "feels_like": -7.1,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.7,
-        "wind_gusts": 21.6,
+        "wind": 8.6,
+        "wind_gusts": 21.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -373,7 +377,6 @@
       },
       "history": [
         0.381,
-        0.381,
         0.281,
         0.281,
         0.281,
@@ -393,6 +396,7 @@
         0.341,
         0.341,
         0.341,
+        0.366,
         0.366,
         0.366,
         0.366
