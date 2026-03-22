@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T23:53:06.664551+00:00",
+  "generated_at": "2026-03-22T05:14:00.442982+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-17°C · ясно",
+        "val": "-6°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": -16.9,
-        "feels_like": -21.4,
+        "temp": -6.5,
+        "feels_like": -11.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.3,
-        "wind_gusts": 10.8,
+        "wind": 6.5,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -85,17 +85,17 @@
         "icon": "🌤",
         "live": true,
         "temp": -2.2,
-        "feels_like": -5.4,
+        "feels_like": -5.5,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 4.0,
-        "wind_gusts": 4.7,
+        "wind": 4.3,
+        "wind_gusts": 5.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "26 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,91 +141,91 @@
       ],
       "_raw_events": [
         {
-          "title": "групповые знакомства GOKON",
+          "title": "благотворительный фестиваль «Собаки, которые любят… И котики!»",
           "cats": [
-            "party",
-            "other",
+            "social-activity",
+            "festival",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "Форум колледжей Москвы",
+          "title": "мультимедийная выставка «Эйфория»",
           "cats": [
+            "exhibition",
             "kids",
-            "education",
-            "festival",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Всё напоказ?»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
             "yarmarki-razvlecheniya-yarmarki",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "title": "развлечения в Smile Park на ВДНХ",
           "cats": [
+            "stock",
             "kids",
-            "education",
-            "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "VR-путешествие «Чудеса света»",
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "серия культурных завтраков в Котельнической высотке",
+          "cats": [
+            "education",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
           "cats": [
             "exhibition",
             "kids",
-            "recreation",
+            "tour",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "быстрые свидания от Fast Life",
+          "title": "групповые знакомства GOKON",
           "cats": [
             "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "вокал в Music Community («Музыкальном сообществе»)",
-          "cats": [
-            "stock",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "курс ораторского мастерства от Reforma Lab — официального партнёра МГИМО",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "частный стендап от проекта «Стендап Импорт»",
-          "cats": [
-            "party",
-            "concert",
+            "other",
             "entertainment"
           ],
           "is_high": true
@@ -246,12 +246,12 @@
         "val": "+8°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 7.8,
-        "feels_like": 4.7,
+        "temp": 8.0,
+        "feels_like": 4.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.1,
-        "wind_gusts": 30.2,
+        "wind": 14.5,
+        "wind_gusts": 36.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -280,7 +280,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -299,18 +298,19 @@
         0.257,
         0.205,
         0.205,
+        0.22,
         0.22
       ],
       "_raw_events": [
         {
-          "title": "выставка  «Особенности национальной охоты»",
+          "title": "выставка  «Мне вечность глянула в глаза…»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "выставка  «Мне вечность глянула в глаза…»",
+          "title": "выставка  «Особенности национальной охоты»",
           "cats": [
             "exhibition"
           ],
@@ -343,21 +343,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-3°C · пасмурно",
+        "val": "-1°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -3.1,
-        "feels_like": -7.1,
+        "temp": -0.9,
+        "feels_like": -5.2,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.6,
-        "wind_gusts": 21.2,
+        "wind": 9.5,
+        "wind_gusts": 24.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -376,7 +376,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.281,
         0.281,
         0.281,
@@ -399,6 +398,7 @@
         0.366,
         0.366,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -411,10 +411,26 @@
           "is_high": true
         },
         {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -459,22 +475,6 @@
           "title": "выставка «Иконы»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "свободное рисование в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "education",
-            "entertainment"
           ],
           "is_high": true
         }
