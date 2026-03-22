@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T14:58:23.563109+00:00",
+  "generated_at": "2026-03-22T15:53:35.002852+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-11°C · преим. ясно",
+        "val": "-12°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": -10.7,
-        "feels_like": -14.9,
+        "temp": -11.5,
+        "feels_like": -15.7,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 4.4,
-        "wind_gusts": 10.1,
+        "wind": 4.0,
+        "wind_gusts": 8.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · ясно",
+        "val": "+6°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 9.1,
-        "feels_like": 5.7,
+        "temp": 6.1,
+        "feels_like": 2.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.6,
-        "wind_gusts": 14.4,
+        "wind": 3.4,
+        "wind_gusts": 6.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "47 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,14 +141,6 @@
       ],
       "_raw_events": [
         {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
@@ -161,14 +153,6 @@
           "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
           "cats": [
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -218,11 +202,29 @@
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "title": "групповые знакомства GOKON",
+          "cats": [
+            "party",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Форум колледжей Москвы",
+          "cats": [
+            "kids",
+            "education",
+            "festival",
+            "yarmarki-razvlecheniya-yarmarki",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
           "cats": [
             "exhibition",
-            "kids",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -240,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+15°C · пасмурно",
+        "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 15.0,
-        "feels_like": 11.5,
+        "temp": 13.7,
+        "feels_like": 10.2,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 15.5,
-        "wind_gusts": 42.1,
+        "wind": 14.3,
+        "wind_gusts": 39.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -273,7 +275,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.355,
         0.355,
         0.392,
@@ -291,6 +292,7 @@
         0.205,
         0.22,
         0.22,
+        0.257,
         0.257,
         0.257,
         0.257,
@@ -343,25 +345,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.303,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "0°C · ясно",
-        "icon": "☀",
+        "val": "-1°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": -0.3,
-        "feels_like": -3.7,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 6.2,
-        "wind_gusts": 15.1,
+        "temp": -1.0,
+        "feels_like": -4.6,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 6.4,
+        "wind_gusts": 14.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.75,
-        "val": "5 крупных из 8",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -380,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.366,
@@ -403,7 +404,8 @@
         0.366,
         0.366,
         0.341,
-        0.303
+        0.303,
+        0.266
       ],
       "_raw_events": [
         {
@@ -426,15 +428,6 @@
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "еженедельная сальса-вечеринка",
-          "cats": [
-            "party",
-            "education",
-            "recreation"
-          ],
-          "is_high": true
         },
         {
           "title": "свободное рисование в семейном арт-пространстве",
