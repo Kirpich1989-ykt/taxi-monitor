@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T11:49:19.739321+00:00",
+  "generated_at": "2026-03-22T13:56:58.565825+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-9°C · пасмурно",
-        "icon": "☁",
+        "val": "-10°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": -8.9,
-        "feels_like": -13.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.2,
-        "wind_gusts": 10.1,
+        "temp": -9.9,
+        "feels_like": -14.2,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.1,
+        "wind_gusts": 10.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+11°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+11°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 11.4,
-        "feels_like": 7.6,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 6.3,
-        "wind_gusts": 18.4,
+        "temp": 11.1,
+        "feels_like": 7.4,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 5.6,
+        "wind_gusts": 17.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "49 крупных из 50",
+        "val": "47 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -144,15 +144,6 @@
           "title": "большой стендап-концерт",
           "cats": [
             "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "благотворительный фестиваль «Собаки, которые любят… И котики!»",
-          "cats": [
-            "social-activity",
-            "festival",
             "entertainment"
           ],
           "is_high": true
@@ -225,6 +216,16 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -239,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+17°C · ясно",
-        "icon": "☀",
+        "val": "+16°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 17.3,
-        "feels_like": 13.8,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 16.1,
-        "wind_gusts": 42.5,
+        "temp": 16.1,
+        "feels_like": 12.5,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 16.6,
+        "wind_gusts": 43.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +275,6 @@
       "history": [
         0.205,
         0.205,
-        0.205,
         0.355,
         0.355,
         0.392,
@@ -292,6 +292,7 @@
         0.205,
         0.22,
         0.22,
+        0.257,
         0.257,
         0.257,
         0.257,
@@ -342,25 +343,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.341,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+1°C · переменная облачность",
+        "val": "+0°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 1.4,
-        "feels_like": -2.3,
+        "temp": 0.2,
+        "feels_like": -3.2,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 7.3,
-        "wind_gusts": 19.8,
+        "wind": 6.5,
+        "wind_gusts": 15.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "18 крупных из 21",
+        "score": 0.9,
+        "val": "6 крупных из 9",
         "icon": "🎭"
       },
       "traffic": {
@@ -379,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.366,
         0.366,
         0.366,
@@ -402,53 +402,15 @@
         0.366,
         0.366,
         0.366,
-        0.366
+        0.366,
+        0.341
       ],
       "_raw_events": [
-        {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
         {
           "title": "невидимая выставка-квест Temnota",
           "cats": [
             "exhibition",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         },
@@ -467,15 +429,49 @@
           "is_high": true
         },
         {
-          "title": "выставка «Иконы»",
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
           "cats": [
-            "exhibition"
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "еженедельная сальса-вечеринка",
+          "cats": [
+            "party",
+            "education",
+            "recreation"
           ],
           "is_high": true
         },
         {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "шоу мыльных пузырей в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock",
             "education"
           ],
           "is_high": false
