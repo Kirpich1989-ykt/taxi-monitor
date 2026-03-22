@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T15:53:35.002852+00:00",
+  "generated_at": "2026-03-22T17:00:27.739674+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-12°C · преим. ясно",
+        "val": "-13°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": -11.5,
-        "feels_like": -15.7,
+        "temp": -13.1,
+        "feels_like": -17.4,
         "condition": "преим. ясно",
         "wmo_code": 1,
         "wind": 4.0,
-        "wind_gusts": 8.6,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+6°C · ясно",
+        "val": "+5°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 6.1,
-        "feels_like": 2.8,
+        "temp": 5.2,
+        "feels_like": 1.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.4,
-        "wind_gusts": 6.5,
+        "wind": 3.0,
+        "wind_gusts": 4.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "41 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -150,13 +150,6 @@
           "is_high": true
         },
         {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Всё напоказ?»",
           "cats": [
             "exhibition",
@@ -193,15 +186,6 @@
           "is_high": true
         },
         {
-          "title": "серия культурных завтраков в Котельнической высотке",
-          "cats": [
-            "education",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
@@ -228,6 +212,23 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "выставка «СЕНС. Почувствуй стихии»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -242,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+14°C · пасмурно",
-        "icon": "☁",
+        "val": "+12°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 13.7,
-        "feels_like": 10.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 14.3,
-        "wind_gusts": 39.2,
+        "temp": 12.2,
+        "feels_like": 8.6,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 15.1,
+        "wind_gusts": 37.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +277,6 @@
       },
       "history": [
         0.355,
-        0.355,
         0.392,
         0.392,
         0.392,
@@ -292,6 +292,7 @@
         0.205,
         0.22,
         0.22,
+        0.257,
         0.257,
         0.257,
         0.257,
@@ -349,15 +350,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-1°C · преим. ясно",
+        "val": "-2°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": -1.0,
-        "feels_like": -4.6,
+        "temp": -1.6,
+        "feels_like": -5.2,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 6.4,
-        "wind_gusts": 14.8,
+        "wind": 6.3,
+        "wind_gusts": 14.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -384,7 +385,6 @@
       "history": [
         0.366,
         0.366,
-        0.366,
         0.381,
         0.366,
         0.366,
@@ -405,20 +405,21 @@
         0.366,
         0.341,
         0.303,
+        0.266,
         0.266
       ],
       "_raw_events": [
         {
-          "title": "ролевые настольные игры в «Башне»",
+          "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "экспозиция «Природа Новосибирской области»",
+          "title": "ролевые настольные игры в «Башне»",
           "cats": [
-            "exhibition"
+            "entertainment"
           ],
           "is_high": true
         },
