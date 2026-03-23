@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T22:58:38.467058+00:00",
+  "generated_at": "2026-03-22T23:58:48.303239+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-16°C · пасмурно",
-        "icon": "☁",
+        "val": "-16°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": -16.4,
-        "feels_like": -20.5,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 2.6,
+        "temp": -15.7,
+        "feels_like": -19.7,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 1.8,
         "wind_gusts": 4.3,
         "precip": 0.0,
         "snowfall": 0.0
@@ -84,18 +84,18 @@
         "val": "-1°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": -0.8,
-        "feels_like": -4.0,
+        "temp": -1.2,
+        "feels_like": -4.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 2.4,
-        "wind_gusts": 3.2,
+        "wind": 3.1,
+        "wind_gusts": 3.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "24 крупных из 48",
+        "val": "26 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -145,6 +145,27 @@
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Форум колледжей Москвы",
+          "cats": [
+            "kids",
+            "education",
+            "festival",
+            "yarmarki-razvlecheniya-yarmarki",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -207,22 +228,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "частный стендап от проекта «Стендап Импорт»",
-          "cats": [
-            "party",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный вводный курс онлайн-магистратуры «Продуктовый маркетинг и аналитика»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -233,19 +238,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.22,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+8°C · переменная облачность",
-        "icon": "⛅",
+        "score": 0.0,
+        "val": "+7°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 7.7,
-        "feels_like": 4.0,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 13.4,
-        "wind_gusts": 36.4,
+        "temp": 7.4,
+        "feels_like": 3.8,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 11.8,
+        "wind_gusts": 32.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +279,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.257,
         0.257,
         0.205,
@@ -293,7 +297,8 @@
         0.257,
         0.257,
         0.22,
-        0.22
+        0.22,
+        0.205
       ],
       "_raw_events": [
         {
@@ -340,12 +345,12 @@
         "val": "-3°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -3.1,
-        "feels_like": -6.9,
+        "temp": -3.3,
+        "feels_like": -7.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.7,
-        "wind_gusts": 18.7,
+        "wind": 8.3,
+        "wind_gusts": 19.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -370,7 +375,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.341,
         0.341,
         0.341,
@@ -392,6 +396,7 @@
         0.266,
         0.266,
         0.341,
+        0.366,
         0.366,
         0.366
       ],
