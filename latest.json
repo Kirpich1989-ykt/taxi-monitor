@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T09:46:35.182505+00:00",
+  "generated_at": "2026-03-23T11:59:42.263483+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "0°C · преим. ясно",
-        "icon": "🌤",
+        "val": "-3°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": -0.3,
-        "feels_like": -5.0,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 9.8,
-        "wind_gusts": 22.0,
+        "temp": -2.8,
+        "feels_like": -7.4,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 10.1,
+        "wind_gusts": 22.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+11°C · ясно",
+        "val": "+13°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 10.9,
-        "feels_like": 7.8,
+        "temp": 12.9,
+        "feels_like": 9.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.6,
-        "wind_gusts": 14.8,
+        "wind": 6.1,
+        "wind_gusts": 18.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -141,6 +141,14 @@
       ],
       "_raw_events": [
         {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
@@ -181,15 +189,6 @@
           "title": "мультисенсорная выставка «Сон в музее»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -240,20 +239,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.392,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+14°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+12°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 13.8,
-        "feels_like": 10.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 12.2,
-        "wind_gusts": 33.8,
-        "precip": 0.0,
+        "temp": 11.6,
+        "feels_like": 9.0,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 9.9,
+        "wind_gusts": 29.2,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -278,7 +277,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.257,
         0.257,
         0.205,
@@ -300,7 +298,8 @@
         0.22,
         0.205,
         0.242,
-        0.257
+        0.257,
+        0.392
       ],
       "_raw_events": [
         {
@@ -351,21 +350,21 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+2°C · пасмурно",
+        "val": "+1°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 1.9,
-        "feels_like": -3.2,
+        "temp": 0.9,
+        "feels_like": -4.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 16.6,
-        "wind_gusts": 42.1,
+        "wind": 15.1,
+        "wind_gusts": 38.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "9 крупных из 14",
+        "val": "9 крупных из 13",
         "icon": "🎭"
       },
       "traffic": {
@@ -384,7 +383,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.341,
         0.341,
         0.366,
@@ -406,6 +404,7 @@
         0.366,
         0.366,
         0.366,
+        0.381,
         0.381,
         0.381
       ],
@@ -465,13 +464,6 @@
           "is_high": true
         },
         {
-          "title": "занятия клуба философии и размышлений «КСЭП»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
           "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
           "cats": [
             "education"
@@ -486,6 +478,13 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
