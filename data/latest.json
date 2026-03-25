@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T15:55:26.618237+00:00",
+  "generated_at": "2026-03-25T19:14:24.385600+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-5°C · пасмурно",
+        "val": "-6°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -4.6,
-        "feels_like": -8.3,
+        "temp": -6.4,
+        "feels_like": -10.1,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.2,
-        "wind_gusts": 9.4,
+        "wind": 3.8,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · ясно",
+        "val": "+4°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 7.3,
-        "feels_like": 3.9,
+        "temp": 4.2,
+        "feels_like": 0.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.4,
-        "wind_gusts": 14.0,
+        "wind": 5.0,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "44 крупных из 50",
+        "val": "27 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,46 +141,6 @@
       ],
       "_raw_events": [
         {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультисенсорная выставка «Сон в музее»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
@@ -200,27 +160,72 @@
           "is_high": true
         },
         {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "title": "VR-путешествие «Чудеса света»",
           "cats": [
+            "exhibition",
             "kids",
-            "education",
             "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
           "cats": [
-            "exhibition",
+            "party",
+            "theater",
+            "stock",
+            "kids",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "выставка «СЕНС. Почувствуй стихии»",
+          "title": "фотовыставка и иммерсивное шоу «Фрида Кало. Несломленная»",
           "cats": [
             "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в Music Community («Музыкальном сообществе»)",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсии для детей по магазинам ВкусВилл",
+          "cats": [
+            "kids",
+            "tour"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "курс ораторского мастерства от Reforma Lab — официального партнёра МГИМО",
+          "cats": [
+            "education",
+            "entertainment"
           ],
           "is_high": true
         }
@@ -237,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · пасмурно",
+        "val": "+11°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.1,
-        "feels_like": 11.7,
+        "temp": 11.3,
+        "feels_like": 9.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.7,
-        "wind_gusts": 23.8,
+        "wind": 9.3,
+        "wind_gusts": 24.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -270,7 +275,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.22,
         0.22,
         0.205,
@@ -291,6 +295,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -344,15 +349,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+2°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+1°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 1.6,
-        "feels_like": -2.5,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 11.8,
-        "wind_gusts": 31.7,
+        "temp": 1.1,
+        "feels_like": -2.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 8.1,
+        "wind_gusts": 23.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -377,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.366,
         0.366,
         0.366,
@@ -400,6 +404,7 @@
         0.381,
         0.381,
         0.381,
+        0.266,
         0.266
       ],
       "_raw_events": [
