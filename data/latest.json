@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T16:46:34.660365+00:00",
+  "generated_at": "2026-03-26T19:57:49.261174+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-6°C · ясно",
+        "val": "-7°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": -5.5,
-        "feels_like": -9.1,
+        "temp": -6.8,
+        "feels_like": -10.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.6,
+        "wind": 3.9,
         "wind_gusts": 6.8,
         "precip": 0.0,
         "snowfall": 0.0
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+5°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 6.8,
-        "feels_like": 3.5,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 4.6,
-        "wind_gusts": 12.6,
+        "temp": 4.8,
+        "feels_like": 1.5,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 3.3,
+        "wind_gusts": 6.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "43 крупных из 50",
+        "val": "26 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,46 +141,6 @@
       ],
       "_raw_events": [
         {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультисенсорная выставка «Сон в музее»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
@@ -190,36 +150,80 @@
           "is_high": true
         },
         {
-          "title": "выставка «СЕНС. Почувствуй стихии»",
+          "title": "VR-путешествие «Чудеса света»",
           "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
+            "exhibition",
             "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
             "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
           "cats": [
-            "exhibition",
+            "party",
+            "theater",
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в Music Community («Музыкальном сообществе»)",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсии для детей по магазинам ВкусВилл",
+          "cats": [
+            "kids",
+            "tour"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "курс ораторского мастерства от Reforma Lab — официального партнёра МГИМО",
+          "cats": [
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -233,20 +237,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.392,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+12°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+11°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 11.7,
-        "feels_like": 10.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 4.2,
-        "wind_gusts": 10.4,
-        "precip": 0.0,
+        "temp": 10.6,
+        "feels_like": 10.0,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 4.0,
+        "wind_gusts": 10.1,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -271,7 +275,6 @@
       },
       "history": [
         0.392,
-        0.392,
         0.242,
         0.205,
         0.205,
@@ -293,7 +296,8 @@
         0.242,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.392
       ],
       "_raw_events": [
         {
@@ -347,12 +351,12 @@
         "val": "+1°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 1.3,
-        "feels_like": -1.6,
+        "temp": 0.9,
+        "feels_like": -1.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.8,
-        "wind_gusts": 10.8,
+        "wind": 3.6,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -377,7 +381,6 @@
         "icon": "📰"
       },
       "history": [
-        0.281,
         0.431,
         0.516,
         0.516,
@@ -400,6 +403,7 @@
         0.516,
         0.366,
         0.366,
+        0.266,
         0.266
       ],
       "_raw_events": [
