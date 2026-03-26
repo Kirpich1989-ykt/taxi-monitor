@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T12:10:16.026031+00:00",
+  "generated_at": "2026-03-26T16:46:34.660365+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-2°C · преим. ясно",
-        "icon": "🌤",
+        "val": "-6°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": -1.7,
-        "feels_like": -5.0,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 3.0,
-        "wind_gusts": 5.8,
+        "temp": -5.5,
+        "feels_like": -9.1,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 3.6,
+        "wind_gusts": 6.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · преим. ясно",
+        "val": "+7°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 11.5,
-        "feels_like": 7.6,
+        "temp": 6.8,
+        "feels_like": 3.5,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 8.9,
-        "wind_gusts": 24.8,
+        "wind": 4.6,
+        "wind_gusts": 12.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "43 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -165,14 +165,6 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "развлечения в Smile Park на ВДНХ",
           "cats": [
             "stock",
@@ -189,23 +181,6 @@
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Выставка «Боги, цари и варвары. Монеты Боспорского царства»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
@@ -215,11 +190,36 @@
           "is_high": true
         },
         {
+          "title": "выставка «СЕНС. Почувствуй стихии»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
           "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
             "kids",
             "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
             "entertainment"
           ],
           "is_high": true
@@ -237,15 +237,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · пасмурно",
+        "val": "+12°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.6,
-        "feels_like": 13.2,
+        "temp": 11.7,
+        "feels_like": 10.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 2.5,
-        "wind_gusts": 9.4,
+        "wind": 4.2,
+        "wind_gusts": 10.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +272,6 @@
       "history": [
         0.392,
         0.392,
-        0.392,
         0.242,
         0.205,
         0.205,
@@ -291,6 +290,7 @@
         0.242,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -340,25 +340,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+4°C · пасмурно",
+        "val": "+1°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 3.5,
-        "feels_like": 0.5,
+        "temp": 1.3,
+        "feels_like": -1.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.1,
-        "wind_gusts": 18.7,
+        "wind": 4.8,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "12 крупных из 15",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -377,7 +377,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.281,
         0.431,
         0.516,
@@ -400,49 +399,10 @@
         0.516,
         0.516,
         0.366,
-        0.366
+        0.366,
+        0.266
       ],
       "_raw_events": [
-        {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
         {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
@@ -452,13 +412,6 @@
         },
         {
           "title": "ролевые настольные игры в «Башне»",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "вечера настольных игр на Кошурникова",
           "cats": [
             "entertainment"
           ],
@@ -476,6 +429,29 @@
         {
           "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
           "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "шоу мыльных пузырей в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock",
             "education"
           ],
           "is_high": false
