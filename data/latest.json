@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T08:10:15.866471+00:00",
+  "generated_at": "2026-03-27T11:32:09.059360+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+3°C · пасмурно",
+        "val": "+1°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 3.1,
-        "feels_like": -0.7,
+        "temp": 0.9,
+        "feels_like": -2.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.6,
-        "wind_gusts": 21.2,
+        "wind": 4.3,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.518,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+7°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+8°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 6.7,
-        "feels_like": 3.8,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 2.3,
-        "wind_gusts": 8.6,
+        "temp": 8.3,
+        "feels_like": 5.6,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 3.8,
+        "wind_gusts": 11.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "44 крупных из 50",
+        "val": "47 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -137,14 +137,29 @@
         0.368,
         0.368,
         0.368,
-        0.368
+        0.518
       ],
       "_raw_events": [
+        {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
             "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -209,26 +224,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -243,15 +238,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · пасмурно",
+        "val": "+16°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.2,
-        "feels_like": 12.3,
+        "temp": 15.5,
+        "feels_like": 14.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.8,
-        "wind_gusts": 12.2,
+        "wind": 4.3,
+        "wind_gusts": 13.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +274,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -299,6 +293,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -350,21 +345,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+4°C · пасмурно",
-        "icon": "☁",
+        "val": "+4°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
         "temp": 4.0,
-        "feels_like": 1.1,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.0,
-        "wind_gusts": 14.4,
+        "feels_like": 1.4,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 3.3,
+        "wind_gusts": 11.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "10 крупных из 13",
         "icon": "🎭"
       },
       "traffic": {
@@ -383,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.366,
         0.266,
         0.266,
@@ -402,6 +396,7 @@
         0.366,
         0.266,
         0.266,
+        0.366,
         0.366,
         0.366,
         0.366,
@@ -450,21 +445,6 @@
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
@@ -479,11 +459,27 @@
           "is_high": true
         },
         {
-          "title": "выставка «Иконы»",
+          "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
-            "exhibition"
+            "kids",
+            "education",
+            "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
