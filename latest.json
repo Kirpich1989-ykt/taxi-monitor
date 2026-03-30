@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-03-30T06:26:23.053856+00:00",
+  "generated_at": "2026-03-30T10:49:19.896331+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+5°C · пасмурно",
-        "icon": "☁",
-        "live": true,
-        "temp": 5.0,
-        "feels_like": -0.5,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 14.7,
-        "wind_gusts": 38.5,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "score": 0.0,
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 0.0,
@@ -54,7 +54,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.064,
-        0.079
+        0.079,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+18°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 9.9,
-        "feels_like": 7.2,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 4.3,
-        "wind_gusts": 14.4,
+        "temp": 18.1,
+        "feels_like": 14.6,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 10.2,
+        "wind_gusts": 28.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "39 крупных из 50",
+        "val": "40 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -239,19 +239,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.257,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+13°C · пасмурно",
+        "score": 0.05,
+        "val": "+16°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 12.8,
-        "feels_like": 11.9,
+        "temp": 15.5,
+        "feels_like": 13.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.2,
-        "wind_gusts": 11.5,
+        "wind": 13.1,
+        "wind_gusts": 33.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -284,7 +284,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -299,7 +298,8 @@
         0.242,
         0.205,
         0.205,
-        0.242
+        0.242,
+        0.257
       ],
       "_raw_events": [
         {
@@ -350,14 +350,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+2°C · ясно",
-        "icon": "☀",
+        "val": "+4°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 1.5,
-        "feels_like": -2.4,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 7.3,
+        "temp": 4.0,
+        "feels_like": -0.8,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 8.1,
         "wind_gusts": 21.6,
         "precip": 0.0,
         "snowfall": 0.0
@@ -386,7 +386,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.341,
         0.341,
         0.341,
@@ -404,6 +403,7 @@
         0.281,
         0.266,
         0.341,
+        0.366,
         0.366,
         0.366,
         0.366
@@ -450,16 +450,16 @@
           "is_high": true
         },
         {
-          "title": "экспозиция «Природа Новосибирской области»",
+          "title": "ролевые настольные игры в «Башне»",
           "cats": [
-            "exhibition"
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "ролевые настольные игры в «Башне»",
+          "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
@@ -478,11 +478,12 @@
           "is_high": false
         },
         {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
-            "education"
+            "kids",
+            "entertainment"
           ],
-          "is_high": false
+          "is_high": true
         }
       ],
       "_raw_news": [],
