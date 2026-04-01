@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T23:52:00.724966+00:00",
+  "generated_at": "2026-04-01T06:15:04.563937+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-12°C · пасмурно",
+        "val": "-7°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -12.2,
-        "feels_like": -16.4,
+        "temp": -6.9,
+        "feels_like": -11.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.4,
-        "wind_gusts": 8.6,
+        "wind": 7.8,
+        "wind_gusts": 19.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -62,6 +61,7 @@
         0.229,
         0.064,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+8°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+10°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 7.9,
-        "feels_like": 5.9,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 2.6,
-        "wind_gusts": 5.0,
+        "temp": 9.7,
+        "feels_like": 7.6,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 3.3,
+        "wind_gusts": 11.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "24 крупных из 49",
+        "val": "41 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,6 +141,49 @@
       ],
       "_raw_events": [
         {
+          "title": "мультимедийная выставка «Эйфория»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "развлечения в Smile Park на ВДНХ",
+          "cats": [
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
@@ -160,70 +203,23 @@
           "is_high": true
         },
         {
-          "title": "VR-путешествие «Чудеса света»",
+          "title": "выставка «СЕНС. Почувствуй стихии»",
           "cats": [
-            "exhibition",
-            "kids",
-            "recreation",
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "быстрые свидания от Fast Life",
+          "title": "Выставка «Боги, цари и варвары. Монеты Боспорского царства»",
           "cats": [
-            "party",
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "title": "выставка «Потомки Чингисхана. Русь и мир»",
           "cats": [
-            "stock",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "курс ораторского мастерства от Reforma Lab — официального партнёра МГИМО",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсии для детей по магазинам ВкусВилл",
-          "cats": [
-            "kids",
-            "tour"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "частный стендап от проекта «Стендап Импорт»",
-          "cats": [
-            "party",
-            "concert",
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         }
@@ -236,25 +232,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · пасмурно",
+        "val": "+12°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 10.4,
-        "feels_like": 8.9,
+        "temp": 12.4,
+        "feels_like": 10.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.4,
-        "wind_gusts": 19.4,
+        "wind": 10.8,
+        "wind_gusts": 26.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -273,7 +269,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.242,
         0.242,
         0.242,
@@ -296,9 +291,17 @@
         0.242,
         0.392,
         0.355,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Мне вечность глянула в глаза…»",
           "cats": [
@@ -340,21 +343,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-4°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+4°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": -4.0,
-        "feels_like": -7.7,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 2.9,
-        "wind_gusts": 4.0,
+        "temp": 3.6,
+        "feels_like": -0.3,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 4.7,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "16 крупных из 19",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -373,7 +376,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.366,
@@ -396,6 +398,7 @@
         0.266,
         0.266,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -412,6 +415,22 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -457,21 +476,6 @@
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "выставка «Иконы»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
