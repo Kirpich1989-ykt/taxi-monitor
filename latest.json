@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-04-02T05:53:30.724604+00:00",
+  "generated_at": "2026-04-02T09:44:36.015906+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.229,
+      "impact": 0.214,
       "alert": "green",
       "weather": {
-        "score": 0.55,
+        "score": 0.5,
         "val": "-7°C · снег слабый",
         "icon": "🌨",
         "live": true,
-        "temp": -7.2,
-        "feels_like": -12.5,
+        "temp": -7.4,
+        "feels_like": -12.1,
         "condition": "снег слабый",
         "wmo_code": 71,
-        "wind": 13.8,
-        "wind_gusts": 33.1,
+        "wind": 10.4,
+        "wind_gusts": 25.9,
         "precip": 0.1,
         "snowfall": 0.07
       },
@@ -46,7 +46,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.064,
         0.079,
         0.229,
-        0.229
+        0.229,
+        0.214
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,19 +77,19 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.518,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+7°C · дождь слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+11°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 7.3,
-        "feels_like": 4.6,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
-        "wind": 6.2,
-        "wind_gusts": 16.2,
+        "temp": 11.1,
+        "feels_like": 8.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 8.0,
+        "wind_gusts": 23.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -136,10 +136,19 @@
         0.368,
         0.368,
         0.368,
-        0.368,
-        0.518
+        0.518,
+        0.368
       ],
       "_raw_events": [
+        {
+          "title": "иммерсивное шоу «Зеркало Карлоса Сантоса»",
+          "cats": [
+            "theater",
+            "stock",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -210,13 +219,6 @@
           "is_high": true
         },
         {
-          "title": "Выставка «Боги, цари и варвары. Монеты Боспорского царства»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
           "cats": [
             "exhibition",
@@ -234,19 +236,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.257,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+11°C · ясно",
-        "icon": "☀",
+        "score": 0.05,
+        "val": "+19°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 11.4,
-        "feels_like": 9.2,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 8.8,
-        "wind_gusts": 22.3,
+        "temp": 19.0,
+        "feels_like": 17.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 12.6,
+        "wind_gusts": 32.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -271,7 +273,6 @@
         "icon": "📰"
       },
       "history": [
-        0.392,
         0.242,
         0.205,
         0.205,
@@ -294,7 +295,8 @@
         0.242,
         0.242,
         0.205,
-        0.242
+        0.242,
+        0.257
       ],
       "_raw_events": [
         {
@@ -345,21 +347,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+6°C · ясно",
-        "icon": "☀",
+        "val": "+8°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 5.6,
-        "feels_like": 2.5,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 7.6,
-        "wind_gusts": 21.2,
+        "temp": 8.3,
+        "feels_like": 4.5,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 7.8,
+        "wind_gusts": 22.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "21 крупных из 24",
+        "val": "20 крупных из 23",
         "icon": "🎭"
       },
       "traffic": {
@@ -378,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.341,
         0.366,
         0.366,
@@ -400,6 +401,7 @@
         0.266,
         0.266,
         0.266,
+        0.366,
         0.366,
         0.366
       ],
@@ -445,14 +447,6 @@
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
@@ -477,6 +471,13 @@
           "title": "выставка «Зарубежное искусство»",
           "cats": [
             "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вечера настольных игр на Кошурникова",
+          "cats": [
+            "entertainment"
           ],
           "is_high": true
         }
