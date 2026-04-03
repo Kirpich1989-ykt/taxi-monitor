@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T21:56:00.039463+00:00",
+  "generated_at": "2026-04-02T23:52:25.928159+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "-11°C · снег слабый",
         "icon": "🌨",
         "live": true,
-        "temp": -11.0,
-        "feels_like": -15.9,
+        "temp": -11.1,
+        "feels_like": -15.7,
         "condition": "снег слабый",
         "wmo_code": 71,
-        "wind": 9.8,
-        "wind_gusts": 22.7,
+        "wind": 7.2,
+        "wind_gusts": 17.6,
         "precip": 0.1,
         "snowfall": 0.07
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.064,
-        0.064,
         0.214,
         0.229,
         0.229,
@@ -66,6 +65,7 @@
         0.214,
         0.214,
         0.214,
+        0.214,
         0.214
       ],
       "_raw_events": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.518,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+7°C · дождь слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+7°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 6.9,
-        "feels_like": 5.1,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
+        "temp": 6.7,
+        "feels_like": 4.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
         "wind": 4.5,
-        "wind_gusts": 11.9,
-        "precip": 0.1,
+        "wind_gusts": 10.4,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "24 крупных из 48",
+        "val": "24 крупных из 49",
         "icon": "🎭"
       },
       "traffic": {
@@ -131,13 +131,13 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.518,
         0.518,
         0.518,
-        0.518
+        0.518,
+        0.368
       ],
       "_raw_events": [
         {
@@ -145,6 +145,16 @@
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -209,16 +219,6 @@
           "is_high": true
         },
         {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids",
-            "quest",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "частный стендап от проекта «Стендап Импорт»",
           "cats": [
             "party",
@@ -240,16 +240,16 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+13°C · дождь слабый",
+        "val": "+12°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 13.4,
-        "feels_like": 12.4,
+        "temp": 12.2,
+        "feels_like": 10.9,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 3.9,
-        "wind_gusts": 13.7,
-        "precip": 0.1,
+        "wind": 8.9,
+        "wind_gusts": 21.2,
+        "precip": 0.6,
         "snowfall": 0.0
       },
       "events": {
@@ -273,7 +273,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -296,6 +295,7 @@
         0.242,
         0.242,
         0.407,
+        0.355,
         0.355
       ],
       "_raw_events": [
@@ -340,21 +340,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-2°C · преим. ясно",
+        "val": "-3°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": -2.0,
-        "feels_like": -5.5,
+        "temp": -2.6,
+        "feels_like": -6.0,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 5.0,
-        "wind_gusts": 11.2,
+        "wind": 4.1,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "15 крупных из 18",
+        "val": "16 крупных из 19",
         "icon": "🎭"
       },
       "traffic": {
@@ -373,7 +373,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.266,
         0.266,
         0.366,
@@ -396,6 +395,7 @@
         0.366,
         0.266,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -438,18 +438,18 @@
           "is_high": true
         },
         {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
           "title": "выставка «Зарубежное искусство»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         },
         {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
@@ -460,18 +460,18 @@
           "is_high": true
         },
         {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
           "title": "выставка «Сибирь в древности»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
