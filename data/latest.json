@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T16:03:59.096127+00:00",
+  "generated_at": "2026-04-05T17:52:45.009114+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-14°C · ясно",
+        "val": "-16°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": -14.5,
-        "feels_like": -19.0,
+        "temp": -15.9,
+        "feels_like": -20.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.4,
+        "wind": 5.5,
         "wind_gusts": 11.5,
         "precip": 0.0,
         "snowfall": 0.0
@@ -45,7 +45,7 @@
       "history": [
         0.214,
         0.214,
-        0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+5°C · переменная облачность",
+        "val": "+4°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 5.2,
-        "feels_like": 1.9,
+        "temp": 3.9,
+        "feels_like": 0.8,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 9.2,
-        "wind_gusts": 31.0,
+        "wind": 8.6,
+        "wind_gusts": 22.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "43 крупных из 50",
+        "val": "30 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -133,9 +133,9 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.533,
+        0.368,
         0.368,
         0.368
       ],
@@ -159,45 +159,9 @@
           "is_high": true
         },
         {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Всё напоказ?»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультисенсорная выставка «Сон в музее»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -211,16 +175,51 @@
           "is_high": true
         },
         {
-          "title": "серия культурных завтраков в Котельнической высотке",
+          "title": "выставка «СЕНС. Почувствуй стихии»",
           "cats": [
-            "education",
-            "tour",
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "выставка «СЕНС. Почувствуй стихии»",
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "интерактивная выставка «Капибарабууум»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка говорящих картин «Ни в какие рамки»",
           "cats": [
             "exhibition"
           ],
@@ -235,20 +234,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.392,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+14°C · ливень слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+12°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 14.1,
-        "feels_like": 12.9,
-        "condition": "ливень слабый",
-        "wmo_code": 80,
-        "wind": 9.7,
-        "wind_gusts": 25.6,
-        "precip": 0.1,
+        "temp": 12.0,
+        "feels_like": 10.0,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 9.1,
+        "wind_gusts": 22.0,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -272,7 +271,6 @@
         "icon": "📰"
       },
       "history": [
-        0.392,
         0.242,
         0.242,
         0.242,
@@ -295,7 +293,8 @@
         0.257,
         0.257,
         0.392,
-        0.392
+        0.392,
+        0.242
       ],
       "_raw_events": [
         {
@@ -349,12 +348,12 @@
         "val": "+6°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 6.5,
-        "feels_like": 3.9,
+        "temp": 5.9,
+        "feels_like": 3.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.4,
-        "wind_gusts": 18.7,
+        "wind": 6.9,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -379,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.303,
         0.266,
         0.266,
@@ -402,6 +400,7 @@
         0.381,
         0.366,
         0.341,
+        0.266,
         0.266
       ],
       "_raw_events": [
