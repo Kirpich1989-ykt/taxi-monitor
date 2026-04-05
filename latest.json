@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T11:46:32.865194+00:00",
+  "generated_at": "2026-04-05T14:06:59.756349+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-8°C · преим. ясно",
-        "icon": "🌤",
+        "val": "-10°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": -7.9,
-        "feels_like": -12.2,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 5.9,
-        "wind_gusts": 14.8,
+        "temp": -10.2,
+        "feels_like": -14.5,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 5.4,
+        "wind_gusts": 11.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -47,7 +47,7 @@
         0.214,
         0.214,
         0.214,
-        0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -77,19 +77,19 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.533,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+7°C · ливень слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+6°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 7.4,
-        "feels_like": 3.7,
-        "condition": "ливень слабый",
-        "wmo_code": 80,
-        "wind": 12.2,
-        "wind_gusts": 37.4,
+        "temp": 6.5,
+        "feels_like": 2.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 11.8,
+        "wind_gusts": 35.6,
         "precip": 0.1,
         "snowfall": 0.0
       },
@@ -135,9 +135,9 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
-        0.533
+        0.533,
+        0.368
       ],
       "_raw_events": [
         {
@@ -209,19 +209,19 @@
           "is_high": true
         },
         {
-          "title": "шоу «Мастера иллюзии» в Центральном доме актёра",
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
           "cats": [
-            "theater",
+            "exhibition",
             "kids",
+            "tour",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
           "cats": [
             "exhibition",
-            "kids",
             "tour",
             "entertainment"
           ],
@@ -236,20 +236,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.392,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+17°C · переменная облачность",
-        "icon": "⛅",
+        "score": 0.5,
+        "val": "+15°C · ливень слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 16.9,
-        "feels_like": 15.5,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 12.1,
-        "wind_gusts": 35.6,
-        "precip": 0.0,
+        "temp": 15.2,
+        "feels_like": 14.2,
+        "condition": "ливень слабый",
+        "wmo_code": 80,
+        "wind": 11.2,
+        "wind_gusts": 31.3,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
@@ -273,7 +273,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.392,
         0.242,
@@ -296,7 +295,8 @@
         0.242,
         0.242,
         0.257,
-        0.257
+        0.257,
+        0.392
       ],
       "_raw_events": [
         {
@@ -343,25 +343,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.341,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+8°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 9.6,
-        "feels_like": 6.3,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 10.0,
-        "wind_gusts": 29.9,
+        "temp": 8.2,
+        "feels_like": 5.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 9.3,
+        "wind_gusts": 22.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "18 крупных из 21",
+        "score": 0.9,
+        "val": "6 крупных из 9",
         "icon": "🎭"
       },
       "traffic": {
@@ -380,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.303,
@@ -403,46 +402,15 @@
         0.366,
         0.366,
         0.381,
-        0.366
+        0.366,
+        0.341
       ],
       "_raw_events": [
-        {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "невидимая выставка-квест Temnota",
           "cats": [
             "exhibition",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
           ],
           "is_high": true
         },
@@ -469,13 +437,6 @@
           "is_high": true
         },
         {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "еженедельная сальса-вечеринка",
           "cats": [
             "party",
@@ -483,6 +444,37 @@
             "recreation"
           ],
           "is_high": true
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "свободное рисование в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock",
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
