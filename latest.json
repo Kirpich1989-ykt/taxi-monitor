@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T23:03:22.471559+00:00",
+  "generated_at": "2026-04-05T00:02:37.183585+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-16°C · пасмурно",
+        "val": "-13°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -16.2,
-        "feels_like": -20.7,
+        "temp": -13.3,
+        "feels_like": -17.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.7,
-        "wind_gusts": 10.8,
+        "wind": 5.2,
+        "wind_gusts": 11.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -52,7 +52,7 @@
         0.214,
         0.214,
         0.214,
-        0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -84,18 +84,18 @@
         "val": "+5°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 5.1,
-        "feels_like": 1.9,
+        "temp": 4.6,
+        "feels_like": 1.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 5.2,
-        "wind_gusts": 16.6,
+        "wind": 4.3,
+        "wind_gusts": 11.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "24 крупных из 48",
+        "val": "25 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -117,7 +117,7 @@
         0.518,
         0.518,
         0.518,
-        0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -145,6 +145,16 @@
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -218,13 +228,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "бесплатный вводный курс онлайн-магистратуры «Прикладной искусственный интеллект»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -243,11 +246,11 @@
         "icon": "☁",
         "live": true,
         "temp": 10.5,
-        "feels_like": 9.4,
+        "feels_like": 9.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.0,
-        "wind_gusts": 7.9,
+        "wind": 3.3,
+        "wind_gusts": 7.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -273,7 +276,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.407,
         0.355,
         0.355,
@@ -294,6 +296,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205
       ],
@@ -342,12 +345,12 @@
         "val": "0°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -0.4,
-        "feels_like": -4.0,
+        "temp": -0.5,
+        "feels_like": -4.1,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.4,
-        "wind_gusts": 8.3,
+        "wind": 6.7,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -372,7 +375,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.266,
         0.266,
         0.366,
@@ -393,6 +395,7 @@
         0.341,
         0.341,
         0.341,
+        0.366,
         0.366,
         0.366,
         0.366
