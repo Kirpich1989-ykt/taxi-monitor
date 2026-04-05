@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T10:03:31.241369+00:00",
+  "generated_at": "2026-04-05T11:46:32.865194+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-5°C · преим. ясно",
+        "val": "-8°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": -5.3,
-        "feels_like": -10.0,
+        "temp": -7.9,
+        "feels_like": -12.2,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 8.5,
-        "wind_gusts": 22.3,
+        "wind": 5.9,
+        "wind_gusts": 14.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -48,7 +48,7 @@
         0.214,
         0.214,
         0.214,
-        0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -77,19 +77,19 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.518,
+      "impact": 0.533,
       "alert": "green",
       "weather": {
-        "score": 0.5,
+        "score": 0.55,
         "val": "+7°C · ливень слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 7.2,
-        "feels_like": 3.5,
+        "temp": 7.4,
+        "feels_like": 3.7,
         "condition": "ливень слабый",
         "wmo_code": 80,
-        "wind": 11.7,
-        "wind_gusts": 36.4,
+        "wind": 12.2,
+        "wind_gusts": 37.4,
         "precip": 0.1,
         "snowfall": 0.0
       },
@@ -136,8 +136,8 @@
         0.368,
         0.368,
         0.368,
-        0.368,
-        0.518
+        0.518,
+        0.533
       ],
       "_raw_events": [
         {
@@ -162,6 +162,13 @@
           "cats": [
             "exhibition",
             "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -219,15 +226,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -242,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+17°C · пасмурно",
-        "icon": "☁",
+        "val": "+17°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
         "temp": 16.9,
-        "feels_like": 14.7,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 12.2,
-        "wind_gusts": 31.3,
+        "feels_like": 15.5,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 12.1,
+        "wind_gusts": 35.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +273,6 @@
         "icon": "📰"
       },
       "history": [
-        0.355,
         0.205,
         0.242,
         0.392,
@@ -298,6 +295,7 @@
         0.205,
         0.242,
         0.242,
+        0.257,
         0.257
       ],
       "_raw_events": [
@@ -345,25 +343,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.381,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+11°C · переменная облачность",
-        "icon": "⛅",
+        "score": 0.0,
+        "val": "+10°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 10.7,
-        "feels_like": 6.9,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 12.2,
-        "wind_gusts": 31.3,
+        "temp": 9.6,
+        "feels_like": 6.3,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 10.0,
+        "wind_gusts": 29.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "18 крупных из 21",
         "icon": "🎭"
       },
       "traffic": {
@@ -382,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.366,
@@ -405,7 +402,8 @@
         0.366,
         0.366,
         0.366,
-        0.381
+        0.381,
+        0.366
       ],
       "_raw_events": [
         {
