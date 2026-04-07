@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T05:30:12.488337+00:00",
+  "generated_at": "2026-04-07T09:54:11.052340+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -95,7 +95,7 @@
       },
       "events": {
         "score": 1.0,
-        "val": "43 крупных из 50",
+        "val": "44 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -121,7 +121,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.533,
         0.368,
@@ -137,9 +136,19 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "иммерсивное шоу «Зеркало Карлоса Сантоса»",
+          "cats": [
+            "theater",
+            "stock",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -217,14 +226,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -235,7 +236,7 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
@@ -252,8 +253,8 @@
         "snowfall": null
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -272,7 +273,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.242,
         0.242,
         0.205,
@@ -295,9 +295,17 @@
         0.242,
         0.257,
         0.22,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Мне вечность глянула в глаза…»",
           "cats": [
@@ -339,17 +347,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "нет данных",
-        "icon": "🌡",
-        "live": false,
-        "temp": null,
-        "feels_like": null,
-        "condition": null,
-        "wmo_code": null,
-        "wind": null,
-        "wind_gusts": null,
-        "precip": null,
-        "snowfall": null
+        "val": "+7°C · переменная облачность",
+        "icon": "⛅",
+        "live": true,
+        "temp": 7.4,
+        "feels_like": 4.8,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 2.1,
+        "wind_gusts": 8.3,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
@@ -373,7 +381,6 @@
       },
       "history": [
         0.341,
-        0.341,
         0.366,
         0.366,
         0.366,
@@ -394,6 +401,7 @@
         0.303,
         0.266,
         0.266,
+        0.366,
         0.366,
         0.366
       ],
