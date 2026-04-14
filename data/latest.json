@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T14:55:42.701235+00:00",
+  "generated_at": "2026-04-14T16:19:20.023397+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-8°C · ясно",
+        "val": "-12°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": -8.3,
-        "feels_like": -12.4,
+        "temp": -11.6,
+        "feels_like": -15.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.8,
-        "wind_gusts": 9.4,
+        "wind": 4.7,
+        "wind_gusts": 10.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,8 +44,8 @@
       },
       "history": [
         0.064,
-        0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -84,18 +84,18 @@
         "val": "+9°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 8.7,
-        "feels_like": 5.4,
+        "temp": 9.3,
+        "feels_like": 5.8,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 11.1,
-        "wind_gusts": 36.0,
-        "precip": 0.4,
+        "wind": 10.9,
+        "wind_gusts": 31.3,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "44 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.518,
         0.368,
         0.368,
         0.518,
@@ -137,6 +136,7 @@
         0.368,
         0.533,
         0.533,
+        0.518,
         0.518
       ],
       "_raw_events": [
@@ -167,14 +167,6 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "развлечения в Smile Park на ВДНХ",
           "cats": [
             "stock",
@@ -187,16 +179,6 @@
           "title": "мультисенсорная выставка «Сон в музее»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -219,9 +201,26 @@
           "is_high": true
         },
         {
-          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
+          "title": "выставка «СЕНС. Почувствуй стихии»",
           "cats": [
-            "theater",
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
             "entertainment"
           ],
           "is_high": true
@@ -242,12 +241,12 @@
         "val": "+11°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 11.4,
-        "feels_like": 8.0,
+        "temp": 10.8,
+        "feels_like": 7.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 14.5,
-        "wind_gusts": 38.5,
+        "wind": 12.7,
+        "wind_gusts": 36.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -273,7 +272,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.242,
         0.392,
@@ -295,6 +293,7 @@
         0.257,
         0.257,
         0.407,
+        0.257,
         0.257
       ],
       "_raw_events": [
@@ -350,11 +349,11 @@
         "icon": "☁",
         "live": true,
         "temp": 0.2,
-        "feels_like": -3.5,
+        "feels_like": -3.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.0,
-        "wind_gusts": 8.6,
+        "wind": 5.2,
+        "wind_gusts": 11.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -379,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.516,
         0.366,
         0.381,
         0.381,
@@ -402,6 +400,7 @@
         0.366,
         0.366,
         0.366,
+        0.266,
         0.266
       ],
       "_raw_events": [
