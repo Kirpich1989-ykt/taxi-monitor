@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T15:19:14.258141+00:00",
+  "generated_at": "2026-04-15T17:17:16.697914+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-6°C · пасмурно",
+        "val": "-8°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -6.4,
-        "feels_like": -10.2,
+        "temp": -7.7,
+        "feels_like": -11.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.6,
-        "wind_gusts": 8.3,
+        "wind": 4.2,
+        "wind_gusts": 8.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.518,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+10°C · дождь слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+10°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 9.9,
-        "feels_like": 9.1,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
-        "wind": 1.6,
-        "wind_gusts": 5.0,
-        "precip": 0.1,
+        "temp": 10.4,
+        "feels_like": 9.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 2.1,
+        "wind_gusts": 6.5,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "40 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -121,7 +121,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.533,
         0.533,
         0.518,
@@ -137,17 +136,10 @@
         0.368,
         0.518,
         0.518,
-        0.518
+        0.518,
+        0.368
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "иммерсивное шоу «Зеркало Карлоса Сантоса»",
           "cats": [
@@ -167,43 +159,9 @@
           "is_high": true
         },
         {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультисенсорная выставка «Сон в музее»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "stock",
-            "kids",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -224,6 +182,49 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «СЕНС. Почувствуй стихии»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Фестиваль «Пасхальный дар»",
+          "cats": [
+            "holiday",
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -234,19 +235,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+15°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.0,
+        "val": "+12°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 14.6,
-        "feels_like": 11.0,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 12.4,
-        "wind_gusts": 35.6,
+        "temp": 11.5,
+        "feels_like": 8.5,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 10.2,
+        "wind_gusts": 25.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +273,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -294,7 +294,8 @@
         0.257,
         0.257,
         0.257,
-        0.257
+        0.257,
+        0.242
       ],
       "_raw_events": [
         {
@@ -341,21 +342,21 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.431,
+      "impact": 0.281,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "-1°C · снег слабый",
-        "icon": "🌨",
+        "score": 0.05,
+        "val": "-3°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": -0.9,
-        "feels_like": -5.4,
-        "condition": "снег слабый",
-        "wmo_code": 71,
-        "wind": 12.8,
-        "wind_gusts": 32.0,
-        "precip": 0.1,
-        "snowfall": 0.07
+        "temp": -2.7,
+        "feels_like": -7.8,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 14.2,
+        "wind_gusts": 38.2,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 0.6,
@@ -379,7 +380,6 @@
       },
       "history": [
         0.266,
-        0.266,
         0.366,
         0.366,
         0.366,
@@ -401,7 +401,8 @@
         0.516,
         0.531,
         0.454,
-        0.431
+        0.431,
+        0.281
       ],
       "_raw_events": [
         {
@@ -436,14 +437,14 @@
           "is_high": true
         },
         {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
             "education"
           ],
           "is_high": false
         },
         {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
           "cats": [
             "education"
           ],
