@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T23:55:01.961671+00:00",
+  "generated_at": "2026-04-16T03:41:33.772493+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-6°C · ясно",
-        "icon": "☀",
+        "val": "-1°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": -6.3,
-        "feels_like": -10.5,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 3.6,
-        "wind_gusts": 9.0,
+        "temp": -0.7,
+        "feels_like": -5.2,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 9.6,
+        "wind_gusts": 23.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+8°C · переменная облачность",
+        "val": "+6°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 7.7,
-        "feels_like": 6.5,
+        "temp": 6.4,
+        "feels_like": 3.7,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 2.9,
-        "wind_gusts": 7.2,
+        "wind": 5.4,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "26 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -115,7 +115,6 @@
       },
       "history": [
         0.368,
-        0.368,
         0.533,
         0.533,
         0.518,
@@ -132,6 +131,7 @@
         0.518,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -141,10 +141,81 @@
       ],
       "_raw_events": [
         {
+          "title": "мультимедийная выставка «Эйфория»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "развлечения в Smile Park на ВДНХ",
+          "cats": [
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "XXV выставка-ярмарка «Жар-птица. Весна-2026»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
             "entertainment"
           ],
           "is_high": true
@@ -156,77 +227,6 @@
             "festival"
           ],
           "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "VR-путешествие «Чудеса света»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "быстрые свидания от Fast Life",
-          "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "вокал в «Музыкальном сообществе» / Music Community",
-          "cats": [
-            "stock",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "курс ораторского мастерства от Reforma Lab — официального партнёра МГИМО",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids",
-            "quest",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "частный стендап от проекта «Стендап Импорт»",
-          "cats": [
-            "party",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -241,15 +241,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · преим. ясно",
+        "val": "+6°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 7.4,
-        "feels_like": 5.2,
+        "temp": 6.5,
+        "feels_like": 4.3,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 2.6,
-        "wind_gusts": 5.4,
+        "wind": 2.8,
+        "wind_gusts": 6.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +276,6 @@
       "history": [
         0.257,
         0.257,
-        0.257,
         0.407,
         0.257,
         0.257,
@@ -295,6 +294,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205,
         0.205
@@ -344,18 +344,18 @@
         "val": "-5°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -5.4,
-        "feels_like": -10.0,
+        "temp": -4.9,
+        "feels_like": -9.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.0,
-        "wind_gusts": 24.1,
+        "wind": 9.3,
+        "wind_gusts": 25.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -374,7 +374,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.366,
@@ -397,6 +396,7 @@
         0.366,
         0.366,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -413,6 +413,22 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -458,20 +474,6 @@
           "cats": [
             "kids",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экспозиция «Природа Новосибирской области»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка Роберта Фалька",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         }
