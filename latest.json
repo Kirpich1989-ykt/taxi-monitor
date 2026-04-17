@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T10:21:35.229062+00:00",
+  "generated_at": "2026-04-17T12:00:41.512708+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+4°C · пасмурно",
+        "val": "+2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 3.6,
-        "feels_like": 0.3,
+        "temp": 2.3,
+        "feels_like": -0.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 2.0,
-        "wind_gusts": 12.6,
+        "wind": 1.1,
+        "wind_gusts": 1.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -56,15 +56,15 @@
         0.064,
         0.064,
         0.064,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
         0.064,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
         0.064,
         0.064
       ],
@@ -85,17 +85,17 @@
         "icon": "☁",
         "live": true,
         "temp": 11.5,
-        "feels_like": 9.6,
+        "feels_like": 9.4,
         "condition": "пасмурно",
         "wmo_code": 3,
         "wind": 5.4,
-        "wind_gusts": 18.7,
+        "wind_gusts": 17.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "48 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,7 @@
         "icon": "📰"
       },
       "history": [
-        0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -141,6 +141,14 @@
       ],
       "_raw_events": [
         {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "иммерсивное шоу «Зеркало Карлоса Сантоса»",
           "cats": [
             "theater",
@@ -154,6 +162,13 @@
           "cats": [
             "exhibition",
             "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -204,28 +219,9 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "title": "бурлеск-кабаре «Мадам Бум»",
           "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "XXV выставка-ярмарка «Жар-птица. Весна-2026»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "групповые знакомства GOKON",
-          "cats": [
-            "party",
-            "other",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -243,15 +239,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · ясно",
-        "icon": "☀",
+        "val": "+20°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 20.0,
-        "feels_like": 18.5,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 10.4,
-        "wind_gusts": 28.8,
+        "temp": 20.2,
+        "feels_like": 17.7,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 10.2,
+        "wind_gusts": 27.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +272,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -298,6 +293,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242
       ],
@@ -350,21 +346,21 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "-3°C · пасмурно",
+        "val": "-4°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -3.2,
-        "feels_like": -8.9,
+        "temp": -3.8,
+        "feels_like": -9.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 15.3,
-        "wind_gusts": 40.3,
+        "wind": 14.0,
+        "wind_gusts": 37.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "10 крупных из 13",
         "icon": "🎭"
       },
       "traffic": {
@@ -383,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.431,
         0.281,
         0.266,
         0.366,
@@ -405,6 +400,7 @@
         0.366,
         0.366,
         0.531,
+        0.381,
         0.381,
         0.381
       ],
@@ -450,31 +446,9 @@
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сибирь в древности»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         },
@@ -484,6 +458,30 @@
             "exhibition"
           ],
           "is_high": true
+        },
+        {
+          "title": "шоу мыльных пузырей в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "свободное рисование в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
