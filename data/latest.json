@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T03:25:56.619938+00:00",
+  "generated_at": "2026-04-18T05:47:28.870224+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+3°C · пасмурно",
-        "icon": "☁",
+        "val": "+6°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 3.0,
-        "feels_like": -0.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
+        "temp": 6.1,
+        "feels_like": 2.6,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
         "wind": 2.3,
-        "wind_gusts": 7.6,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -45,15 +45,15 @@
       "history": [
         0.064,
         0.064,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
         0.064,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+4°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+7°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 3.8,
-        "feels_like": 1.6,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 4.7,
-        "wind_gusts": 10.4,
+        "temp": 6.9,
+        "feels_like": 4.4,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 7.7,
+        "wind_gusts": 23.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "47 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -244,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · пасмурно",
+        "val": "+12°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 8.9,
-        "feels_like": 6.8,
+        "temp": 11.9,
+        "feels_like": 9.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 5.7,
-        "wind_gusts": 13.7,
+        "wind": 6.8,
+        "wind_gusts": 20.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -282,7 +282,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -297,6 +296,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205,
         0.205,
@@ -340,25 +340,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "-5°C · пасмурно",
+        "score": 0.05,
+        "val": "-2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -5.1,
-        "feels_like": -10.4,
+        "temp": -2.4,
+        "feels_like": -7.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 11.7,
-        "wind_gusts": 31.0,
+        "wind": 14.1,
+        "wind_gusts": 36.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "18 крупных из 22",
+        "val": "19 крупных из 23",
         "icon": "🎭"
       },
       "traffic": {
@@ -377,7 +377,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.303,
         0.266,
         0.266,
@@ -400,7 +399,8 @@
         0.366,
         0.366,
         0.366,
-        0.366
+        0.366,
+        0.381
       ],
       "_raw_events": [
         {
@@ -436,16 +436,17 @@
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
+          "title": "невидимая выставка-квест Temnota",
           "cats": [
-            "kids",
+            "exhibition",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "ролевые настольные игры в «Башне»",
+          "title": "цирковое представление с морскими животными",
           "cats": [
+            "kids",
             "entertainment"
           ],
           "is_high": true
@@ -458,17 +459,16 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сибирь в древности»",
+          "title": "ролевые настольные игры в «Башне»",
           "cats": [
-            "exhibition"
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
+          "title": "выставка «Сибирь в древности»",
           "cats": [
-            "kids",
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
