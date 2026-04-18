@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T16:55:01.485478+00:00",
+  "generated_at": "2026-04-18T17:50:02.001353+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-3°C · переменная облачность",
+        "val": "-4°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": -3.1,
-        "feels_like": -6.8,
+        "temp": -3.6,
+        "feels_like": -7.3,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 5.5,
-        "wind_gusts": 10.8,
+        "wind": 5.7,
+        "wind_gusts": 11.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,7 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -84,12 +84,12 @@
         "val": "+4°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 4.3,
+        "temp": 4.1,
         "feels_like": 0.7,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 11.9,
-        "wind_gusts": 34.2,
+        "wind": 11.2,
+        "wind_gusts": 32.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -129,7 +129,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.533,
         0.533,
         0.533,
@@ -137,6 +136,7 @@
         0.533,
         0.533,
         0.533,
+        0.518,
         0.518
       ],
       "_raw_events": [
@@ -154,17 +154,6 @@
           "cats": [
             "exhibition",
             "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Всё напоказ?»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "yarmarki-razvlecheniya-yarmarki",
             "entertainment"
           ],
           "is_high": true
@@ -230,6 +219,16 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -247,11 +246,11 @@
         "val": "+12°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 12.3,
-        "feels_like": 11.5,
+        "temp": 11.8,
+        "feels_like": 10.8,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 6.6,
+        "wind": 7.3,
         "wind_gusts": 19.4,
         "precip": 0.1,
         "snowfall": 0.0
@@ -277,7 +276,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -293,6 +291,7 @@
         0.205,
         0.205,
         0.205,
+        0.392,
         0.392,
         0.392,
         0.392,
@@ -354,12 +353,12 @@
         "val": "+4°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 3.5,
-        "feels_like": -0.6,
+        "temp": 3.9,
+        "feels_like": 0.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.3,
-        "wind_gusts": 29.5,
+        "wind": 9.7,
+        "wind_gusts": 24.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -384,7 +383,6 @@
         "icon": "📰"
       },
       "history": [
-        0.531,
         0.381,
         0.381,
         0.381,
@@ -407,6 +405,7 @@
         0.381,
         0.506,
         0.356,
+        0.341,
         0.341
       ],
       "_raw_events": [
