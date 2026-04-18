@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T11:46:50.007530+00:00",
+  "generated_at": "2026-04-18T13:22:54.667429+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "0°C · пасмурно",
-        "icon": "☁",
+        "val": "-2°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": -0.3,
-        "feels_like": -3.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 4.2,
-        "wind_gusts": 8.3,
+        "temp": -2.3,
+        "feels_like": -5.8,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.4,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -47,7 +47,7 @@
         0.079,
         0.079,
         0.079,
-        0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.55,
-        "val": "+6°C · дождь слабый",
+        "val": "+5°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 6.2,
-        "feels_like": 2.6,
+        "temp": 5.1,
+        "feels_like": 1.3,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 13.7,
-        "wind_gusts": 37.4,
+        "wind": 14.6,
+        "wind_gusts": 39.6,
         "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "47 крупных из 50",
+        "val": "49 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -133,7 +133,7 @@
         0.368,
         0.368,
         0.368,
-        0.368,
+        0.533,
         0.533,
         0.533,
         0.533,
@@ -243,13 +243,13 @@
         "val": "+14°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 14.4,
-        "feels_like": 13.3,
+        "temp": 14.2,
+        "feels_like": 13.6,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 8.9,
-        "wind_gusts": 23.4,
-        "precip": 0.1,
+        "wind": 5.5,
+        "wind_gusts": 21.6,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
@@ -277,7 +277,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -293,6 +292,7 @@
         0.205,
         0.205,
         0.205,
+        0.392,
         0.392,
         0.392,
         0.392,
@@ -350,18 +350,18 @@
         "val": "+2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 1.9,
-        "feels_like": -4.0,
+        "temp": 2.5,
+        "feels_like": -3.1,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 17.6,
-        "wind_gusts": 47.5,
+        "wind": 16.2,
+        "wind_gusts": 42.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "8 крупных из 11",
         "icon": "🎭"
       },
       "traffic": {
@@ -380,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.366,
@@ -403,38 +402,15 @@
         0.381,
         0.381,
         0.381,
+        0.381,
         0.381
       ],
       "_raw_events": [
-        {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
         {
           "title": "беззвучная выставка-квест «Тишина»",
           "cats": [
             "exhibition",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
           ],
           "is_high": true
         },
@@ -452,13 +428,6 @@
             "education",
             "cinema",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         },
@@ -483,6 +452,37 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "ночь настольных игр в клубе-магазине «ИгРРай»",
+          "cats": [
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "свободное рисование в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
