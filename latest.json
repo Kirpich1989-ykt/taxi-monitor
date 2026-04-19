@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T09:57:27.716633+00:00",
+  "generated_at": "2026-04-19T10:55:03.418327+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+5°C · ясно",
-        "icon": "☀",
+        "val": "+3°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 4.7,
-        "feels_like": 1.4,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 1.8,
-        "wind_gusts": 9.0,
+        "temp": 2.9,
+        "feels_like": -0.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 2.6,
+        "wind_gusts": 4.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -84,12 +84,12 @@
         "val": "+6°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 5.8,
-        "feels_like": 1.6,
+        "temp": 5.7,
+        "feels_like": 1.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 11.7,
-        "wind_gusts": 32.4,
+        "wind": 11.2,
+        "wind_gusts": 31.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -118,7 +118,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.533,
         0.533,
         0.533,
@@ -135,6 +134,7 @@
         0.518,
         0.368,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368
@@ -162,6 +162,13 @@
           "cats": [
             "exhibition",
             "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -220,15 +227,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -246,12 +244,12 @@
         "val": "+14°C · ливень слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 14.4,
-        "feels_like": 12.1,
+        "temp": 14.3,
+        "feels_like": 11.9,
         "condition": "ливень слабый",
         "wmo_code": 80,
         "wind": 14.4,
-        "wind_gusts": 41.0,
+        "wind_gusts": 42.8,
         "precip": 0.1,
         "snowfall": 0.0
       },
@@ -280,7 +278,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.392,
         0.392,
         0.392,
@@ -299,6 +296,7 @@
         0.355,
         0.392,
         0.257,
+        0.407,
         0.407
       ],
       "_raw_events": [
@@ -350,15 +348,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · пасмурно",
+        "val": "+9°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 10.1,
-        "feels_like": 7.3,
+        "temp": 8.7,
+        "feels_like": 5.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.8,
-        "wind_gusts": 23.4,
+        "wind": 10.1,
+        "wind_gusts": 25.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -385,7 +383,6 @@
       "history": [
         0.366,
         0.366,
-        0.366,
         0.381,
         0.381,
         0.381,
@@ -404,6 +401,7 @@
         0.366,
         0.516,
         0.516,
+        0.366,
         0.366,
         0.366,
         0.366
