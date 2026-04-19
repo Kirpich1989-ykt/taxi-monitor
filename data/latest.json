@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T08:12:34.322329+00:00",
+  "generated_at": "2026-04-19T09:57:27.716633+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · ясно",
+        "val": "+5°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 7.0,
-        "feels_like": 3.1,
+        "temp": 4.7,
+        "feels_like": 1.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.5,
-        "wind_gusts": 12.2,
+        "wind": 1.8,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+5°C · пасмурно",
+        "val": "+6°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 5.0,
-        "feels_like": 1.1,
+        "temp": 5.8,
+        "feels_like": 1.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.7,
-        "wind_gusts": 29.5,
+        "wind": 11.7,
+        "wind_gusts": 32.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "47 крупных из 50",
+        "val": "48 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -119,7 +119,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.533,
         0.533,
         0.533,
@@ -136,10 +135,28 @@
         0.518,
         0.368,
         0.518,
+        0.368,
         0.368,
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "иммерсивное шоу «Зеркало Карлоса Сантоса»",
+          "cats": [
+            "theater",
+            "stock",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -169,20 +186,20 @@
           "is_high": true
         },
         {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "title": "XXV выставка-ярмарка «Жар-птица. Весна-2026»",
           "cats": [
-            "stock",
-            "education",
-            "other",
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "XXV выставка-ярмарка «Жар-птица. Весна-2026»",
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
           "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki",
+            "stock",
+            "education",
+            "other",
             "entertainment"
           ],
           "is_high": true
@@ -212,24 +229,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "квест «Красная кнопка»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -240,20 +239,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.407,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+14°C · пасмурно",
-        "icon": "☁",
+        "score": 0.55,
+        "val": "+14°C · ливень слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 13.6,
-        "feels_like": 11.1,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 15.6,
-        "wind_gusts": 42.1,
-        "precip": 0.0,
+        "temp": 14.4,
+        "feels_like": 12.1,
+        "condition": "ливень слабый",
+        "wmo_code": 80,
+        "wind": 14.4,
+        "wind_gusts": 41.0,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -282,7 +281,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.392,
         0.392,
         0.392,
@@ -300,7 +298,8 @@
         0.355,
         0.355,
         0.392,
-        0.257
+        0.257,
+        0.407
       ],
       "_raw_events": [
         {
@@ -351,21 +350,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · пасмурно",
+        "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 9.1,
-        "feels_like": 6.9,
+        "temp": 10.1,
+        "feels_like": 7.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 2.9,
-        "wind_gusts": 11.2,
+        "wind": 8.8,
+        "wind_gusts": 23.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "20 крупных из 23",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -387,7 +386,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.381,
         0.381,
         0.381,
@@ -406,6 +404,7 @@
         0.366,
         0.516,
         0.516,
+        0.366,
         0.366,
         0.366
       ],
@@ -451,14 +450,6 @@
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Зарубежное искусство»",
           "cats": [
             "exhibition"
@@ -483,6 +474,13 @@
         },
         {
           "title": "выставка «Сибирь в древности»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
           ],
