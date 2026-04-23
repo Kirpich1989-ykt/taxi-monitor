@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T03:40:28.387633+00:00",
+  "generated_at": "2026-04-23T06:15:16.667172+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+3°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+7°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 2.9,
-        "feels_like": -0.4,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 5.6,
-        "wind_gusts": 13.7,
+        "temp": 6.9,
+        "feels_like": 2.1,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 9.4,
+        "wind_gusts": 22.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,7 +44,7 @@
       },
       "history": [
         0.079,
-        0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,16 +81,16 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+4°C · дождь слабый",
+        "val": "+5°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 4.2,
-        "feels_like": 1.4,
+        "temp": 4.6,
+        "feels_like": 1.5,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 6.1,
-        "wind_gusts": 23.4,
-        "precip": 0.3,
+        "wind": 9.1,
+        "wind_gusts": 25.9,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -116,7 +116,6 @@
       "history": [
         0.383,
         0.383,
-        0.383,
         0.368,
         0.368,
         0.368,
@@ -136,6 +135,7 @@
         0.368,
         0.368,
         0.368,
+        0.518,
         0.518,
         0.518
       ],
@@ -239,25 +239,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+6°C · ясно",
+        "val": "+11°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 5.7,
-        "feels_like": 2.9,
+        "temp": 11.0,
+        "feels_like": 7.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.8,
-        "wind_gusts": 11.5,
+        "wind": 11.4,
+        "wind_gusts": 30.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -276,7 +276,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.257,
         0.257,
         0.257,
@@ -299,9 +298,17 @@
         0.205,
         0.205,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -339,25 +346,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.516,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+11°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+13°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 11.4,
-        "feels_like": 8.1,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 8.9,
-        "wind_gusts": 22.3,
+        "temp": 12.8,
+        "feels_like": 10.1,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 9.7,
+        "wind_gusts": 26.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "21 крупных из 24",
         "icon": "🎭"
       },
       "traffic": {
@@ -376,7 +383,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.381,
         0.381,
         0.381,
@@ -399,7 +405,8 @@
         0.366,
         0.366,
         0.366,
-        0.366
+        0.366,
+        0.516
       ],
       "_raw_events": [
         {
@@ -472,7 +479,7 @@
           "is_high": true
         },
         {
-          "title": "ролевые настольные игры в «Башне»",
+          "title": "открытые игры в клубе спортивной «Мафии»",
           "cats": [
             "entertainment"
           ],
