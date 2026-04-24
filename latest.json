@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T11:18:16.636909+00:00",
+  "generated_at": "2026-04-24T14:02:18.521979+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+4°C · преим. ясно",
-        "icon": "🌤",
+        "val": "-3°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 3.8,
-        "feels_like": 0.3,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 4.2,
-        "wind_gusts": 5.4,
+        "temp": -3.1,
+        "feels_like": -7.2,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 6.7,
+        "wind_gusts": 10.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -84,12 +84,12 @@
         "val": "+6°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 5.9,
-        "feels_like": 0.9,
+        "temp": 5.6,
+        "feels_like": 0.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 13.8,
-        "wind_gusts": 37.8,
+        "wind": 13.4,
+        "wind_gusts": 38.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -120,7 +120,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.518,
@@ -129,6 +128,7 @@
         0.533,
         0.533,
         0.533,
+        0.383,
         0.383,
         0.383,
         0.383,
@@ -200,21 +200,21 @@
           "is_high": true
         },
         {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "экскурсия с представлением в Музее фокусов и иллюзий",
           "cats": [
             "exhibition",
             "kids",
             "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
             "entertainment"
           ],
           "is_high": true
@@ -237,19 +237,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.272,
+      "impact": 0.257,
       "alert": "green",
       "weather": {
-        "score": 0.1,
-        "val": "+13°C · пасмурно",
+        "score": 0.05,
+        "val": "+11°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.2,
-        "feels_like": 7.6,
+        "temp": 10.9,
+        "feels_like": 6.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 20.2,
-        "wind_gusts": 58.7,
+        "wind": 13.0,
+        "wind_gusts": 48.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +278,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -297,7 +296,8 @@
         0.37,
         0.22,
         0.257,
-        0.272
+        0.272,
+        0.257
       ],
       "_raw_events": [
         {
@@ -344,25 +344,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.381,
+      "impact": 0.319,
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+17°C · пасмурно",
+        "val": "+13°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 17.3,
-        "feels_like": 13.2,
+        "temp": 12.6,
+        "feels_like": 8.1,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 15.1,
-        "wind_gusts": 40.0,
+        "wind": 18.6,
+        "wind_gusts": 28.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "10 крупных из 13",
+        "score": 0.75,
+        "val": "5 крупных из 8",
         "icon": "🎭"
       },
       "traffic": {
@@ -381,7 +381,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.266,
         0.266,
         0.266,
@@ -404,46 +403,15 @@
         0.366,
         0.381,
         0.381,
-        0.381
+        0.381,
+        0.319
       ],
       "_raw_events": [
-        {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "невидимая выставка-квест Temnota",
           "cats": [
             "exhibition",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
           ],
           "is_high": true
         },
@@ -462,6 +430,14 @@
           "is_high": true
         },
         {
+          "title": "шоу мыльных пузырей в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
             "kids",
@@ -471,16 +447,23 @@
           "is_high": true
         },
         {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock",
             "education"
           ],
           "is_high": false
