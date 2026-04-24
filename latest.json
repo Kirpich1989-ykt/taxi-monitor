@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T03:44:53.636738+00:00",
+  "generated_at": "2026-04-24T06:18:44.535431+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+5°C · ясно",
+        "val": "+7°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 4.7,
-        "feels_like": 1.7,
+        "temp": 7.3,
+        "feels_like": 3.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.8,
-        "wind_gusts": 13.7,
+        "wind": 6.2,
+        "wind_gusts": 14.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+1°C · пасмурно",
-        "icon": "☁",
+        "val": "+3°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 0.6,
-        "feels_like": -3.8,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 12.2,
-        "wind_gusts": 32.4,
+        "temp": 3.3,
+        "feels_like": -1.5,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 14.3,
+        "wind_gusts": 38.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "43 крупных из 50",
+        "val": "44 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -123,7 +123,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.518,
@@ -132,6 +131,7 @@
         0.533,
         0.533,
         0.533,
+        0.383,
         0.383,
         0.383,
         0.383,
@@ -158,19 +158,20 @@
           "is_high": true
         },
         {
-          "title": "мультисенсорная выставка «Сон в музее»",
+          "title": "выставка «Всё напоказ?»",
           "cats": [
-            "exhibition"
+            "exhibition",
+            "kids",
+            "tour",
+            "yarmarki-razvlecheniya-yarmarki",
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "title": "мультисенсорная выставка «Сон в музее»",
           "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
@@ -180,6 +181,16 @@
             "exhibition",
             "kids",
             "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
             "entertainment"
           ],
           "is_high": true
@@ -219,16 +230,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -239,20 +240,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.37,
+      "impact": 0.22,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+8°C · дождь слабый",
-        "icon": "🌧",
+        "score": 0.05,
+        "val": "+10°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 8.3,
-        "feels_like": 5.0,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
-        "wind": 15.1,
-        "wind_gusts": 45.7,
-        "precip": 0.2,
+        "temp": 9.5,
+        "feels_like": 5.2,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 17.0,
+        "wind_gusts": 43.9,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -283,7 +284,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -299,7 +299,8 @@
         0.22,
         0.235,
         0.235,
-        0.37
+        0.37,
+        0.22
       ],
       "_raw_events": [
         {
@@ -339,19 +340,19 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+10°C · ясно",
+        "score": 0.05,
+        "val": "+14°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 10.5,
-        "feels_like": 7.6,
+        "temp": 14.4,
+        "feels_like": 11.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.8,
-        "wind_gusts": 19.8,
+        "wind": 13.4,
+        "wind_gusts": 36.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -379,7 +380,6 @@
         0.381,
         0.381,
         0.381,
-        0.381,
         0.266,
         0.266,
         0.266,
@@ -399,7 +399,8 @@
         0.381,
         0.366,
         0.366,
-        0.366
+        0.366,
+        0.381
       ],
       "_raw_events": [
         {
