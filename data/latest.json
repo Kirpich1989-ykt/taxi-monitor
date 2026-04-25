@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-04-25T15:52:31.161965+00:00",
+  "generated_at": "2026-04-25T16:58:03.291778+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.0,
+        "score": 0.05,
         "val": "-4°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": -4.2,
-        "feels_like": -9.0,
+        "temp": -3.8,
+        "feels_like": -8.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 11.6,
-        "wind_gusts": 11.5,
+        "wind": 13.1,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -66,7 +66,7 @@
         0.064,
         0.064,
         0.064,
-        0.064
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -84,18 +84,18 @@
         "val": "+9°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 9.3,
-        "feels_like": 6.0,
+        "temp": 8.8,
+        "feels_like": 5.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 2.5,
-        "wind_gusts": 21.6,
+        "wind": 4.1,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "41 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -122,7 +122,7 @@
         0.383,
         0.383,
         0.383,
-        0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -154,13 +154,6 @@
           "cats": [
             "exhibition",
             "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -212,17 +205,28 @@
           "is_high": true
         },
         {
-          "title": "выставка «Кошачья Вселенная»",
+          "title": "групповые знакомства GOKON",
           "cats": [
-            "exhibition"
+            "party",
+            "other",
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "маркет «4 сезона»",
+          "title": "фестиваль молодого современного искусства «Тон-фесТ 2026»",
           "cats": [
-            "festival",
-            "yarmarki-razvlecheniya-yarmarki",
+            "exhibition",
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -236,25 +240,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.107,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+12°C · ясно",
+        "score": 0.0,
+        "val": "+11°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 12.5,
-        "feels_like": 9.6,
+        "temp": 11.2,
+        "feels_like": 9.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 12.9,
-        "wind_gusts": 43.6,
+        "wind": 7.5,
+        "wind_gusts": 29.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.0,
-        "val": "KudaGo HTTP 502",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -273,7 +277,6 @@
         "icon": "📰"
       },
       "history": [
-        0.22,
         0.235,
         0.235,
         0.37,
@@ -296,9 +299,46 @@
         0.272,
         0.257,
         0.257,
-        0.107
+        0.107,
+        0.242
       ],
-      "_raw_events": [],
+      "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка  «Особенности национальной охоты»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка  «Мне вечность глянула в глаза…»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Литературная жизнь Кубани» в литмузее",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock"
+          ],
+          "is_high": false
+        }
+      ],
       "_raw_news": [],
       "_raw_trends": {}
     },
@@ -311,15 +351,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+14°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+14°C · пасмурно",
+        "icon": "☁",
         "live": true,
         "temp": 14.1,
-        "feels_like": 10.6,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 15.8,
-        "wind_gusts": 11.5,
+        "feels_like": 10.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 16.5,
+        "wind_gusts": 11.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -344,7 +384,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.366,
         0.366,
         0.366,
@@ -366,6 +405,7 @@
         0.381,
         0.381,
         0.381,
+        0.356,
         0.356,
         0.356
       ],
