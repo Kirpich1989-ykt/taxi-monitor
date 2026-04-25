@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T05:54:48.497312+00:00",
+  "generated_at": "2026-04-25T07:42:53.714188+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · ясно",
+        "val": "+6°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 6.8,
-        "feels_like": 3.4,
+        "temp": 6.1,
+        "feels_like": 2.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.5,
-        "wind_gusts": 20.2,
+        "wind": 6.1,
+        "wind_gusts": 19.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+3°C · преим. ясно",
+        "val": "+5°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 3.4,
-        "feels_like": -0.2,
+        "temp": 5.4,
+        "feels_like": 2.4,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 7.2,
+        "wind": 7.0,
         "wind_gusts": 21.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "44 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -118,7 +118,6 @@
         0.533,
         0.533,
         0.533,
-        0.533,
         0.383,
         0.383,
         0.383,
@@ -130,6 +129,7 @@
         0.383,
         0.383,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -145,6 +145,13 @@
           "cats": [
             "exhibition",
             "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -220,15 +227,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "групповые знакомства GOKON",
-          "cats": [
-            "party",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -239,25 +237,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.257,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+11°C · переменная облачность",
-        "icon": "⛅",
+        "score": 0.05,
+        "val": "+12°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 10.6,
-        "feels_like": 8.1,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 8.7,
-        "wind_gusts": 24.1,
+        "temp": 12.5,
+        "feels_like": 9.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 15.6,
+        "wind_gusts": 40.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -282,7 +280,6 @@
         0.257,
         0.257,
         0.257,
-        0.257,
         0.22,
         0.235,
         0.235,
@@ -299,9 +296,17 @@
         0.205,
         0.205,
         0.205,
-        0.205
+        0.205,
+        0.257
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -339,19 +344,19 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+20°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.05,
+        "val": "+22°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 20.2,
-        "feels_like": 18.5,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 10.4,
-        "wind_gusts": 19.1,
+        "temp": 21.5,
+        "feels_like": 18.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 12.3,
+        "wind_gusts": 26.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -376,7 +381,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.381,
         0.366,
         0.454,
@@ -399,7 +403,8 @@
         0.366,
         0.366,
         0.366,
-        0.366
+        0.366,
+        0.381
       ],
       "_raw_events": [
         {
@@ -465,16 +470,16 @@
           "is_high": true
         },
         {
-          "title": "ролевые настольные игры в «Башне»",
+          "title": "выставка «Сибирь в древности»",
           "cats": [
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "выставка «Сибирь в древности»",
+          "title": "ролевые настольные игры в «Башне»",
           "cats": [
-            "exhibition"
+            "entertainment"
           ],
           "is_high": true
         }
