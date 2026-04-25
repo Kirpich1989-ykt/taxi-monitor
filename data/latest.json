@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T21:49:26.077320+00:00",
+  "generated_at": "2026-04-25T22:52:09.907984+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-3°C · ясно",
+        "val": "-1°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": -2.8,
-        "feels_like": -7.0,
+        "temp": -1.0,
+        "feels_like": -4.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.4,
-        "wind_gusts": 16.2,
+        "wind": 7.2,
+        "wind_gusts": 14.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -61,11 +61,11 @@
         0.064,
         0.064,
         0.064,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
         0.064,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
         0.064
       ],
       "_raw_events": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.518,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+7°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+7°C · ливень слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 7.0,
+        "temp": 6.9,
         "feels_like": 3.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 8.0,
-        "wind_gusts": 22.3,
-        "precip": 0.0,
+        "condition": "ливень слабый",
+        "wmo_code": 80,
+        "wind": 8.8,
+        "wind_gusts": 24.1,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "24 крупных из 50",
+        "val": "23 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -117,7 +117,6 @@
         0.383,
         0.383,
         0.383,
-        0.383,
         0.368,
         0.368,
         0.368,
@@ -137,7 +136,8 @@
         0.368,
         0.368,
         0.368,
-        0.368
+        0.368,
+        0.518
       ],
       "_raw_events": [
         {
@@ -241,15 +241,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · ясно",
+        "val": "+8°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 8.7,
-        "feels_like": 6.6,
+        "temp": 8.5,
+        "feels_like": 6.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.3,
-        "wind_gusts": 10.4,
+        "wind": 4.5,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +274,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.272,
         0.257,
         0.242,
@@ -297,6 +296,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -341,21 +341,21 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+11°C · ясно",
+        "val": "+10°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 10.6,
-        "feels_like": 7.2,
+        "temp": 10.2,
+        "feels_like": 6.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 13.7,
-        "wind_gusts": 19.1,
+        "wind": 14.0,
+        "wind_gusts": 19.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "8 крупных из 11",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -374,7 +374,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.381,
         0.319,
         0.281,
@@ -396,6 +395,7 @@
         0.356,
         0.356,
         0.356,
+        0.381,
         0.381,
         0.381
       ],
@@ -421,6 +421,21 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
@@ -461,20 +476,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
