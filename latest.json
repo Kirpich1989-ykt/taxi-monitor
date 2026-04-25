@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-04-25T20:53:23.782728+00:00",
+  "generated_at": "2026-04-25T21:49:26.077320+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "-4°C · ясно",
+        "score": 0.0,
+        "val": "-3°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": -3.9,
-        "feels_like": -8.7,
+        "temp": -2.8,
+        "feels_like": -7.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 12.3,
-        "wind_gusts": 15.1,
+        "wind": 9.4,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -62,11 +62,11 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
-        0.079
+        0.079,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -85,11 +85,11 @@
         "icon": "☁",
         "live": true,
         "temp": 7.0,
-        "feels_like": 3.6,
+        "feels_like": 3.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.9,
-        "wind_gusts": 20.5,
+        "wind": 8.0,
+        "wind_gusts": 22.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -118,7 +118,7 @@
         0.383,
         0.383,
         0.383,
-        0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -237,25 +237,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
         "val": "+9°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 9.3,
-        "feels_like": 7.1,
+        "temp": 8.7,
+        "feels_like": 6.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.8,
-        "wind_gusts": 11.9,
+        "wind": 4.3,
+        "wind_gusts": 10.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -274,7 +274,6 @@
         "icon": "📰"
       },
       "history": [
-        0.22,
         0.257,
         0.272,
         0.257,
@@ -297,16 +296,10 @@
         0.242,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -348,15 +341,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+11°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+11°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 11.1,
-        "feels_like": 7.6,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 14.8,
-        "wind_gusts": 17.6,
+        "temp": 10.6,
+        "feels_like": 7.2,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 13.7,
+        "wind_gusts": 19.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -383,7 +376,6 @@
       "history": [
         0.381,
         0.381,
-        0.381,
         0.319,
         0.281,
         0.281,
@@ -404,11 +396,12 @@
         0.356,
         0.356,
         0.356,
+        0.381,
         0.381
       ],
       "_raw_events": [
         {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "title": "музей инопланетян",
           "cats": [
             "exhibition",
             "kids"
@@ -416,11 +409,10 @@
           "is_high": true
         },
         {
-          "title": "киноночь в антикафе Fun-Time",
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
           "cats": [
-            "education",
-            "cinema",
-            "entertainment"
+            "exhibition",
+            "kids"
           ],
           "is_high": true
         },
@@ -447,6 +439,13 @@
           "is_high": true
         },
         {
+          "title": "выставка «Сибирь в древности»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
             "kids",
@@ -469,14 +468,6 @@
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "ночь настольных игр в клубе-магазине «ИгРРай»",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         },
         {
           "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
