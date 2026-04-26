@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T06:17:25.832534+00:00",
+  "generated_at": "2026-04-26T08:21:29.409352+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+7°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 7.4,
-        "feels_like": 3.5,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 8.2,
-        "wind_gusts": 21.6,
+        "temp": 6.8,
+        "feels_like": 2.8,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 10.3,
+        "wind_gusts": 23.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -57,11 +57,11 @@
         0.064,
         0.064,
         0.064,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
         0.064,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+8°C · пасмурно",
+        "val": "+9°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 7.9,
-        "feels_like": 4.9,
+        "temp": 9.2,
+        "feels_like": 6.2,
         "condition": "пасмурно",
         "wmo_code": 3,
         "wind": 11.2,
-        "wind_gusts": 30.2,
+        "wind_gusts": 32.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -133,10 +133,10 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.518,
+        0.368,
         0.368
       ],
       "_raw_events": [
@@ -240,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+19°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 15.0,
-        "feels_like": 13.0,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 6.7,
-        "wind_gusts": 19.8,
+        "temp": 18.8,
+        "feels_like": 18.5,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 7.9,
+        "wind_gusts": 23.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +275,6 @@
       "history": [
         0.392,
         0.392,
-        0.392,
         0.205,
         0.205,
         0.205,
@@ -296,6 +295,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -347,15 +347,15 @@
       "alert": "green",
       "weather": {
         "score": 0.1,
-        "val": "+25°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+26°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 24.7,
-        "feels_like": 21.2,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 22.4,
-        "wind_gusts": 40.0,
+        "temp": 25.8,
+        "feels_like": 21.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 21.3,
+        "wind_gusts": 39.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -380,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.281,
         0.266,
         0.356,
         0.366,
@@ -403,6 +402,7 @@
         0.381,
         0.381,
         0.381,
+        0.396,
         0.396
       ],
       "_raw_events": [
@@ -439,18 +439,18 @@
           "is_high": true
         },
         {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
           "title": "цирковое представление с морскими животными",
           "cats": [
             "kids",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
           ],
           "is_high": true
         },
