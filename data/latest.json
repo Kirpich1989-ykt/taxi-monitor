@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T14:57:38.645523+00:00",
+  "generated_at": "2026-04-26T15:53:31.839707+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+1°C · ясно",
+        "val": "+0°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 0.8,
-        "feels_like": -4.4,
+        "temp": 0.2,
+        "feels_like": -4.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 16.3,
+        "wind": 15.9,
         "wind_gusts": 24.8,
         "precip": 0.0,
         "snowfall": 0.0
@@ -51,7 +51,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -62,6 +61,7 @@
         0.064,
         0.064,
         0.064,
+        0.079,
         0.079,
         0.079,
         0.079,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+7°C · дождь слабый",
+        "val": "+6°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 7.1,
-        "feels_like": 4.0,
+        "temp": 6.2,
+        "feels_like": 2.9,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 10.7,
-        "wind_gusts": 28.1,
-        "precip": 0.1,
+        "wind": 11.0,
+        "wind_gusts": 32.4,
+        "precip": 0.4,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -127,12 +127,12 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.518,
         0.368,
         0.368,
+        0.518,
         0.518,
         0.518,
         0.518,
@@ -140,14 +140,6 @@
         0.518
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "иммерсивное шоу «Зеркало Карлоса Сантоса»",
           "cats": [
@@ -174,14 +166,6 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Всё напоказ?»",
           "cats": [
             "exhibition",
@@ -196,16 +180,6 @@
           "title": "мультисенсорная выставка «Сон в музее»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -227,6 +201,31 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Кошачья Вселенная»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "маркет «4 сезона»",
+          "cats": [
+            "festival",
+            "yarmarki-razvlecheniya-yarmarki",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -241,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+20°C · ясно",
+        "val": "+19°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 20.1,
-        "feels_like": 16.2,
+        "temp": 18.7,
+        "feels_like": 14.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 13.0,
-        "wind_gusts": 35.6,
+        "wind": 12.6,
+        "wind_gusts": 34.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +274,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.257,
         0.257,
         0.107,
@@ -293,6 +291,7 @@
         0.205,
         0.242,
         0.242,
+        0.257,
         0.257,
         0.257,
         0.257,
@@ -344,25 +343,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.334,
+      "impact": 0.296,
       "alert": "green",
       "weather": {
         "score": 0.1,
         "val": "+18°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 18.3,
-        "feels_like": 13.4,
+        "temp": 18.0,
+        "feels_like": 12.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 24.9,
-        "wind_gusts": 31.0,
+        "wind": 26.3,
+        "wind_gusts": 35.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.75,
-        "val": "5 крупных из 8",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -381,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.381,
         0.381,
@@ -404,18 +402,10 @@
         0.381,
         0.381,
         0.371,
-        0.334
+        0.334,
+        0.296
       ],
       "_raw_events": [
-        {
-          "title": "еженедельная сальса-вечеринка",
-          "cats": [
-            "party",
-            "education",
-            "recreation"
-          ],
-          "is_high": true
-        },
         {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
