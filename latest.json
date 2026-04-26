@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T15:53:31.839707+00:00",
+  "generated_at": "2026-04-26T16:58:14.060472+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+0°C · ясно",
+        "val": "0°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 0.2,
-        "feels_like": -4.9,
+        "temp": -0.2,
+        "feels_like": -5.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 15.9,
-        "wind_gusts": 24.8,
+        "wind": 16.3,
+        "wind_gusts": 24.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -50,7 +50,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -61,6 +60,7 @@
         0.064,
         0.064,
         0.064,
+        0.079,
         0.079,
         0.079,
         0.079,
@@ -84,18 +84,18 @@
         "val": "+6°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 6.2,
-        "feels_like": 2.9,
+        "temp": 6.3,
+        "feels_like": 3.2,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 11.0,
-        "wind_gusts": 32.4,
-        "precip": 0.4,
+        "wind": 10.6,
+        "wind_gusts": 28.1,
+        "precip": 0.3,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "40 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -126,12 +126,12 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.518,
         0.368,
         0.368,
+        0.518,
         0.518,
         0.518,
         0.518,
@@ -154,13 +154,6 @@
           "cats": [
             "exhibition",
             "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -212,18 +205,26 @@
           "is_high": true
         },
         {
-          "title": "выставка «Кошачья Вселенная»",
+          "title": "групповые знакомства GOKON",
           "cats": [
-            "exhibition"
+            "party",
+            "other",
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "маркет «4 сезона»",
+          "title": "фестиваль молодого современного искусства «Тон-фесТ 2026»",
           "cats": [
-            "festival",
-            "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
+            "exhibition",
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «СЕНС. Почувствуй стихии»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         }
@@ -236,19 +237,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+19°C · ясно",
+        "score": 0.0,
+        "val": "+16°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 18.7,
-        "feels_like": 14.9,
+        "temp": 15.9,
+        "feels_like": 12.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 12.6,
-        "wind_gusts": 34.6,
+        "wind": 10.9,
+        "wind_gusts": 29.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -273,7 +274,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.257,
         0.257,
         0.107,
@@ -296,7 +296,8 @@
         0.257,
         0.257,
         0.257,
-        0.257
+        0.257,
+        0.242
       ],
       "_raw_events": [
         {
@@ -350,12 +351,12 @@
         "val": "+18°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 18.0,
-        "feels_like": 12.9,
+        "temp": 17.8,
+        "feels_like": 12.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 26.3,
-        "wind_gusts": 35.3,
+        "wind": 27.0,
+        "wind_gusts": 43.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -380,7 +381,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.381,
         0.381,
         0.381,
@@ -403,6 +403,7 @@
         0.381,
         0.371,
         0.334,
+        0.296,
         0.296
       ],
       "_raw_events": [
