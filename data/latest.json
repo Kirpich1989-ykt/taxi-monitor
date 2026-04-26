@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T10:59:49.145256+00:00",
+  "generated_at": "2026-04-26T11:50:37.598219+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+4°C · ясно",
-        "icon": "☀",
+        "val": "+2°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 3.6,
-        "feels_like": -1.0,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 13.8,
-        "wind_gusts": 20.5,
+        "temp": 2.2,
+        "feels_like": -2.6,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 14.5,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -54,7 +54,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -65,6 +64,7 @@
         0.064,
         0.064,
         0.064,
+        0.079,
         0.079,
         0.079
       ],
@@ -84,12 +84,12 @@
         "val": "+9°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 8.9,
-        "feels_like": 6.4,
+        "temp": 8.8,
+        "feels_like": 6.8,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 8.0,
-        "wind_gusts": 27.7,
+        "wind": 4.7,
+        "wind_gusts": 23.0,
         "precip": 0.1,
         "snowfall": 0.0
       },
@@ -130,12 +130,12 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.518,
         0.368,
         0.368,
+        0.518,
         0.518,
         0.518
       ],
@@ -220,11 +220,9 @@
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
+          "title": "Парад французских бульдогов",
           "cats": [
-            "stock",
-            "kids",
-            "entertainment"
+            "festival"
           ],
           "is_high": true
         }
@@ -245,11 +243,11 @@
         "icon": "☀",
         "live": true,
         "temp": 23.0,
-        "feels_like": 19.9,
+        "feels_like": 19.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 16.2,
-        "wind_gusts": 41.4,
+        "wind": 16.1,
+        "wind_gusts": 41.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +276,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.257,
         0.257,
         0.107,
@@ -296,6 +293,7 @@
         0.205,
         0.242,
         0.242,
+        0.257,
         0.257,
         0.257
       ],
@@ -348,21 +346,21 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+24°C · пасмурно",
+        "val": "+22°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 24.0,
-        "feels_like": 20.1,
+        "temp": 22.5,
+        "feels_like": 18.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 19.1,
-        "wind_gusts": 41.4,
+        "wind": 19.8,
+        "wind_gusts": 39.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "18 крупных из 21",
         "icon": "🎭"
       },
       "traffic": {
@@ -385,7 +383,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.381,
         0.381,
         0.381,
@@ -404,6 +401,7 @@
         0.396,
         0.396,
         0.366,
+        0.381,
         0.381
       ],
       "_raw_events": [
@@ -478,9 +476,11 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сибирь в древности»",
+          "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
-            "exhibition"
+            "kids",
+            "education",
+            "entertainment"
           ],
           "is_high": true
         }
