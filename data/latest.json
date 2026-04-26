@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-04-26T08:21:29.409352+00:00",
+  "generated_at": "2026-04-26T10:02:33.856839+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+7°C · ясно",
+        "score": 0.05,
+        "val": "+5°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 6.8,
-        "feels_like": 2.8,
+        "temp": 4.9,
+        "feels_like": 0.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 10.3,
-        "wind_gusts": 23.8,
+        "wind": 12.9,
+        "wind_gusts": 22.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -56,7 +56,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.064,
-        0.064
+        0.064,
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.518,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+9°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+9°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 9.2,
+        "temp": 9.1,
         "feels_like": 6.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 11.2,
-        "wind_gusts": 32.8,
-        "precip": 0.0,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 10.1,
+        "wind_gusts": 25.6,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "48 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -132,14 +132,31 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.518,
         0.368,
-        0.368
+        0.368,
+        0.518
       ],
       "_raw_events": [
+        {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "иммерсивное шоу «Зеркало Карлоса Сантоса»",
+          "cats": [
+            "theater",
+            "stock",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -212,20 +229,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "Парад французских бульдогов",
-          "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Кошачья Вселенная»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -236,19 +239,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.257,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+19°C · ясно",
+        "score": 0.05,
+        "val": "+22°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 18.8,
-        "feels_like": 18.5,
+        "temp": 22.5,
+        "feels_like": 20.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.9,
-        "wind_gusts": 23.0,
+        "wind": 13.4,
+        "wind_gusts": 35.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +277,6 @@
       },
       "history": [
         0.392,
-        0.392,
         0.205,
         0.205,
         0.205,
@@ -296,7 +298,8 @@
         0.205,
         0.205,
         0.242,
-        0.242
+        0.242,
+        0.257
       ],
       "_raw_events": [
         {
@@ -343,25 +346,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.396,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
-        "score": 0.1,
-        "val": "+26°C · пасмурно",
-        "icon": "☁",
-        "live": true,
-        "temp": 25.8,
-        "feels_like": 21.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 21.3,
-        "wind_gusts": 39.6,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "score": 0.0,
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 1.0,
-        "val": "20 крупных из 23",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -380,7 +383,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.356,
         0.366,
         0.366,
@@ -403,7 +405,8 @@
         0.381,
         0.381,
         0.396,
-        0.396
+        0.396,
+        0.366
       ],
       "_raw_events": [
         {
@@ -434,14 +437,6 @@
           "title": "невидимая выставка-квест Temnota",
           "cats": [
             "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "цирковое представление с морскими животными",
-          "cats": [
-            "kids",
             "entertainment"
           ],
           "is_high": true
@@ -481,6 +476,13 @@
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сибирь в древности»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         }
