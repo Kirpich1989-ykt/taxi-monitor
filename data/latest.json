@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T14:38:15.765181+00:00",
+  "generated_at": "2026-04-28T17:00:42.173419+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+0°C · ясно",
-        "icon": "☀",
+        "val": "0°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 0.3,
-        "feels_like": -2.6,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 0.5,
-        "wind_gusts": 5.0,
+        "temp": -0.5,
+        "feels_like": -3.8,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 1.9,
+        "wind_gusts": 3.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -52,13 +52,13 @@
         0.079,
         0.079,
         0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
         0.064,
         0.214,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.533,
+      "impact": 0.518,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+2°C · дождь слабый",
+        "score": 0.5,
+        "val": "+1°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 1.8,
-        "feels_like": -2.4,
+        "temp": 1.1,
+        "feels_like": -2.8,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 13.6,
-        "wind_gusts": 43.2,
-        "precip": 0.0,
+        "wind": 11.9,
+        "wind_gusts": 35.3,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "40 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -116,7 +116,6 @@
       "history": [
         0.518,
         0.518,
-        0.518,
         0.533,
         0.533,
         0.533,
@@ -137,17 +136,10 @@
         0.533,
         0.533,
         0.533,
-        0.533
+        0.533,
+        0.518
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "иммерсивное шоу «Зеркало Карлоса Сантоса»",
           "cats": [
@@ -167,36 +159,9 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультисенсорная выставка «Сон в музее»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "stock",
-            "kids",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -220,9 +185,44 @@
           "is_high": true
         },
         {
-          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
+          "title": "групповые знакомства GOKON",
+          "cats": [
+            "party",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "фестиваль молодого современного искусства «Тон-фесТ 2026»",
+          "cats": [
+            "exhibition",
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «СЕНС. Почувствуй стихии»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
             "entertainment"
           ],
           "is_high": true
@@ -240,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+12°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 14.8,
-        "feels_like": 11.9,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 4.9,
-        "wind_gusts": 15.8,
+        "temp": 11.9,
+        "feels_like": 9.6,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 3.3,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +274,6 @@
       },
       "history": [
         0.257,
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -293,6 +292,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -347,15 +347,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · ясно",
+        "val": "+5°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 8.6,
-        "feels_like": 5.7,
+        "temp": 5.3,
+        "feels_like": 1.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.0,
-        "wind_gusts": 5.8,
+        "wind": 8.4,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -380,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.334,
         0.296,
         0.296,
         0.296,
@@ -403,6 +402,7 @@
         0.381,
         0.381,
         0.366,
+        0.266,
         0.266
       ],
       "_raw_events": [
