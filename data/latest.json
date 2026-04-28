@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T23:07:23.544953+00:00",
+  "generated_at": "2026-04-28T04:00:04.473375+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,17 +10,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+2°C · ясно",
-        "icon": "☀",
-        "live": true,
-        "temp": 2.0,
-        "feels_like": -1.6,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 7.2,
-        "wind_gusts": 12.2,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 0.0,
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -64,6 +63,7 @@
         0.064,
         0.214,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.55,
-        "val": "+1°C · снег слабый",
+        "val": "+0°C · снег слабый",
         "icon": "🌨",
         "live": true,
-        "temp": 0.7,
+        "temp": 0.4,
         "feels_like": -4.4,
         "condition": "снег слабый",
         "wmo_code": 71,
-        "wind": 19.6,
-        "wind_gusts": 53.3,
+        "wind": 17.0,
+        "wind_gusts": 44.6,
         "precip": 0.1,
         "snowfall": 0.07
       },
       "events": {
         "score": 1.0,
-        "val": "23 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.518,
         0.518,
         0.518,
@@ -137,9 +136,72 @@
         0.548,
         0.548,
         0.548,
+        0.533,
         0.533
       ],
       "_raw_events": [
+        {
+          "title": "мультимедийная выставка «Эйфория»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "развлечения в Smile Park на ВДНХ",
+          "cats": [
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -150,78 +212,16 @@
           "is_high": true
         },
         {
-          "title": "VR-путешествие «Чудеса света»",
+          "title": "Выставка «Тайные знаки и символы на монетах» в Музее нумизматики",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "фестиваль молодого современного искусства «Тон-фесТ 2026»",
           "cats": [
             "exhibition",
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "быстрые свидания от Fast Life",
-          "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Набор в спортивно-творческий лагерь на Навка Арене",
-          "cats": [
-            "kids",
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "вокал в «Музыкальном сообществе» / Music Community",
-          "cats": [
-            "stock",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "частный стендап от проекта «Стендап Импорт»",
-          "cats": [
-            "party",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids",
-            "quest",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "гастрономический фестиваль «Первые в космосе»",
-          "cats": [
             "festival"
           ],
           "is_high": true
@@ -239,15 +239,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+5°C · ясно",
+        "val": "+6°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 5.1,
-        "feels_like": 2.1,
+        "temp": 5.5,
+        "feels_like": 2.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.4,
-        "wind_gusts": 7.9,
+        "wind": 3.6,
+        "wind_gusts": 9.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +272,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.257,
         0.257,
         0.257,
@@ -294,6 +293,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205
       ],
@@ -335,25 +335,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+2°C · преим. ясно",
+        "score": 0.05,
+        "val": "+14°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 2.5,
-        "feels_like": -0.6,
+        "temp": 14.0,
+        "feels_like": 9.7,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 5.5,
-        "wind_gusts": 4.7,
+        "wind": 12.3,
+        "wind_gusts": 18.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "15 крупных из 18",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -372,7 +372,6 @@
         "icon": "📰"
       },
       "history": [
-        0.396,
         0.366,
         0.381,
         0.381,
@@ -395,7 +394,8 @@
         0.266,
         0.266,
         0.366,
-        0.366
+        0.366,
+        0.381
       ],
       "_raw_events": [
         {
@@ -411,6 +411,22 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -459,20 +475,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
