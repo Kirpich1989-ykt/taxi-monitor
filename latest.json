@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T20:18:26.461028+00:00",
+  "generated_at": "2026-04-29T22:09:21.569240+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "0°C · пасмурно",
+        "val": "+2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -0.3,
-        "feels_like": -3.7,
+        "temp": 2.5,
+        "feels_like": -0.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 5.0,
-        "wind_gusts": 10.1,
+        "wind": 4.4,
+        "wind_gusts": 9.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,9 +43,9 @@
         "icon": "📰"
       },
       "history": [
+        0.214,
+        0.214,
         0.064,
-        0.214,
-        0.214,
         0.064,
         0.064,
         0.064,
@@ -85,17 +85,17 @@
         "icon": "☁",
         "live": true,
         "temp": 0.8,
-        "feels_like": -2.2,
+        "feels_like": -2.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.3,
-        "wind_gusts": 10.8,
+        "wind": 4.4,
+        "wind_gusts": 11.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "24 крупных из 50",
+        "val": "23 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -118,7 +118,6 @@
         0.548,
         0.548,
         0.548,
-        0.548,
         0.533,
         0.533,
         0.533,
@@ -137,32 +136,15 @@
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
-          "cats": [
-            "theater",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "квест «Красная кнопка»",
-          "cats": [
-            "kids",
-            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -181,17 +163,6 @@
             "exhibition",
             "kids",
             "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
-          "cats": [
-            "party",
-            "theater",
-            "stock",
-            "kids",
             "entertainment"
           ],
           "is_high": true
@@ -226,6 +197,34 @@
             "education"
           ],
           "is_high": false
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -236,25 +235,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · ясно",
-        "icon": "☀",
+        "val": "+8°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 9.3,
-        "feels_like": 6.7,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 5.4,
-        "wind_gusts": 17.6,
+        "temp": 8.1,
+        "feels_like": 5.8,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 3.3,
+        "wind_gusts": 12.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -273,7 +272,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -296,16 +294,10 @@
         0.242,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -343,25 +335,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.266,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+4°C · пасмурно",
+        "val": "+3°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 3.5,
-        "feels_like": 0.2,
+        "temp": 3.0,
+        "feels_like": -0.3,
         "condition": "пасмурно",
         "wmo_code": 3,
         "wind": 7.3,
-        "wind_gusts": 8.3,
+        "wind_gusts": 6.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 1.0,
+        "val": "16 крупных из 19",
         "icon": "🎭"
       },
       "traffic": {
@@ -380,7 +372,6 @@
         "icon": "📰"
       },
       "history": [
-        0.303,
         0.266,
         0.266,
         0.266,
@@ -403,9 +394,49 @@
         0.303,
         0.266,
         0.266,
-        0.266
+        0.266,
+        0.366
       ],
       "_raw_events": [
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
         {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
@@ -417,6 +448,13 @@
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сибирь в древности»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
@@ -436,28 +474,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
