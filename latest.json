@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T22:02:48.494204+00:00",
+  "generated_at": "2026-05-01T23:03:54.276115+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+2°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+3°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 1.9,
-        "feels_like": -3.1,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 15.4,
-        "wind_gusts": 31.3,
+        "temp": 3.1,
+        "feels_like": -2.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 16.2,
+        "wind_gusts": 36.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -54,10 +54,10 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.0,
         0.0,
         0.015,
+        0.079,
         0.079,
         0.079,
         0.079,
@@ -84,11 +84,11 @@
         "val": "+4°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 4.3,
-        "feels_like": 1.5,
+        "temp": 3.9,
+        "feels_like": 1.1,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 3.6,
+        "wind": 3.3,
         "wind_gusts": 6.5,
         "precip": 0.0,
         "snowfall": 0.0
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.518,
         0.368,
         0.368,
         0.368,
@@ -134,6 +133,7 @@
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -235,19 +235,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.355,
+      "impact": 0.37,
       "alert": "green",
       "weather": {
-        "score": 0.5,
+        "score": 0.55,
         "val": "+4°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 3.7,
-        "feels_like": 0.2,
+        "temp": 3.5,
+        "feels_like": -0.1,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 12.0,
-        "wind_gusts": 31.0,
+        "wind": 12.5,
+        "wind_gusts": 32.0,
         "precip": 0.4,
         "snowfall": 0.0
       },
@@ -273,7 +273,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -295,7 +294,8 @@
         0.392,
         0.392,
         0.392,
-        0.355
+        0.355,
+        0.37
       ],
       "_raw_events": [
         {
@@ -339,21 +339,21 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+11°C · ясно",
-        "icon": "☀",
+        "val": "+11°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 10.8,
-        "feels_like": 6.6,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 14.4,
-        "wind_gusts": 17.3,
+        "temp": 10.9,
+        "feels_like": 7.0,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 13.8,
+        "wind_gusts": 18.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "8 крупных из 11",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -372,7 +372,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.266,
         0.366,
         0.366,
@@ -395,6 +394,7 @@
         0.281,
         0.281,
         0.356,
+        0.381,
         0.381
       ],
       "_raw_events": [
@@ -419,6 +419,21 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
@@ -459,20 +474,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
