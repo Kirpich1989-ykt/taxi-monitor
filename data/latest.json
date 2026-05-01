@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T19:25:22.848503+00:00",
+  "generated_at": "2026-05-01T21:04:27.550505+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+0°C · преим. ясно",
+        "val": "+1°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 0.4,
-        "feels_like": -4.8,
+        "temp": 0.8,
+        "feels_like": -4.5,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 16.9,
-        "wind_gusts": 28.4,
+        "wind": 17.3,
+        "wind_gusts": 28.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -56,10 +56,10 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.0,
         0.0,
         0.015,
+        0.079,
         0.079,
         0.079,
         0.079,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+6°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+5°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 5.7,
-        "feels_like": 2.8,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 3.4,
-        "wind_gusts": 6.5,
+        "temp": 4.8,
+        "feels_like": 2.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 3.3,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "28 крупных из 50",
+        "val": "25 крупных из 47",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -136,19 +135,11 @@
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
-          "cats": [
-            "theater",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -159,51 +150,10 @@
           "is_high": true
         },
         {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "квест «Красная кнопка»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "быстрые свидания от Fast Life",
           "cats": [
             "party",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "фотовыставка и иммерсивное шоу «Фрида Кало. Несломленная»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Загадочные миры Иеронима Босха»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         },
@@ -218,15 +168,63 @@
           "is_high": true
         },
         {
-          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
-            "party",
-            "theater",
             "stock",
-            "kids",
+            "education",
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "Набор в спортивно-творческий лагерь на Навка Арене",
+          "cats": [
+            "kids",
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Продуктовый маркетинг и аналитика»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -241,16 +239,16 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+5°C · дождь слабый",
+        "val": "+4°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 4.7,
-        "feels_like": 1.3,
+        "temp": 4.0,
+        "feels_like": 0.8,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 11.8,
-        "wind_gusts": 31.0,
-        "precip": 0.4,
+        "wind": 10.3,
+        "wind_gusts": 28.8,
+        "precip": 0.3,
         "snowfall": 0.0
       },
       "events": {
@@ -277,7 +275,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -296,6 +293,7 @@
         0.407,
         0.407,
         0.407,
+        0.392,
         0.392,
         0.392
       ],
@@ -344,25 +342,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.281,
+      "impact": 0.356,
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+12°C · ясно",
+        "val": "+11°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 12.1,
-        "feels_like": 7.7,
+        "temp": 11.1,
+        "feels_like": 7.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 15.4,
-        "wind_gusts": 13.3,
+        "wind": 14.4,
+        "wind_gusts": 14.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 0.9,
+        "val": "6 крупных из 9",
         "icon": "🎭"
       },
       "traffic": {
@@ -381,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.303,
         0.266,
         0.266,
         0.266,
@@ -404,9 +401,26 @@
         0.303,
         0.281,
         0.281,
-        0.281
+        0.281,
+        0.356
       ],
       "_raw_events": [
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
