@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T22:06:03.546959+00:00",
+  "generated_at": "2026-05-01T00:00:28.994147+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+4°C · ясно",
-        "icon": "☀",
+        "val": "+8°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 3.8,
-        "feels_like": -0.2,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 9.3,
-        "wind_gusts": 19.8,
+        "temp": 8.2,
+        "feels_like": 4.6,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 7.4,
+        "wind_gusts": 25.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -65,7 +65,7 @@
         0.064,
         0.064,
         0.064,
-        0.064,
+        0.0,
         0.0
       ],
       "_raw_events": [],
@@ -84,18 +84,18 @@
         "val": "+2°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 1.9,
-        "feels_like": -1.2,
+        "temp": 1.6,
+        "feels_like": -1.4,
         "condition": "ясно",
         "wmo_code": 0,
         "wind": 2.6,
-        "wind_gusts": 5.4,
+        "wind_gusts": 5.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "25 крупных из 48",
+        "val": "26 крупных из 49",
         "icon": "🎭"
       },
       "traffic": {
@@ -121,7 +121,6 @@
         0.518,
         0.518,
         0.518,
-        0.518,
         0.368,
         0.368,
         0.518,
@@ -137,6 +136,7 @@
         0.368,
         0.368,
         0.368,
+        0.25,
         0.25
       ],
       "_raw_events": [
@@ -145,6 +145,16 @@
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -218,15 +228,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -244,12 +245,12 @@
         "val": "+9°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 8.6,
-        "feels_like": 5.9,
+        "temp": 8.7,
+        "feels_like": 6.2,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.7,
-        "wind_gusts": 24.1,
+        "wind": 7.7,
+        "wind_gusts": 20.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +277,6 @@
       "history": [
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -297,6 +297,7 @@
         0.242,
         0.242,
         0.242,
+        0.113,
         0.113
       ],
       "_raw_events": [
@@ -341,21 +342,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+5°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+7°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 5.0,
-        "feels_like": 1.7,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 7.8,
-        "wind_gusts": 4.7,
+        "temp": 7.3,
+        "feels_like": 3.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 9.6,
+        "wind_gusts": 5.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "15 крупных из 18",
+        "val": "16 крупных из 19",
         "icon": "🎭"
       },
       "traffic": {
@@ -374,7 +375,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.266,
         0.266,
         0.366,
@@ -397,6 +397,7 @@
         0.266,
         0.266,
         0.266,
+        0.25,
         0.25
       ],
       "_raw_events": [
