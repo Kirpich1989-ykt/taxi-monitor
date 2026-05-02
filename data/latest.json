@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T17:01:51.487909+00:00",
+  "generated_at": "2026-05-02T17:58:52.789182+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+0°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 0.1,
-        "feels_like": -3.7,
+        "temp": 0.4,
+        "feels_like": -3.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.0,
-        "wind_gusts": 8.6,
+        "wind": 6.3,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.0,
         0.0,
         0.015,
@@ -60,6 +59,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -84,18 +84,18 @@
         "val": "+13°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.0,
-        "feels_like": 10.2,
+        "temp": 12.6,
+        "feels_like": 9.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.2,
-        "wind_gusts": 23.4,
+        "wind": 6.9,
+        "wind_gusts": 18.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "42 крупных из 50",
+        "val": "39 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.25,
         0.25,
         0.25,
@@ -123,6 +122,7 @@
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -150,39 +150,10 @@
           "is_high": true
         },
         {
-          "title": "выставка «Всё напоказ?»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
             "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "stock",
-            "kids",
             "entertainment"
           ],
           "is_high": true
@@ -222,10 +193,37 @@
           "is_high": true
         },
         {
-          "title": "бурлеск-шоу на панорамной крыше в сопровождении живого джаза «Джаз кабаре»",
+          "title": "выставка «СЕНС. Почувствуй стихии»",
           "cats": [
-            "theater",
-            "concert",
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка VR ART",
+          "cats": [
+            "exhibition",
+            "kids",
             "entertainment"
           ],
           "is_high": true
@@ -246,12 +244,12 @@
         "val": "+7°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 7.2,
-        "feels_like": 4.7,
+        "temp": 7.1,
+        "feels_like": 4.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.6,
-        "wind_gusts": 24.1,
+        "wind": 7.3,
+        "wind_gusts": 20.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +274,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.113,
         0.113,
         0.113,
@@ -297,6 +294,7 @@
         0.407,
         0.257,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -350,15 +348,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+10°C · ясно",
+        "val": "+9°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 10.4,
-        "feels_like": 5.6,
+        "temp": 9.4,
+        "feels_like": 4.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 18.3,
-        "wind_gusts": 43.6,
+        "wind": 15.5,
+        "wind_gusts": 43.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -383,7 +381,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.25,
         0.25,
         0.25,
@@ -405,6 +402,7 @@
         0.396,
         0.396,
         0.371,
+        0.356,
         0.356,
         0.356
       ],
