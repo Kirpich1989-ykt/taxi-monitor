@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T08:41:47.315869+00:00",
+  "generated_at": "2026-05-02T10:06:31.391244+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+6°C · пасмурно",
+        "val": "+5°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 6.3,
-        "feels_like": 2.2,
+        "temp": 5.0,
+        "feels_like": 1.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.7,
-        "wind_gusts": 36.4,
+        "wind": 6.2,
+        "wind_gusts": 27.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -49,7 +49,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.0,
         0.0,
         0.015,
@@ -66,6 +65,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+14°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 12.0,
-        "feels_like": 9.2,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 10.2,
-        "wind_gusts": 30.2,
+        "temp": 13.5,
+        "feels_like": 10.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 6.9,
+        "wind_gusts": 25.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -115,7 +115,6 @@
       },
       "history": [
         0.518,
-        0.518,
         0.368,
         0.368,
         0.368,
@@ -129,6 +128,7 @@
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -140,6 +140,14 @@
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -217,16 +225,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -237,21 +235,21 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.407,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "нет данных",
-        "icon": "🌡",
-        "live": false,
-        "temp": null,
-        "feels_like": null,
-        "condition": null,
-        "wmo_code": null,
-        "wind": null,
-        "wind_gusts": null,
-        "precip": null,
-        "snowfall": null
+        "score": 0.55,
+        "val": "+7°C · дождь слабый",
+        "icon": "🌧",
+        "live": true,
+        "temp": 7.2,
+        "feels_like": 3.7,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 13.8,
+        "wind_gusts": 36.4,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 0.6,
@@ -280,24 +278,24 @@
         0.242,
         0.242,
         0.242,
+        0.113,
+        0.113,
+        0.113,
+        0.37,
+        0.407,
+        0.407,
+        0.407,
+        0.407,
+        0.392,
+        0.392,
+        0.392,
+        0.355,
+        0.37,
+        0.37,
+        0.355,
+        0.37,
         0.242,
-        0.113,
-        0.113,
-        0.113,
-        0.37,
-        0.407,
-        0.407,
-        0.407,
-        0.407,
-        0.392,
-        0.392,
-        0.392,
-        0.355,
-        0.37,
-        0.37,
-        0.355,
-        0.37,
-        0.242
+        0.407
       ],
       "_raw_events": [
         {
@@ -348,21 +346,21 @@
       "alert": "green",
       "weather": {
         "score": 0.1,
-        "val": "+22°C · ясно",
-        "icon": "☀",
+        "val": "+19°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 21.8,
-        "feels_like": 16.9,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 25.0,
-        "wind_gusts": 57.6,
+        "temp": 19.3,
+        "feels_like": 13.7,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 28.3,
+        "wind_gusts": 58.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "21 крупных из 25",
+        "val": "20 крупных из 23",
         "icon": "🎭"
       },
       "traffic": {
@@ -381,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.341,
@@ -403,6 +400,7 @@
         0.381,
         0.381,
         0.381,
+        0.396,
         0.396,
         0.396
       ],
@@ -457,14 +455,6 @@
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Зарубежное искусство»",
           "cats": [
             "exhibition"
@@ -482,6 +472,13 @@
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "ролевые настольные игры в «Башне»",
+          "cats": [
+            "entertainment"
           ],
           "is_high": true
         }
