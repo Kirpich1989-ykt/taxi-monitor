@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T13:42:27.366268+00:00",
+  "generated_at": "2026-05-02T15:00:52.893659+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+0°C · ясно",
-        "icon": "☀",
+        "val": "0°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 0.2,
-        "feels_like": -4.0,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 10.7,
-        "wind_gusts": 11.2,
+        "temp": -0.3,
+        "feels_like": -4.5,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 11.0,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -46,7 +46,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.0,
         0.0,
         0.015,
@@ -63,6 +62,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -84,18 +84,18 @@
         "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 14.2,
-        "feels_like": 11.1,
+        "temp": 13.8,
+        "feels_like": 10.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.9,
+        "wind": 9.6,
         "wind_gusts": 26.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "48 крупных из 50",
+        "val": "47 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -117,7 +117,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.25,
         0.25,
         0.25,
@@ -126,6 +125,7 @@
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -236,19 +236,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
+        "score": 0.0,
         "val": "+8°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 8.0,
-        "feels_like": 4.8,
+        "temp": 7.9,
+        "feels_like": 5.1,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.1,
-        "wind_gusts": 31.3,
+        "wind": 9.7,
+        "wind_gusts": 30.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +276,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.113,
         0.113,
         0.113,
@@ -296,7 +295,8 @@
         0.242,
         0.407,
         0.257,
-        0.257
+        0.257,
+        0.242
       ],
       "_raw_events": [
         {
@@ -343,25 +343,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.396,
+      "impact": 0.371,
       "alert": "green",
       "weather": {
         "score": 0.1,
-        "val": "+14°C · ясно",
+        "val": "+12°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 13.9,
-        "feels_like": 7.8,
+        "temp": 12.2,
+        "feels_like": 6.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 27.4,
-        "wind_gusts": 53.6,
+        "wind": 23.2,
+        "wind_gusts": 49.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "7 крупных из 10",
+        "score": 0.9,
+        "val": "6 крупных из 9",
         "icon": "🎭"
       },
       "traffic": {
@@ -380,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.266,
         0.266,
         0.266,
@@ -403,17 +402,10 @@
         0.396,
         0.396,
         0.396,
-        0.396
+        0.396,
+        0.371
       ],
       "_raw_events": [
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "киноночь в антикафе Fun-Time",
           "cats": [
