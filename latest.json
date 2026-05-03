@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T09:38:53.703650+00:00",
+  "generated_at": "2026-05-03T11:03:00.309945+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+5°C · пасмурно",
-        "icon": "☁",
+        "val": "+3°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 5.0,
-        "feels_like": 2.5,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 3.8,
-        "wind_gusts": 10.4,
+        "temp": 3.2,
+        "feels_like": 0.3,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 6.1,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -50,7 +50,7 @@
         0.079,
         0.079,
         0.079,
-        0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+21°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 18.7,
-        "feels_like": 17.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
+        "temp": 20.9,
+        "feels_like": 19.1,
+        "condition": "ясно",
+        "wmo_code": 0,
         "wind": 11.0,
-        "wind_gusts": 31.7,
+        "wind_gusts": 31.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "47 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,10 +141,25 @@
       ],
       "_raw_events": [
         {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
             "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -211,23 +226,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
-          "cats": [
-            "theater",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "групповые знакомства GOKON",
-          "cats": [
-            "party",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -238,20 +236,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.407,
+      "impact": 0.257,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+10°C · дождь слабый",
-        "icon": "🌧",
+        "score": 0.05,
+        "val": "+11°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 9.5,
-        "feels_like": 6.4,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
-        "wind": 14.8,
-        "wind_gusts": 38.2,
-        "precip": 0.1,
+        "temp": 10.6,
+        "feels_like": 7.3,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 14.6,
+        "wind_gusts": 40.0,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -277,7 +275,6 @@
       "history": [
         0.392,
         0.392,
-        0.392,
         0.355,
         0.37,
         0.37,
@@ -298,7 +295,8 @@
         0.205,
         0.205,
         0.407,
-        0.407
+        0.407,
+        0.257
       ],
       "_raw_events": [
         {
@@ -349,15 +347,15 @@
       "alert": "green",
       "weather": {
         "score": 0.1,
-        "val": "+15°C · переменная облачность",
+        "val": "+14°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 14.6,
-        "feels_like": 9.4,
+        "temp": 13.5,
+        "feels_like": 8.0,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 20.3,
-        "wind_gusts": 41.8,
+        "wind": 20.1,
+        "wind_gusts": 42.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -383,7 +381,6 @@
       },
       "history": [
         0.281,
-        0.281,
         0.356,
         0.381,
         0.381,
@@ -404,6 +401,7 @@
         0.381,
         0.381,
         0.381,
+        0.396,
         0.396,
         0.396
       ],
