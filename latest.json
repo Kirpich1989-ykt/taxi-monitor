@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T16:57:14.522846+00:00",
+  "generated_at": "2026-05-04T18:47:39.545199+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-1°C · ясно",
+        "val": "-2°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": -1.1,
-        "feels_like": -5.0,
+        "temp": -2.0,
+        "feels_like": -6.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.1,
-        "wind_gusts": 13.0,
+        "wind": 9.3,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -50,8 +50,8 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · преим. ясно",
+        "val": "+20°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 21.9,
-        "feels_like": 20.0,
+        "temp": 19.9,
+        "feels_like": 17.8,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 4.9,
-        "wind_gusts": 14.0,
+        "wind": 6.3,
+        "wind_gusts": 14.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "38 крупных из 50",
+        "val": "30 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -145,26 +145,6 @@
           "cats": [
             "exhibition",
             "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Всё напоказ?»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -221,9 +201,29 @@
           "is_high": true
         },
         {
-          "title": "выставка «Босх, Дюрер, Данте. Тайны земных наслаждений»",
+          "title": "выставка VR ART",
           "cats": [
-            "exhibition"
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
           ],
           "is_high": true
         }
@@ -244,11 +244,11 @@
         "icon": "☁",
         "live": true,
         "temp": 10.0,
-        "feels_like": 8.2,
+        "feels_like": 7.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.2,
-        "wind_gusts": 24.1,
+        "wind": 10.9,
+        "wind_gusts": 27.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +276,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.407,
         0.407,
         0.257,
@@ -296,6 +295,7 @@
         0.407,
         0.257,
         0.407,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -347,15 +347,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+8°C · ясно",
+        "val": "+6°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 8.5,
-        "feels_like": 5.7,
+        "temp": 5.5,
+        "feels_like": 2.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.2,
-        "wind_gusts": 3.6,
+        "wind": 6.0,
+        "wind_gusts": 6.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -380,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.381,
         0.381,
         0.381,
@@ -403,6 +402,7 @@
         0.381,
         0.366,
         0.303,
+        0.266,
         0.266
       ],
       "_raw_events": [
@@ -410,13 +410,6 @@
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "ролевые настольные игры в «Башне»",
-          "cats": [
-            "entertainment"
           ],
           "is_high": true
         },
@@ -432,6 +425,13 @@
           "cats": [
             "kids",
             "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "ролевые настольные игры в «Башне»",
+          "cats": [
             "entertainment"
           ],
           "is_high": true
