@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T14:19:51.343053+00:00",
+  "generated_at": "2026-05-05T16:50:00.153949+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+0°C · ясно",
+        "val": "-2°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 0.2,
-        "feels_like": -5.7,
+        "temp": -1.8,
+        "feels_like": -8.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 18.2,
-        "wind_gusts": 31.0,
+        "wind": 19.5,
+        "wind_gusts": 33.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -62,7 +62,7 @@
         0.064,
         0.064,
         0.064,
-        0.064,
+        0.079,
         0.079,
         0.079,
         0.079,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · пасмурно",
+        "val": "+22°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 23.9,
-        "feels_like": 21.7,
+        "temp": 22.5,
+        "feels_like": 21.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.1,
-        "wind_gusts": 33.5,
+        "wind": 4.1,
+        "wind_gusts": 18.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "40 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -158,14 +158,6 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
@@ -193,27 +185,9 @@
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультисенсорная выставка «Сон в музее»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
-          "cats": [
-            "theater",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -222,6 +196,34 @@
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
             "entertainment"
           ],
           "is_high": true
@@ -239,15 +241,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · пасмурно",
+        "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 16.0,
-        "feels_like": 14.9,
+        "temp": 13.7,
+        "feels_like": 13.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.8,
-        "wind_gusts": 20.2,
+        "wind": 4.8,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -277,7 +279,6 @@
         0.257,
         0.257,
         0.257,
-        0.257,
         0.22,
         0.22,
         0.22,
@@ -295,6 +296,7 @@
         0.392,
         0.392,
         0.392,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -342,25 +344,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.303,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · пасмурно",
+        "val": "+11°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.4,
-        "feels_like": 11.8,
+        "temp": 11.1,
+        "feels_like": 9.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.9,
-        "wind_gusts": 10.1,
+        "wind": 7.0,
+        "wind_gusts": 6.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.75,
-        "val": "5 крупных из 8",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -379,7 +381,6 @@
         "icon": "📰"
       },
       "history": [
-        0.303,
         0.266,
         0.266,
         0.266,
@@ -402,17 +403,10 @@
         0.381,
         0.381,
         0.381,
-        0.303
+        0.303,
+        0.266
       ],
       "_raw_events": [
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
