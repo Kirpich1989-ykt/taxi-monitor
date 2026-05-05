@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-05T03:46:39.067039+00:00",
+  "generated_at": "2026-05-05T06:26:29.904725+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.0,
+        "score": 0.05,
         "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 10.2,
-        "feels_like": 7.0,
+        "temp": 9.9,
+        "feels_like": 5.1,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.5,
-        "wind_gusts": 34.6,
+        "wind": 15.1,
+        "wind_gusts": 36.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -45,7 +45,6 @@
       "history": [
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.064,
-        0.064
+        0.064,
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · пасмурно",
-        "icon": "☁",
+        "val": "+21°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 16.1,
-        "feels_like": 13.7,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 7.9,
-        "wind_gusts": 20.9,
+        "temp": 20.7,
+        "feels_like": 18.5,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 7.6,
+        "wind_gusts": 24.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -238,25 +238,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.355,
+      "impact": 0.392,
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+9°C · дождь слабый",
+        "val": "+10°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 9.0,
-        "feels_like": 7.4,
+        "temp": 10.5,
+        "feels_like": 9.1,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 6.6,
-        "wind_gusts": 17.3,
+        "wind": 7.1,
+        "wind_gusts": 19.4,
         "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -275,7 +275,6 @@
         "icon": "📰"
       },
       "history": [
-        0.407,
         0.257,
         0.407,
         0.407,
@@ -298,9 +297,17 @@
         0.242,
         0.205,
         0.355,
-        0.355
+        0.355,
+        0.392
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Мне вечность глянула в глаза…»",
           "cats": [
@@ -345,12 +352,12 @@
         "val": "+13°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.4,
-        "feels_like": 9.7,
+        "temp": 12.6,
+        "feels_like": 9.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 13.0,
-        "wind_gusts": 27.7,
+        "wind": 13.6,
+        "wind_gusts": 29.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -376,7 +383,6 @@
       },
       "history": [
         0.396,
-        0.396,
         0.381,
         0.341,
         0.303,
@@ -397,6 +403,7 @@
         0.266,
         0.266,
         0.366,
+        0.381,
         0.381,
         0.381
       ],
