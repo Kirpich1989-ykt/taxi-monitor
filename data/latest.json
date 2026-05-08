@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-08T03:50:24.963247+00:00",
+  "generated_at": "2026-05-08T06:06:11.305736+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.214,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+6°C · снег сильный",
-        "icon": "❄",
+        "score": 0.0,
+        "val": "+7°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 6.0,
-        "feels_like": 2.3,
-        "condition": "снег сильный",
-        "wmo_code": 75,
-        "wind": 11.4,
-        "wind_gusts": 27.4,
-        "precip": 0.5,
-        "snowfall": 0.21
+        "temp": 6.6,
+        "feels_like": 3.3,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 10.3,
+        "wind_gusts": 24.1,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 0.0,
@@ -46,7 +46,6 @@
         0.079,
         0.079,
         0.079,
-        0.079,
         0.094,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.079,
         0.064,
         0.064,
-        0.214
+        0.214,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.518,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+16°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+15°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 16.0,
-        "feels_like": 16.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.6,
-        "wind_gusts": 22.7,
-        "precip": 0.0,
+        "temp": 14.7,
+        "feels_like": 13.7,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 8.9,
+        "wind_gusts": 28.4,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "43 крупных из 50",
+        "val": "44 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -118,7 +118,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
         0.368,
         0.368,
@@ -137,7 +136,8 @@
         0.368,
         0.368,
         0.368,
-        0.368
+        0.368,
+        0.518
       ],
       "_raw_events": [
         {
@@ -154,6 +154,17 @@
           "cats": [
             "exhibition",
             "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Всё напоказ?»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "yarmarki-razvlecheniya-yarmarki",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -218,16 +229,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -242,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+11°C · преим. ясно",
+        "val": "+16°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 11.1,
-        "feels_like": 10.5,
+        "temp": 15.8,
+        "feels_like": 14.9,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 2.3,
-        "wind_gusts": 7.2,
+        "wind": 5.4,
+        "wind_gusts": 16.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +276,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -296,6 +296,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205,
         0.205
@@ -342,15 +343,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · пасмурно",
-        "icon": "☁",
+        "val": "+22°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 19.1,
-        "feels_like": 19.0,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 4.2,
-        "wind_gusts": 15.8,
+        "temp": 22.5,
+        "feels_like": 22.7,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 4.4,
+        "wind_gusts": 19.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -375,7 +376,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.366,
         0.366,
         0.516,
@@ -396,6 +396,7 @@
         0.266,
         0.266,
         0.266,
+        0.366,
         0.366,
         0.366,
         0.366
@@ -464,9 +465,11 @@
           "is_high": true
         },
         {
-          "title": "экспозиция «Природа Новосибирской области»",
+          "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
-            "exhibition"
+            "kids",
+            "education",
+            "entertainment"
           ],
           "is_high": true
         },
