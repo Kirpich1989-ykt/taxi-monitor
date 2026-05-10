@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-10T07:31:41.450754+00:00",
+  "generated_at": "2026-05-10T09:45:42.093463+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+6°C · пасмурно",
+        "score": 0.0,
+        "val": "+5°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 5.9,
-        "feels_like": 0.8,
+        "temp": 5.0,
+        "feels_like": 0.2,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 13.5,
-        "wind_gusts": 30.6,
+        "wind": 10.8,
+        "wind_gusts": 29.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -50,7 +50,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.229,
         0.064,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.079,
-        0.079
+        0.079,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+10°C · пасмурно",
+        "val": "+12°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 10.3,
-        "feels_like": 6.4,
+        "temp": 12.5,
+        "feels_like": 8.2,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.4,
-        "wind_gusts": 33.8,
+        "wind": 14.4,
+        "wind_gusts": 38.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -116,7 +116,6 @@
       "history": [
         0.518,
         0.518,
-        0.518,
         0.368,
         0.518,
         0.368,
@@ -137,14 +136,32 @@
         0.368,
         0.368,
         0.368,
+        0.383,
         0.383
       ],
       "_raw_events": [
+        {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
             "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -211,22 +228,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
-          "cats": [
-            "theater",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -241,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · ясно",
+        "val": "+27°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 23.4,
-        "feels_like": 24.9,
+        "temp": 27.1,
+        "feels_like": 27.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 1.3,
-        "wind_gusts": 6.5,
+        "wind": 4.3,
+        "wind_gusts": 14.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +275,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -297,6 +297,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -348,21 +349,21 @@
       "alert": "green",
       "weather": {
         "score": 0.1,
-        "val": "+18°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+14°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 17.6,
-        "feels_like": 14.5,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 25.1,
-        "wind_gusts": 63.4,
+        "temp": 14.1,
+        "feels_like": 8.2,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 29.4,
+        "wind_gusts": 58.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "20 крупных из 23",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -381,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.381,
         0.366,
@@ -403,6 +403,7 @@
         0.381,
         0.381,
         0.381,
+        0.396,
         0.396,
         0.396
       ],
@@ -448,13 +449,6 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сибирь в древности»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "еженедельная сальса-вечеринка",
           "cats": [
             "party",
@@ -464,10 +458,16 @@
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
+          "title": "выставка «Сибирь в древности»",
           "cats": [
-            "kids",
-            "entertainment"
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
