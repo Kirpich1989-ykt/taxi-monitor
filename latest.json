@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T22:59:10.926695+00:00",
+  "generated_at": "2026-05-09T23:58:46.064257+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+2°C · пасмурно",
-        "icon": "☁",
+        "val": "+3°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 2.3,
-        "feels_like": -2.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 10.6,
-        "wind_gusts": 29.9,
+        "temp": 3.4,
+        "feels_like": -1.2,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 10.1,
+        "wind_gusts": 29.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.064,
-        0.064,
         0.214,
         0.064,
         0.064,
@@ -66,6 +65,7 @@
         0.079,
         0.064,
         0.064,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -84,18 +84,18 @@
         "val": "+9°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 9.0,
-        "feels_like": 5.7,
+        "temp": 8.8,
+        "feels_like": 5.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.7,
-        "wind_gusts": 20.5,
+        "wind": 7.3,
+        "wind_gusts": 19.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "22 крупных из 44",
+        "val": "24 крупных из 46",
         "icon": "🎭"
       },
       "traffic": {
@@ -116,12 +116,12 @@
       "history": [
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.518,
         0.368,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -145,6 +145,16 @@
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -216,15 +226,6 @@
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "Рассветомания. Фотоэкскурсия на крыше небоскрёба на рассвете",
-          "cats": [
-            "photo",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -239,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · ясно",
+        "val": "+13°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 13.7,
-        "feels_like": 13.1,
+        "temp": 12.8,
+        "feels_like": 12.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.3,
-        "wind_gusts": 7.2,
+        "wind": 3.0,
+        "wind_gusts": 6.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +276,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -294,6 +294,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205
       ],
@@ -342,12 +343,12 @@
         "val": "+14°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 13.5,
-        "feels_like": 10.3,
+        "temp": 14.4,
+        "feels_like": 11.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 17.2,
-        "wind_gusts": 21.6,
+        "wind": 16.6,
+        "wind_gusts": 24.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -376,7 +377,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.381,
         0.366,
         0.266,
@@ -393,6 +393,7 @@
         0.356,
         0.356,
         0.356,
+        0.381,
         0.381,
         0.381,
         0.381
