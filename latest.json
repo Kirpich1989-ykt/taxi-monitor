@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-10T23:01:54.836743+00:00",
+  "generated_at": "2026-05-11T00:03:30.720226+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.094,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+2°C · ясно",
-        "icon": "☀",
+        "score": 0.1,
+        "val": "+2°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 1.5,
-        "feels_like": -4.3,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 16.9,
-        "wind_gusts": 27.4,
+        "temp": 1.9,
+        "feels_like": -4.5,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 20.6,
+        "wind_gusts": 38.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.229,
         0.064,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.079,
         0.064,
         0.064,
-        0.079
+        0.079,
+        0.094
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -84,18 +84,18 @@
         "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 10.2,
-        "feels_like": 7.3,
+        "temp": 9.6,
+        "feels_like": 7.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.7,
-        "wind_gusts": 22.7,
+        "wind": 8.5,
+        "wind_gusts": 23.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "23 крупных из 45",
+        "val": "25 крупных из 47",
         "icon": "🎭"
       },
       "traffic": {
@@ -127,11 +127,11 @@
         0.368,
         0.368,
         0.368,
+        0.383,
+        0.383,
+        0.383,
+        0.383,
         0.368,
-        0.383,
-        0.383,
-        0.383,
-        0.383,
         0.368,
         0.368,
         0.368,
@@ -145,6 +145,16 @@
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -216,15 +226,6 @@
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "Рассветомания. Фотоэкскурсия на крыше небоскрёба на рассвете",
-          "cats": [
-            "photo",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -243,11 +244,11 @@
         "icon": "☁",
         "live": true,
         "temp": 16.2,
-        "feels_like": 16.3,
+        "feels_like": 16.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 2.5,
-        "wind_gusts": 9.4,
+        "wind": 3.1,
+        "wind_gusts": 8.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +275,6 @@
       "history": [
         0.205,
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -294,6 +294,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205
       ],
@@ -339,15 +340,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+2°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+2°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 1.7,
-        "feels_like": -3.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 12.1,
-        "wind_gusts": 25.6,
+        "temp": 2.5,
+        "feels_like": -3.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 17.8,
+        "wind_gusts": 28.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -373,7 +374,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.381,
         0.381,
         0.366,
@@ -394,6 +394,7 @@
         0.281,
         0.281,
         0.356,
+        0.381,
         0.381,
         0.381
       ],
