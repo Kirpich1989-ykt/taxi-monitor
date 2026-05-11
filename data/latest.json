@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T19:05:40.074519+00:00",
+  "generated_at": "2026-05-11T21:37:32.536977+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-2°C · ясно",
-        "icon": "☀",
+        "val": "+0°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": -2.4,
-        "feels_like": -5.8,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 2.2,
-        "wind_gusts": 6.1,
+        "temp": 0.2,
+        "feels_like": -3.6,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.1,
+        "wind_gusts": 10.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -45,7 +45,6 @@
       "history": [
         0.079,
         0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.064,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+11°C · пасмурно",
+        "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 10.8,
-        "feels_like": 9.8,
+        "temp": 10.4,
+        "feels_like": 9.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 5.4,
-        "wind_gusts": 14.0,
+        "wind": 6.2,
+        "wind_gusts": 15.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "27 крупных из 50",
+        "val": "22 крупных из 44",
         "icon": "🎭"
       },
       "traffic": {
@@ -121,11 +121,11 @@
         0.368,
         0.368,
         0.368,
+        0.383,
+        0.383,
+        0.383,
+        0.383,
         0.368,
-        0.383,
-        0.383,
-        0.383,
-        0.383,
         0.368,
         0.368,
         0.368,
@@ -150,24 +150,6 @@
           "is_high": true
         },
         {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "быстрые свидания от Fast Life",
           "cats": [
             "party",
@@ -185,24 +167,6 @@
           "is_high": true
         },
         {
-          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
-          "cats": [
-            "party",
-            "theater",
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Загадочные миры Иеронима Босха»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "VR-путешествие «Чудеса света»",
           "cats": [
             "exhibition",
@@ -213,14 +177,48 @@
           "is_high": true
         },
         {
-          "title": "фотовыставка и иммерсивное шоу «Фрида Кало. Несломленная»",
+          "title": "Набор в спортивно-творческий лагерь на Навка Арене",
           "cats": [
-            "exhibition"
+            "kids",
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "квест «Красная кнопка»",
+          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Продуктовый маркетинг и аналитика»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
             "recreation",
@@ -241,15 +239,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+14°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 16.6,
-        "feels_like": 16.3,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 5.0,
-        "wind_gusts": 13.3,
+        "temp": 14.5,
+        "feels_like": 14.6,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 3.9,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -277,7 +275,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -296,6 +293,7 @@
         0.205,
         0.257,
         0.257,
+        0.242,
         0.242,
         0.242
       ],
@@ -344,25 +342,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.281,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+1°C · ясно",
-        "icon": "☀",
+        "val": "+1°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 0.7,
+        "temp": 0.6,
         "feels_like": -4.7,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 15.9,
-        "wind_gusts": 20.5,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 16.1,
+        "wind_gusts": 20.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 1.0,
+        "val": "14 крупных из 17",
         "icon": "🎭"
       },
       "traffic": {
@@ -381,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.356,
         0.356,
         0.356,
         0.381,
@@ -404,9 +401,41 @@
         0.396,
         0.381,
         0.281,
-        0.281
+        0.281,
+        0.381
       ],
       "_raw_events": [
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
         {
           "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
@@ -448,14 +477,6 @@
         {
           "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
             "education"
           ],
           "is_high": false
