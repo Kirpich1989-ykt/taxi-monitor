@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T04:56:22.886547+00:00",
+  "generated_at": "2026-05-13T08:07:21.392449+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+8°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 7.8,
-        "feels_like": 4.5,
+        "temp": 7.7,
+        "feels_like": 4.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.2,
-        "wind_gusts": 14.8,
+        "wind": 5.5,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -58,6 +57,7 @@
         0.064,
         0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · пасмурно",
-        "icon": "☁",
+        "val": "+18°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 14.1,
-        "feels_like": 14.0,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 6.1,
-        "wind_gusts": 18.4,
+        "temp": 18.5,
+        "feels_like": 17.9,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 7.6,
+        "wind_gusts": 21.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -134,8 +134,8 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
+        0.368,
         0.368,
         0.368
       ],
@@ -193,20 +193,20 @@
           "is_high": true
         },
         {
-          "title": "групповые знакомства GOKON",
-          "cats": [
-            "party",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
             "kids",
             "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "групповые знакомства GOKON",
+          "cats": [
+            "party",
+            "other",
             "entertainment"
           ],
           "is_high": true
@@ -235,25 +235,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · пасмурно",
+        "val": "+23°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 17.9,
-        "feels_like": 18.9,
+        "temp": 23.1,
+        "feels_like": 23.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.7,
-        "wind_gusts": 12.6,
+        "wind": 7.2,
+        "wind_gusts": 20.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -275,7 +275,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -295,9 +294,17 @@
         0.242,
         0.205,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -339,21 +346,21 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+4°C · пасмурно",
+        "val": "+7°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 4.2,
-        "feels_like": -0.6,
+        "temp": 7.1,
+        "feels_like": 2.2,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 13.0,
-        "wind_gusts": 28.4,
+        "wind": 14.0,
+        "wind_gusts": 29.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "18 крупных из 21",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -372,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.131,
         0.281,
         0.281,
         0.356,
@@ -395,6 +401,7 @@
         0.366,
         0.366,
         0.366,
+        0.381,
         0.381
       ],
       "_raw_events": [
