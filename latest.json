@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-14T07:51:31.309627+00:00",
+  "generated_at": "2026-05-14T10:29:24.868278+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.094,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.1,
-        "val": "+6°C · пасмурно",
-        "icon": "☁",
+        "score": 0.05,
+        "val": "+4°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 5.6,
-        "feels_like": -1.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 24.2,
-        "wind_gusts": 45.4,
+        "temp": 3.9,
+        "feels_like": -1.8,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 17.1,
+        "wind_gusts": 40.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -47,7 +47,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.064,
         0.079,
         0.094,
-        0.094
+        0.094,
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+23°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 19.9,
-        "feels_like": 19.9,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 4.9,
-        "wind_gusts": 16.6,
+        "temp": 22.8,
+        "feels_like": 22.2,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 5.9,
+        "wind_gusts": 22.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "42 крупных из 50",
+        "val": "44 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -125,8 +125,8 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -212,17 +212,18 @@
           "is_high": true
         },
         {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
           "cats": [
-            "exhibition",
+            "theater",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "Международная выставка современного искусства «ВМЕСТЕ»",
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
           "cats": [
-            "exhibition"
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         }
@@ -235,19 +236,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
+        "score": 0.0,
         "val": "+22°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 21.9,
-        "feels_like": 22.0,
+        "temp": 21.6,
+        "feels_like": 21.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.9,
-        "wind_gusts": 43.6,
+        "wind": 11.5,
+        "wind_gusts": 47.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +273,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -295,7 +295,8 @@
         0.205,
         0.205,
         0.205,
-        0.257
+        0.257,
+        0.242
       ],
       "_raw_events": [
         {
@@ -346,15 +347,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+8°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+9°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 8.4,
-        "feels_like": 4.5,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 13.4,
-        "wind_gusts": 34.2,
+        "temp": 8.6,
+        "feels_like": 3.4,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 16.4,
+        "wind_gusts": 34.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -379,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.281,
         0.281,
         0.381,
@@ -401,6 +401,7 @@
         0.266,
         0.366,
         0.366,
+        0.381,
         0.381,
         0.381
       ],
