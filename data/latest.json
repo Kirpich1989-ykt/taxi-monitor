@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T22:08:21.656860+00:00",
+  "generated_at": "2026-05-16T00:02:05.303453+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+1°C · ясно",
-        "icon": "☀",
+        "val": "+4°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 1.2,
-        "feels_like": -4.1,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 15.5,
-        "wind_gusts": 29.5,
+        "temp": 3.6,
+        "feels_like": -1.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 16.3,
+        "wind_gusts": 36.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -48,7 +48,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.094,
         0.094,
@@ -63,6 +62,7 @@
         0.094,
         0.079,
         0.064,
+        0.079,
         0.079,
         0.079,
         0.079,
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.518,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+16°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+16°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 16.4,
-        "feels_like": 16.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 3.0,
-        "wind_gusts": 7.2,
+        "temp": 15.7,
+        "feels_like": 15.9,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 2.2,
+        "wind_gusts": 5.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "24 крупных из 47",
+        "val": "27 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -137,7 +137,7 @@
         0.368,
         0.368,
         0.368,
-        0.368
+        0.518
       ],
       "_raw_events": [
         {
@@ -145,6 +145,16 @@
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -216,15 +226,6 @@
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "Рассветомания. Фотоэкскурсия на крыше небоскрёба на рассвете",
-          "cats": [
-            "photo",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -242,12 +243,12 @@
         "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 14.4,
-        "feels_like": 14.3,
+        "temp": 14.0,
+        "feels_like": 13.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.0,
-        "wind_gusts": 16.9,
+        "wind": 7.6,
+        "wind_gusts": 18.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +273,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.257,
         0.257,
         0.257,
@@ -295,6 +295,7 @@
         0.392,
         0.392,
         0.392,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -339,21 +340,21 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+6°C · пасмурно",
+        "val": "+7°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 6.3,
-        "feels_like": 2.1,
+        "temp": 7.1,
+        "feels_like": 2.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 13.9,
-        "wind_gusts": 17.6,
+        "wind": 15.0,
+        "wind_gusts": 21.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "8 крупных из 11",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -372,7 +373,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.366,
         0.266,
         0.266,
@@ -395,6 +395,7 @@
         0.266,
         0.266,
         0.281,
+        0.381,
         0.381
       ],
       "_raw_events": [
@@ -423,9 +424,24 @@
           "is_high": true
         },
         {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
           "title": "выставка «Сибирь в древности»",
           "cats": [
             "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -455,20 +471,6 @@
         },
         {
           "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "экспозиция «Природа Новосибирской области»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
             "education"
           ],
