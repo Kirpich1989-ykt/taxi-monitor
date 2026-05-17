@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T04:17:00.450526+00:00",
+  "generated_at": "2026-05-17T07:40:31.408984+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+8°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 7.8,
-        "feels_like": 4.0,
+        "temp": 8.4,
+        "feels_like": 3.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 12.1,
-        "wind_gusts": 36.0,
+        "wind": 12.2,
+        "wind_gusts": 32.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
         0.094,
         0.094,
         0.079,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.064,
+        0.079,
         0.079
       ],
       "_raw_events": [],
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+23°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 15.2,
-        "feels_like": 14.7,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 5.6,
-        "wind_gusts": 15.8,
+        "temp": 22.9,
+        "feels_like": 23.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 7.8,
+        "wind_gusts": 23.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -122,8 +122,8 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -239,25 +239,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+20°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 15.0,
-        "feels_like": 15.0,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 4.6,
-        "wind_gusts": 12.6,
+        "temp": 19.7,
+        "feels_like": 19.9,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 8.2,
+        "wind_gusts": 22.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -277,7 +277,6 @@
       },
       "history": [
         0.355,
-        0.355,
         0.392,
         0.392,
         0.392,
@@ -299,9 +298,17 @@
         0.205,
         0.205,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -339,25 +346,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.381,
+      "impact": 0.396,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+10°C · пасмурно",
-        "icon": "☁",
+        "score": 0.1,
+        "val": "+13°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 9.8,
-        "feels_like": 4.8,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 18.8,
-        "wind_gusts": 39.6,
+        "temp": 13.2,
+        "feels_like": 8.5,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 21.2,
+        "wind_gusts": 34.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "20 крупных из 23",
         "icon": "🎭"
       },
       "traffic": {
@@ -376,7 +383,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.366,
@@ -399,7 +405,8 @@
         0.381,
         0.381,
         0.381,
-        0.381
+        0.381,
+        0.396
       ],
       "_raw_events": [
         {
@@ -465,15 +472,19 @@
           "is_high": true
         },
         {
-          "title": "экспозиция «Природа Новосибирской области»",
+          "title": "еженедельная сальса-вечеринка",
           "cats": [
-            "exhibition"
+            "party",
+            "education",
+            "recreation"
           ],
           "is_high": true
         },
         {
-          "title": "ролевые настольные игры в «Башне»",
+          "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
+            "kids",
+            "education",
             "entertainment"
           ],
           "is_high": true
