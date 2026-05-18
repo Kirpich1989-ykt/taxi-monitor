@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T14:36:56.756972+00:00",
+  "generated_at": "2026-05-18T17:34:44.589242+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+1°C · ясно",
-        "icon": "☀",
+        "val": "+0°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 1.4,
-        "feels_like": -1.8,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 1.3,
-        "wind_gusts": 5.0,
+        "temp": 0.2,
+        "feels_like": -3.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 3.6,
+        "wind_gusts": 5.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -52,10 +52,10 @@
         0.064,
         0.064,
         0.064,
+        0.079,
+        0.079,
+        0.079,
         0.064,
-        0.079,
-        0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+29°C · пасмурно",
+        "val": "+25°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 29.4,
-        "feels_like": 26.7,
+        "temp": 25.4,
+        "feels_like": 23.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.5,
-        "wind_gusts": 26.3,
+        "wind": 6.2,
+        "wind_gusts": 19.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "41 крупных из 50",
+        "val": "37 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -127,7 +127,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -137,6 +136,7 @@
         0.368,
         0.368,
         0.383,
+        0.368,
         0.368
       ],
       "_raw_events": [
@@ -150,39 +150,12 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Всё напоказ?»",
           "cats": [
             "exhibition",
             "kids",
             "tour",
             "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -229,6 +202,36 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -239,19 +242,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.392,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+19°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+17°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 18.9,
-        "feels_like": 18.3,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.6,
-        "wind_gusts": 19.4,
+        "temp": 17.1,
+        "feels_like": 17.3,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 9.0,
+        "wind_gusts": 21.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +281,6 @@
       "history": [
         0.392,
         0.392,
-        0.392,
         0.242,
         0.242,
         0.242,
@@ -299,7 +301,8 @@
         0.205,
         0.205,
         0.242,
-        0.242
+        0.242,
+        0.392
       ],
       "_raw_events": [
         {
@@ -350,15 +353,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+5°C · ясно",
+        "val": "+2°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 5.3,
-        "feels_like": 1.8,
+        "temp": 2.2,
+        "feels_like": -1.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.0,
-        "wind_gusts": 23.4,
+        "wind": 6.6,
+        "wind_gusts": 14.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -383,7 +386,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.531,
         0.516,
         0.491,
@@ -406,6 +408,7 @@
         0.366,
         0.366,
         0.366,
+        0.266,
         0.266
       ],
       "_raw_events": [
