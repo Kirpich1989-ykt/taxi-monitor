@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T18:27:48.339378+00:00",
+  "generated_at": "2026-05-20T21:06:20.416234+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+6°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+9°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 5.6,
-        "feels_like": 2.6,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 8.8,
-        "wind_gusts": 10.4,
+        "temp": 9.2,
+        "feels_like": 6.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 7.2,
+        "wind_gusts": 7.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -57,13 +57,13 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.064,
         0.064,
         0.064,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · преим. ясно",
+        "val": "+20°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 22.4,
-        "feels_like": 21.5,
+        "temp": 19.9,
+        "feels_like": 18.9,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 4.3,
-        "wind_gusts": 9.0,
+        "wind": 4.5,
+        "wind_gusts": 5.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "30 крупных из 50",
+        "val": "20 крупных из 43",
         "icon": "🎭"
       },
       "traffic": {
@@ -119,8 +119,8 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -141,81 +141,11 @@
       ],
       "_raw_events": [
         {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
-          "cats": [
-            "theater",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультисенсорная выставка «Сон в музее»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «СЕНС. Почувствуй стихии»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         },
@@ -226,6 +156,73 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "VR-путешествие «Чудеса света»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "Набор в спортивно-творческий лагерь на Навка Арене",
+          "cats": [
+            "kids",
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Продуктовый маркетинг и аналитика»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Информационная безопасность и программная инженерия»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -240,15 +237,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · туман",
-        "icon": "🌫",
+        "val": "+16°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 16.7,
-        "feels_like": 18.3,
-        "condition": "туман",
-        "wmo_code": 45,
-        "wind": 3.5,
-        "wind_gusts": 7.2,
+        "temp": 15.5,
+        "feels_like": 16.5,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 4.2,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +272,6 @@
       "history": [
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -293,6 +289,7 @@
         0.242,
         0.355,
         0.355,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -343,25 +340,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.431,
+      "impact": 0.531,
       "alert": "green",
       "weather": {
         "score": 0.55,
-        "val": "+9°C · морось сильная",
-        "icon": "🌧",
+        "val": "+9°C · морось умеренная",
+        "icon": "🌦",
         "live": true,
-        "temp": 9.1,
-        "feels_like": 5.8,
-        "condition": "морось сильная",
-        "wmo_code": 55,
-        "wind": 16.7,
-        "wind_gusts": 22.3,
-        "precip": 0.3,
+        "temp": 8.9,
+        "feels_like": 5.9,
+        "condition": "морось умеренная",
+        "wmo_code": 53,
+        "wind": 13.4,
+        "wind_gusts": 19.1,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 1.0,
+        "val": "14 крупных из 17",
         "icon": "🎭"
       },
       "traffic": {
@@ -380,7 +377,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.266,
         0.341,
         0.366,
@@ -403,9 +399,40 @@
         0.381,
         0.516,
         0.431,
-        0.431
+        0.431,
+        0.531
       ],
       "_raw_events": [
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сибирь в древности»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
         {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
@@ -445,19 +472,11 @@
           "is_high": true
         },
         {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "title": "выставка «Русское искусство XVIII-XIX вв.»",
           "cats": [
-            "education"
+            "exhibition"
           ],
-          "is_high": false
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
-            "education"
-          ],
-          "is_high": false
+          "is_high": true
         }
       ],
       "_raw_news": [],
