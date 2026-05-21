@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T04:39:20.182765+00:00",
+  "generated_at": "2026-05-21T08:40:22.164817+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · переменная облачность",
+        "val": "+19°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 20.2,
-        "feels_like": 18.4,
+        "temp": 18.6,
+        "feels_like": 15.6,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 7.7,
-        "wind_gusts": 16.6,
+        "wind": 10.8,
+        "wind_gusts": 17.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -54,13 +54,13 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.064,
         0.064,
         0.064,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · переменная облачность",
+        "val": "+30°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 21.9,
-        "feels_like": 23.0,
+        "temp": 29.7,
+        "feels_like": 28.9,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 3.0,
-        "wind_gusts": 11.5,
+        "wind": 7.4,
+        "wind_gusts": 24.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "42 крупных из 50",
+        "val": "43 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -116,8 +116,8 @@
       "history": [
         0.368,
         0.368,
-        0.368,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -220,11 +220,11 @@
           "is_high": true
         },
         {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
           "cats": [
-            "stock",
+            "kids",
             "education",
-            "other",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -238,25 +238,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.407,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+18°C · пасмурно",
-        "icon": "☁",
+        "score": 0.55,
+        "val": "+24°C · ливень слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 17.7,
-        "feels_like": 18.0,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 9.5,
-        "wind_gusts": 25.2,
-        "precip": 0.0,
+        "temp": 23.7,
+        "feels_like": 24.2,
+        "condition": "ливень слабый",
+        "wmo_code": 80,
+        "wind": 14.4,
+        "wind_gusts": 38.9,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -275,7 +275,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.205,
         0.205,
         0.242,
@@ -298,9 +297,17 @@
         0.242,
         0.242,
         0.205,
-        0.205
+        0.205,
+        0.407
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Мне вечность глянула в глаза…»",
           "cats": [
@@ -338,25 +345,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.396,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
-        "score": 0.1,
-        "val": "+6°C · пасмурно",
+        "score": 0.05,
+        "val": "+8°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 6.1,
-        "feels_like": 1.1,
+        "temp": 8.0,
+        "feels_like": 2.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 21.6,
-        "wind_gusts": 40.3,
+        "wind": 19.1,
+        "wind_gusts": 43.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "20 крупных из 23",
         "icon": "🎭"
       },
       "traffic": {
@@ -375,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.366,
@@ -398,7 +404,8 @@
         0.431,
         0.531,
         0.516,
-        0.396
+        0.396,
+        0.381
       ],
       "_raw_events": [
         {
@@ -442,14 +449,6 @@
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Зарубежное искусство»",
           "cats": [
             "exhibition"
@@ -464,16 +463,25 @@
           "is_high": true
         },
         {
-          "title": "экспозиция «Природа Новосибирской области»",
+          "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
-            "exhibition"
+            "kids",
+            "education",
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "ролевые настольные игры в «Башне»",
+          "title": "вечера настольных игр на Кошурникова",
           "cats": [
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экспозиция «Природа Новосибирской области»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         }
