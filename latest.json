@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T21:06:20.416234+00:00",
+  "generated_at": "2026-05-20T23:23:53.349610+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · пасмурно",
-        "icon": "☁",
+        "val": "+13°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 9.2,
-        "feels_like": 6.7,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 7.2,
-        "wind_gusts": 7.6,
+        "temp": 13.4,
+        "feels_like": 11.4,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 5.1,
+        "wind_gusts": 10.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -56,13 +56,13 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.064,
         0.064,
         0.064,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+18°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 19.9,
-        "feels_like": 18.9,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 4.5,
+        "temp": 17.8,
+        "feels_like": 17.6,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 3.4,
         "wind_gusts": 5.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "20 крупных из 43",
+        "val": "20 крупных из 44",
         "icon": "🎭"
       },
       "traffic": {
@@ -118,8 +118,8 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -233,25 +233,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · переменная облачность",
+        "val": "+15°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 15.5,
-        "feels_like": 16.5,
+        "temp": 14.8,
+        "feels_like": 15.7,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 4.2,
-        "wind_gusts": 9.7,
+        "wind": 4.3,
+        "wind_gusts": 9.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -270,7 +270,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.242,
         0.205,
         0.205,
@@ -293,16 +292,10 @@
         0.242,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Мне вечность глянула в глаза…»",
           "cats": [
@@ -340,25 +333,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.531,
+      "impact": 0.516,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+9°C · морось умеренная",
-        "icon": "🌦",
+        "score": 0.5,
+        "val": "+8°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 8.9,
-        "feels_like": 5.9,
-        "condition": "морось умеренная",
-        "wmo_code": 53,
-        "wind": 13.4,
-        "wind_gusts": 19.1,
-        "precip": 0.2,
+        "temp": 7.9,
+        "feels_like": 5.6,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 10.3,
+        "wind_gusts": 10.4,
+        "precip": 0.4,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "14 крупных из 17",
+        "val": "16 крупных из 19",
         "icon": "🎭"
       },
       "traffic": {
@@ -377,7 +370,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.341,
         0.366,
         0.366,
@@ -400,9 +392,18 @@
         0.516,
         0.431,
         0.431,
-        0.531
+        0.531,
+        0.516
       ],
       "_raw_events": [
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
           "cats": [
@@ -416,6 +417,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -462,21 +471,6 @@
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Русское искусство XVIII-XIX вв.»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
