@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T11:22:44.246120+00:00",
+  "generated_at": "2026-05-23T13:59:07.424067+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+18°C · пасмурно",
+        "val": "+15°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 17.5,
-        "feels_like": 15.4,
+        "temp": 15.3,
+        "feels_like": 12.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.2,
-        "wind_gusts": 36.7,
+        "wind": 15.2,
+        "wind_gusts": 24.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -54,7 +54,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -62,6 +61,7 @@
         0.064,
         0.064,
         0.064,
+        0.079,
         0.079,
         0.079,
         0.079,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+21°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 21.5,
-        "feels_like": 20.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 10.6,
-        "wind_gusts": 30.6,
+        "temp": 20.9,
+        "feels_like": 18.6,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 10.3,
+        "wind_gusts": 29.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "47 крупных из 50",
+        "val": "48 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -145,6 +145,14 @@
           "cats": [
             "concert",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "фестиваль водных фонариков в парке «Красногвардейские пруды»",
+          "cats": [
+            "holiday",
+            "festival"
           ],
           "is_high": true
         },
@@ -219,13 +227,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "джазовые концерты и вечеринки на крыше Novotel",
-          "cats": [
-            "concert"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -236,20 +237,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.407,
+      "impact": 0.392,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+24°C · гроза",
-        "icon": "⛈",
+        "score": 0.5,
+        "val": "+23°C · ливень слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 24.2,
-        "feels_like": 24.4,
-        "condition": "гроза",
-        "wmo_code": 95,
-        "wind": 15.4,
-        "wind_gusts": 44.3,
-        "precip": 0.5,
+        "temp": 22.6,
+        "feels_like": 23.7,
+        "condition": "ливень слабый",
+        "wmo_code": 80,
+        "wind": 9.1,
+        "wind_gusts": 29.9,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
@@ -276,7 +277,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.407,
@@ -296,7 +296,8 @@
         0.205,
         0.205,
         0.257,
-        0.407
+        0.407,
+        0.392
       ],
       "_raw_events": [
         {
@@ -347,21 +348,21 @@
       "alert": "green",
       "weather": {
         "score": 0.6,
-        "val": "+8°C · морось умеренная",
+        "val": "+8°C · морось слабая",
         "icon": "🌦",
         "live": true,
-        "temp": 8.4,
-        "feels_like": 3.9,
-        "condition": "морось умеренная",
-        "wmo_code": 53,
-        "wind": 25.7,
-        "wind_gusts": 31.3,
-        "precip": 0.2,
+        "temp": 8.5,
+        "feels_like": 4.3,
+        "condition": "морось слабая",
+        "wmo_code": 51,
+        "wind": 23.7,
+        "wind_gusts": 22.7,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "20 крупных из 23",
+        "val": "7 крупных из 10",
         "icon": "🎭"
       },
       "traffic": {
@@ -380,7 +381,6 @@
         "icon": "📰"
       },
       "history": [
-        0.516,
         0.431,
         0.431,
         0.531,
@@ -403,17 +403,10 @@
         0.546,
         0.546,
         0.546,
+        0.546,
         0.546
       ],
       "_raw_events": [
-        {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
         {
           "title": "невидимая выставка-квест Temnota",
           "cats": [
@@ -423,49 +416,11 @@
           "is_high": true
         },
         {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
           "title": "киноночь в антикафе Fun-Time",
           "cats": [
             "education",
             "cinema",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сибирь в древности»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         },
@@ -484,6 +439,51 @@
             "exhibition"
           ],
           "is_high": true
+        },
+        {
+          "title": "шоу мыльных пузырей в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "ролевые настольные игры в «Башне»",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "ночь настольных игр в клубе-магазине «ИгРРай»",
+          "cats": [
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock",
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
