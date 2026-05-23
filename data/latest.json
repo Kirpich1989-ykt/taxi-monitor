@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T19:24:24.126829+00:00",
+  "generated_at": "2026-05-23T21:04:43.272360+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · пасмурно",
+        "val": "+13°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 11.8,
-        "feels_like": 10.0,
+        "temp": 12.6,
+        "feels_like": 10.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.8,
-        "wind_gusts": 17.3,
+        "wind": 9.6,
+        "wind_gusts": 23.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -50,7 +50,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,6 +65,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · ясно",
+        "val": "+15°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 15.8,
-        "feels_like": 14.9,
+        "temp": 14.7,
+        "feels_like": 13.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.0,
-        "wind_gusts": 8.3,
+        "wind": 4.3,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "28 крупных из 50",
+        "val": "24 крупных из 46",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,24 +141,6 @@
       ],
       "_raw_events": [
         {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
-          "cats": [
-            "theater",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "квест «Красная кнопка»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "День футбола в «Лужниках»",
           "cats": [
             "concert",
@@ -173,24 +155,6 @@
           "cats": [
             "party",
             "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
-          "cats": [
-            "exhibition",
             "entertainment"
           ],
           "is_high": true
@@ -230,6 +194,37 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Продуктовый маркетинг и аналитика»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры по юридическим технологиям (LegalTech)",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -244,15 +239,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · пасмурно",
+        "val": "+18°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 18.7,
-        "feels_like": 20.6,
+        "temp": 18.0,
+        "feels_like": 19.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.1,
-        "wind_gusts": 16.2,
+        "wind": 3.1,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +273,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.407,
         0.392,
         0.392,
@@ -300,6 +294,7 @@
         0.392,
         0.392,
         0.392,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -347,25 +342,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.356,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+9°C · пасмурно",
+        "val": "+7°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 8.6,
-        "feels_like": 5.2,
+        "temp": 7.4,
+        "feels_like": 3.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 18.9,
-        "wind_gusts": 22.0,
+        "wind": 18.6,
+        "wind_gusts": 24.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 9",
+        "score": 1.0,
+        "val": "8 крупных из 11",
         "icon": "🎭"
       },
       "traffic": {
@@ -384,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.516,
         0.396,
         0.381,
         0.381,
@@ -407,9 +401,26 @@
         0.546,
         0.356,
         0.506,
-        0.356
+        0.356,
+        0.381
       ],
       "_raw_events": [
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "киноночь в антикафе Fun-Time",
           "cats": [
@@ -471,14 +482,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
