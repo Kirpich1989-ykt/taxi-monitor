@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T14:41:33.565724+00:00",
+  "generated_at": "2026-05-24T16:10:08.932233+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,16 +10,16 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+11°C · морось слабая",
+        "val": "+10°C · морось умеренная",
         "icon": "🌦",
         "live": true,
-        "temp": 11.1,
-        "feels_like": 8.8,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 12.0,
-        "wind_gusts": 23.8,
-        "precip": 0.1,
+        "temp": 9.9,
+        "feels_like": 7.9,
+        "condition": "морось умеренная",
+        "wmo_code": 53,
+        "wind": 10.9,
+        "wind_gusts": 27.4,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.064,
+        0.214,
         0.214
       ],
       "_raw_events": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.518,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+20°C · ливень слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+20°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 20.4,
-        "feels_like": 19.9,
-        "condition": "ливень слабый",
-        "wmo_code": 80,
-        "wind": 8.0,
-        "wind_gusts": 28.4,
-        "precip": 0.1,
+        "temp": 19.5,
+        "feels_like": 18.9,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 6.5,
+        "wind_gusts": 28.1,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "47 крупных из 50",
+        "val": "43 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -134,20 +134,12 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
-        0.518
+        0.518,
+        0.368
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "фестиваль водных фонариков в парке «Красногвардейские пруды»",
           "cats": [
@@ -178,14 +170,6 @@
             "theater",
             "concert",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -227,6 +211,23 @@
             "recreation"
           ],
           "is_high": true
+        },
+        {
+          "title": "фестиваль локальных брендов «Попкорн Маркет»",
+          "cats": [
+            "stock",
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -241,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+25°C · пасмурно",
+        "val": "+23°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 24.6,
-        "feels_like": 25.2,
+        "temp": 22.7,
+        "feels_like": 23.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.9,
-        "wind_gusts": 29.5,
+        "wind": 6.0,
+        "wind_gusts": 17.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +275,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -297,6 +297,7 @@
         0.242,
         0.242,
         0.392,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -344,25 +345,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.303,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+5°C · ясно",
+        "val": "+4°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 4.8,
-        "feels_like": 2.0,
+        "temp": 3.5,
+        "feels_like": 0.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.0,
-        "wind_gusts": 8.3,
+        "wind": 7.5,
+        "wind_gusts": 4.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.75,
-        "val": "5 крупных из 8",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -381,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.381,
         0.381,
         0.266,
@@ -404,18 +404,10 @@
         0.381,
         0.381,
         0.381,
-        0.303
+        0.303,
+        0.266
       ],
       "_raw_events": [
-        {
-          "title": "еженедельная сальса-вечеринка",
-          "cats": [
-            "party",
-            "education",
-            "recreation"
-          ],
-          "is_high": true
-        },
         {
           "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
@@ -433,16 +425,16 @@
           "is_high": true
         },
         {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
+          "title": "ролевые настольные игры в «Башне»",
           "cats": [
-            "kids",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "ролевые настольные игры в «Башне»",
+          "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
+            "kids",
             "entertainment"
           ],
           "is_high": true
