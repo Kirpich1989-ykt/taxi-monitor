@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T16:10:08.932233+00:00",
+  "generated_at": "2026-05-24T18:08:34.127999+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,16 +10,16 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+10°C · морось умеренная",
+        "val": "+9°C · морось слабая",
         "icon": "🌦",
         "live": true,
-        "temp": 9.9,
-        "feels_like": 7.9,
-        "condition": "морось умеренная",
-        "wmo_code": 53,
-        "wind": 10.9,
-        "wind_gusts": 27.4,
-        "precip": 0.2,
+        "temp": 9.1,
+        "feels_like": 6.9,
+        "condition": "морось слабая",
+        "wmo_code": 51,
+        "wind": 11.5,
+        "wind_gusts": 24.8,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -48,7 +48,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.214,
+        0.214,
         0.214
       ],
       "_raw_events": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.518,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+20°C · переменная облачность",
-        "icon": "⛅",
+        "score": 0.5,
+        "val": "+17°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 19.5,
-        "feels_like": 18.9,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 6.5,
-        "wind_gusts": 28.1,
+        "temp": 17.1,
+        "feels_like": 17.4,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 5.1,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "43 крупных из 50",
+        "val": "32 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -133,33 +133,18 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.518,
-        0.368
+        0.368,
+        0.518
       ],
       "_raw_events": [
-        {
-          "title": "фестиваль водных фонариков в парке «Красногвардейские пруды»",
-          "cats": [
-            "holiday",
-            "festival"
-          ],
-          "is_high": true
-        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
             "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -183,26 +168,6 @@
           "is_high": true
         },
         {
-          "title": "выставка «Всё напоказ?»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "День футбола в «Лужниках»",
           "cats": [
             "concert",
@@ -213,18 +178,53 @@
           "is_high": true
         },
         {
-          "title": "фестиваль локальных брендов «Попкорн Маркет»",
+          "title": "групповые знакомства GOKON",
           "cats": [
-            "stock",
+            "party",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "3-й Международный день медитации",
+          "cats": [
+            "holiday",
             "festival"
           ],
           "is_high": true
         },
         {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
           "cats": [
             "exhibition",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -242,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · пасмурно",
-        "icon": "☁",
+        "val": "+20°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 22.7,
-        "feels_like": 23.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 6.0,
-        "wind_gusts": 17.3,
+        "temp": 20.3,
+        "feels_like": 22.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 6.6,
+        "wind_gusts": 18.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -280,7 +280,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -297,6 +296,7 @@
         0.242,
         0.242,
         0.392,
+        0.242,
         0.242,
         0.242
       ],
@@ -349,14 +349,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+4°C · ясно",
+        "val": "+3°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 3.5,
-        "feels_like": 0.2,
+        "temp": 2.6,
+        "feels_like": -0.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.5,
+        "wind": 7.7,
         "wind_gusts": 4.0,
         "precip": 0.0,
         "snowfall": 0.0
@@ -383,7 +383,6 @@
       },
       "history": [
         0.381,
-        0.381,
         0.266,
         0.266,
         0.266,
@@ -405,6 +404,7 @@
         0.381,
         0.381,
         0.303,
+        0.266,
         0.266
       ],
       "_raw_events": [
