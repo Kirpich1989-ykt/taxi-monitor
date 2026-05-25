@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-05-25T00:10:24.588513+00:00",
+  "generated_at": "2026-05-25T05:46:13.175853+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.229,
+      "impact": 0.094,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+8°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.1,
+        "val": "+12°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 8.1,
-        "feels_like": 5.2,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 14.3,
-        "wind_gusts": 30.2,
-        "precip": 0.1,
+        "temp": 12.4,
+        "feels_like": 8.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 20.3,
+        "wind_gusts": 46.8,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -44,7 +44,6 @@
       },
       "history": [
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -66,7 +65,8 @@
         0.214,
         0.229,
         0.229,
-        0.229
+        0.229,
+        0.094
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.518,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+14°C · ливень слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+15°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 13.8,
-        "feels_like": 13.9,
-        "condition": "ливень слабый",
-        "wmo_code": 80,
-        "wind": 4.1,
-        "wind_gusts": 15.5,
-        "precip": 0.3,
+        "temp": 15.3,
+        "feels_like": 13.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 11.7,
+        "wind_gusts": 31.3,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "23 крупных из 46",
+        "val": "42 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -129,7 +129,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.518,
@@ -137,15 +136,88 @@
         0.518,
         0.368,
         0.368,
-        0.518
+        0.518,
+        0.368
       ],
       "_raw_events": [
+        {
+          "title": "мультимедийная выставка «Эйфория»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "квест «Красная кнопка»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Всё напоказ?»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "yarmarki-razvlecheniya-yarmarki",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "развлечения в Smile Park на ВДНХ",
+          "cats": [
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
@@ -158,73 +230,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "быстрые свидания от Fast Life",
-          "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "вокал в «Музыкальном сообществе» / Music Community",
-          "cats": [
-            "stock",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "VR-путешествие «Чудеса света»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "частный стендап от проекта «Стендап Импорт»",
-          "cats": [
-            "party",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids",
-            "quest",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный вводный курс онлайн-магистратуры «Продуктовый маркетинг и аналитика»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "бесплатный вводный курс онлайн-магистратуры по юридическим технологиям (LegalTech)",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -235,25 +240,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · пасмурно",
-        "icon": "☁",
+        "val": "+21°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 16.7,
-        "feels_like": 17.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.8,
-        "wind_gusts": 13.7,
+        "temp": 21.4,
+        "feels_like": 22.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 9.4,
+        "wind_gusts": 24.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -272,7 +277,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.242,
         0.205,
         0.205,
@@ -295,9 +299,17 @@
         0.242,
         0.242,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Мне вечность глянула в глаза…»",
           "cats": [
@@ -335,25 +347,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+5°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.05,
+        "val": "+12°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 5.1,
-        "feels_like": 1.9,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 9.0,
-        "wind_gusts": 13.7,
+        "temp": 12.1,
+        "feels_like": 9.0,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 19.1,
+        "wind_gusts": 38.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "7 крупных из 10",
+        "val": "9 крупных из 14",
         "icon": "🎭"
       },
       "traffic": {
@@ -372,7 +384,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.356,
         0.381,
         0.546,
@@ -395,9 +406,18 @@
         0.266,
         0.266,
         0.366,
-        0.366
+        0.366,
+        0.381
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "музей инопланетян",
           "cats": [
@@ -411,6 +431,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -446,34 +474,19 @@
           "is_high": true
         },
         {
+          "title": "занятия клуба философии и размышлений «КСЭП»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
             "kids",
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
