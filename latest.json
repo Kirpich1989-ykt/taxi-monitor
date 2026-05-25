@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-05-25T14:15:17.059693+00:00",
+  "generated_at": "2026-05-25T17:14:49.117707+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.094,
+      "impact": 0.244,
       "alert": "green",
       "weather": {
-        "score": 0.1,
-        "val": "+5°C · пасмурно",
-        "icon": "☁",
+        "score": 0.6,
+        "val": "+3°C · морось умеренная",
+        "icon": "🌦",
         "live": true,
-        "temp": 5.0,
-        "feels_like": -0.6,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 22.7,
-        "wind_gusts": 42.8,
-        "precip": 0.0,
+        "temp": 2.8,
+        "feels_like": -2.7,
+        "condition": "морось умеренная",
+        "wmo_code": 53,
+        "wind": 23.2,
+        "wind_gusts": 47.2,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
@@ -49,7 +49,6 @@
         0.079,
         0.079,
         0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.229,
         0.094,
         0.094,
-        0.094
+        0.094,
+        0.244
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.383,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+18°C · переменная облачность",
-        "icon": "⛅",
+        "score": 0.0,
+        "val": "+17°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 17.9,
-        "feels_like": 15.4,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 13.0,
-        "wind_gusts": 38.2,
+        "temp": 17.0,
+        "feels_like": 14.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 8.4,
+        "wind_gusts": 24.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "42 крупных из 50",
+        "val": "38 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -126,7 +126,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.518,
@@ -137,7 +136,8 @@
         0.518,
         0.368,
         0.533,
-        0.383
+        0.383,
+        0.368
       ],
       "_raw_events": [
         {
@@ -146,14 +146,6 @@
             "exhibition",
             "kids",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -167,31 +159,12 @@
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Всё напоказ?»",
           "cats": [
             "exhibition",
             "kids",
             "tour",
             "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -230,6 +203,34 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -244,15 +245,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · пасмурно",
+        "val": "+20°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 20.7,
-        "feels_like": 21.4,
+        "temp": 19.8,
+        "feels_like": 21.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 11.3,
-        "wind_gusts": 30.2,
+        "wind": 8.9,
+        "wind_gusts": 23.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +279,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.257,
         0.407,
         0.392,
@@ -300,6 +300,7 @@
         0.205,
         0.242,
         0.257,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -347,25 +348,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.319,
+      "impact": 0.281,
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+12°C · пасмурно",
-        "icon": "☁",
+        "val": "+11°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 12.4,
-        "feels_like": 8.3,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 17.2,
-        "wind_gusts": 30.6,
+        "temp": 10.9,
+        "feels_like": 6.7,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 17.3,
+        "wind_gusts": 21.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.75,
-        "val": "5 крупных из 8",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -388,7 +389,6 @@
         0.546,
         0.546,
         0.546,
-        0.546,
         0.356,
         0.506,
         0.356,
@@ -407,17 +407,10 @@
         0.366,
         0.381,
         0.396,
-        0.319
+        0.319,
+        0.281
       ],
       "_raw_events": [
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
