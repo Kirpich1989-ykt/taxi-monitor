@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T16:50:35.017480+00:00",
+  "generated_at": "2026-05-26T19:25:55.796144+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+3°C · переменная облачность",
+        "val": "+2°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 3.0,
-        "feels_like": -2.0,
+        "temp": 1.5,
+        "feels_like": -3.6,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 13.7,
-        "wind_gusts": 19.8,
+        "wind": 14.8,
+        "wind_gusts": 20.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -50,7 +50,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.214,
         0.214,
@@ -66,6 +65,7 @@
         0.094,
         0.094,
         0.079,
+        0.079,
         0.079
       ],
       "_raw_events": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.518,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+10°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+9°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 10.5,
-        "feels_like": 8.0,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 9.2,
-        "wind_gusts": 45.4,
+        "temp": 9.0,
+        "feels_like": 7.0,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 6.8,
+        "wind_gusts": 22.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "41 крупных из 50",
+        "val": "28 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -119,7 +119,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.518,
@@ -137,26 +136,10 @@
         0.368,
         0.518,
         0.383,
-        0.368
+        0.368,
+        0.518
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
@@ -167,37 +150,9 @@
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "квест «Красная кнопка»",
           "cats": [
             "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
             "recreation",
             "entertainment"
           ],
@@ -213,19 +168,63 @@
           "is_high": true
         },
         {
-          "title": "мультисенсорная выставка «Сон в музее»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
             "kids",
             "education",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "VR-путешествие «Чудеса света»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Загадочные миры Иеронима Босха»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         }
@@ -238,20 +237,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.407,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+20°C · пасмурно",
-        "icon": "☁",
+        "score": 0.55,
+        "val": "+18°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 20.5,
-        "feels_like": 18.3,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 16.8,
-        "wind_gusts": 41.8,
-        "precip": 0.0,
+        "temp": 18.3,
+        "feels_like": 17.1,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 14.3,
+        "wind_gusts": 41.0,
+        "precip": 0.3,
         "snowfall": 0.0
       },
       "events": {
@@ -276,7 +275,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -298,7 +296,8 @@
         0.205,
         0.205,
         0.257,
-        0.257
+        0.257,
+        0.407
       ],
       "_raw_events": [
         {
@@ -349,15 +348,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · ясно",
+        "val": "+13°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 14.2,
-        "feels_like": 14.3,
+        "temp": 12.8,
+        "feels_like": 11.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 2.7,
-        "wind_gusts": 10.1,
+        "wind": 5.2,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -382,7 +381,6 @@
         "icon": "📰"
       },
       "history": [
-        0.356,
         0.381,
         0.381,
         0.396,
@@ -405,6 +403,7 @@
         0.381,
         0.531,
         0.381,
+        0.266,
         0.266
       ],
       "_raw_events": [
