@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-27T08:46:31.286831+00:00",
+  "generated_at": "2026-05-27T12:29:30.891934+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+12°C · преим. ясно",
+        "score": 0.0,
+        "val": "+7°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 12.4,
-        "feels_like": 7.6,
+        "temp": 7.1,
+        "feels_like": 3.6,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 12.6,
-        "wind_gusts": 28.8,
+        "wind": 6.4,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -45,7 +45,6 @@
       "history": [
         0.064,
         0.064,
-        0.064,
         0.214,
         0.214,
         0.214,
@@ -66,7 +65,8 @@
         0.079,
         0.079,
         0.079,
-        0.079
+        0.079,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.518,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+14°C · ливень слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+13°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 13.6,
-        "feels_like": 11.3,
-        "condition": "ливень слабый",
-        "wmo_code": 80,
-        "wind": 9.3,
-        "wind_gusts": 44.6,
-        "precip": 0.1,
+        "temp": 12.6,
+        "feels_like": 10.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 7.6,
+        "wind_gusts": 24.5,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "44 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.518,
         0.368,
         0.518,
@@ -137,14 +136,39 @@
         0.368,
         0.368,
         0.368,
-        0.518
+        0.518,
+        0.368
       ],
       "_raw_events": [
+        {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
             "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -202,33 +226,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультисенсорная выставка «Сон в музее»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -239,19 +236,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.272,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+24°C · переменная облачность",
+        "score": 0.1,
+        "val": "+22°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 24.0,
-        "feels_like": 22.3,
+        "temp": 22.0,
+        "feels_like": 20.3,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 16.5,
-        "wind_gusts": 43.9,
+        "wind": 22.7,
+        "wind_gusts": 55.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -277,7 +274,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.392,
         0.242,
         0.242,
@@ -299,7 +295,8 @@
         0.355,
         0.205,
         0.205,
-        0.257
+        0.257,
+        0.272
       ],
       "_raw_events": [
         {
@@ -350,21 +347,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+25°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 26.0,
-        "feels_like": 26.3,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 4.9,
-        "wind_gusts": 19.1,
+        "temp": 24.6,
+        "feels_like": 25.8,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 1.8,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "11 крупных из 14",
         "icon": "🎭"
       },
       "traffic": {
@@ -385,7 +382,6 @@
       "history": [
         0.381,
         0.381,
-        0.381,
         0.303,
         0.266,
         0.266,
@@ -403,6 +399,7 @@
         0.381,
         0.266,
         0.266,
+        0.366,
         0.366,
         0.366,
         0.366,
@@ -450,9 +447,11 @@
           "is_high": true
         },
         {
-          "title": "выставка «Зарубежное искусство»",
+          "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
-            "exhibition"
+            "kids",
+            "education",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -464,27 +463,25 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сибирь в древности»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "свободное рисование в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
