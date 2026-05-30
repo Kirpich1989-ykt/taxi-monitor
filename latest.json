@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T20:14:48.335471+00:00",
+  "generated_at": "2026-05-30T22:09:44.574474+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+10°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+12°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 9.9,
-        "feels_like": 5.7,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 15.8,
-        "wind_gusts": 33.1,
+        "temp": 11.7,
+        "feels_like": 7.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 18.5,
+        "wind_gusts": 41.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -57,10 +57,10 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.094,
         0.094,
+        0.079,
         0.079,
         0.079,
         0.079,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · ясно",
+        "val": "+9°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 10.0,
-        "feels_like": 8.8,
+        "temp": 8.9,
+        "feels_like": 7.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 1.8,
-        "wind_gusts": 2.2,
+        "wind": 2.2,
+        "wind_gusts": 2.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "27 крупных из 50",
+        "val": "26 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -118,7 +118,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -135,29 +134,12 @@
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
-          "cats": [
-            "theater",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "квест «Красная кнопка»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -224,6 +206,25 @@
             "education"
           ],
           "is_high": false
+        },
+        {
+          "title": "Рассветомания. Фотоэкскурсия на крыше небоскрёба на рассвете",
+          "cats": [
+            "photo",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -234,25 +235,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.392,
+      "impact": 0.355,
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+11°C · дождь умеренный",
+        "val": "+10°C · дождь умеренный",
         "icon": "🌧",
         "live": true,
-        "temp": 11.4,
-        "feels_like": 10.5,
+        "temp": 10.5,
+        "feels_like": 8.8,
         "condition": "дождь умеренный",
         "wmo_code": 63,
-        "wind": 6.2,
-        "wind_gusts": 20.9,
-        "precip": 1.9,
+        "wind": 10.1,
+        "wind_gusts": 28.1,
+        "precip": 0.8,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -271,7 +272,6 @@
         "icon": "📰"
       },
       "history": [
-        0.272,
         0.235,
         0.235,
         0.22,
@@ -294,16 +294,10 @@
         0.257,
         0.257,
         0.392,
-        0.392
+        0.392,
+        0.355
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Мне вечность глянула в глаза…»",
           "cats": [
@@ -341,25 +335,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.341,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · пасмурно",
+        "val": "+11°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 11.6,
-        "feels_like": 10.8,
+        "temp": 11.1,
+        "feels_like": 10.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.9,
-        "wind_gusts": 9.7,
+        "wind": 2.2,
+        "wind_gusts": 6.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 9",
+        "score": 1.0,
+        "val": "8 крупных из 11",
         "icon": "🎭"
       },
       "traffic": {
@@ -378,7 +372,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.366,
         0.366,
         0.381,
@@ -401,15 +394,31 @@
         0.341,
         0.341,
         0.341,
-        0.341
+        0.341,
+        0.366
       ],
       "_raw_events": [
         {
-          "title": "киноночь в антикафе Fun-Time",
+          "title": "музей инопланетян",
           "cats": [
-            "education",
-            "cinema",
-            "entertainment"
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
           ],
           "is_high": true
         },
@@ -437,6 +446,13 @@
           "is_high": true
         },
         {
+          "title": "выставка «Сибирь в древности»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
           "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
             "education"
@@ -454,22 +470,6 @@
         {
           "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
           "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "ночь настольных игр в клубе-магазине «ИгРРай»",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
             "education"
           ],
           "is_high": false
