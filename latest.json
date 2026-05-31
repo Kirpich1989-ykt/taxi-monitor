@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-05-31T05:42:44.584477+00:00",
+  "generated_at": "2026-05-31T09:19:09.060366+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.229,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+8°C · морось умеренная",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+7°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 7.5,
-        "feels_like": 4.3,
-        "condition": "морось умеренная",
-        "wmo_code": 53,
-        "wind": 13.0,
-        "wind_gusts": 34.6,
-        "precip": 0.2,
+        "temp": 7.2,
+        "feels_like": 5.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 3.5,
+        "wind_gusts": 13.3,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -54,7 +54,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.094,
         0.094,
@@ -66,7 +65,8 @@
         0.079,
         0.079,
         0.079,
-        0.229
+        0.229,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+15°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 12.6,
-        "feels_like": 11.3,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 4.6,
-        "wind_gusts": 19.8,
-        "precip": 0.0,
+        "temp": 15.4,
+        "feels_like": 13.9,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 7.4,
+        "wind_gusts": 25.9,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "47 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -115,7 +115,6 @@
       },
       "history": [
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -132,6 +131,7 @@
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -145,6 +145,15 @@
           "cats": [
             "exhibition",
             "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -197,6 +206,13 @@
           "is_high": true
         },
         {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
           "title": "квест «Красная кнопка»",
           "cats": [
             "kids",
@@ -210,23 +226,6 @@
           "cats": [
             "party",
             "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультисенсорная выставка «Сон в музее»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
             "entertainment"
           ],
           "is_high": true
@@ -244,16 +243,16 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+14°C · переменная облачность",
+        "val": "+16°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 14.0,
-        "feels_like": 11.0,
+        "temp": 16.0,
+        "feels_like": 14.4,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 15.9,
-        "wind_gusts": 39.2,
-        "precip": 0.0,
+        "wind": 16.0,
+        "wind_gusts": 52.2,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -277,7 +276,6 @@
         "icon": "📰"
       },
       "history": [
-        0.22,
         0.407,
         0.392,
         0.392,
@@ -300,6 +298,7 @@
         0.392,
         0.355,
         0.355,
+        0.257,
         0.257
       ],
       "_raw_events": [
@@ -354,12 +353,12 @@
         "val": "+15°C · морось слабая",
         "icon": "🌦",
         "live": true,
-        "temp": 14.7,
-        "feels_like": 14.3,
+        "temp": 14.6,
+        "feels_like": 14.9,
         "condition": "морось слабая",
         "wmo_code": 51,
-        "wind": 4.6,
-        "wind_gusts": 7.2,
+        "wind": 3.5,
+        "wind_gusts": 16.9,
         "precip": 0.1,
         "snowfall": 0.0
       },
@@ -385,7 +384,6 @@
       },
       "history": [
         0.381,
-        0.381,
         0.319,
         0.266,
         0.531,
@@ -407,6 +405,7 @@
         0.341,
         0.366,
         0.366,
+        0.516,
         0.516
       ],
       "_raw_events": [
