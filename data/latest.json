@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-06-01T12:46:51.197196+00:00",
+  "generated_at": "2026-06-01T18:46:10.244847+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+11°C · пасмурно",
+        "score": 0.05,
+        "val": "+9°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 11.4,
-        "feels_like": 8.2,
+        "temp": 9.2,
+        "feels_like": 5.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.6,
-        "wind_gusts": 15.8,
+        "wind": 12.6,
+        "wind_gusts": 22.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.064,
-        0.064,
         0.079,
         0.094,
         0.094,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.064,
-        0.064
+        0.064,
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · переменная облачность",
+        "val": "+15°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 19.5,
-        "feels_like": 16.7,
+        "temp": 14.7,
+        "feels_like": 12.8,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 10.0,
-        "wind_gusts": 28.8,
+        "wind": 5.2,
+        "wind_gusts": 14.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "43 крупных из 50",
+        "val": "35 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -119,7 +119,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -137,6 +136,7 @@
         0.368,
         0.368,
         0.118,
+        0.368,
         0.368
       ],
       "_raw_events": [
@@ -145,53 +145,6 @@
           "cats": [
             "exhibition",
             "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Всё напоказ?»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -223,9 +176,56 @@
           "is_high": true
         },
         {
-          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
+          "title": "квест «Красная кнопка»",
           "cats": [
-            "theater",
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка VR ART",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
             "entertainment"
           ],
           "is_high": true
@@ -243,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · пасмурно",
-        "icon": "☁",
+        "val": "+13°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 18.6,
-        "feels_like": 17.7,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 7.3,
-        "wind_gusts": 23.8,
+        "temp": 13.0,
+        "feels_like": 12.1,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 4.9,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +276,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -298,6 +297,7 @@
         0.392,
         0.22,
         0.37,
+        0.242,
         0.242,
         0.242
       ],
@@ -346,25 +346,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.341,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · ясно",
+        "val": "+13°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.0,
-        "feels_like": 19.6,
+        "temp": 13.3,
+        "feels_like": 11.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.4,
-        "wind_gusts": 23.4,
+        "wind": 10.7,
+        "wind_gusts": 14.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 10",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -383,7 +383,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.366,
         0.366,
         0.381,
@@ -406,22 +405,14 @@
         0.366,
         0.366,
         0.131,
-        0.341
+        0.341,
+        0.266
       ],
       "_raw_events": [
         {
-          "title": "невидимая выставка-квест Temnota",
+          "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
-          "cats": [
-            "exhibition",
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
@@ -431,13 +422,6 @@
             "kids",
             "education",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экспозиция «Природа Новосибирской области»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         },
@@ -462,13 +446,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "английский разговорный клуб English Speaking",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         },
         {
           "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
