@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T19:29:09.948074+00:00",
+  "generated_at": "2026-06-04T21:50:23.843688+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+8°C · преим. ясно",
+        "val": "+11°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 8.2,
-        "feels_like": 6.1,
+        "temp": 11.1,
+        "feels_like": 9.1,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 6.2,
-        "wind_gusts": 7.6,
+        "wind": 5.7,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -47,7 +47,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -58,6 +57,7 @@
         0.064,
         0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+15°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 17.4,
-        "feels_like": 16.5,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 5.0,
-        "wind_gusts": 11.5,
+        "temp": 15.2,
+        "feels_like": 14.5,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 4.0,
+        "wind_gusts": 11.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -116,7 +116,6 @@
       "history": [
         0.368,
         0.368,
-        0.368,
         0.118,
         0.368,
         0.368,
@@ -137,42 +136,15 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
-          "cats": [
-            "theater",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "квест «Красная кнопка»",
-          "cats": [
-            "kids",
-            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -195,28 +167,11 @@
           "is_high": true
         },
         {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "VR-путешествие «Чудеса света»",
           "cats": [
             "exhibition",
             "kids",
             "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатная мини-вечеринка знакомств «Знакомошная»",
-          "cats": [
-            "party",
-            "stock",
             "entertainment"
           ],
           "is_high": true
@@ -229,6 +184,47 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Продуктовый маркетинг и аналитика»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "романтическое свидание на крыше от проекта «7 небо» / 7 Sky",
+          "cats": [
+            "stock",
+            "holiday",
+            "photo",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Информационная безопасность и программная инженерия»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -239,25 +235,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+17°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 19.8,
-        "feels_like": 20.7,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 2.1,
-        "wind_gusts": 6.5,
+        "temp": 17.2,
+        "feels_like": 18.1,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 3.6,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -276,7 +272,6 @@
         "icon": "📰"
       },
       "history": [
-        0.392,
         0.22,
         0.37,
         0.242,
@@ -299,16 +294,10 @@
         0.242,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Мне вечность глянула в глаза…»",
           "cats": [
@@ -346,25 +335,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.266,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · ясно",
+        "val": "+17°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 19.3,
-        "feels_like": 17.3,
+        "temp": 17.2,
+        "feels_like": 15.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 12.0,
-        "wind_gusts": 13.3,
+        "wind": 11.1,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 1.0,
+        "val": "15 крупных из 18",
         "icon": "🎭"
       },
       "traffic": {
@@ -383,7 +372,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.366,
         0.366,
         0.131,
@@ -406,9 +394,34 @@
         0.381,
         0.366,
         0.281,
-        0.266
+        0.266,
+        0.366
       ],
       "_raw_events": [
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
@@ -431,6 +444,13 @@
           "is_high": true
         },
         {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
           "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
             "kids",
@@ -440,27 +460,18 @@
           "is_high": true
         },
         {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "title": "выставка «Сибирь в древности»",
           "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "title": "выставка «Иконы»",
           "cats": [
-            "stock",
-            "education"
+            "exhibition"
           ],
-          "is_high": false
+          "is_high": true
         }
       ],
       "_raw_news": [],
