@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T19:04:12.939769+00:00",
+  "generated_at": "2026-06-05T20:53:34.896449+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · ясно",
+        "val": "+10°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 7.4,
-        "feels_like": 5.1,
+        "temp": 10.1,
+        "feels_like": 8.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.6,
-        "wind_gusts": 8.3,
+        "wind": 5.4,
+        "wind_gusts": 11.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -64,6 +63,7 @@
         0.064,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · преим. ясно",
+        "val": "+16°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 18.3,
-        "feels_like": 17.7,
+        "temp": 16.0,
+        "feels_like": 15.2,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 4.4,
-        "wind_gusts": 10.1,
+        "wind": 3.7,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "30 крупных из 50",
+        "val": "29 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -115,8 +115,8 @@
       },
       "history": [
         0.368,
-        0.368,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -141,38 +141,10 @@
       ],
       "_raw_events": [
         {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
-          "cats": [
-            "theater",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "квест «Красная кнопка»",
-          "cats": [
-            "kids",
-            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -190,14 +162,6 @@
           "title": "быстрые свидания от Fast Life",
           "cats": [
             "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
-          "cats": [
-            "exhibition",
             "entertainment"
           ],
           "is_high": true
@@ -227,6 +191,42 @@
             "education"
           ],
           "is_high": false
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Продуктовый маркетинг и аналитика»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "романтическое свидание на крыше от проекта «7 небо» / 7 Sky",
+          "cats": [
+            "stock",
+            "holiday",
+            "photo",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Рассветомания. Фотоэкскурсия на крыше небоскрёба на рассвете",
+          "cats": [
+            "photo",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -241,15 +241,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · пасмурно",
+        "val": "+19°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 20.7,
-        "feels_like": 21.3,
+        "temp": 19.4,
+        "feels_like": 20.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.4,
-        "wind_gusts": 18.4,
+        "wind": 4.8,
+        "wind_gusts": 12.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +274,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -294,6 +293,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -344,25 +344,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.266,
+      "impact": 0.341,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · ясно",
+        "val": "+17°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 18.4,
-        "feels_like": 16.9,
+        "temp": 16.8,
+        "feels_like": 15.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 11.3,
-        "wind_gusts": 12.2,
+        "wind": 8.9,
+        "wind_gusts": 10.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 0.9,
+        "val": "6 крупных из 9",
         "icon": "🎭"
       },
       "traffic": {
@@ -381,7 +381,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.381,
         0.381,
         0.266,
@@ -404,9 +403,26 @@
         0.381,
         0.381,
         0.281,
-        0.266
+        0.266,
+        0.341
       ],
       "_raw_events": [
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
