@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T18:17:18.845220+00:00",
+  "generated_at": "2026-06-06T20:18:39.065301+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,11 +13,11 @@
         "val": "+12°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 12.0,
-        "feels_like": 10.8,
+        "temp": 11.7,
+        "feels_like": 9.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.6,
+        "wind": 6.7,
         "wind_gusts": 9.4,
         "precip": 0.0,
         "snowfall": 0.0
@@ -51,7 +51,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -61,6 +60,7 @@
         0.064,
         0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · ясно",
+        "val": "+18°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 20.4,
-        "feels_like": 19.0,
+        "temp": 17.7,
+        "feels_like": 16.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.7,
-        "wind_gusts": 7.9,
+        "wind": 3.8,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "42 крупных из 50",
+        "val": "29 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,37 +141,11 @@
       ],
       "_raw_events": [
         {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
             "concert",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультисенсорная выставка «Сон в музее»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         },
@@ -185,47 +159,74 @@
           "is_high": true
         },
         {
-          "title": "фестиваль Drift Expo",
-          "cats": [
-            "stock",
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
             "stock",
             "education",
-            "other",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "Стендап + джаз: два концерта в один вечер",
+          "title": "быстрые свидания от Fast Life",
           "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "квест «Красная кнопка»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "VR-путешествие «Чудеса света»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
             "concert",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "выставка VR ART",
+          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
           "cats": [
-            "exhibition",
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "cats": [
+            "party",
+            "theater",
+            "stock",
             "kids",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "фестиваль современной музыки и света «Событие»",
+          "title": "бесплатный вводный курс онлайн-магистратуры «Продуктовый маркетинг и аналитика»",
           "cats": [
-            "festival",
-            "entertainment"
+            "education"
           ],
-          "is_high": true
+          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -240,15 +241,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+20°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 22.1,
-        "feels_like": 22.2,
+        "temp": 20.1,
+        "feels_like": 20.3,
         "condition": "ясно",
         "wmo_code": 0,
         "wind": 5.4,
-        "wind_gusts": 12.6,
+        "wind_gusts": 12.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -273,7 +274,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -294,6 +294,7 @@
         0.242,
         0.242,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -347,15 +348,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+19°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 20.9,
-        "feels_like": 20.4,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 5.9,
-        "wind_gusts": 7.2,
+        "temp": 19.3,
+        "feels_like": 18.7,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 6.0,
+        "wind_gusts": 6.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -381,7 +382,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.381,
         0.381,
         0.366,
@@ -401,6 +401,7 @@
         0.366,
         0.366,
         0.381,
+        0.341,
         0.341,
         0.341,
         0.341
