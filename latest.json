@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T16:16:18.321526+00:00",
+  "generated_at": "2026-06-06T18:17:18.845220+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+12°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 12.1,
-        "feels_like": 11.0,
+        "temp": 12.0,
+        "feels_like": 10.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 2.6,
-        "wind_gusts": 9.0,
+        "wind": 3.6,
+        "wind_gusts": 9.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -52,7 +52,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -62,6 +61,7 @@
         0.064,
         0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · ясно",
+        "val": "+20°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 23.3,
-        "feels_like": 21.8,
+        "temp": 20.4,
+        "feels_like": 19.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.6,
-        "wind_gusts": 11.9,
+        "wind": 3.7,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "42 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -150,61 +150,10 @@
           "is_high": true
         },
         {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
             "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "джазовые концерты и вечеринки на крыше Novotel",
-          "cats": [
-            "concert"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Всё напоказ?»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Корейский фестиваль еды — 2026 / K-Food Fair — 2026",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -225,6 +174,58 @@
             "exhibition"
           ],
           "is_high": true
+        },
+        {
+          "title": "групповые знакомства GOKON",
+          "cats": [
+            "party",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "фестиваль Drift Expo",
+          "cats": [
+            "stock",
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Стендап + джаз: два концерта в один вечер",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка VR ART",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "фестиваль современной музыки и света «Событие»",
+          "cats": [
+            "festival",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -239,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+25°C · ясно",
+        "val": "+22°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 25.4,
-        "feels_like": 25.0,
+        "temp": 22.1,
+        "feels_like": 22.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.9,
-        "wind_gusts": 23.0,
+        "wind": 5.4,
+        "wind_gusts": 12.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -273,7 +274,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -294,6 +294,7 @@
         0.242,
         0.242,
         0.257,
+        0.242,
         0.242,
         0.242
       ],
@@ -346,15 +347,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · ясно",
-        "icon": "☀",
+        "val": "+21°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 23.3,
-        "feels_like": 22.8,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 6.7,
-        "wind_gusts": 9.7,
+        "temp": 20.9,
+        "feels_like": 20.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.9,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -379,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.366,
         0.366,
         0.381,
@@ -401,6 +401,7 @@
         0.366,
         0.366,
         0.381,
+        0.341,
         0.341,
         0.341
       ],
