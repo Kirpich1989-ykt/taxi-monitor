@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T14:50:43.426192+00:00",
+  "generated_at": "2026-06-06T16:16:18.321526+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+12°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 12.3,
-        "feels_like": 11.5,
+        "temp": 12.1,
+        "feels_like": 11.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 0.8,
-        "wind_gusts": 4.0,
+        "wind": 2.6,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -53,7 +53,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -63,6 +62,7 @@
         0.064,
         0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · ясно",
+        "val": "+23°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 24.1,
-        "feels_like": 22.5,
+        "temp": 23.3,
+        "feels_like": 21.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.0,
-        "wind_gusts": 15.5,
+        "wind": 3.6,
+        "wind_gusts": 11.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "48 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,14 +141,6 @@
       ],
       "_raw_events": [
         {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
@@ -190,14 +182,6 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Всё напоказ?»",
           "cats": [
             "exhibition",
@@ -217,12 +201,28 @@
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
           "cats": [
             "exhibition",
-            "kids",
             "tour",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         }
@@ -239,15 +239,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+27°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+25°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 27.2,
-        "feels_like": 26.0,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 10.2,
-        "wind_gusts": 29.9,
+        "temp": 25.4,
+        "feels_like": 25.0,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 6.9,
+        "wind_gusts": 23.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +274,6 @@
       "history": [
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -295,6 +294,7 @@
         0.242,
         0.242,
         0.257,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -346,15 +346,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+25°C · ясно",
+        "val": "+23°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 24.9,
-        "feels_like": 24.3,
+        "temp": 23.3,
+        "feels_like": 22.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.4,
-        "wind_gusts": 3.2,
+        "wind": 6.7,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -379,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.266,
         0.366,
         0.366,
@@ -402,6 +401,7 @@
         0.366,
         0.366,
         0.381,
+        0.341,
         0.341
       ],
       "_raw_events": [
