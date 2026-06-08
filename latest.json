@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-06-07T22:14:20.366602+00:00",
+  "generated_at": "2026-06-08T00:19:09.545280+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+17°C · ясно",
+        "score": 0.05,
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 17.3,
-        "feels_like": 14.6,
+        "temp": 21.0,
+        "feels_like": 17.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 11.2,
-        "wind_gusts": 27.7,
+        "wind": 12.5,
+        "wind_gusts": 33.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -48,7 +48,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.079,
         0.079,
         0.079,
-        0.064
+        0.064,
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,14 +81,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · преим. ясно",
+        "val": "+14°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 16.3,
-        "feels_like": 16.2,
+        "temp": 14.5,
+        "feels_like": 14.8,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 3.3,
+        "wind": 3.2,
         "wind_gusts": 4.0,
         "precip": 0.0,
         "snowfall": 0.0
@@ -145,6 +145,16 @@
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -217,16 +227,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "романтическое свидание на крыше от проекта «7 небо» / 7 Sky",
-          "cats": [
-            "stock",
-            "holiday",
-            "photo",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -241,15 +241,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · пасмурно",
+        "val": "+18°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 19.5,
-        "feels_like": 19.7,
+        "temp": 18.1,
+        "feels_like": 18.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 5.4,
-        "wind_gusts": 13.7,
+        "wind": 5.5,
+        "wind_gusts": 12.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -277,7 +277,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -297,6 +296,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -341,15 +341,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+23°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 19.8,
-        "feels_like": 19.8,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 3.9,
-        "wind_gusts": 4.0,
+        "temp": 23.0,
+        "feels_like": 24.1,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 2.2,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -374,7 +374,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.281,
         0.266,
         0.341,
@@ -397,6 +396,7 @@
         0.266,
         0.266,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
