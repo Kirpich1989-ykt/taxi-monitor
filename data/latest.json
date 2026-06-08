@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-06-08T16:13:42.520740+00:00",
+  "generated_at": "2026-06-08T19:31:26.020273+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.214,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+16°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+13°C · морось слабая",
+        "icon": "🌦",
         "live": true,
-        "temp": 15.5,
-        "feels_like": 12.3,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 10.4,
-        "wind_gusts": 11.2,
-        "precip": 0.0,
+        "temp": 13.0,
+        "feels_like": 11.1,
+        "condition": "морось слабая",
+        "wmo_code": 51,
+        "wind": 10.6,
+        "wind_gusts": 18.0,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -44,7 +44,6 @@
       },
       "history": [
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.079,
         0.079,
         0.064,
-        0.064
+        0.064,
+        0.214
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · пасмурно",
+        "val": "+20°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 23.0,
-        "feels_like": 23.8,
+        "temp": 19.9,
+        "feels_like": 21.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.7,
-        "wind_gusts": 10.8,
+        "wind": 2.0,
+        "wind_gusts": 2.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "41 крупных из 50",
+        "val": "28 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,44 +141,6 @@
       ],
       "_raw_events": [
         {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Всё напоказ?»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
@@ -198,23 +160,6 @@
           "is_high": true
         },
         {
-          "title": "мультисенсорная выставка «Сон в музее»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Международный фестиваль китайского кино — 2026",
           "cats": [
             "cinema",
@@ -224,12 +169,64 @@
           "is_high": true
         },
         {
-          "title": "Стендап + джаз: два концерта в один вечер",
+          "title": "быстрые свидания от Fast Life",
           "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "квест «Красная кнопка»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "VR-путешествие «Чудеса света»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
             "concert",
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "бесплатный вводный курс онлайн-магистратуры «Управление цифровыми проектами»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -240,25 +237,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.092,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · пасмурно",
-        "icon": "☁",
+        "val": "+21°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 24.3,
-        "feels_like": 24.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 7.1,
-        "wind_gusts": 25.6,
+        "temp": 20.9,
+        "feels_like": 22.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 3.3,
+        "wind_gusts": 6.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.0,
+        "val": "KudaGo недоступен",
         "icon": "🎭"
       },
       "traffic": {
@@ -277,7 +274,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.205,
         0.205,
         0.242,
@@ -300,45 +296,10 @@
         0.205,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.092
       ],
-      "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка  «Особенности национальной охоты»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Литературная жизнь Кубани» в литмузее",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "выставка  «Мне вечность глянула в глаза…»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        }
-      ],
+      "_raw_events": [],
       "_raw_news": [],
       "_raw_trends": {}
     },
@@ -351,15 +312,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+19°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.7,
-        "feels_like": 22.9,
+        "temp": 18.9,
+        "feels_like": 20.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.2,
-        "wind_gusts": 6.5,
+        "wind": 4.9,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -388,7 +349,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.381,
         0.341,
         0.341,
@@ -407,6 +367,7 @@
         0.366,
         0.366,
         0.381,
+        0.266,
         0.266
       ],
       "_raw_events": [
