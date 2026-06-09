@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-06-09T16:11:12.473195+00:00",
+  "generated_at": "2026-06-09T19:26:19.588197+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.214,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+13°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+12°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 13.1,
-        "feels_like": 12.2,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 11.0,
-        "wind_gusts": 17.6,
-        "precip": 0.1,
+        "temp": 11.5,
+        "feels_like": 10.5,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 8.6,
+        "wind_gusts": 25.6,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -50,7 +50,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -66,7 +65,8 @@
         0.214,
         0.214,
         0.214,
-        0.214
+        0.214,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · ясно",
+        "val": "+22°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 26.1,
-        "feels_like": 26.1,
+        "temp": 22.1,
+        "feels_like": 23.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.2,
-        "wind_gusts": 10.1,
+        "wind": 2.2,
+        "wind_gusts": 2.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "39 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,37 +141,10 @@
       ],
       "_raw_events": [
         {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
             "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -205,27 +178,54 @@
           "is_high": true
         },
         {
-          "title": "мультисенсорная выставка «Сон в музее»",
+          "title": "быстрые свидания от Fast Life",
           "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
+            "party",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "выставка VR ART",
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "квест «Красная кнопка»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "VR-путешествие «Чудеса света»",
           "cats": [
             "exhibition",
             "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -243,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+25°C · ясно",
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 25.4,
-        "feels_like": 25.7,
+        "temp": 20.7,
+        "feels_like": 22.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.4,
-        "wind_gusts": 24.1,
+        "wind": 4.5,
+        "wind_gusts": 11.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +278,6 @@
       "history": [
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -297,6 +296,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -350,15 +350,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · ясно",
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 22.9,
-        "feels_like": 22.7,
+        "temp": 20.6,
+        "feels_like": 20.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.0,
-        "wind_gusts": 5.4,
+        "wind": 7.4,
+        "wind_gusts": 6.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -385,7 +385,6 @@
       "history": [
         0.341,
         0.341,
-        0.341,
         0.366,
         0.366,
         0.366,
@@ -406,6 +405,7 @@
         0.366,
         0.366,
         0.366,
+        0.266,
         0.266
       ],
       "_raw_events": [
@@ -415,13 +415,6 @@
             "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         },
         {
           "title": "ролевые настольные игры в «Башне»",
@@ -438,6 +431,13 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         },
         {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
