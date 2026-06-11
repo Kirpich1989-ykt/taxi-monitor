@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T16:17:23.628660+00:00",
+  "generated_at": "2026-06-11T19:41:01.277427+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+5°C · ясно",
-        "icon": "☀",
+        "val": "+4°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 4.7,
-        "feels_like": 0.3,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 13.6,
-        "wind_gusts": 30.6,
+        "temp": 4.2,
+        "feels_like": -0.1,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 12.7,
+        "wind_gusts": 24.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.079,
-        0.079,
         0.064,
         0.064,
         0.214,
@@ -66,6 +65,7 @@
         0.079,
         0.079,
         0.064,
+        0.079,
         0.079
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+27°C · переменная облачность",
+        "val": "+23°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 26.6,
-        "feels_like": 28.4,
+        "temp": 22.6,
+        "feels_like": 24.8,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 4.1,
-        "wind_gusts": 15.1,
+        "wind": 3.5,
+        "wind_gusts": 6.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "38 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,30 +141,6 @@
       ],
       "_raw_events": [
         {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
@@ -174,28 +150,10 @@
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Международный фестиваль китайского кино — 2026",
           "cats": [
             "cinema",
             "festival",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -220,9 +178,57 @@
           "is_high": true
         },
         {
-          "title": "мультисенсорная выставка «Сон в музее»",
+          "title": "быстрые свидания от Fast Life",
           "cats": [
-            "exhibition"
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "квест «Красная кнопка»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "cats": [
+            "party",
+            "theater",
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "VR-путешествие «Чудеса света»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "recreation",
+            "entertainment"
           ],
           "is_high": true
         }
@@ -239,15 +245,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · преим. ясно",
+        "val": "+20°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 22.7,
-        "feels_like": 24.8,
+        "temp": 19.9,
+        "feels_like": 22.1,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 4.6,
-        "wind_gusts": 13.0,
+        "wind": 4.7,
+        "wind_gusts": 11.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +278,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -293,6 +298,7 @@
         0.392,
         0.355,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -346,15 +352,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · пасмурно",
+        "val": "+22°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 23.6,
-        "feels_like": 25.5,
+        "temp": 21.9,
+        "feels_like": 23.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 1.9,
-        "wind_gusts": 10.1,
+        "wind": 7.6,
+        "wind_gusts": 15.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -380,7 +386,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.381,
         0.266,
         0.266,
@@ -402,6 +407,7 @@
         0.366,
         0.366,
         0.516,
+        0.266,
         0.266
       ],
       "_raw_events": [
