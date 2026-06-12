@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T22:09:31.755857+00:00",
+  "generated_at": "2026-06-12T00:24:23.681651+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · ясно",
+        "val": "+11°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 7.4,
-        "feels_like": 3.6,
+        "temp": 10.7,
+        "feels_like": 7.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 10.5,
-        "wind_gusts": 21.2,
+        "wind": 10.1,
+        "wind_gusts": 24.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.064,
-        0.064,
         0.214,
         0.079,
         0.079,
@@ -66,6 +65,7 @@
         0.064,
         0.079,
         0.079,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · преим. ясно",
+        "val": "+19°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 20.6,
-        "feels_like": 22.0,
+        "temp": 18.7,
+        "feels_like": 20.3,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 3.6,
-        "wind_gusts": 6.5,
+        "wind": 4.0,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "32 крупных из 44",
+        "val": "35 крупных из 47",
         "icon": "🎭"
       },
       "traffic": {
@@ -159,6 +159,16 @@
           "is_high": true
         },
         {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "быстрые свидания от Fast Life",
           "cats": [
             "party",
@@ -172,6 +182,13 @@
             "stock",
             "education",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Потомки Чингисхана. Русь и мир»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
@@ -213,23 +230,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -244,14 +244,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+18°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 18.7,
-        "feels_like": 20.7,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 3.7,
+        "temp": 18.0,
+        "feels_like": 19.8,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 4.5,
         "wind_gusts": 10.1,
         "precip": 0.0,
         "snowfall": 0.0
@@ -278,7 +278,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.092,
         0.205,
         0.205,
@@ -300,6 +299,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -347,18 +347,18 @@
         "val": "+19°C · морось слабая",
         "icon": "🌦",
         "live": true,
-        "temp": 19.4,
-        "feels_like": 21.5,
+        "temp": 19.3,
+        "feels_like": 20.8,
         "condition": "морось слабая",
         "wmo_code": 51,
-        "wind": 2.8,
-        "wind_gusts": 8.3,
+        "wind": 9.0,
+        "wind_gusts": 16.9,
         "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "15 крупных из 18",
+        "val": "16 крупных из 19",
         "icon": "🎭"
       },
       "traffic": {
@@ -377,7 +377,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.266,
         0.266,
         0.366,
@@ -400,6 +399,7 @@
         0.516,
         0.266,
         0.266,
+        0.516,
         0.516
       ],
       "_raw_events": [
