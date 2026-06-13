@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T16:41:01.273234+00:00",
+  "generated_at": "2026-06-13T18:20:12.393434+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+10°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 10.4,
-        "feels_like": 8.0,
+        "temp": 9.5,
+        "feels_like": 7.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 13.8,
-        "wind_gusts": 15.5,
+        "wind": 14.0,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
         0.064,
         0.079,
         0.079,
@@ -66,6 +65,7 @@
         0.214,
         0.079,
         0.079,
+        0.079,
         0.079
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · пасмурно",
+        "val": "+22°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 22.8,
-        "feels_like": 24.5,
+        "temp": 21.6,
+        "feels_like": 23.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.5,
-        "wind_gusts": 27.0,
+        "wind": 6.9,
+        "wind_gusts": 19.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "47 крупных из 50",
+        "val": "44 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -150,13 +150,6 @@
           "is_high": true
         },
         {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
@@ -166,46 +159,10 @@
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "джазовые концерты и вечеринки на крыше Novotel",
-          "cats": [
-            "concert"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Международный фестиваль китайского кино — 2026",
           "cats": [
             "cinema",
             "festival",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Всё напоказ?»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -228,6 +185,50 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка VR ART",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Стендап + джаз: два концерта в один вечер",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -238,20 +239,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.392,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+22°C · ливень слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+20°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 21.7,
-        "feels_like": 24.2,
-        "condition": "ливень слабый",
-        "wmo_code": 80,
-        "wind": 6.3,
-        "wind_gusts": 18.0,
-        "precip": 0.1,
+        "temp": 20.5,
+        "feels_like": 22.8,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 5.9,
+        "wind_gusts": 17.6,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -275,7 +276,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.392,
         0.392,
         0.392,
@@ -298,7 +298,8 @@
         0.242,
         0.392,
         0.392,
-        0.392
+        0.392,
+        0.242
       ],
       "_raw_events": [
         {
@@ -349,15 +350,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+18°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 18.7,
-        "feels_like": 20.2,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
+        "temp": 18.2,
+        "feels_like": 19.7,
+        "condition": "ясно",
+        "wmo_code": 0,
         "wind": 5.7,
-        "wind_gusts": 6.5,
+        "wind_gusts": 5.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -383,7 +384,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.266,
         0.266,
         0.366,
@@ -405,6 +405,7 @@
         0.366,
         0.366,
         0.381,
+        0.341,
         0.341
       ],
       "_raw_events": [
