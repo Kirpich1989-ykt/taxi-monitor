@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T17:39:39.316959+00:00",
+  "generated_at": "2026-06-14T19:52:11.754882+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+12°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 9.7,
-        "feels_like": 7.1,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 6.7,
-        "wind_gusts": 7.9,
+        "temp": 11.7,
+        "feels_like": 8.8,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 9.0,
+        "wind_gusts": 10.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.064,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.118,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · пасмурно",
-        "icon": "☁",
+        "val": "+15°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 16.7,
-        "feels_like": 16.6,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 2.8,
-        "wind_gusts": 14.4,
+        "temp": 14.7,
+        "feels_like": 15.0,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 1.6,
+        "wind_gusts": 2.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.0,
-        "val": "KudaGo таймаут",
+        "score": 1.0,
+        "val": "37 крупных из 49",
         "icon": "🎭"
       },
       "traffic": {
@@ -131,15 +131,110 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
         0.368,
         0.368,
-        0.118
+        0.118,
+        0.368
       ],
-      "_raw_events": [],
+      "_raw_events": [
+        {
+          "title": "Международный фестиваль китайского кино — 2026",
+          "cats": [
+            "cinema",
+            "festival",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "групповые знакомства GOKON",
+          "cats": [
+            "party",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "VR-путешествие «Чудеса света»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "квест «Красная кнопка»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "cats": [
+            "party",
+            "theater",
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "романтическое свидание на крыше от проекта «7 небо» / 7 Sky",
+          "cats": [
+            "stock",
+            "holiday",
+            "photo",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        }
+      ],
       "_raw_news": [],
       "_raw_trends": {}
     },
@@ -152,15 +247,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · ясно",
+        "val": "+18°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 20.7,
-        "feels_like": 20.7,
+        "temp": 18.3,
+        "feels_like": 18.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 8.2,
-        "wind_gusts": 21.6,
+        "wind": 6.5,
+        "wind_gusts": 19.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -185,7 +280,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -206,6 +300,7 @@
         0.205,
         0.242,
         0.407,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -259,15 +354,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · ясно",
-        "icon": "☀",
+        "val": "+19°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 19.9,
-        "feels_like": 22.3,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 4.1,
-        "wind_gusts": 9.0,
+        "temp": 18.7,
+        "feels_like": 20.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 3.9,
+        "wind_gusts": 6.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -292,7 +387,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.516,
         0.516,
         0.366,
@@ -314,6 +408,7 @@
         0.366,
         0.516,
         0.366,
+        0.266,
         0.266,
         0.266
       ],
