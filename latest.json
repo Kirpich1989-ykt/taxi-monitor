@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T19:52:11.754882+00:00",
+  "generated_at": "2026-06-14T21:23:44.687787+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · ясно",
+        "val": "+15°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 11.7,
-        "feels_like": 8.8,
+        "temp": 15.2,
+        "feels_like": 12.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.0,
-        "wind_gusts": 10.4,
+        "wind": 11.7,
+        "wind_gusts": 19.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -47,7 +47,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -62,6 +61,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · ясно",
+        "val": "+14°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 14.7,
-        "feels_like": 15.0,
+        "temp": 13.5,
+        "feels_like": 13.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 1.6,
-        "wind_gusts": 2.9,
+        "wind": 1.4,
+        "wind_gusts": 1.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "37 крупных из 49",
+        "val": "33 крупных из 44",
         "icon": "🎭"
       },
       "traffic": {
@@ -130,25 +130,16 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
         0.368,
         0.368,
         0.118,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "Международный фестиваль китайского кино — 2026",
-          "cats": [
-            "cinema",
-            "festival",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -186,26 +177,6 @@
           "is_high": true
         },
         {
-          "title": "квест «Красная кнопка»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
-          "cats": [
-            "party",
-            "theater",
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "частный стендап от проекта «Стендап Импорт»",
           "cats": [
             "party",
@@ -233,6 +204,33 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
+          "cats": [
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-классы по созданию соевых свечей в студии живописи и рисования ZuART",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -250,12 +248,12 @@
         "val": "+18°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 18.3,
-        "feels_like": 18.4,
+        "temp": 17.5,
+        "feels_like": 17.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.5,
-        "wind_gusts": 19.1,
+        "wind": 6.0,
+        "wind_gusts": 14.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -282,7 +280,6 @@
       "history": [
         0.205,
         0.205,
-        0.205,
         0.392,
         0.242,
         0.242,
@@ -300,6 +297,7 @@
         0.205,
         0.242,
         0.407,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -350,25 +348,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.266,
+      "impact": 0.341,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+18°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 18.7,
-        "feels_like": 20.9,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 3.9,
-        "wind_gusts": 6.8,
+        "temp": 17.5,
+        "feels_like": 19.2,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 5.4,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 0.9,
+        "val": "6 крупных из 9",
         "icon": "🎭"
       },
       "traffic": {
@@ -387,7 +385,6 @@
         "icon": "📰"
       },
       "history": [
-        0.516,
         0.516,
         0.366,
         0.366,
@@ -410,9 +407,26 @@
         0.366,
         0.266,
         0.266,
-        0.266
+        0.266,
+        0.341
       ],
       "_raw_events": [
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
