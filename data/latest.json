@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T13:37:33.122570+00:00",
+  "generated_at": "2026-06-18T17:22:35.701154+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+14°C · пасмурно",
+        "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 14.0,
-        "feels_like": 9.4,
+        "temp": 9.9,
+        "feels_like": 5.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 19.0,
-        "wind_gusts": 38.2,
+        "wind": 14.9,
+        "wind_gusts": 30.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -46,7 +46,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.214,
+        0.079,
         0.079
       ],
       "_raw_events": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.518,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+15°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+14°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 14.8,
-        "feels_like": 14.1,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 8.9,
-        "wind_gusts": 27.4,
+        "temp": 14.4,
+        "feels_like": 13.9,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 8.7,
+        "wind_gusts": 23.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "43 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.118,
         0.368,
         0.368,
@@ -137,17 +136,10 @@
         0.368,
         0.368,
         0.533,
-        0.368
+        0.368,
+        0.518
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -158,44 +150,10 @@
           "is_high": true
         },
         {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
             "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -227,6 +185,50 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка VR ART",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Стендап + джаз: два концерта в один вечер",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -241,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+29°C · пасмурно",
+        "val": "+24°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 28.6,
-        "feels_like": 28.4,
+        "temp": 23.6,
+        "feels_like": 23.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.7,
-        "wind_gusts": 24.1,
+        "wind": 6.6,
+        "wind_gusts": 20.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -277,7 +279,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.257,
@@ -296,6 +297,7 @@
         0.242,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242
       ],
@@ -344,25 +346,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.356,
+      "impact": 0.281,
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+24°C · ясно",
+        "val": "+19°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 23.5,
-        "feels_like": 19.6,
+        "temp": 18.6,
+        "feels_like": 15.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 15.0,
-        "wind_gusts": 34.2,
+        "wind": 14.5,
+        "wind_gusts": 20.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 9",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -381,7 +383,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.266,
         0.266,
         0.341,
@@ -404,17 +405,10 @@
         0.366,
         0.381,
         0.381,
-        0.356
+        0.356,
+        0.281
       ],
       "_raw_events": [
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
@@ -459,13 +453,6 @@
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "открытые игры в клубе спортивной «Мафии»",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
         },
         {
           "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
