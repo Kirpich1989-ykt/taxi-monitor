@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T21:37:53.691184+00:00",
+  "generated_at": "2026-06-21T23:38:27.277541+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · пасмурно",
+        "val": "+23°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 19.8,
-        "feels_like": 19.5,
+        "temp": 23.4,
+        "feels_like": 22.9,
         "condition": "пасмурно",
         "wmo_code": 3,
         "wind": 8.4,
-        "wind_gusts": 12.2,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -54,8 +54,8 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · пасмурно",
+        "val": "+18°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 18.8,
-        "feels_like": 18.7,
+        "temp": 18.1,
+        "feels_like": 18.1,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 2.2,
-        "wind_gusts": 2.5,
+        "wind": 2.9,
+        "wind_gusts": 3.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "32 крупных из 43",
+        "val": "32 крупных из 44",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.518,
         0.368,
         0.368,
         0.368,
@@ -126,6 +125,7 @@
         0.368,
         0.383,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -206,19 +206,19 @@
           "is_high": true
         },
         {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
           "cats": [
-            "kids",
-            "quest",
-            "recreation",
+            "education",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
           "cats": [
-            "education",
+            "kids",
+            "quest",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -241,25 +241,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · ясно",
+        "val": "+17°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 18.2,
-        "feels_like": 18.7,
+        "temp": 16.9,
+        "feels_like": 17.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.0,
-        "wind_gusts": 14.8,
+        "wind": 4.1,
+        "wind_gusts": 10.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -280,7 +280,6 @@
       "history": [
         0.205,
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -301,16 +300,10 @@
         0.257,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -352,15 +345,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · ясно",
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 19.3,
-        "feels_like": 18.4,
+        "temp": 21.0,
+        "feels_like": 20.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.3,
-        "wind_gusts": 9.7,
+        "wind": 8.9,
+        "wind_gusts": 10.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -386,7 +379,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.381,
         0.381,
         0.266,
@@ -408,6 +400,7 @@
         0.281,
         0.266,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
