@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-06-22T17:45:53.671628+00:00",
+  "generated_at": "2026-06-22T21:11:12.100095+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+13°C · ясно",
+        "score": 0.0,
+        "val": "+15°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 12.6,
-        "feels_like": 10.8,
+        "temp": 14.9,
+        "feels_like": 13.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 13.3,
-        "wind_gusts": 19.8,
+        "wind": 10.3,
+        "wind_gusts": 27.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -50,7 +50,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.214,
-        0.079
+        0.079,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · пасмурно",
-        "icon": "☁",
+        "val": "+18°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 20.7,
-        "feels_like": 22.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
+        "temp": 17.7,
+        "feels_like": 19.1,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
         "wind": 6.6,
-        "wind_gusts": 20.5,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "42 крупных из 50",
+        "val": "32 крупных из 43",
         "icon": "🎭"
       },
       "traffic": {
@@ -119,7 +119,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
         0.383,
         0.368,
@@ -137,48 +136,10 @@
         0.368,
         0.368,
         0.518,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Всё напоказ?»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -189,46 +150,84 @@
           "is_high": true
         },
         {
-          "title": "мультисенсорная выставка «Сон в музее»",
+          "title": "быстрые свидания от Fast Life",
           "cats": [
-            "exhibition"
+            "party",
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "выставка VR ART",
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "VR-путешествие «Чудеса света»",
           "cats": [
             "exhibition",
             "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
             "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-классы по созданию соевых свечей в студии живописи и рисования ZuART",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "романтическое свидание на крыше от проекта «7 небо» / 7 Sky",
+          "cats": [
+            "stock",
+            "holiday",
+            "photo",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
           "cats": [
             "kids",
-            "education",
+            "quest",
             "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "создание мягкой игрушки с сердцем в «Мастерских кота Филиуса»",
+          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
+          "cats": [
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
-            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -246,15 +245,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · ясно",
+        "val": "+20°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 23.9,
-        "feels_like": 23.6,
+        "temp": 20.2,
+        "feels_like": 20.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 2.1,
-        "wind_gusts": 4.0,
+        "wind": 2.8,
+        "wind_gusts": 6.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -281,7 +280,6 @@
       "history": [
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -301,6 +299,7 @@
         0.242,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242
       ],
@@ -349,25 +348,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.266,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+19°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.5,
-        "feels_like": 21.2,
+        "temp": 18.8,
+        "feels_like": 18.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.7,
-        "wind_gusts": 7.9,
+        "wind": 4.4,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 1.0,
+        "val": "13 крупных из 16",
         "icon": "🎭"
       },
       "traffic": {
@@ -386,7 +385,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.266,
         0.341,
         0.366,
@@ -409,9 +407,33 @@
         0.366,
         0.381,
         0.381,
-        0.266
+        0.266,
+        0.366
       ],
       "_raw_events": [
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
         {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
@@ -427,6 +449,15 @@
           "is_high": true
         },
         {
+          "title": "свободное рисование в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
             "kids",
@@ -435,11 +466,9 @@
           "is_high": true
         },
         {
-          "title": "свободное рисование в семейном арт-пространстве",
+          "title": "выставка «Иконы»",
           "cats": [
-            "kids",
-            "education",
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
@@ -454,13 +483,6 @@
           "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
           "cats": [
             "stock",
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
             "education"
           ],
           "is_high": false
