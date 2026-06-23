@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T21:04:45.777517+00:00",
+  "generated_at": "2026-06-23T22:21:54.190457+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+14°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 14.0,
-        "feels_like": 9.0,
+        "temp": 14.1,
+        "feels_like": 9.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 21.8,
-        "wind_gusts": 45.0,
+        "wind": 21.3,
+        "wind_gusts": 47.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -66,6 +65,7 @@
         0.094,
         0.094,
         0.094,
+        0.094,
         0.094
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+16°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 16.0,
-        "feels_like": 14.9,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
+        "temp": 15.9,
+        "feels_like": 14.6,
+        "condition": "пасмурно",
+        "wmo_code": 3,
         "wind": 3.4,
-        "wind_gusts": 7.2,
+        "wind_gusts": 6.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "32 крупных из 43",
+        "val": "32 крупных из 44",
         "icon": "🎭"
       },
       "traffic": {
@@ -127,7 +127,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -135,6 +134,7 @@
         0.368,
         0.383,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368
@@ -241,25 +241,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · ясно",
+        "val": "+20°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.4,
-        "feels_like": 22.6,
+        "temp": 20.5,
+        "feels_like": 22.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.4,
-        "wind_gusts": 15.8,
+        "wind": 4.0,
+        "wind_gusts": 12.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -281,7 +281,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.257,
@@ -301,16 +300,10 @@
         0.242,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -352,21 +345,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · преим. ясно",
+        "val": "+19°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 19.5,
-        "feels_like": 19.5,
+        "temp": 19.1,
+        "feels_like": 18.9,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 7.8,
-        "wind_gusts": 9.7,
+        "wind": 8.6,
+        "wind_gusts": 10.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "14 крупных из 17",
+        "val": "15 крупных из 18",
         "icon": "🎭"
       },
       "traffic": {
@@ -385,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.341,
         0.341,
         0.366,
@@ -408,9 +400,18 @@
         0.381,
         0.266,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
           "cats": [
@@ -478,13 +479,6 @@
             "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
