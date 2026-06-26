@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T22:41:03.860743+00:00",
+  "generated_at": "2026-06-26T00:20:21.160329+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+22°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 18.5,
-        "feels_like": 17.7,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 5.4,
-        "wind_gusts": 15.5,
+        "temp": 22.1,
+        "feels_like": 20.5,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 7.8,
+        "wind_gusts": 23.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.079,
         0.229,
         0.094,
@@ -55,6 +54,7 @@
         0.094,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,14 +81,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · ясно",
-        "icon": "☀",
+        "val": "+12°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 12.7,
-        "feels_like": 12.5,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 2.9,
+        "temp": 11.8,
+        "feels_like": 11.4,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 3.1,
         "wind_gusts": 5.4,
         "precip": 0.0,
         "snowfall": 0.0
@@ -115,7 +115,6 @@
       },
       "history": [
         0.368,
-        0.368,
         0.383,
         0.383,
         0.368,
@@ -131,6 +130,7 @@
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -153,6 +153,16 @@
           "title": "фестиваль «Банный спас»",
           "cats": [
             "festival",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -222,14 +232,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -244,15 +246,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+20°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 21.1,
-        "feels_like": 24.3,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 3.4,
-        "wind_gusts": 6.5,
+        "temp": 19.9,
+        "feels_like": 22.3,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 5.6,
+        "wind_gusts": 24.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +280,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -300,6 +301,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -344,15 +346,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · ясно",
+        "val": "+24°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.3,
-        "feels_like": 23.7,
+        "temp": 23.7,
+        "feels_like": 25.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.5,
-        "wind_gusts": 5.4,
+        "wind": 7.1,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -378,7 +380,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.381,
         0.381,
         0.266,
@@ -400,6 +401,7 @@
         0.303,
         0.266,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
