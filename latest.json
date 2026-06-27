@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:14:27.427944+00:00",
+  "generated_at": "2026-06-27T14:52:00.020108+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+24°C · пасмурно",
+        "val": "+21°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 23.9,
-        "feels_like": 21.7,
+        "temp": 21.0,
+        "feels_like": 19.1,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.2,
-        "wind_gusts": 20.9,
+        "wind": 13.0,
+        "wind_gusts": 15.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -55,7 +55,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.064,
+        0.079,
         0.079
       ],
       "_raw_events": [],
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+19°C · дождь слабый",
+        "val": "+17°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 19.4,
-        "feels_like": 18.6,
+        "temp": 17.3,
+        "feels_like": 17.4,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 8.1,
-        "wind_gusts": 22.7,
+        "wind": 6.0,
+        "wind_gusts": 20.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -115,7 +115,6 @@
       },
       "history": [
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -137,17 +136,10 @@
         0.368,
         0.368,
         0.368,
+        0.518,
         0.518
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -224,6 +216,16 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -234,19 +236,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
+        "score": 0.0,
         "val": "+26°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 26.1,
-        "feels_like": 24.0,
+        "temp": 25.6,
+        "feels_like": 23.7,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 13.0,
-        "wind_gusts": 35.6,
+        "wind": 11.6,
+        "wind_gusts": 35.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -273,7 +275,6 @@
       "history": [
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -294,7 +295,8 @@
         0.205,
         0.257,
         0.257,
-        0.257
+        0.257,
+        0.242
       ],
       "_raw_events": [
         {
@@ -341,25 +343,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.381,
+      "impact": 0.341,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+27°C · ясно",
+        "score": 0.0,
+        "val": "+22°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 27.1,
-        "feels_like": 25.5,
+        "temp": 22.4,
+        "feels_like": 22.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 12.9,
-        "wind_gusts": 28.8,
+        "wind": 9.1,
+        "wind_gusts": 20.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "19 крупных из 22",
+        "score": 0.9,
+        "val": "6 крупных из 9",
         "icon": "🎭"
       },
       "traffic": {
@@ -378,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.266,
         0.366,
         0.366,
@@ -401,62 +402,16 @@
         0.366,
         0.381,
         0.381,
-        0.381
+        0.381,
+        0.341
       ],
       "_raw_events": [
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "киноночь в антикафе Fun-Time",
           "cats": [
             "education",
             "cinema",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         },
@@ -476,11 +431,50 @@
           "is_high": true
         },
         {
-          "title": "выставка «Иконы»",
+          "title": "свободное рисование в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "ночь настольных игр в клубе-магазине «ИгРРай»",
+          "cats": [
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock",
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
