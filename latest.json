@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-06-27T14:52:00.020108+00:00",
+  "generated_at": "2026-06-27T16:16:11.141550+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+21°C · пасмурно",
+        "score": 0.0,
+        "val": "+20°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 21.0,
-        "feels_like": 19.1,
+        "temp": 19.7,
+        "feels_like": 18.2,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 13.0,
-        "wind_gusts": 15.8,
+        "wind": 11.1,
+        "wind_gusts": 12.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -54,7 +54,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.079,
-        0.079
+        0.079,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,19 +77,19 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.518,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+17°C · дождь слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+17°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 17.3,
-        "feels_like": 17.4,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
-        "wind": 6.0,
-        "wind_gusts": 20.9,
+        "temp": 17.0,
+        "feels_like": 17.2,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 4.6,
+        "wind_gusts": 19.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -137,7 +136,8 @@
         0.368,
         0.368,
         0.518,
-        0.518
+        0.518,
+        0.368
       ],
       "_raw_events": [
         {
@@ -175,25 +175,9 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "джазовые концерты и вечеринки на крыше Novotel",
           "cats": [
             "concert"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "концерты на крыше Ibis от Roofevents",
-          "cats": [
-            "concert",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -218,11 +202,28 @@
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "title": "фестиваль «Банный спас»",
           "cats": [
-            "exhibition",
+            "festival",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
             "kids",
-            "tour",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "групповые знакомства GOKON",
+          "cats": [
+            "party",
+            "other",
             "entertainment"
           ],
           "is_high": true
@@ -240,15 +241,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+24°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 25.6,
-        "feels_like": 23.7,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 11.6,
-        "wind_gusts": 35.3,
+        "temp": 24.2,
+        "feels_like": 22.9,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 8.0,
+        "wind_gusts": 29.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +275,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -296,6 +296,7 @@
         0.257,
         0.257,
         0.257,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -347,15 +348,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 22.4,
-        "feels_like": 22.2,
+        "temp": 20.6,
+        "feels_like": 21.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.1,
-        "wind_gusts": 20.2,
+        "wind": 5.3,
+        "wind_gusts": 12.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -380,7 +381,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.366,
         0.366,
         0.366,
@@ -403,6 +403,7 @@
         0.381,
         0.381,
         0.381,
+        0.341,
         0.341
       ],
       "_raw_events": [
