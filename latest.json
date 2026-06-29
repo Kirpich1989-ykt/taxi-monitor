@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T21:41:44.457458+00:00",
+  "generated_at": "2026-06-29T23:11:18.523290+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · ясно",
+        "val": "+24°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 20.5,
-        "feels_like": 20.9,
+        "temp": 23.7,
+        "feels_like": 23.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 2.6,
-        "wind_gusts": 5.8,
+        "wind": 3.1,
+        "wind_gusts": 6.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -45,7 +45,6 @@
       "history": [
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -54,6 +53,7 @@
         0.064,
         0.079,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -84,18 +84,18 @@
         "val": "+16°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 16.3,
-        "feels_like": 17.3,
+        "temp": 15.9,
+        "feels_like": 16.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 2.9,
-        "wind_gusts": 5.4,
+        "wind": 3.3,
+        "wind_gusts": 5.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "31 крупных из 42",
+        "val": "31 крупных из 43",
         "icon": "🎭"
       },
       "traffic": {
@@ -116,7 +116,6 @@
       "history": [
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -127,6 +126,7 @@
         0.368,
         0.368,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -241,25 +241,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
         "val": "+19°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 19.4,
-        "feels_like": 20.4,
+        "temp": 18.8,
+        "feels_like": 20.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.0,
-        "wind_gusts": 9.0,
+        "wind": 4.3,
+        "wind_gusts": 10.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -278,7 +278,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.257,
         0.257,
         0.257,
@@ -301,16 +300,10 @@
         0.242,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -352,21 +345,21 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+19°C · ливень слабый",
-        "icon": "🌧",
+        "val": "+20°C · морось умеренная",
+        "icon": "🌦",
         "live": true,
-        "temp": 19.3,
-        "feels_like": 21.6,
-        "condition": "ливень слабый",
-        "wmo_code": 80,
-        "wind": 6.1,
-        "wind_gusts": 21.6,
-        "precip": 0.6,
+        "temp": 19.5,
+        "feels_like": 22.1,
+        "condition": "морось умеренная",
+        "wmo_code": 53,
+        "wind": 5.2,
+        "wind_gusts": 29.9,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "14 крупных из 17",
+        "val": "15 крупных из 18",
         "icon": "🎭"
       },
       "traffic": {
@@ -385,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.381,
         0.381,
         0.381,
@@ -408,6 +400,7 @@
         0.366,
         0.266,
         0.266,
+        0.516,
         0.516
       ],
       "_raw_events": [
