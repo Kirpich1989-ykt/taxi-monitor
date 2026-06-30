@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T14:38:48.756427+00:00",
+  "generated_at": "2026-06-30T17:10:34.122831+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+20°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.8,
-        "feels_like": 21.5,
+        "temp": 19.6,
+        "feels_like": 20.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.4,
+        "wind": 3.1,
         "wind_gusts": 2.9,
         "precip": 0.0,
         "snowfall": 0.0
@@ -43,12 +43,12 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.079,
         0.064,
         0.064,
         0.079,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+25°C · пасмурно",
-        "icon": "☁",
+        "val": "+23°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 25.1,
-        "feels_like": 24.7,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 10.7,
-        "wind_gusts": 29.5,
+        "temp": 23.3,
+        "feels_like": 23.3,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 4.8,
+        "wind_gusts": 18.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "43 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -120,8 +120,8 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -168,27 +168,9 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
           "cats": [
             "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
             "tour",
             "entertainment"
           ],
@@ -226,6 +208,25 @@
             "exhibition"
           ],
           "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка VR ART",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -240,15 +241,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+29°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+26°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 28.9,
-        "feels_like": 30.3,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 6.2,
-        "wind_gusts": 18.4,
+        "temp": 25.6,
+        "feels_like": 28.5,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 4.7,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +276,6 @@
       "history": [
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -294,6 +294,7 @@
         0.242,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -347,15 +348,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+20°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 22.9,
-        "feels_like": 23.7,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 7.4,
-        "wind_gusts": 19.4,
+        "temp": 19.5,
+        "feels_like": 18.9,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 7.5,
+        "wind_gusts": 11.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -382,7 +383,6 @@
       "history": [
         0.341,
         0.341,
-        0.341,
         0.366,
         0.366,
         0.366,
@@ -403,6 +403,7 @@
         0.531,
         0.381,
         0.381,
+        0.266,
         0.266
       ],
       "_raw_events": [
