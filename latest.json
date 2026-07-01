@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T22:21:42.492506+00:00",
+  "generated_at": "2026-07-01T00:17:21.328958+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+25°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.8,
-        "feels_like": 21.6,
+        "temp": 24.7,
+        "feels_like": 24.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.9,
-        "wind_gusts": 13.3,
+        "wind": 7.1,
+        "wind_gusts": 22.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,9 +43,9 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.079,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+18°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 19.6,
-        "feels_like": 21.1,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
+        "temp": 18.4,
+        "feels_like": 20.2,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
         "wind": 3.4,
-        "wind_gusts": 6.8,
+        "wind_gusts": 6.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -117,8 +117,8 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -154,6 +154,16 @@
           "cats": [
             "stock",
             "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -221,13 +231,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "детский праздник в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -242,15 +245,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · преим. ясно",
+        "val": "+20°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 21.5,
-        "feels_like": 24.8,
+        "temp": 19.9,
+        "feels_like": 22.6,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 2.2,
-        "wind_gusts": 4.0,
+        "wind": 3.1,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +279,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.257,
         0.257,
@@ -298,6 +300,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -342,21 +345,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · ясно",
+        "val": "+19°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 16.7,
-        "feels_like": 16.8,
+        "temp": 19.2,
+        "feels_like": 19.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 2.2,
-        "wind_gusts": 4.0,
+        "wind": 2.4,
+        "wind_gusts": 5.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "15 крупных из 18",
+        "val": "16 крупных из 19",
         "icon": "🎭"
       },
       "traffic": {
@@ -375,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.516,
@@ -398,6 +400,7 @@
         0.266,
         0.266,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -426,17 +429,17 @@
           "is_high": true
         },
         {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
             "kids",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
