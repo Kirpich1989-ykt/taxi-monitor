@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-02T04:16:24.200913+00:00",
+  "generated_at": "2026-07-02T08:20:31.858208+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+28°C · ясно",
+        "score": 0.05,
+        "val": "+29°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 28.3,
-        "feels_like": 27.2,
+        "temp": 28.9,
+        "feels_like": 26.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 11.5,
-        "wind_gusts": 33.5,
+        "wind": 16.1,
+        "wind_gusts": 33.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -58,7 +58,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.064,
-        0.064
+        0.064,
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+28°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 20.9,
-        "feels_like": 22.9,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 2.4,
-        "wind_gusts": 9.0,
+        "temp": 27.5,
+        "feels_like": 29.2,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 6.2,
+        "wind_gusts": 19.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "47 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -234,25 +234,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.257,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+22°C · ясно",
+        "score": 0.05,
+        "val": "+31°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.7,
-        "feels_like": 22.5,
+        "temp": 30.6,
+        "feels_like": 31.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.5,
-        "wind_gusts": 17.3,
+        "wind": 14.6,
+        "wind_gusts": 38.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -272,7 +272,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -294,9 +293,17 @@
         0.242,
         0.242,
         0.205,
-        0.205
+        0.205,
+        0.257
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -338,21 +345,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+28°C · пасмурно",
-        "icon": "☁",
+        "val": "+30°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 27.6,
-        "feels_like": 28.1,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 6.2,
-        "wind_gusts": 21.2,
+        "temp": 29.7,
+        "feels_like": 30.1,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.8,
+        "wind_gusts": 26.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "20 крупных из 23",
         "icon": "🎭"
       },
       "traffic": {
@@ -371,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.366,
@@ -394,22 +400,23 @@
         0.266,
         0.366,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
-        {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
         {
           "title": "невидимая выставка-квест Temnota",
           "cats": [
             "exhibition",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
           ],
           "is_high": true
         },
@@ -438,14 +445,6 @@
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
@@ -468,6 +467,13 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         },
         {
           "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
