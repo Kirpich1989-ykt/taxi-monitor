@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T04:52:33.239893+00:00",
+  "generated_at": "2026-07-03T08:20:30.192048+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,17 +10,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "нет данных",
-        "icon": "🌡",
-        "live": false,
-        "temp": null,
-        "feels_like": null,
-        "condition": null,
-        "wmo_code": null,
-        "wind": null,
-        "wind_gusts": null,
-        "precip": null,
-        "snowfall": null
+        "val": "+28°C · ясно",
+        "icon": "☀",
+        "live": true,
+        "temp": 27.5,
+        "feels_like": 24.6,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 7.9,
+        "wind_gusts": 21.2,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 0.0,
@@ -49,7 +49,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -61,6 +60,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "нет данных",
-        "icon": "🌡",
-        "live": false,
-        "temp": null,
-        "feels_like": null,
-        "condition": null,
-        "wmo_code": null,
-        "wind": null,
-        "wind_gusts": null,
-        "precip": null,
-        "snowfall": null
+        "val": "+22°C · переменная облачность",
+        "icon": "⛅",
+        "live": true,
+        "temp": 22.4,
+        "feels_like": 23.4,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 6.3,
+        "wind_gusts": 21.2,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -234,25 +234,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "нет данных",
-        "icon": "🌡",
-        "live": false,
-        "temp": null,
-        "feels_like": null,
-        "condition": null,
-        "wmo_code": null,
-        "wind": null,
-        "wind_gusts": null,
-        "precip": null,
-        "snowfall": null
+        "val": "+30°C · переменная облачность",
+        "icon": "⛅",
+        "live": true,
+        "temp": 29.7,
+        "feels_like": 33.8,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 5.2,
+        "wind_gusts": 16.2,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -275,7 +275,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -294,9 +293,17 @@
         0.242,
         0.205,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -338,17 +345,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "нет данных",
-        "icon": "🌡",
-        "live": false,
-        "temp": null,
-        "feels_like": null,
-        "condition": null,
-        "wmo_code": null,
-        "wind": null,
-        "wind_gusts": null,
-        "precip": null,
-        "snowfall": null
+        "val": "+31°C · переменная облачность",
+        "icon": "⛅",
+        "live": true,
+        "temp": 31.2,
+        "feels_like": 31.7,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 8.9,
+        "wind_gusts": 24.8,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
@@ -372,7 +379,6 @@
       },
       "history": [
         0.381,
-        0.381,
         0.266,
         0.266,
         0.266,
@@ -391,6 +397,7 @@
         0.341,
         0.266,
         0.266,
+        0.366,
         0.366,
         0.366,
         0.366,
