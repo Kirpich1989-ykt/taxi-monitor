@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T22:12:44.016543+00:00",
+  "generated_at": "2026-07-04T00:14:47.027692+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,17 +10,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · пасмурно",
-        "icon": "☁",
-        "live": true,
-        "temp": 19.7,
-        "feels_like": 19.3,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 7.1,
-        "wind_gusts": 11.9,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 0.0,
@@ -44,7 +44,6 @@
       },
       "history": [
         0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -54,6 +53,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,17 +81,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · пасмурно",
-        "icon": "☁",
-        "live": true,
-        "temp": 19.5,
-        "feels_like": 19.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 3.8,
-        "wind_gusts": 8.6,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 1.0,
@@ -167,6 +167,16 @@
           "is_high": true
         },
         {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "VR-путешествие «Чудеса света»",
           "cats": [
             "exhibition",
@@ -221,13 +231,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "детский праздник в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -242,17 +245,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · пасмурно",
-        "icon": "☁",
-        "live": true,
-        "temp": 23.3,
-        "feels_like": 25.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.4,
-        "wind_gusts": 14.4,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 0.45,
@@ -280,7 +283,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.257,
@@ -298,6 +300,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -338,25 +341,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.516,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+20°C · дождь слабый",
-        "icon": "🌧",
-        "live": true,
-        "temp": 19.6,
-        "feels_like": 22.1,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
-        "wind": 4.7,
-        "wind_gusts": 19.1,
-        "precip": 0.6,
-        "snowfall": 0.0
+        "score": 0.0,
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 1.0,
-        "val": "8 крупных из 11",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -375,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.303,
         0.266,
@@ -398,7 +400,8 @@
         0.266,
         0.281,
         0.431,
-        0.516
+        0.516,
+        0.366
       ],
       "_raw_events": [
         {
@@ -422,6 +425,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -462,20 +473,11 @@
           "is_high": true
         },
         {
-          "title": "свободное рисование в семейном арт-пространстве",
+          "title": "выставка «Зарубежное искусство»",
           "cats": [
-            "kids",
-            "education",
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
