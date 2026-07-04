@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T14:43:23.567466+00:00",
+  "generated_at": "2026-07-04T16:12:32.858373+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+20°C · ясно",
+        "val": "+18°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 19.6,
-        "feels_like": 16.1,
+        "temp": 17.5,
+        "feels_like": 14.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 15.6,
-        "wind_gusts": 22.7,
+        "wind": 14.4,
+        "wind_gusts": 27.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -65,6 +64,7 @@
         0.064,
         0.079,
         0.064,
+        0.079,
         0.079,
         0.079
       ],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.518,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+18°C · ливень слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+18°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 18.5,
-        "feels_like": 19.7,
-        "condition": "ливень слабый",
-        "wmo_code": 80,
-        "wind": 8.0,
-        "wind_gusts": 22.0,
-        "precip": 0.2,
+        "temp": 18.3,
+        "feels_like": 19.1,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 8.6,
+        "wind_gusts": 25.2,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "48 крупных из 50",
+        "val": "47 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -132,22 +132,14 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
         0.518,
-        0.518
+        0.518,
+        0.368
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -183,25 +175,9 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "джазовые концерты и вечеринки на крыше Novotel",
           "cats": [
             "concert"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "концерты на крыше Ibis от Roofevents",
-          "cats": [
-            "concert",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -215,12 +191,37 @@
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
-            "exhibition",
+            "stock",
             "kids",
-            "tour",
+            "education",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "групповые знакомства GOKON",
+          "cats": [
+            "party",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "маркет «4 сезона»",
+          "cats": [
+            "festival",
+            "yarmarki-razvlecheniya-yarmarki",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         }
@@ -233,19 +234,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.407,
+      "impact": 0.392,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+26°C · ливень слабый",
+        "score": 0.5,
+        "val": "+25°C · ливень слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 25.8,
-        "feels_like": 28.0,
+        "temp": 24.6,
+        "feels_like": 26.8,
         "condition": "ливень слабый",
         "wmo_code": 80,
-        "wind": 12.5,
-        "wind_gusts": 34.9,
+        "wind": 10.2,
+        "wind_gusts": 32.4,
         "precip": 0.1,
         "snowfall": 0.0
       },
@@ -271,7 +272,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.257,
         0.257,
         0.242,
@@ -293,7 +293,8 @@
         0.257,
         0.257,
         0.407,
-        0.407
+        0.407,
+        0.392
       ],
       "_raw_events": [
         {
@@ -340,19 +341,19 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.341,
+      "impact": 0.356,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+24°C · ясно",
+        "score": 0.05,
+        "val": "+23°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 24.3,
-        "feels_like": 24.9,
+        "temp": 23.1,
+        "feels_like": 24.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.6,
-        "wind_gusts": 13.7,
+        "wind": 14.1,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -380,7 +381,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.341,
         0.266,
         0.266,
@@ -400,7 +400,8 @@
         0.381,
         0.381,
         0.366,
-        0.341
+        0.341,
+        0.356
       ],
       "_raw_events": [
         {
@@ -435,19 +436,19 @@
           "is_high": true
         },
         {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
           "title": "ночь настольных игр в клубе-магазине «ИгРРай»",
           "cats": [
             "education",
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         },
         {
           "title": "свободное рисование в семейном арт-пространстве",
