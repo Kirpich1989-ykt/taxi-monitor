@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T15:23:55.109781+00:00",
+  "generated_at": "2026-07-05T17:23:16.817960+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+16°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 18.8,
-        "feels_like": 17.7,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 1.4,
-        "wind_gusts": 14.4,
+        "temp": 15.8,
+        "feels_like": 13.3,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 9.8,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -52,7 +52,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.079,
@@ -62,6 +61,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · переменная облачность",
+        "val": "+19°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 21.0,
-        "feels_like": 20.4,
+        "temp": 19.4,
+        "feels_like": 19.1,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 6.4,
-        "wind_gusts": 18.0,
+        "wind": 5.1,
+        "wind_gusts": 15.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "47 крупных из 50",
+        "val": "41 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -122,12 +122,12 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -141,25 +141,10 @@
       ],
       "_raw_events": [
         {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
             "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -183,29 +168,6 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "джазовые концерты и вечеринки на крыше Novotel",
-          "cats": [
-            "concert"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "концерты на крыше Ibis от Roofevents",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
           "cats": [
             "exhibition",
@@ -215,10 +177,53 @@
           "is_high": true
         },
         {
-          "title": "концерты на крыше The Carlton от Roofevents",
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
-            "concert",
+            "stock",
+            "kids",
+            "education",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "маркет «4 сезона»",
+          "cats": [
+            "festival",
+            "yarmarki-razvlecheniya-yarmarki",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "групповые знакомства GOKON",
+          "cats": [
+            "party",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка VR ART",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Загадочные миры Иеронима Босха»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         }
@@ -235,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+24°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 25.9,
-        "feels_like": 24.1,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 11.9,
-        "wind_gusts": 33.1,
+        "temp": 23.5,
+        "feels_like": 22.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 6.2,
+        "wind_gusts": 23.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -268,7 +273,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.242,
         0.257,
@@ -291,6 +295,7 @@
         0.257,
         0.257,
         0.257,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -342,15 +347,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · переменная облачность",
+        "val": "+22°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 22.7,
-        "feels_like": 25.0,
+        "temp": 21.8,
+        "feels_like": 22.8,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 6.7,
-        "wind_gusts": 10.8,
+        "wind": 9.4,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -377,7 +382,6 @@
       "history": [
         0.366,
         0.366,
-        0.366,
         0.303,
         0.266,
         0.281,
@@ -398,6 +402,7 @@
         0.366,
         0.366,
         0.341,
+        0.266,
         0.266
       ],
       "_raw_events": [
