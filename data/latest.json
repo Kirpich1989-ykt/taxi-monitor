@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T17:48:23.294326+00:00",
+  "generated_at": "2026-07-08T19:48:45.363558+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · ясно",
+        "val": "+23°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 23.5,
+        "temp": 23.3,
         "feels_like": 24.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.6,
-        "wind_gusts": 10.4,
+        "wind": 7.5,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -46,7 +46,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -64,6 +63,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · пасмурно",
+        "val": "+19°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 20.2,
-        "feels_like": 20.6,
+        "temp": 19.0,
+        "feels_like": 19.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.7,
-        "wind_gusts": 24.1,
+        "wind": 7.4,
+        "wind_gusts": 22.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "42 крупных из 50",
+        "val": "38 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.368,
         0.368,
         0.368,
@@ -137,41 +136,15 @@
         0.533,
         0.383,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
             "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -187,26 +160,10 @@
           "is_high": true
         },
         {
-          "title": "мультисенсорная выставка «Сон в музее»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка VR ART",
-          "cats": [
-            "exhibition",
-            "kids",
             "entertainment"
           ],
           "is_high": true
@@ -219,11 +176,55 @@
           "is_high": true
         },
         {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "квест «Красная кнопка»",
           "cats": [
             "kids",
-            "education",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "VR-путешествие «Чудеса света»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-классы по созданию соевых свечей в студии живописи и рисования ZuART",
+          "cats": [
+            "stock",
+            "education",
+            "other",
             "entertainment"
           ],
           "is_high": true
@@ -241,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · ясно",
-        "icon": "☀",
+        "val": "+23°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 25.6,
-        "feels_like": 26.2,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 6.2,
-        "wind_gusts": 19.8,
+        "temp": 23.1,
+        "feels_like": 24.0,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 4.4,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +276,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -293,6 +293,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -348,15 +349,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · ясно",
+        "val": "+17°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 17.9,
-        "feels_like": 16.1,
+        "temp": 16.8,
+        "feels_like": 15.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 10.5,
-        "wind_gusts": 13.3,
+        "wind": 8.1,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -381,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.341,
         0.366,
         0.366,
@@ -403,6 +403,7 @@
         0.381,
         0.131,
         0.381,
+        0.266,
         0.266,
         0.266
       ],
