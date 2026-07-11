@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T03:34:30.333835+00:00",
+  "generated_at": "2026-07-11T06:23:03.177186+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · пасмурно",
-        "icon": "☁",
+        "val": "+22°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 19.3,
-        "feels_like": 17.5,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 8.1,
-        "wind_gusts": 28.4,
+        "temp": 21.7,
+        "feels_like": 19.7,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 9.2,
+        "wind_gusts": 23.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -66,6 +65,7 @@
         0.079,
         0.229,
         0.229,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · преим. ясно",
+        "val": "+25°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 20.1,
-        "feels_like": 21.4,
+        "temp": 24.9,
+        "feels_like": 26.3,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 6.8,
-        "wind_gusts": 19.1,
+        "wind": 10.1,
+        "wind_gusts": 27.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.533,
         0.383,
         0.368,
         0.368,
@@ -130,6 +129,7 @@
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -162,6 +162,15 @@
           "cats": [
             "kids",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -210,20 +219,9 @@
           "is_high": true
         },
         {
-          "title": "выставка VR ART",
+          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
           "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
+            "theater",
             "entertainment"
           ],
           "is_high": true
@@ -241,15 +239,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+24°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 20.0,
-        "feels_like": 22.4,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 4.0,
-        "wind_gusts": 11.5,
+        "temp": 24.5,
+        "feels_like": 26.0,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.8,
+        "wind_gusts": 18.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +277,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -296,6 +293,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205
       ],
@@ -337,20 +335,20 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.546,
+      "impact": 0.396,
       "alert": "green",
       "weather": {
-        "score": 0.6,
-        "val": "+18°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.1,
+        "val": "+18°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 17.5,
-        "feels_like": 15.7,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 20.6,
-        "wind_gusts": 36.0,
-        "precip": 0.1,
+        "temp": 17.9,
+        "feels_like": 15.2,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 22.9,
+        "wind_gusts": 35.6,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -374,7 +372,6 @@
         "icon": "📰"
       },
       "history": [
-        0.131,
         0.381,
         0.266,
         0.266,
@@ -397,7 +394,8 @@
         0.266,
         0.341,
         0.381,
-        0.546
+        0.546,
+        0.396
       ],
       "_raw_events": [
         {
