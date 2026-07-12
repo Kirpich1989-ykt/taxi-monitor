@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-11T23:03:23.023963+00:00",
+  "generated_at": "2026-07-12T00:06:16.934502+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.214,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+14°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+16°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 14.2,
-        "feels_like": 13.1,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 5.9,
+        "temp": 15.5,
+        "feels_like": 14.6,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 4.7,
         "wind_gusts": 23.0,
-        "precip": 0.1,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -46,7 +46,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.064,
         0.079,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.214,
-        0.214
+        0.214,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -84,18 +84,18 @@
         "val": "+18°C · ливень слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 17.5,
-        "feels_like": 19.6,
+        "temp": 17.7,
+        "feels_like": 19.9,
         "condition": "ливень слабый",
         "wmo_code": 80,
-        "wind": 1.8,
-        "wind_gusts": 19.4,
-        "precip": 0.4,
+        "wind": 1.5,
+        "wind_gusts": 16.6,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "31 крупных из 43",
+        "val": "31 крупных из 44",
         "icon": "🎭"
       },
       "traffic": {
@@ -116,7 +116,6 @@
       "history": [
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -132,6 +131,7 @@
         0.518,
         0.368,
         0.368,
+        0.518,
         0.518,
         0.518,
         0.518,
@@ -153,6 +153,16 @@
           "title": "быстрые свидания от Fast Life",
           "cats": [
             "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -220,15 +230,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "Рассветомания. Фотоэкскурсия на крыше небоскрёба на рассвете",
-          "cats": [
-            "photo",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -246,12 +247,12 @@
         "val": "+18°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 18.5,
-        "feels_like": 18.7,
+        "temp": 18.0,
+        "feels_like": 18.5,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 2.6,
-        "wind_gusts": 6.8,
+        "wind": 1.1,
+        "wind_gusts": 4.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -277,7 +278,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -298,6 +298,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205
       ],
@@ -343,15 +344,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+15°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 13.9,
-        "feels_like": 12.2,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 10.8,
-        "wind_gusts": 15.5,
+        "temp": 14.6,
+        "feels_like": 13.4,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 9.0,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -376,7 +377,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.366,
         0.366,
         0.366,
@@ -399,6 +399,7 @@
         0.356,
         0.381,
         0.381,
+        0.366,
         0.366
       ],
       "_raw_events": [
