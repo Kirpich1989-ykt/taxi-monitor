@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T15:08:18.745593+00:00",
+  "generated_at": "2026-07-12T17:11:46.516551+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+17°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 17.0,
-        "feels_like": 17.6,
+        "temp": 16.9,
+        "feels_like": 17.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 1.1,
-        "wind_gusts": 5.4,
+        "wind": 2.3,
+        "wind_gusts": 8.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
         0.229,
         0.079,
         0.229,
@@ -60,6 +59,7 @@
         0.064,
         0.214,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.518,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+19°C · ливень слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+17°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 18.6,
-        "feels_like": 20.2,
-        "condition": "ливень слабый",
-        "wmo_code": 80,
-        "wind": 7.6,
-        "wind_gusts": 24.5,
-        "precip": 0.2,
+        "temp": 17.2,
+        "feels_like": 18.9,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 2.1,
+        "wind_gusts": 10.8,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "48 крупных из 50",
+        "val": "40 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -121,7 +121,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -137,38 +136,16 @@
         0.518,
         0.518,
         0.518,
-        0.518
+        0.518,
+        0.368
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
             "kids",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -191,37 +168,64 @@
           "is_high": true
         },
         {
-          "title": "концерты на крыше Ibis от Roofevents",
+          "title": "мультисенсорная выставка «Сон в музее»",
           "cats": [
-            "concert",
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "title": "групповые знакомства GOKON",
           "cats": [
-            "exhibition",
-            "tour",
+            "party",
+            "other",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "title": "выставка VR ART",
           "cats": [
             "exhibition",
             "kids",
-            "tour",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "концерты на крыше The Carlton от Roofevents",
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
           "cats": [
-            "concert",
+            "stock",
+            "education",
+            "other",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Загадочные миры Иеронима Босха»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         }
@@ -238,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+30°C · преим. ясно",
+        "val": "+26°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 30.1,
-        "feels_like": 28.8,
+        "temp": 25.8,
+        "feels_like": 24.8,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 8.4,
-        "wind_gusts": 22.7,
+        "wind": 8.0,
+        "wind_gusts": 25.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +278,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -294,6 +297,7 @@
         0.242,
         0.242,
         0.092,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -345,15 +349,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · ясно",
+        "val": "+17°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 18.4,
-        "feels_like": 17.8,
+        "temp": 16.6,
+        "feels_like": 16.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.3,
-        "wind_gusts": 9.7,
+        "wind": 6.4,
+        "wind_gusts": 7.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -378,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.281,
         0.431,
         0.266,
         0.341,
@@ -401,6 +404,7 @@
         0.366,
         0.366,
         0.341,
+        0.266,
         0.266
       ],
       "_raw_events": [
