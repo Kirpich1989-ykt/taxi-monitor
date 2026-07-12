@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T07:34:37.562438+00:00",
+  "generated_at": "2026-07-12T09:59:21.963871+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.8,
-        "feels_like": 21.6,
+        "temp": 21.3,
+        "feels_like": 20.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 2.8,
-        "wind_gusts": 10.8,
+        "wind": 5.1,
+        "wind_gusts": 10.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.214,
         0.064,
         0.079,
@@ -64,6 +63,7 @@
         0.064,
         0.214,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+19°C · дождь слабый",
+        "val": "+19°C · дождь умеренный",
         "icon": "🌧",
         "live": true,
-        "temp": 19.3,
-        "feels_like": 21.2,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
-        "wind": 2.8,
-        "wind_gusts": 8.6,
-        "precip": 0.1,
+        "temp": 18.9,
+        "feels_like": 20.3,
+        "condition": "дождь умеренный",
+        "wmo_code": 63,
+        "wind": 6.6,
+        "wind_gusts": 24.1,
+        "precip": 0.8,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "48 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -115,7 +115,6 @@
       },
       "history": [
         0.518,
-        0.518,
         0.368,
         0.368,
         0.368,
@@ -137,9 +136,18 @@
         0.518,
         0.518,
         0.368,
+        0.518,
         0.518
       ],
       "_raw_events": [
+        {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -162,6 +170,15 @@
           "cats": [
             "kids",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -208,23 +225,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
-          "cats": [
-            "theater",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "групповые знакомства GOKON",
-          "cats": [
-            "party",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -239,15 +239,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+27°C · ясно",
-        "icon": "☀",
+        "val": "+30°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 27.2,
-        "feels_like": 29.3,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 3.7,
-        "wind_gusts": 14.4,
+        "temp": 30.4,
+        "feels_like": 31.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 6.5,
+        "wind_gusts": 19.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -273,7 +273,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.257,
         0.242,
@@ -295,6 +294,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -350,17 +350,17 @@
         "icon": "☁",
         "live": true,
         "temp": 24.0,
-        "feels_like": 22.8,
+        "feels_like": 22.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 11.9,
-        "wind_gusts": 28.4,
+        "wind": 9.4,
+        "wind_gusts": 25.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "20 крупных из 23",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -379,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.366,
@@ -402,17 +401,10 @@
         0.366,
         0.366,
         0.381,
+        0.366,
         0.366
       ],
       "_raw_events": [
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "музей инопланетян",
           "cats": [
@@ -422,18 +414,18 @@
           "is_high": true
         },
         {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "title": "невидимая выставка-квест Temnota",
           "cats": [
             "exhibition",
-            "kids"
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
           "cats": [
-            "kids",
-            "entertainment"
+            "exhibition",
+            "kids"
           ],
           "is_high": true
         },
@@ -479,6 +471,13 @@
         },
         {
           "title": "выставка «Сибирь в древности»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
           "cats": [
             "exhibition"
           ],
