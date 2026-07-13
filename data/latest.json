@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T15:47:49.929879+00:00",
+  "generated_at": "2026-07-13T18:02:47.841799+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+19°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 19.7,
-        "feels_like": 21.5,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 9.4,
-        "wind_gusts": 17.3,
+        "temp": 19.0,
+        "feels_like": 20.6,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 7.0,
+        "wind_gusts": 10.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -66,6 +65,7 @@
         0.229,
         0.079,
         0.214,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · пасмурно",
-        "icon": "☁",
+        "val": "+19°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 21.8,
-        "feels_like": 22.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 6.6,
-        "wind_gusts": 23.8,
+        "temp": 19.4,
+        "feels_like": 20.9,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 4.2,
+        "wind_gusts": 15.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "40 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.518,
         0.518,
         0.518,
@@ -137,6 +136,7 @@
         0.368,
         0.368,
         0.118,
+        0.368,
         0.368
       ],
       "_raw_events": [
@@ -145,42 +145,6 @@
           "cats": [
             "exhibition",
             "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -229,6 +193,38 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "выставка «Загадочные миры Иеронима Босха»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «СЕНС. Эволюция стихий»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -239,19 +235,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+29°C · переменная облачность",
-        "icon": "⛅",
+        "score": 0.0,
+        "val": "+24°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 28.7,
-        "feels_like": 27.5,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 14.7,
-        "wind_gusts": 36.0,
+        "temp": 24.1,
+        "feels_like": 23.5,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 6.6,
+        "wind_gusts": 25.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -280,7 +276,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -299,7 +294,8 @@
         0.205,
         0.242,
         0.242,
-        0.257
+        0.257,
+        0.242
       ],
       "_raw_events": [
         {
@@ -346,20 +342,20 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.266,
+      "impact": 0.416,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+19°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.5,
+        "val": "+18°C · морось умеренная",
+        "icon": "🌦",
         "live": true,
-        "temp": 19.3,
-        "feels_like": 20.5,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 2.6,
-        "wind_gusts": 15.1,
-        "precip": 0.0,
+        "temp": 18.2,
+        "feels_like": 18.9,
+        "condition": "морось умеренная",
+        "wmo_code": 53,
+        "wind": 7.7,
+        "wind_gusts": 11.9,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
@@ -383,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.356,
         0.356,
         0.356,
@@ -406,7 +401,8 @@
         0.366,
         0.366,
         0.366,
-        0.266
+        0.266,
+        0.416
       ],
       "_raw_events": [
         {
