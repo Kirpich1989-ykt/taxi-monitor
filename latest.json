@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-14T09:13:49.418004+00:00",
+  "generated_at": "2026-07-14T11:40:22.169436+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.229,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+25°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+22°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 25.4,
-        "feels_like": 25.6,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 19.7,
-        "wind_gusts": 29.5,
-        "precip": 0.1,
+        "temp": 22.0,
+        "feels_like": 24.6,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 9.8,
+        "wind_gusts": 18.4,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -55,7 +55,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.229,
         0.079,
         0.214,
@@ -66,7 +65,8 @@
         0.079,
         0.079,
         0.079,
-        0.229
+        0.229,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,14 +81,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · пасмурно",
-        "icon": "☁",
+        "val": "+25°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 23.5,
-        "feels_like": 24.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 6.7,
+        "temp": 24.9,
+        "feels_like": 25.8,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 6.2,
         "wind_gusts": 22.0,
         "precip": 0.0,
         "snowfall": 0.0
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.518,
         0.368,
         0.518,
         0.518,
@@ -130,6 +129,7 @@
         0.368,
         0.368,
         0.118,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -162,6 +162,15 @@
           "cats": [
             "kids",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -200,29 +209,18 @@
           "is_high": true
         },
         {
+          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
+          "cats": [
+            "theater",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка VR ART",
-          "cats": [
-            "exhibition",
-            "kids",
             "entertainment"
           ],
           "is_high": true
@@ -240,15 +238,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+31°C · переменная облачность",
+        "val": "+32°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 30.6,
-        "feels_like": 31.2,
+        "temp": 31.7,
+        "feels_like": 31.6,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 8.6,
-        "wind_gusts": 25.9,
+        "wind": 7.9,
+        "wind_gusts": 23.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +272,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -295,6 +292,7 @@
         0.242,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242
       ],
@@ -343,25 +341,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.381,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+24°C · ясно",
+        "score": 0.0,
+        "val": "+23°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 23.8,
-        "feels_like": 22.7,
+        "temp": 23.2,
+        "feels_like": 21.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 13.3,
-        "wind_gusts": 29.2,
+        "wind": 12.0,
+        "wind_gusts": 26.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "10 крупных из 13",
         "icon": "🎭"
       },
       "traffic": {
@@ -380,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.381,
         0.366,
         0.366,
@@ -403,7 +400,8 @@
         0.366,
         0.381,
         0.366,
-        0.381
+        0.381,
+        0.366
       ],
       "_raw_events": [
         {
@@ -462,25 +460,25 @@
           "is_high": true
         },
         {
-          "title": "выставка «Иконы»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
