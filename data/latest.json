@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-16T16:37:08.292573+00:00",
+  "generated_at": "2026-07-16T18:15:04.085390+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.229,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+18°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.05,
+        "val": "+18°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 18.2,
-        "feels_like": 18.8,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 12.6,
-        "wind_gusts": 25.6,
-        "precip": 0.1,
+        "temp": 18.1,
+        "feels_like": 18.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 14.6,
+        "wind_gusts": 20.9,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -43,30 +43,30 @@
         "icon": "📰"
       },
       "history": [
+        0.064,
+        0.064,
+        0.214,
+        0.214,
+        0.064,
+        0.064,
+        0.079,
+        0.064,
+        0.064,
+        0.064,
+        0.064,
+        0.064,
+        0.064,
+        0.064,
+        0.064,
+        0.064,
+        0.064,
+        0.079,
+        0.079,
+        0.079,
+        0.064,
+        0.214,
         0.229,
-        0.064,
-        0.064,
-        0.214,
-        0.214,
-        0.064,
-        0.064,
-        0.079,
-        0.064,
-        0.064,
-        0.064,
-        0.064,
-        0.064,
-        0.064,
-        0.064,
-        0.064,
-        0.064,
-        0.064,
-        0.079,
-        0.079,
-        0.079,
-        0.064,
-        0.214,
-        0.229
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.383,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+16°C · преим. ясно",
+        "score": 0.0,
+        "val": "+14°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 15.7,
-        "feels_like": 12.8,
+        "temp": 14.2,
+        "feels_like": 11.8,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 12.5,
-        "wind_gusts": 38.9,
+        "wind": 9.9,
+        "wind_gusts": 30.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "40 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -133,33 +133,18 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
         0.383,
         0.383,
-        0.383
+        0.383,
+        0.368
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
             "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -174,40 +159,52 @@
           "is_high": true
         },
         {
-          "title": "концерты на крыше Ibis от Roofevents",
+          "title": "групповые знакомства GOKON",
           "cats": [
-            "concert",
+            "party",
+            "other",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Русские в моде»",
+          "title": "мультисенсорная выставка «Сон в музее»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка VR ART",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
           "cats": [
             "kids",
             "education",
@@ -217,11 +214,18 @@
           "is_high": true
         },
         {
-          "title": "групповые знакомства GOKON",
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
-            "party",
-            "other",
+            "kids",
+            "recreation",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Загадочные миры Иеронима Босха»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         }
@@ -238,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+24°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 25.6,
-        "feels_like": 28.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 7.1,
-        "wind_gusts": 23.8,
+        "temp": 24.1,
+        "feels_like": 26.4,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 7.4,
+        "wind_gusts": 18.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +280,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.355,
         0.205,
         0.355,
@@ -293,6 +296,7 @@
         0.242,
         0.242,
         0.392,
+        0.242,
         0.242,
         0.242
       ],
@@ -341,20 +345,20 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.281,
+      "impact": 0.431,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+23°C · пасмурно",
-        "icon": "☁",
+        "score": 0.55,
+        "val": "+20°C · морось умеренная",
+        "icon": "🌦",
         "live": true,
-        "temp": 22.9,
-        "feels_like": 21.7,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 17.9,
-        "wind_gusts": 20.2,
-        "precip": 0.0,
+        "temp": 20.0,
+        "feels_like": 20.3,
+        "condition": "морось умеренная",
+        "wmo_code": 53,
+        "wind": 15.7,
+        "wind_gusts": 17.6,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
@@ -378,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.366,
         0.303,
         0.266,
@@ -401,7 +404,8 @@
         0.381,
         0.381,
         0.341,
-        0.281
+        0.281,
+        0.431
       ],
       "_raw_events": [
         {
