@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-17T07:26:09.677315+00:00",
+  "generated_at": "2026-07-17T10:07:35.536693+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+22°C · пасмурно",
-        "icon": "☁",
+        "score": 0.0,
+        "val": "+22°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 22.1,
-        "feels_like": 20.8,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 12.9,
-        "wind_gusts": 25.2,
+        "temp": 21.5,
+        "feels_like": 21.5,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 6.7,
+        "wind_gusts": 13.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.229,
         0.079,
         0.079,
-        0.079
+        0.079,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+16°C · преим. ясно",
+        "val": "+20°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 15.8,
-        "feels_like": 13.3,
+        "temp": 19.7,
+        "feels_like": 18.6,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 14.2,
-        "wind_gusts": 38.9,
+        "wind": 13.6,
+        "wind_gusts": 37.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -127,7 +127,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
         0.383,
         0.383,
@@ -137,6 +136,7 @@
         0.368,
         0.368,
         0.368,
+        0.383,
         0.383
       ],
       "_raw_events": [
@@ -237,25 +237,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+28°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+30°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 28.0,
-        "feels_like": 29.3,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 9.2,
-        "wind_gusts": 26.6,
+        "temp": 30.5,
+        "feels_like": 31.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 11.4,
+        "wind_gusts": 31.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -274,7 +274,6 @@
         "icon": "📰"
       },
       "history": [
-        0.355,
         0.205,
         0.355,
         0.242,
@@ -297,9 +296,17 @@
         0.205,
         0.205,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -341,16 +348,16 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+25°C · гроза",
-        "icon": "⛈",
+        "val": "+24°C · морось слабая",
+        "icon": "🌦",
         "live": true,
-        "temp": 25.2,
-        "feels_like": 27.4,
-        "condition": "гроза",
-        "wmo_code": 95,
-        "wind": 10.9,
-        "wind_gusts": 34.9,
-        "precip": 0.2,
+        "temp": 24.1,
+        "feels_like": 25.6,
+        "condition": "морось слабая",
+        "wmo_code": 51,
+        "wind": 9.8,
+        "wind_gusts": 20.5,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -379,7 +386,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.303,
         0.266,
         0.266,
@@ -396,6 +402,7 @@
         0.431,
         0.366,
         0.366,
+        0.516,
         0.516,
         0.516
       ],
