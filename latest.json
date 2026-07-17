@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T20:12:34.801718+00:00",
+  "generated_at": "2026-07-17T22:02:12.320501+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+19°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 17.0,
-        "feels_like": 17.7,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 6.1,
-        "wind_gusts": 10.4,
+        "temp": 18.7,
+        "feels_like": 19.1,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 8.8,
+        "wind_gusts": 20.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -48,7 +48,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -61,6 +60,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+16°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 16.6,
-        "feels_like": 16.2,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 3.4,
-        "wind_gusts": 6.8,
+        "temp": 15.5,
+        "feels_like": 15.0,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 3.1,
+        "wind_gusts": 6.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "34 крупных из 46",
+        "val": "30 крупных из 42",
         "icon": "🎭"
       },
       "traffic": {
@@ -121,7 +121,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
         0.383,
         0.383,
@@ -134,21 +133,13 @@
         0.383,
         0.383,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
-          "cats": [
-            "theater",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -203,17 +194,6 @@
           "is_high": true
         },
         {
-          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
-          "cats": [
-            "party",
-            "theater",
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мастер-классы по созданию соевых свечей в студии живописи и рисования ZuART",
           "cats": [
             "stock",
@@ -224,10 +204,29 @@
           "is_high": true
         },
         {
-          "title": "квест «Красная кнопка»",
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
           "cats": [
             "kids",
+            "quest",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Рассветомания. Фотоэкскурсия на крыше небоскрёба на рассвете",
+          "cats": [
+            "photo",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -241,15 +240,15 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · преим. ясно",
+        "val": "+20°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 21.1,
-        "feels_like": 22.2,
+        "temp": 19.8,
+        "feels_like": 20.9,
         "condition": "преим. ясно",
         "wmo_code": 1,
         "wind": 3.7,
@@ -258,8 +257,8 @@
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -278,7 +277,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.392,
         0.242,
         0.242,
@@ -301,16 +299,10 @@
         0.257,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -348,25 +340,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.266,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · переменная облачность",
+        "val": "+18°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 18.8,
-        "feels_like": 19.5,
+        "temp": 18.0,
+        "feels_like": 18.5,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 8.4,
-        "wind_gusts": 9.0,
+        "wind": 7.4,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 1.0,
+        "val": "8 крупных из 11",
         "icon": "🎭"
       },
       "traffic": {
@@ -385,7 +377,6 @@
         "icon": "📰"
       },
       "history": [
-        0.303,
         0.266,
         0.266,
         0.266,
@@ -408,9 +399,34 @@
         0.266,
         0.266,
         0.266,
-        0.266
+        0.266,
+        0.366
       ],
       "_raw_events": [
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
@@ -457,12 +473,11 @@
           "is_high": false
         },
         {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "title": "выставка «Сибирь в древности»",
           "cats": [
-            "stock",
-            "education"
+            "exhibition"
           ],
-          "is_high": false
+          "is_high": true
         }
       ],
       "_raw_news": [],
