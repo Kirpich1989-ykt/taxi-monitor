@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-18T06:14:03.870346+00:00",
+  "generated_at": "2026-07-18T08:55:31.630638+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.214,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+18°C · гроза",
-        "icon": "⛈",
+        "score": 0.0,
+        "val": "+20°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 18.4,
-        "feels_like": 19.4,
-        "condition": "гроза",
-        "wmo_code": 95,
-        "wind": 9.9,
-        "wind_gusts": 34.6,
-        "precip": 0.9,
+        "temp": 19.7,
+        "feels_like": 19.9,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 11.3,
+        "wind_gusts": 33.5,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.079,
-        0.214
+        0.214,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · ясно",
-        "icon": "☀",
+        "val": "+23°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 19.5,
-        "feels_like": 19.6,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 3.8,
-        "wind_gusts": 12.2,
+        "temp": 22.9,
+        "feels_like": 24.1,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.0,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "44 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -116,7 +116,6 @@
       "history": [
         0.368,
         0.368,
-        0.368,
         0.383,
         0.383,
         0.383,
@@ -129,6 +128,7 @@
         0.383,
         0.383,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -140,6 +140,13 @@
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -218,16 +225,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -238,25 +235,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · ясно",
-        "icon": "☀",
+        "val": "+27°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 23.5,
-        "feels_like": 24.7,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 5.6,
-        "wind_gusts": 18.0,
+        "temp": 26.9,
+        "feels_like": 27.9,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 7.4,
+        "wind_gusts": 22.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -275,7 +272,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.205,
         0.242,
         0.242,
@@ -298,9 +294,17 @@
         0.205,
         0.205,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -342,21 +346,21 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+26°C · пасмурно",
-        "icon": "☁",
+        "val": "+27°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 25.5,
-        "feels_like": 25.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 13.4,
-        "wind_gusts": 34.2,
+        "temp": 26.8,
+        "feels_like": 27.0,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 13.3,
+        "wind_gusts": 32.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 23",
+        "val": "21 крупных из 25",
         "icon": "🎭"
       },
       "traffic": {
@@ -375,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.381,
         0.381,
@@ -398,6 +401,7 @@
         0.366,
         0.366,
         0.366,
+        0.381,
         0.381
       ],
       "_raw_events": [
@@ -426,17 +430,17 @@
           "is_high": true
         },
         {
-          "title": "беззвучная выставка-квест «Тишина»",
+          "title": "цирковое представление с морскими животными",
           "cats": [
-            "exhibition",
+            "kids",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
+          "title": "беззвучная выставка-квест «Тишина»",
           "cats": [
-            "kids",
+            "exhibition",
             "entertainment"
           ],
           "is_high": true
