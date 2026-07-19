@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T06:39:50.134170+00:00",
+  "generated_at": "2026-07-19T09:11:32.099960+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,16 +10,16 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+19°C · морось умеренная",
+        "val": "+19°C · морось слабая",
         "icon": "🌦",
         "live": true,
-        "temp": 19.2,
-        "feels_like": 20.4,
-        "condition": "морось умеренная",
-        "wmo_code": 53,
-        "wind": 7.3,
+        "temp": 19.0,
+        "feels_like": 21.0,
+        "condition": "морось слабая",
+        "wmo_code": 51,
+        "wind": 2.0,
         "wind_gusts": 14.0,
-        "precip": 0.2,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -51,7 +51,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.214,
         0.064,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.064,
+        0.214,
         0.214
       ],
       "_raw_events": [],
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · ясно",
+        "val": "+25°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 22.7,
-        "feels_like": 23.2,
+        "temp": 25.4,
+        "feels_like": 26.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.8,
-        "wind_gusts": 15.8,
+        "wind": 6.4,
+        "wind_gusts": 20.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -115,7 +115,7 @@
       },
       "history": [
         0.383,
-        0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -154,6 +154,15 @@
           "cats": [
             "exhibition",
             "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
+            "concert",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -218,16 +227,6 @@
             "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -242,15 +241,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+28°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 23.7,
-        "feels_like": 23.5,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 7.1,
-        "wind_gusts": 19.8,
+        "temp": 28.2,
+        "feels_like": 28.5,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 10.0,
+        "wind_gusts": 28.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +274,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.257,
         0.257,
         0.242,
@@ -298,6 +296,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -345,20 +344,20 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.516,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+24°C · гроза",
-        "icon": "⛈",
+        "score": 0.0,
+        "val": "+24°C · ясно",
+        "icon": "☀",
         "live": true,
         "temp": 24.4,
-        "feels_like": 26.4,
-        "condition": "гроза",
-        "wmo_code": 95,
-        "wind": 6.4,
-        "wind_gusts": 19.8,
-        "precip": 0.1,
+        "feels_like": 27.8,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 2.2,
+        "wind_gusts": 16.2,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -383,7 +382,6 @@
       },
       "history": [
         0.516,
-        0.516,
         0.266,
         0.266,
         0.266,
@@ -405,7 +403,8 @@
         0.366,
         0.366,
         0.516,
-        0.516
+        0.516,
+        0.366
       ],
       "_raw_events": [
         {
@@ -433,17 +432,17 @@
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
+          "title": "беззвучная выставка-квест «Тишина»",
           "cats": [
-            "kids",
+            "exhibition",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "беззвучная выставка-квест «Тишина»",
+          "title": "цирковое представление с морскими животными",
           "cats": [
-            "exhibition",
+            "kids",
             "entertainment"
           ],
           "is_high": true
@@ -480,10 +479,9 @@
           "is_high": true
         },
         {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
+          "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
-            "kids",
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         }
