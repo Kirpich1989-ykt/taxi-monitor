@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T15:07:44.321388+00:00",
+  "generated_at": "2026-07-19T17:10:26.111932+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · ясно",
-        "icon": "☀",
+        "val": "+14°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 15.3,
-        "feels_like": 16.3,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 4.1,
+        "temp": 14.3,
+        "feels_like": 14.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 4.8,
         "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
@@ -47,7 +47,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.214,
         0.064,
@@ -66,6 +65,7 @@
         0.214,
         0.064,
         0.064,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · ясно",
+        "val": "+24°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 26.5,
-        "feels_like": 25.8,
+        "temp": 23.5,
+        "feels_like": 23.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.0,
-        "wind_gusts": 19.1,
+        "wind": 3.9,
+        "wind_gusts": 11.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "47 крупных из 50",
+        "val": "38 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,34 +141,11 @@
       ],
       "_raw_events": [
         {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
             "kids",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -191,36 +168,65 @@
           "is_high": true
         },
         {
-          "title": "концерты на крыше Ibis от Roofevents",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "концерты на крыше The Carlton от Roofevents",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "конные прогулки по национальному парку «Лосиный остров»",
           "cats": [
             "kids",
             "education",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "групповые знакомства GOKON",
+          "cats": [
+            "party",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка VR ART",
+          "cats": [
+            "exhibition",
+            "kids",
             "entertainment"
           ],
           "is_high": true
@@ -238,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+29°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+26°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 29.4,
-        "feels_like": 28.3,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 7.1,
-        "wind_gusts": 21.6,
+        "temp": 25.7,
+        "feels_like": 25.1,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 6.4,
+        "wind_gusts": 19.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +278,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -290,6 +295,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -312,18 +318,18 @@
           "is_high": true
         },
         {
-          "title": "выставка «Литературная жизнь Кубани» в литмузее",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
           "cats": [
             "stock"
           ],
           "is_high": false
+        },
+        {
+          "title": "выставка «Литературная жизнь Кубани» в литмузее",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
         },
         {
           "title": "выставка  «Мне вечность глянула в глаза…»",
@@ -345,15 +351,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.6,
-        "feels_like": 24.0,
+        "temp": 20.6,
+        "feels_like": 22.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.6,
-        "wind_gusts": 9.0,
+        "wind": 8.2,
+        "wind_gusts": 6.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -379,7 +385,6 @@
       },
       "history": [
         0.266,
-        0.266,
         0.366,
         0.366,
         0.366,
@@ -401,6 +406,7 @@
         0.366,
         0.366,
         0.341,
+        0.266,
         0.266
       ],
       "_raw_events": [
