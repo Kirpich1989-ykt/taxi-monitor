@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-20T03:56:35.160151+00:00",
+  "generated_at": "2026-07-20T07:22:04.245244+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.214,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+23°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+20°C · морось слабая",
+        "icon": "🌦",
         "live": true,
-        "temp": 22.9,
-        "feels_like": 24.5,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 4.0,
-        "wind_gusts": 19.8,
-        "precip": 0.0,
+        "temp": 19.5,
+        "feels_like": 21.3,
+        "condition": "морось слабая",
+        "wmo_code": 51,
+        "wind": 8.7,
+        "wind_gusts": 21.6,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.214,
         0.064,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.064,
-        0.064
+        0.064,
+        0.214
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · пасмурно",
-        "icon": "☁",
+        "val": "+25°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 18.4,
-        "feels_like": 19.8,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 1.6,
-        "wind_gusts": 5.4,
+        "temp": 25.2,
+        "feels_like": 26.9,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 5.4,
+        "wind_gusts": 17.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -167,20 +167,20 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "конные прогулки по национальному парку «Лосиный остров»",
           "cats": [
             "kids",
             "education",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -242,25 +242,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · ясно",
+        "val": "+29°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 19.0,
-        "feels_like": 19.3,
+        "temp": 28.9,
+        "feels_like": 29.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.1,
-        "wind_gusts": 7.9,
+        "wind": 6.2,
+        "wind_gusts": 18.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -279,7 +279,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -302,9 +301,17 @@
         0.242,
         0.205,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -346,21 +353,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+25°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+28°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 25.3,
-        "feels_like": 26.4,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 8.3,
-        "wind_gusts": 23.0,
+        "temp": 27.5,
+        "feels_like": 27.8,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 10.4,
+        "wind_gusts": 26.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "9 крупных из 12",
+        "val": "9 крупных из 14",
         "icon": "🎭"
       },
       "traffic": {
@@ -379,7 +386,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.381,
         0.531,
         0.516,
@@ -400,6 +406,7 @@
         0.266,
         0.266,
         0.341,
+        0.366,
         0.366,
         0.366,
         0.366
