@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T12:41:42.057481+00:00",
+  "generated_at": "2026-07-21T15:12:37.077635+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · пасмурно",
-        "icon": "☁",
+        "val": "+17°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 19.4,
-        "feels_like": 20.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.1,
-        "wind_gusts": 13.3,
+        "temp": 16.6,
+        "feels_like": 15.6,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 11.9,
+        "wind_gusts": 11.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.214,
         0.214,
         0.064,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.064,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -81,16 +81,16 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+24°C · ливень слабый",
+        "val": "+22°C · ливень слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 23.5,
-        "feels_like": 25.3,
+        "temp": 22.1,
+        "feels_like": 23.6,
         "condition": "ливень слабый",
         "wmo_code": 80,
-        "wind": 6.9,
-        "wind_gusts": 26.6,
-        "precip": 0.1,
+        "wind": 5.7,
+        "wind_gusts": 25.9,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -136,7 +136,7 @@
         0.368,
         0.368,
         0.368,
-        0.368,
+        0.518,
         0.518
       ],
       "_raw_events": [
@@ -243,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+35°C · преим. ясно",
+        "val": "+33°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 34.7,
-        "feels_like": 34.9,
+        "temp": 32.8,
+        "feels_like": 32.9,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 2.6,
-        "wind_gusts": 16.6,
+        "wind": 9.0,
+        "wind_gusts": 22.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +276,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -297,6 +296,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -346,25 +346,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.341,
+      "impact": 0.416,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+24°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+21°C · морось слабая",
+        "icon": "🌦",
         "live": true,
-        "temp": 24.5,
-        "feels_like": 24.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 7.5,
-        "wind_gusts": 19.4,
-        "precip": 0.0,
+        "temp": 21.4,
+        "feels_like": 22.3,
+        "condition": "морось слабая",
+        "wmo_code": 51,
+        "wind": 5.7,
+        "wind_gusts": 6.8,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 9",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -383,7 +383,6 @@
         "icon": "📰"
       },
       "history": [
-        0.516,
         0.516,
         0.366,
         0.366,
@@ -406,25 +405,10 @@
         0.366,
         0.366,
         0.366,
-        0.341
+        0.341,
+        0.416
       ],
       "_raw_events": [
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
