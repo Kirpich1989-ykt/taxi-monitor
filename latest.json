@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T10:31:41.685547+00:00",
+  "generated_at": "2026-07-21T12:41:42.057481+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · пасмурно",
+        "val": "+19°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 21.9,
-        "feels_like": 23.2,
+        "temp": 19.4,
+        "feels_like": 20.2,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 1.9,
-        "wind_gusts": 17.6,
+        "wind": 5.1,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.064,
-        0.064,
         0.214,
         0.214,
         0.064,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.064,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -77,20 +77,20 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.518,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+24°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+24°C · ливень слабый",
+        "icon": "🌧",
         "live": true,
         "temp": 23.5,
-        "feels_like": 25.7,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.7,
-        "wind_gusts": 26.3,
-        "precip": 0.0,
+        "feels_like": 25.3,
+        "condition": "ливень слабый",
+        "wmo_code": 80,
+        "wind": 6.9,
+        "wind_gusts": 26.6,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -137,7 +137,7 @@
         0.368,
         0.368,
         0.368,
-        0.368
+        0.518
       ],
       "_raw_events": [
         {
@@ -162,6 +162,15 @@
           "cats": [
             "kids",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -220,16 +229,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -244,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+34°C · ясно",
-        "icon": "☀",
+        "val": "+35°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 34.3,
-        "feels_like": 35.3,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 7.7,
-        "wind_gusts": 23.0,
+        "temp": 34.7,
+        "feels_like": 34.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 2.6,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +277,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -299,6 +297,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242
       ],
@@ -347,25 +346,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.341,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+27°C · пасмурно",
+        "val": "+24°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 26.6,
-        "feels_like": 26.4,
+        "temp": 24.5,
+        "feels_like": 24.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.9,
-        "wind_gusts": 21.6,
+        "wind": 7.5,
+        "wind_gusts": 19.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "17 крупных из 20",
+        "score": 0.9,
+        "val": "6 крупных из 9",
         "icon": "🎭"
       },
       "traffic": {
@@ -384,7 +383,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.516,
         0.516,
         0.366,
@@ -407,7 +405,8 @@
         0.366,
         0.366,
         0.366,
-        0.366
+        0.366,
+        0.341
       ],
       "_raw_events": [
         {
@@ -415,22 +414,6 @@
           "cats": [
             "exhibition",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
           ],
           "is_high": true
         },
@@ -443,24 +426,9 @@
           "is_high": true
         },
         {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         },
@@ -487,6 +455,28 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock",
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
