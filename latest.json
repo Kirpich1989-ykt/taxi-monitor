@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-22T09:33:41.866459+00:00",
+  "generated_at": "2026-07-22T11:58:35.860987+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+21°C · пасмурно",
+        "score": 0.0,
+        "val": "+20°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 20.7,
-        "feels_like": 20.8,
+        "temp": 20.3,
+        "feels_like": 20.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 13.4,
-        "wind_gusts": 17.6,
+        "wind": 10.9,
+        "wind_gusts": 12.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -46,7 +46,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.064,
-        0.079
+        0.079,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · пасмурно",
+        "val": "+24°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 23.3,
-        "feels_like": 23.2,
+        "temp": 23.9,
+        "feels_like": 22.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.4,
-        "wind_gusts": 22.3,
+        "wind": 9.6,
+        "wind_gusts": 26.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -128,9 +128,9 @@
         0.368,
         0.368,
         0.368,
+        0.518,
+        0.518,
         0.368,
-        0.518,
-        0.518,
         0.368,
         0.368,
         0.368,
@@ -140,6 +140,13 @@
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -162,6 +169,15 @@
           "cats": [
             "kids",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -212,26 +228,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -246,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+31°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+29°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 30.9,
-        "feels_like": 33.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 8.7,
-        "wind_gusts": 24.5,
+        "temp": 29.1,
+        "feels_like": 30.7,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 10.5,
+        "wind_gusts": 33.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +275,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -301,6 +296,7 @@
         0.242,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242
       ],
@@ -353,21 +349,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+23°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 25.9,
-        "feels_like": 27.1,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 1.3,
+        "temp": 23.4,
+        "feels_like": 24.6,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 4.5,
         "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "11 крупных из 14",
         "icon": "🎭"
       },
       "traffic": {
@@ -386,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.366,
         0.366,
         0.366,
@@ -409,6 +404,7 @@
         0.366,
         0.366,
         0.516,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -460,13 +456,6 @@
           "is_high": true
         },
         {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
             "kids",
@@ -489,6 +478,13 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
