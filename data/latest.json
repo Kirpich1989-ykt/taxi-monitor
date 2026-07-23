@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T07:41:29.902174+00:00",
+  "generated_at": "2026-07-23T10:32:33.211423+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+29°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+27°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 29.2,
-        "feels_like": 31.8,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 4.4,
-        "wind_gusts": 22.0,
+        "temp": 27.0,
+        "feels_like": 30.5,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 2.3,
+        "wind_gusts": 15.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -56,10 +56,10 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · пасмурно",
+        "val": "+20°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 18.2,
-        "feels_like": 18.1,
+        "temp": 20.5,
+        "feels_like": 19.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.0,
-        "wind_gusts": 27.4,
+        "wind": 9.0,
+        "wind_gusts": 28.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -119,7 +119,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -136,6 +135,7 @@
         0.368,
         0.368,
         0.518,
+        0.368,
         0.368,
         0.368
       ],
@@ -214,21 +214,19 @@
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
           "cats": [
-            "exhibition",
-            "kids",
-            "tour",
+            "theater",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
           "cats": [
+            "exhibition",
             "kids",
-            "education",
-            "recreation",
+            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -246,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+28°C · пасмурно",
+        "val": "+30°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 27.7,
-        "feels_like": 30.3,
+        "temp": 30.2,
+        "feels_like": 32.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.0,
-        "wind_gusts": 18.0,
+        "wind": 7.2,
+        "wind_gusts": 21.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +277,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -302,6 +299,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -356,18 +354,18 @@
         "val": "+26°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 26.2,
-        "feels_like": 27.9,
+        "temp": 26.0,
+        "feels_like": 26.6,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 8.4,
+        "wind": 7.6,
         "wind_gusts": 18.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "20 крупных из 23",
+        "val": "12 крупных из 15",
         "icon": "🎭"
       },
       "traffic": {
@@ -391,7 +389,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.341,
         0.416,
         0.266,
@@ -406,6 +403,7 @@
         0.266,
         0.266,
         0.266,
+        0.366,
         0.366,
         0.366,
         0.366,
@@ -460,13 +458,6 @@
           "is_high": true
         },
         {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
             "kids",
@@ -482,9 +473,18 @@
           "is_high": true
         },
         {
-          "title": "выставка «Иконы»",
+          "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
-            "exhibition"
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "открытые игры в клубе спортивной «Мафии»",
+          "cats": [
+            "entertainment"
           ],
           "is_high": true
         }
