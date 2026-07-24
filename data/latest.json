@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T17:46:12.145853+00:00",
+  "generated_at": "2026-07-24T19:41:48.833259+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · пасмурно",
-        "icon": "☁",
+        "val": "+19°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 19.6,
-        "feels_like": 21.6,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 8.8,
-        "wind_gusts": 11.5,
+        "temp": 18.9,
+        "feels_like": 20.4,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 10.1,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
         0.064,
         0.214,
         0.064,
@@ -64,6 +63,7 @@
         0.064,
         0.079,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · пасмурно",
+        "val": "+18°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 19.6,
-        "feels_like": 20.0,
+        "temp": 18.1,
+        "feels_like": 18.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.3,
-        "wind_gusts": 11.2,
+        "wind": 4.0,
+        "wind_gusts": 9.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "43 крупных из 50",
+        "val": "38 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -120,8 +120,8 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -141,47 +141,10 @@
       ],
       "_raw_events": [
         {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
             "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "маркет «4 сезона»",
-          "cats": [
-            "festival",
-            "yarmarki-razvlecheniya-yarmarki",
             "entertainment"
           ],
           "is_high": true
@@ -225,10 +188,43 @@
           "is_high": true
         },
         {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
           "cats": [
+            "party",
+            "theater",
+            "stock",
             "kids",
-            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "фестиваль «Архстояние»",
+          "cats": [
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Загадочные миры Иеронима Босха»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "иммерсивная выставка «Чудеса света»",
+          "cats": [
+            "exhibition",
+            "kids",
             "recreation",
             "entertainment"
           ],
@@ -247,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+25°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+23°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 24.9,
-        "feels_like": 26.4,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 6.1,
-        "wind_gusts": 15.8,
+        "temp": 22.7,
+        "feels_like": 24.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 4.1,
+        "wind_gusts": 11.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -285,7 +281,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -301,6 +296,7 @@
         0.107,
         0.257,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -354,15 +350,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · ясно",
+        "val": "+18°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 19.2,
-        "feels_like": 20.8,
+        "temp": 18.3,
+        "feels_like": 20.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.2,
-        "wind_gusts": 5.4,
+        "wind": 5.7,
+        "wind_gusts": 2.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -388,7 +384,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.303,
         0.266,
         0.266,
@@ -409,6 +404,7 @@
         0.516,
         0.366,
         0.303,
+        0.266,
         0.266,
         0.266
       ],
