@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T17:11:02.491054+00:00",
+  "generated_at": "2026-07-25T19:22:14.642534+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+18°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 18.4,
-        "feels_like": 19.3,
+        "temp": 18.5,
+        "feels_like": 19.2,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.8,
-        "wind_gusts": 8.6,
+        "wind": 8.8,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -46,7 +46,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.064,
         0.064,
@@ -54,6 +53,7 @@
         0.064,
         0.079,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · пасмурно",
+        "val": "+17°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 19.6,
-        "feels_like": 19.6,
+        "temp": 16.9,
+        "feels_like": 17.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.4,
-        "wind_gusts": 11.2,
+        "wind": 2.6,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "38 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -140,43 +140,6 @@
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "маркет «4 сезона»",
-          "cats": [
-            "festival",
-            "yarmarki-razvlecheniya-yarmarki",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
@@ -225,12 +188,44 @@
           "is_high": true
         },
         {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
           "cats": [
+            "party",
+            "theater",
+            "stock",
             "kids",
-            "education",
-            "recreation",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "иммерсивное шоу «Роковое путешествие» по роману Агаты Кристи на теплоходе «Ривер Палас»",
+          "cats": [
+            "theater",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Загадочные миры Иеронима Босха»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "фестиваль «Архстояние»",
+          "cats": [
+            "festival"
           ],
           "is_high": true
         }
@@ -243,20 +238,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.392,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+20°C · ливень слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+20°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 20.4,
-        "feels_like": 22.1,
-        "condition": "ливень слабый",
-        "wmo_code": 80,
-        "wind": 9.7,
-        "wind_gusts": 25.6,
-        "precip": 0.3,
+        "temp": 19.8,
+        "feels_like": 21.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 9.4,
+        "wind_gusts": 22.0,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -285,7 +280,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.107,
@@ -303,7 +297,8 @@
         0.392,
         0.407,
         0.392,
-        0.392
+        0.392,
+        0.242
       ],
       "_raw_events": [
         {
@@ -354,16 +349,16 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+16°C · ливень слабый",
-        "icon": "🌧",
+        "val": "+16°C · морось слабая",
+        "icon": "🌦",
         "live": true,
-        "temp": 15.9,
-        "feels_like": 16.9,
-        "condition": "ливень слабый",
-        "wmo_code": 80,
-        "wind": 5.5,
-        "wind_gusts": 14.0,
-        "precip": 0.6,
+        "temp": 15.8,
+        "feels_like": 16.8,
+        "condition": "морось слабая",
+        "wmo_code": 51,
+        "wind": 5.6,
+        "wind_gusts": 16.6,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -388,7 +383,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.303,
         0.266,
         0.266,
@@ -410,6 +404,7 @@
         0.366,
         0.366,
         0.341,
+        0.491,
         0.491
       ],
       "_raw_events": [
