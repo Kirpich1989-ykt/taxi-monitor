@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-26T14:42:26.358814+00:00",
+  "generated_at": "2026-07-26T16:11:01.674413+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.214,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+16°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+15°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 15.5,
-        "feels_like": 15.6,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 9.4,
-        "wind_gusts": 18.0,
-        "precip": 0.1,
+        "temp": 14.8,
+        "feels_like": 14.8,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 9.5,
+        "wind_gusts": 17.3,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
         0.214,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.079,
         0.214,
         0.064,
-        0.214
+        0.214,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,19 +77,19 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.518,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+18°C · дождь слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+17°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 17.8,
-        "feels_like": 18.4,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
-        "wind": 8.0,
-        "wind_gusts": 22.3,
+        "temp": 17.4,
+        "feels_like": 18.3,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 5.8,
+        "wind_gusts": 18.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -135,19 +135,11 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
-        0.518
+        0.518,
+        0.368
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
           "cats": [
@@ -171,14 +163,6 @@
             "education",
             "recreation",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -225,6 +209,24 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "групповые знакомства GOKON",
+          "cats": [
+            "party",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -235,20 +237,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.407,
+      "impact": 0.392,
       "alert": "green",
       "weather": {
-        "score": 0.55,
+        "score": 0.5,
         "val": "+20°C · дождь слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 19.7,
-        "feels_like": 20.6,
+        "temp": 19.9,
+        "feels_like": 21.5,
         "condition": "дождь слабый",
         "wmo_code": 61,
-        "wind": 12.7,
-        "wind_gusts": 34.9,
-        "precip": 0.2,
+        "wind": 10.2,
+        "wind_gusts": 29.2,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -273,7 +275,6 @@
       },
       "history": [
         0.257,
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -295,7 +296,8 @@
         0.257,
         0.407,
         0.407,
-        0.407
+        0.407,
+        0.392
       ],
       "_raw_events": [
         {
@@ -342,25 +344,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.303,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+16°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 16.9,
-        "feels_like": 18.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 6.4,
+        "temp": 16.4,
+        "feels_like": 18.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 2.4,
         "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.75,
-        "val": "5 крупных из 8",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -379,7 +381,6 @@
         "icon": "📰"
       },
       "history": [
-        0.516,
         0.366,
         0.303,
         0.266,
@@ -402,18 +403,10 @@
         0.531,
         0.516,
         0.516,
-        0.303
+        0.303,
+        0.266
       ],
       "_raw_events": [
-        {
-          "title": "еженедельная сальса-вечеринка",
-          "cats": [
-            "party",
-            "education",
-            "recreation"
-          ],
-          "is_high": true
-        },
         {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
