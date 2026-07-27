@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T08:41:33.540055+00:00",
+  "generated_at": "2026-07-27T12:34:32.922726+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+18°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 23.7,
-        "feels_like": 23.2,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 6.2,
-        "wind_gusts": 17.6,
+        "temp": 18.3,
+        "feels_like": 19.0,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 5.1,
+        "wind_gusts": 10.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -54,12 +54,12 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.079,
         0.214,
         0.064,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · переменная облачность",
+        "val": "+25°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 22.1,
-        "feels_like": 23.3,
+        "temp": 25.0,
+        "feels_like": 24.7,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 8.5,
-        "wind_gusts": 31.3,
+        "wind": 10.2,
+        "wind_gusts": 29.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "41 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -128,9 +128,9 @@
         0.368,
         0.368,
         0.368,
+        0.518,
+        0.518,
         0.368,
-        0.518,
-        0.518,
         0.368,
         0.368,
         0.368,
@@ -224,11 +224,9 @@
           "is_high": true
         },
         {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "title": "Стендап + джаз: два концерта в один вечер",
           "cats": [
-            "kids",
-            "education",
-            "recreation",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -246,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+28°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+30°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 27.6,
-        "feels_like": 29.7,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 11.3,
-        "wind_gusts": 32.8,
+        "temp": 29.9,
+        "feels_like": 29.3,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 9.4,
+        "wind_gusts": 27.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -281,7 +279,6 @@
       "history": [
         0.205,
         0.205,
-        0.205,
         0.392,
         0.392,
         0.407,
@@ -302,6 +299,7 @@
         0.355,
         0.205,
         0.205,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -349,25 +347,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.516,
+      "impact": 0.341,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+24°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+23°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 23.7,
-        "feels_like": 24.1,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 7.6,
-        "wind_gusts": 29.2,
-        "precip": 0.1,
+        "temp": 22.6,
+        "feels_like": 24.4,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 5.6,
+        "wind_gusts": 25.2,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "9 крупных из 14",
+        "score": 0.9,
+        "val": "6 крупных из 10",
         "icon": "🎭"
       },
       "traffic": {
@@ -386,7 +384,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.516,
@@ -409,7 +406,8 @@
         0.366,
         0.366,
         0.366,
-        0.516
+        0.516,
+        0.341
       ],
       "_raw_events": [
         {
@@ -421,34 +419,10 @@
           "is_high": true
         },
         {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
           "title": "беззвучная выставка-квест «Тишина»",
           "cats": [
             "exhibition",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
           ],
           "is_high": true
         },
@@ -484,8 +458,30 @@
           "is_high": true
         },
         {
-          "title": "занятия клуба философии и размышлений «КСЭП»",
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
           "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "английский разговорный клуб English Speaking",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock",
             "education"
           ],
           "is_high": false
