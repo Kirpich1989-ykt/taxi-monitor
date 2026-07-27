@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T04:47:28.486971+00:00",
+  "generated_at": "2026-07-27T08:41:33.540055+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,17 +10,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "нет данных",
-        "icon": "🌡",
-        "live": false,
-        "temp": null,
-        "feels_like": null,
-        "condition": null,
-        "wmo_code": null,
-        "wind": null,
-        "wind_gusts": null,
-        "precip": null,
-        "snowfall": null
+        "val": "+24°C · переменная облачность",
+        "icon": "⛅",
+        "live": true,
+        "temp": 23.7,
+        "feels_like": 23.2,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 6.2,
+        "wind_gusts": 17.6,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 0.0,
@@ -55,12 +55,12 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.079,
         0.214,
         0.064,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · переменная облачность",
+        "val": "+22°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 17.3,
-        "feels_like": 17.4,
+        "temp": 22.1,
+        "feels_like": 23.3,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 5.2,
-        "wind_gusts": 15.8,
+        "wind": 8.5,
+        "wind_gusts": 31.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -129,9 +129,9 @@
         0.368,
         0.368,
         0.368,
+        0.518,
+        0.518,
         0.368,
-        0.518,
-        0.518,
         0.368,
         0.368,
         0.368,
@@ -242,25 +242,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+28°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 22.0,
-        "feels_like": 23.6,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 6.9,
-        "wind_gusts": 18.4,
+        "temp": 27.6,
+        "feels_like": 29.7,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 11.3,
+        "wind_gusts": 32.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -279,7 +279,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -302,9 +301,17 @@
         0.392,
         0.355,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -342,25 +349,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.516,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+22°C · переменная облачность",
-        "icon": "⛅",
+        "score": 0.5,
+        "val": "+24°C · морось слабая",
+        "icon": "🌦",
         "live": true,
-        "temp": 22.1,
-        "feels_like": 23.4,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 4.2,
-        "wind_gusts": 21.2,
-        "precip": 0.0,
+        "temp": 23.7,
+        "feels_like": 24.1,
+        "condition": "морось слабая",
+        "wmo_code": 51,
+        "wind": 7.6,
+        "wind_gusts": 29.2,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "9 крупных из 12",
+        "val": "9 крупных из 14",
         "icon": "🎭"
       },
       "traffic": {
@@ -379,7 +386,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.366,
         0.366,
         0.366,
@@ -402,7 +408,8 @@
         0.266,
         0.366,
         0.366,
-        0.366
+        0.366,
+        0.516
       ],
       "_raw_events": [
         {
@@ -477,7 +484,7 @@
           "is_high": true
         },
         {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "title": "занятия клуба философии и размышлений «КСЭП»",
           "cats": [
             "education"
           ],
