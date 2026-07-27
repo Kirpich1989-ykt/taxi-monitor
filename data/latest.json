@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-27T17:50:27.072849+00:00",
+  "generated_at": "2026-07-27T19:47:52.712991+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.0,
+        "score": 0.05,
         "val": "+15°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 15.1,
-        "feels_like": 13.7,
+        "temp": 15.2,
+        "feels_like": 13.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 12.0,
-        "wind_gusts": 12.2,
+        "wind": 12.5,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -51,7 +51,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.079,
         0.214,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.064,
-        0.064
+        0.064,
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
-        "icon": "☀",
+        "val": "+20°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 22.1,
-        "feels_like": 23.0,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 4.4,
+        "temp": 20.1,
+        "feels_like": 20.5,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 4.7,
         "wind_gusts": 10.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "38 крупных из 50",
+        "val": "37 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -125,9 +125,9 @@
         0.368,
         0.368,
         0.368,
+        0.518,
+        0.518,
         0.368,
-        0.518,
-        0.518,
         0.368,
         0.368,
         0.368,
@@ -140,34 +140,6 @@
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -197,37 +169,62 @@
           "is_high": true
         },
         {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультисенсорная выставка «Сон в музее»",
+          "title": "выставка «Загадочные миры Иеронима Босха»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
           "cats": [
+            "party",
+            "theater",
             "stock",
-            "education",
-            "other",
+            "kids",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "выставка VR ART",
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "иммерсивная выставка «Чудеса света»",
           "cats": [
             "exhibition",
             "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
+          "cats": [
+            "education",
             "entertainment"
           ],
           "is_high": true
@@ -245,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · преим. ясно",
+        "val": "+22°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 24.2,
-        "feels_like": 26.0,
+        "temp": 22.1,
+        "feels_like": 24.3,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 6.1,
-        "wind_gusts": 20.2,
+        "wind": 4.2,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +276,6 @@
       },
       "history": [
         0.392,
-        0.392,
         0.407,
         0.392,
         0.392,
@@ -298,6 +294,7 @@
         0.355,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -355,12 +352,12 @@
         "val": "+18°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 18.1,
-        "feels_like": 20.1,
+        "temp": 18.2,
+        "feels_like": 20.4,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 4.8,
-        "wind_gusts": 1.8,
+        "wind": 2.3,
+        "wind_gusts": 4.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -385,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.516,
         0.366,
         0.366,
         0.341,
@@ -407,6 +403,7 @@
         0.366,
         0.516,
         0.341,
+        0.266,
         0.266,
         0.266
       ],
