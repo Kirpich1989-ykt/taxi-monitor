@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T17:24:02.857497+00:00",
+  "generated_at": "2026-07-29T19:38:00.951872+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · пасмурно",
+        "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 15.5,
-        "feels_like": 14.7,
+        "temp": 14.5,
+        "feels_like": 13.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 5.5,
-        "wind_gusts": 11.5,
+        "wind": 8.0,
+        "wind_gusts": 11.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -48,12 +48,12 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.064,
         0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -84,13 +84,13 @@
         "val": "+16°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 16.1,
-        "feels_like": 16.3,
+        "temp": 15.5,
+        "feels_like": 16.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.4,
-        "wind_gusts": 22.7,
-        "precip": 0.1,
+        "wind": 6.3,
+        "wind_gusts": 19.8,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -128,7 +128,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -137,37 +136,10 @@
         0.368,
         0.368,
         0.518,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -206,29 +178,55 @@
           "is_high": true
         },
         {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
             "stock",
             "education",
-            "other",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультисенсорная выставка «Сон в музее»",
+          "title": "выставка «Загадочные миры Иеронима Босха»",
           "cats": [
             "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "cats": [
+            "party",
+            "theater",
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "иммерсивная выставка «Чудеса света»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "recreation",
+            "entertainment"
           ],
           "is_high": true
         }
@@ -245,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+19°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.5,
-        "feels_like": 20.8,
+        "temp": 19.2,
+        "feels_like": 19.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.5,
-        "wind_gusts": 24.5,
+        "wind": 4.7,
+        "wind_gusts": 12.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +277,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -301,6 +298,7 @@
         0.257,
         0.257,
         0.257,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -352,15 +350,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · ясно",
-        "icon": "☀",
+        "val": "+19°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 20.1,
-        "feels_like": 22.5,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 6.6,
-        "wind_gusts": 7.2,
+        "temp": 19.0,
+        "feels_like": 21.0,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 6.7,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -386,7 +384,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.516,
         0.341,
         0.266,
@@ -407,6 +404,7 @@
         0.366,
         0.366,
         0.366,
+        0.266,
         0.266,
         0.266
       ],
