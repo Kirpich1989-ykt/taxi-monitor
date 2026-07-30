@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T09:36:21.171353+00:00",
+  "generated_at": "2026-07-30T11:59:41.431347+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+27°C · ясно",
+        "val": "+23°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 27.4,
-        "feels_like": 28.3,
+        "temp": 22.6,
+        "feels_like": 23.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.1,
-        "wind_gusts": 16.2,
+        "wind": 7.4,
+        "wind_gusts": 9.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,10 +44,10 @@
       },
       "history": [
         0.079,
-        0.079,
         0.064,
         0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.533,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+21°C · пасмурно",
-        "icon": "☁",
+        "score": 0.55,
+        "val": "+20°C · ливень слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 20.8,
-        "feels_like": 21.7,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 10.2,
+        "temp": 20.5,
+        "feels_like": 21.2,
+        "condition": "ливень слабый",
+        "wmo_code": 80,
+        "wind": 12.6,
         "wind_gusts": 34.9,
-        "precip": 0.0,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -122,7 +122,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -137,9 +136,25 @@
         0.368,
         0.368,
         0.368,
-        0.368
+        0.368,
+        0.533
       ],
       "_raw_events": [
+        {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
@@ -204,31 +219,9 @@
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "title": "концерты на крыше Ibis от Roofevents",
           "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -246,15 +239,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+27°C · преим. ясно",
+        "val": "+28°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 27.3,
-        "feels_like": 27.8,
+        "temp": 28.5,
+        "feels_like": 27.3,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 8.1,
-        "wind_gusts": 27.4,
+        "wind": 10.4,
+        "wind_gusts": 29.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -280,7 +273,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -301,6 +293,7 @@
         0.242,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242
       ],
@@ -349,25 +342,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.516,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+25°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+25°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 24.9,
-        "feels_like": 27.5,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 7.9,
-        "wind_gusts": 30.2,
-        "precip": 0.1,
+        "temp": 25.1,
+        "feels_like": 26.8,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 11.0,
+        "wind_gusts": 28.1,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "20 крупных из 23",
+        "val": "12 крупных из 15",
         "icon": "🎭"
       },
       "traffic": {
@@ -386,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.366,
         0.366,
         0.366,
@@ -409,7 +401,8 @@
         0.366,
         0.366,
         0.381,
-        0.516
+        0.516,
+        0.366
       ],
       "_raw_events": [
         {
@@ -445,24 +438,10 @@
           "is_high": true
         },
         {
-          "title": "выставка «Иконы»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка морских рыб",
           "cats": [
             "exhibition",
             "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         },
@@ -485,6 +464,22 @@
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "свободное рисование в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вечера настольных игр на Кошурникова",
+          "cats": [
+            "entertainment"
           ],
           "is_high": true
         }
