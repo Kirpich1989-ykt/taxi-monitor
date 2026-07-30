@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T14:25:54.924500+00:00",
+  "generated_at": "2026-07-30T16:43:01.261163+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · ясно",
+        "val": "+19°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 20.3,
-        "feels_like": 19.6,
+        "temp": 19.1,
+        "feels_like": 18.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 10.2,
-        "wind_gusts": 11.5,
+        "wind": 10.9,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,8 +44,8 @@
       },
       "history": [
         0.064,
-        0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -84,13 +84,13 @@
         "val": "+21°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 21.3,
-        "feels_like": 22.0,
+        "temp": 21.1,
+        "feels_like": 21.4,
         "condition": "пасмурно",
         "wmo_code": 3,
         "wind": 12.0,
-        "wind_gusts": 34.2,
-        "precip": 0.1,
+        "wind_gusts": 34.6,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -120,7 +120,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -137,6 +136,7 @@
         0.368,
         0.368,
         0.533,
+        0.368,
         0.368
       ],
       "_raw_events": [
@@ -171,14 +171,6 @@
             "education",
             "recreation",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -225,6 +217,15 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -239,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+28°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+24°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 27.5,
-        "feels_like": 25.4,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 11.8,
-        "wind_gusts": 32.0,
+        "temp": 23.5,
+        "feels_like": 22.3,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 7.1,
+        "wind_gusts": 26.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -273,7 +274,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -292,6 +292,7 @@
         0.242,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -342,25 +343,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.341,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 22.2,
-        "feels_like": 25.0,
+        "temp": 20.9,
+        "feels_like": 23.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.2,
-        "wind_gusts": 11.9,
+        "wind": 1.9,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 9",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -383,7 +384,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.266,
         0.266,
         0.416,
@@ -402,17 +402,10 @@
         0.381,
         0.516,
         0.366,
-        0.341
+        0.341,
+        0.266
       ],
       "_raw_events": [
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
@@ -450,13 +443,6 @@
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "открытые игры в клубе спортивной «Мафии»",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
         },
         {
           "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
