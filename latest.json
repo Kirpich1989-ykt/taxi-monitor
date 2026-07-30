@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-30T20:21:43.442081+00:00",
+  "generated_at": "2026-07-30T22:15:19.933405+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+19°C · ясно",
+        "score": 0.0,
+        "val": "+22°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 19.3,
-        "feels_like": 17.9,
+        "temp": 22.3,
+        "feels_like": 21.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 12.7,
-        "wind_gusts": 13.3,
+        "wind": 10.7,
+        "wind_gusts": 20.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -64,9 +64,9 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
-        0.079
+        0.079,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · пасмурно",
+        "val": "+18°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 19.0,
-        "feels_like": 19.2,
+        "temp": 18.2,
+        "feels_like": 18.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.9,
-        "wind_gusts": 28.8,
+        "wind": 10.5,
+        "wind_gusts": 27.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "34 крупных из 46",
+        "val": "32 крупных из 44",
         "icon": "🎭"
       },
       "traffic": {
@@ -117,7 +117,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -134,6 +133,7 @@
         0.368,
         0.368,
         0.533,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -171,17 +171,6 @@
           "title": "быстрые свидания от Fast Life",
           "cats": [
             "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
-          "cats": [
-            "party",
-            "theater",
-            "stock",
-            "kids",
             "entertainment"
           ],
           "is_high": true
@@ -229,6 +218,16 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "летний совместный проект World Class Сколково и SurfHouse",
+          "cats": [
+            "stock",
+            "recreation",
+            "entertainment",
+            "wellness-and-health"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -239,25 +238,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.092,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · ясно",
+        "val": "+17°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 18.7,
-        "feels_like": 18.3,
+        "temp": 17.4,
+        "feels_like": 17.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.9,
-        "wind_gusts": 10.8,
+        "wind": 3.3,
+        "wind_gusts": 7.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.0,
-        "val": "KudaGo таймаут",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -281,7 +280,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -299,9 +297,39 @@
         0.242,
         0.242,
         0.242,
-        0.092
+        0.092,
+        0.205
       ],
-      "_raw_events": [],
+      "_raw_events": [
+        {
+          "title": "выставка «Литературная жизнь Кубани» в литмузее",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка  «Особенности национальной охоты»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка  «Мне вечность глянула в глаза…»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock"
+          ],
+          "is_high": false
+        }
+      ],
       "_raw_news": [],
       "_raw_trends": {}
     },
@@ -310,25 +338,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.266,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · ясно",
+        "val": "+19°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 19.5,
-        "feels_like": 21.9,
+        "temp": 18.9,
+        "feels_like": 21.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.4,
-        "wind_gusts": 4.7,
+        "wind": 5.3,
+        "wind_gusts": 2.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 1.0,
+        "val": "15 крупных из 18",
         "icon": "🎭"
       },
       "traffic": {
@@ -347,7 +375,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.266,
         0.266,
@@ -370,9 +397,48 @@
         0.341,
         0.266,
         0.266,
-        0.266
+        0.266,
+        0.366
       ],
       "_raw_events": [
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Иконы»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
         {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
@@ -407,21 +473,6 @@
         {
           "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
             "education"
           ],
           "is_high": false
