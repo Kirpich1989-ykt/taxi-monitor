@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T11:33:23.973490+00:00",
+  "generated_at": "2026-07-31T14:28:39.386311+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · ясно",
+        "val": "+22°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 24.5,
-        "feels_like": 24.0,
+        "temp": 21.5,
+        "feels_like": 20.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 10.8,
-        "wind_gusts": 8.3,
+        "wind": 10.0,
+        "wind_gusts": 11.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -59,9 +59,9 @@
         0.064,
         0.064,
         0.064,
+        0.079,
+        0.079,
         0.064,
-        0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -77,19 +77,19 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.383,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+25°C · переменная облачность",
-        "icon": "⛅",
+        "score": 0.0,
+        "val": "+25°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 25.3,
-        "feels_like": 24.8,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 13.0,
-        "wind_gusts": 36.7,
+        "temp": 24.9,
+        "feels_like": 23.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 10.8,
+        "wind_gusts": 33.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.518,
         0.368,
         0.368,
         0.368,
@@ -137,7 +136,8 @@
         0.368,
         0.368,
         0.383,
-        0.383
+        0.383,
+        0.368
       ],
       "_raw_events": [
         {
@@ -239,15 +239,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+30°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+29°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 29.6,
-        "feels_like": 30.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 9.1,
-        "wind_gusts": 26.6,
+        "temp": 28.8,
+        "feels_like": 27.9,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 8.8,
+        "wind_gusts": 25.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +272,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -294,6 +293,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242
       ],
@@ -342,25 +342,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.516,
+      "impact": 0.303,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+25°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+23°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 24.6,
-        "feels_like": 27.1,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 5.4,
-        "wind_gusts": 22.0,
-        "precip": 0.1,
+        "temp": 23.0,
+        "feels_like": 26.8,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 3.3,
+        "wind_gusts": 5.4,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "10 крупных из 13",
+        "score": 0.75,
+        "val": "5 крупных из 8",
         "icon": "🎭"
       },
       "traffic": {
@@ -379,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.516,
         0.366,
         0.366,
@@ -402,7 +401,8 @@
         0.366,
         0.366,
         0.366,
-        0.516
+        0.516,
+        0.303
       ],
       "_raw_events": [
         {
@@ -410,38 +410,6 @@
           "cats": [
             "exhibition",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
           ],
           "is_high": true
         },
@@ -479,6 +447,21 @@
         {
           "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock",
             "education"
           ],
           "is_high": false
