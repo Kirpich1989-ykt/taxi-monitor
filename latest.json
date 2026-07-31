@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T22:15:19.933405+00:00",
+  "generated_at": "2026-07-31T00:12:06.271231+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+25°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 22.3,
-        "feels_like": 21.6,
+        "temp": 25.2,
+        "feels_like": 25.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 10.7,
-        "wind_gusts": 20.5,
+        "wind": 7.9,
+        "wind_gusts": 24.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -63,9 +63,9 @@
         0.064,
         0.064,
         0.064,
+        0.079,
+        0.079,
         0.064,
-        0.079,
-        0.079,
         0.064
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · пасмурно",
+        "val": "+17°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 18.2,
-        "feels_like": 18.3,
+        "temp": 17.1,
+        "feels_like": 17.1,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.5,
-        "wind_gusts": 27.0,
+        "wind": 10.0,
+        "wind_gusts": 26.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "32 крупных из 44",
+        "val": "32 крупных из 45",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.368,
         0.368,
         0.518,
@@ -137,9 +136,20 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -194,6 +204,14 @@
           "is_high": true
         },
         {
+          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
           "cats": [
             "kids",
@@ -204,28 +222,10 @@
           "is_high": true
         },
         {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "шоу Music Loto",
           "cats": [
             "party",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "летний совместный проект World Class Сколково и SurfHouse",
-          "cats": [
-            "stock",
-            "recreation",
-            "entertainment",
-            "wellness-and-health"
           ],
           "is_high": true
         }
@@ -242,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · ясно",
+        "val": "+16°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 17.4,
-        "feels_like": 17.4,
+        "temp": 16.4,
+        "feels_like": 16.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.3,
-        "wind_gusts": 7.6,
+        "wind": 1.8,
+        "wind_gusts": 4.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +279,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -298,6 +297,7 @@
         0.242,
         0.242,
         0.092,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -342,21 +342,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · ясно",
+        "val": "+20°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 18.9,
-        "feels_like": 21.1,
+        "temp": 19.5,
+        "feels_like": 22.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.3,
-        "wind_gusts": 2.2,
+        "wind": 4.2,
+        "wind_gusts": 3.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "15 крупных из 18",
+        "val": "16 крупных из 19",
         "icon": "🎭"
       },
       "traffic": {
@@ -375,7 +375,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.266,
         0.266,
         0.416,
@@ -398,6 +397,7 @@
         0.266,
         0.266,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
