@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T22:12:45.222780+00:00",
+  "generated_at": "2026-08-01T00:08:57.496410+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · ясно",
+        "val": "+25°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.1,
-        "feels_like": 21.6,
+        "temp": 24.6,
+        "feels_like": 24.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.5,
-        "wind_gusts": 9.4,
+        "wind": 5.4,
+        "wind_gusts": 11.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -54,9 +54,9 @@
         0.064,
         0.064,
         0.064,
+        0.079,
+        0.079,
         0.064,
-        0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · ясно",
+        "val": "+16°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 17.5,
-        "feels_like": 17.8,
+        "temp": 16.4,
+        "feels_like": 16.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.2,
-        "wind_gusts": 10.1,
+        "wind": 4.0,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "27 крупных из 39",
+        "val": "28 крупных из 41",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -137,9 +136,20 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -202,16 +212,6 @@
           "is_high": true
         },
         {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids",
-            "quest",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "летний совместный проект World Class Сколково и SurfHouse",
           "cats": [
             "stock",
@@ -222,9 +222,11 @@
           "is_high": true
         },
         {
-          "title": "шоу Music Loto",
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
           "cats": [
-            "party",
+            "kids",
+            "quest",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -242,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · ясно",
+        "val": "+18°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 19.2,
-        "feels_like": 19.9,
+        "temp": 18.3,
+        "feels_like": 18.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.9,
-        "wind_gusts": 11.5,
+        "wind": 4.8,
+        "wind_gusts": 11.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +278,6 @@
       },
       "history": [
         0.257,
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -298,6 +299,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -342,21 +344,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+20°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 18.8,
-        "feels_like": 21.9,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 0.7,
-        "wind_gusts": 1.8,
+        "temp": 19.6,
+        "feels_like": 22.6,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 4.7,
+        "wind_gusts": 2.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "8 крупных из 11",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -375,7 +377,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.266,
         0.266,
         0.266,
@@ -398,6 +399,7 @@
         0.266,
         0.266,
         0.341,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -418,6 +420,21 @@
           "is_high": true
         },
         {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Иконы»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
           "title": "выставка морских рыб",
           "cats": [
             "exhibition",
@@ -429,6 +446,13 @@
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
@@ -455,27 +479,6 @@
             "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "выставка «Сибирь в древности»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
