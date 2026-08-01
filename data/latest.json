@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T14:38:42.712734+00:00",
+  "generated_at": "2026-08-01T16:09:24.799718+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · ясно",
+        "val": "+19°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 19.7,
-        "feels_like": 20.8,
+        "temp": 19.0,
+        "feels_like": 19.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.6,
-        "wind_gusts": 8.3,
+        "wind": 2.0,
+        "wind_gusts": 10.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -48,9 +48,9 @@
         0.064,
         0.064,
         0.064,
+        0.079,
+        0.079,
         0.064,
-        0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+27°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+26°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 27.0,
-        "feels_like": 28.2,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 5.0,
-        "wind_gusts": 16.6,
+        "temp": 25.7,
+        "feels_like": 26.9,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 3.6,
+        "wind_gusts": 12.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -116,7 +116,6 @@
       "history": [
         0.368,
         0.368,
-        0.368,
         0.533,
         0.368,
         0.368,
@@ -137,17 +136,10 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
           "cats": [
@@ -171,14 +163,6 @@
             "education",
             "recreation",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -219,10 +203,25 @@
           "is_high": true
         },
         {
-          "title": "концерты на крыше Ibis от Roofevents",
+          "title": "игровые знакомства «Быстрые свидания № 1» в Москве от Fast Life",
           "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
             "concert",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "джазовые концерты и вечеринки на крыше Novotel",
+          "cats": [
+            "concert"
           ],
           "is_high": true
         }
@@ -235,19 +234,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+32°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.0,
+        "val": "+30°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 32.2,
-        "feels_like": 30.9,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 13.8,
-        "wind_gusts": 37.1,
+        "temp": 30.2,
+        "feels_like": 29.6,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 10.2,
+        "wind_gusts": 32.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +271,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -295,7 +293,8 @@
         0.22,
         0.257,
         0.257,
-        0.257
+        0.257,
+        0.242
       ],
       "_raw_events": [
         {
@@ -346,14 +345,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · ясно",
+        "val": "+23°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 24.3,
-        "feels_like": 27.4,
+        "temp": 23.1,
+        "feels_like": 26.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 1.2,
+        "wind": 0.4,
         "wind_gusts": 5.4,
         "precip": 0.0,
         "snowfall": 0.0
@@ -379,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.381,
         0.516,
         0.366,
@@ -402,6 +400,7 @@
         0.366,
         0.366,
         0.366,
+        0.341,
         0.341
       ],
       "_raw_events": [
