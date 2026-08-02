@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T06:41:54.267680+00:00",
+  "generated_at": "2026-08-02T09:17:28.671859+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+31°C · ясно",
-        "icon": "☀",
+        "val": "+29°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 30.6,
-        "feels_like": 29.8,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 7.7,
-        "wind_gusts": 26.6,
+        "temp": 28.9,
+        "feels_like": 29.2,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 8.2,
+        "wind_gusts": 21.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,7 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+25°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+29°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 25.2,
-        "feels_like": 27.3,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 6.3,
-        "wind_gusts": 19.8,
+        "temp": 28.7,
+        "feels_like": 30.6,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 10.7,
+        "wind_gusts": 29.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -117,9 +117,9 @@
         0.368,
         0.368,
         0.368,
+        0.383,
+        0.383,
         0.368,
-        0.383,
-        0.383,
         0.368,
         0.368,
         0.368,
@@ -204,6 +204,15 @@
           "is_high": true
         },
         {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "экскурсия с представлением в Музее фокусов и иллюзий",
           "cats": [
             "exhibition",
@@ -217,16 +226,6 @@
           "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
           "cats": [
             "theater",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
             "entertainment"
           ],
           "is_high": true
@@ -244,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+30°C · ясно",
+        "val": "+35°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 29.8,
-        "feels_like": 29.9,
+        "temp": 34.6,
+        "feels_like": 34.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 13.3,
-        "wind_gusts": 35.3,
+        "wind": 17.3,
+        "wind_gusts": 45.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -277,7 +276,6 @@
         "icon": "📰"
       },
       "history": [
-        0.092,
         0.205,
         0.205,
         0.205,
@@ -300,6 +298,7 @@
         0.205,
         0.205,
         0.205,
+        0.257,
         0.257
       ],
       "_raw_events": [
@@ -351,15 +350,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+29°C · ясно",
+        "val": "+30°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 29.2,
-        "feels_like": 32.0,
+        "temp": 29.8,
+        "feels_like": 31.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.5,
-        "wind_gusts": 20.5,
+        "wind": 7.4,
+        "wind_gusts": 18.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -384,7 +383,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.366,
         0.366,
         0.366,
@@ -404,6 +402,7 @@
         0.341,
         0.341,
         0.341,
+        0.366,
         0.366,
         0.366,
         0.366,
