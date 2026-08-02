@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T13:47:24.876534+00:00",
+  "generated_at": "2026-08-02T15:12:16.014699+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+22°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 22.3,
-        "feels_like": 23.0,
+        "temp": 21.5,
+        "feels_like": 22.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.5,
-        "wind_gusts": 9.4,
+        "wind": 10.1,
+        "wind_gusts": 10.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+30°C · ясно",
-        "icon": "☀",
+        "val": "+29°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 30.5,
+        "temp": 29.4,
         "feels_like": 30.9,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 10.3,
-        "wind_gusts": 28.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 7.9,
+        "wind_gusts": 27.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -114,9 +114,9 @@
         "icon": "📰"
       },
       "history": [
+        0.383,
+        0.383,
         0.368,
-        0.383,
-        0.383,
         0.368,
         0.368,
         0.368,
@@ -234,19 +234,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.272,
+      "impact": 0.257,
       "alert": "green",
       "weather": {
-        "score": 0.1,
-        "val": "+35°C · ясно",
+        "score": 0.05,
+        "val": "+34°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 35.2,
-        "feels_like": 33.2,
+        "temp": 33.7,
+        "feels_like": 32.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 16.3,
-        "wind_gusts": 44.3,
+        "wind": 14.6,
+        "wind_gusts": 41.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -271,7 +271,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -294,7 +293,8 @@
         0.257,
         0.257,
         0.272,
-        0.272
+        0.272,
+        0.257
       ],
       "_raw_events": [
         {
@@ -341,25 +341,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.341,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · ясно",
+        "val": "+24°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 25.8,
-        "feels_like": 28.7,
+        "temp": 23.9,
+        "feels_like": 26.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.2,
-        "wind_gusts": 15.1,
+        "wind": 5.6,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 9",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -378,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.516,
         0.303,
@@ -401,26 +400,10 @@
         0.366,
         0.366,
         0.366,
-        0.341
+        0.341,
+        0.266
       ],
       "_raw_events": [
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "еженедельная сальса-вечеринка",
-          "cats": [
-            "party",
-            "education",
-            "recreation"
-          ],
-          "is_high": true
-        },
         {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
