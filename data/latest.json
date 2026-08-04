@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T15:31:42.537305+00:00",
+  "generated_at": "2026-08-04T17:59:47.180141+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+9°C · ясно",
+        "val": "+8°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 9.3,
-        "feels_like": 5.3,
+        "temp": 8.4,
+        "feels_like": 4.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 13.4,
-        "wind_gusts": 23.0,
+        "wind": 13.8,
+        "wind_gusts": 27.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -51,7 +51,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.229,
@@ -64,6 +63,7 @@
         0.094,
         0.094,
         0.094,
+        0.079,
         0.079,
         0.079,
         0.079
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · переменная облачность",
+        "val": "+22°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 24.5,
-        "feels_like": 24.5,
+        "temp": 22.3,
+        "feels_like": 23.3,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 4.3,
-        "wind_gusts": 16.6,
+        "wind": 0.4,
+        "wind_gusts": 1.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "39 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -123,8 +123,8 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -141,29 +141,11 @@
       ],
       "_raw_events": [
         {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
             "kids",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -177,25 +159,7 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
           "cats": [
             "kids",
             "recreation",
@@ -213,19 +177,54 @@
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
-            "exhibition",
+            "stock",
             "kids",
-            "tour",
+            "education",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
           "cats": [
-            "theater",
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «СЕНС. Эволюция стихий»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -239,20 +238,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.392,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+24°C · ливень слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+23°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 24.1,
-        "feels_like": 27.0,
-        "condition": "ливень слабый",
-        "wmo_code": 80,
+        "temp": 22.9,
+        "feels_like": 24.8,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
         "wind": 9.9,
-        "wind_gusts": 27.4,
-        "precip": 0.1,
+        "wind_gusts": 29.2,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -276,7 +275,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.257,
         0.257,
         0.272,
@@ -299,7 +297,8 @@
         0.392,
         0.242,
         0.257,
-        0.392
+        0.392,
+        0.242
       ],
       "_raw_events": [
         {
@@ -353,12 +352,12 @@
         "val": "+23°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 23.2,
-        "feels_like": 25.8,
+        "temp": 22.8,
+        "feels_like": 25.0,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 6.2,
-        "wind_gusts": 5.8,
+        "wind": 8.6,
+        "wind_gusts": 12.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -386,7 +385,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.341,
         0.266,
         0.266,
@@ -406,6 +404,7 @@
         0.366,
         0.366,
         0.366,
+        0.266,
         0.266
       ],
       "_raw_events": [
@@ -432,18 +431,18 @@
           "is_high": true
         },
         {
+          "title": "экспозиция «Природа Новосибирской области»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
           "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
             "kids",
             "education",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экспозиция «Природа Новосибирской области»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         },
