@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T19:49:10.670433+00:00",
+  "generated_at": "2026-08-05T21:21:28.186047+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+8°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 7.6,
-        "feels_like": 3.6,
+        "temp": 8.3,
+        "feels_like": 4.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 15.7,
-        "wind_gusts": 28.1,
+        "wind": 14.6,
+        "wind_gusts": 28.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.229,
         0.214,
         0.079,
         0.094,
@@ -66,6 +65,7 @@
         0.079,
         0.079,
         0.079,
+        0.079,
         0.079
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · пасмурно",
-        "icon": "☁",
+        "val": "+20°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 21.2,
-        "feels_like": 21.8,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 3.4,
-        "wind_gusts": 4.3,
+        "temp": 20.0,
+        "feels_like": 20.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 3.2,
+        "wind_gusts": 4.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "37 крупных из 49",
+        "val": "25 крупных из 36",
         "icon": "🎭"
       },
       "traffic": {
@@ -159,25 +159,6 @@
           "is_high": true
         },
         {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
-          "cats": [
-            "theater",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
             "stock",
@@ -203,13 +184,6 @@
           "is_high": true
         },
         {
-          "title": "выставка «Загадочные миры Иеронима Босха»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "летний совместный проект World Class Сколково и SurfHouse",
           "cats": [
             "stock",
@@ -220,12 +194,37 @@
           "is_high": true
         },
         {
-          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "title": "иммерсивная выставка «Чудеса света»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "шоу Music Loto",
           "cats": [
             "party",
-            "theater",
-            "stock",
-            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
+          "cats": [
+            "education",
             "entertainment"
           ],
           "is_high": true
@@ -243,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+25°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+24°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 25.0,
-        "feels_like": 26.7,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 4.7,
-        "wind_gusts": 11.5,
+        "temp": 23.6,
+        "feels_like": 24.2,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 6.1,
+        "wind_gusts": 14.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +275,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.257,
         0.272,
         0.242,
@@ -294,6 +292,7 @@
         0.242,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -324,18 +323,18 @@
           "is_high": true
         },
         {
-          "title": "выставка  «Мне вечность глянула в глаза…»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
           "cats": [
             "stock"
           ],
           "is_high": false
+        },
+        {
+          "title": "выставка  «Мне вечность глянула в глаза…»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -346,25 +345,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.266,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · ясно",
-        "icon": "☀",
+        "val": "+21°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 20.9,
-        "feels_like": 22.6,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 6.3,
-        "wind_gusts": 28.4,
+        "temp": 20.6,
+        "feels_like": 22.1,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 8.0,
+        "wind_gusts": 18.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 1.0,
+        "val": "14 крупных из 17",
         "icon": "🎭"
       },
       "traffic": {
@@ -383,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.516,
         0.341,
         0.266,
@@ -406,13 +404,44 @@
         0.381,
         0.266,
         0.266,
-        0.266
+        0.266,
+        0.366
       ],
       "_raw_events": [
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Иконы»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
@@ -448,19 +477,11 @@
           "is_high": true
         },
         {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "title": "выставка «Сибирь в древности»",
           "cats": [
-            "education"
+            "exhibition"
           ],
-          "is_high": false
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
-            "education"
-          ],
-          "is_high": false
+          "is_high": true
         }
       ],
       "_raw_news": [],
