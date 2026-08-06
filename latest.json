@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-06T03:29:14.658494+00:00",
+  "generated_at": "2026-08-06T06:40:20.851074+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+16°C · ясно",
+        "score": 0.0,
+        "val": "+18°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 16.2,
-        "feels_like": 13.3,
+        "temp": 17.5,
+        "feels_like": 13.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 13.0,
-        "wind_gusts": 32.0,
+        "wind": 11.9,
+        "wind_gusts": 37.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -49,7 +49,6 @@
         0.094,
         0.094,
         0.094,
-        0.094,
         0.079,
         0.079,
         0.079,
@@ -66,7 +65,8 @@
         0.079,
         0.079,
         0.079,
-        0.079
+        0.079,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · переменная облачность",
+        "val": "+25°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 18.8,
-        "feels_like": 20.3,
+        "temp": 24.7,
+        "feels_like": 26.2,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 3.0,
-        "wind_gusts": 6.5,
+        "wind": 6.8,
+        "wind_gusts": 20.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -186,6 +186,15 @@
           "is_high": true
         },
         {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "развлечения в Smile Park на ВДНХ",
           "cats": [
             "kids",
@@ -223,15 +232,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "вокал в «Музыкальном сообществе» / Music Community",
-          "cats": [
-            "stock",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -242,25 +242,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.257,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+22°C · ясно",
+        "score": 0.05,
+        "val": "+28°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.7,
-        "feels_like": 22.8,
+        "temp": 28.0,
+        "feels_like": 29.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.2,
-        "wind_gusts": 23.0,
+        "wind": 14.1,
+        "wind_gusts": 37.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -279,7 +279,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.242,
         0.242,
         0.242,
@@ -302,9 +301,17 @@
         0.242,
         0.242,
         0.205,
-        0.205
+        0.205,
+        0.257
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка «Литературная жизнь Кубани» в литмузее",
           "cats": [
@@ -342,25 +349,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.531,
+      "impact": 0.516,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+23°C · морось слабая",
+        "score": 0.5,
+        "val": "+22°C · морось умеренная",
         "icon": "🌦",
         "live": true,
-        "temp": 23.0,
-        "feels_like": 24.3,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 12.3,
-        "wind_gusts": 26.6,
-        "precip": 0.1,
+        "temp": 22.3,
+        "feels_like": 24.4,
+        "condition": "морось умеренная",
+        "wmo_code": 53,
+        "wind": 8.9,
+        "wind_gusts": 34.6,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "18 крупных из 21",
+        "val": "21 крупных из 24",
         "icon": "🎭"
       },
       "traffic": {
@@ -381,7 +388,6 @@
       "history": [
         0.266,
         0.266,
-        0.266,
         0.366,
         0.366,
         0.366,
@@ -402,9 +408,18 @@
         0.266,
         0.366,
         0.366,
-        0.531
+        0.531,
+        0.516
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "музей инопланетян",
           "cats": [
@@ -422,17 +437,17 @@
           "is_high": true
         },
         {
-          "title": "беззвучная выставка-квест «Тишина»",
+          "title": "цирковое представление с морскими животными",
           "cats": [
-            "exhibition",
+            "kids",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
+          "title": "беззвучная выставка-квест «Тишина»",
           "cats": [
-            "kids",
+            "exhibition",
             "entertainment"
           ],
           "is_high": true
@@ -465,13 +480,6 @@
             "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         },
         {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
