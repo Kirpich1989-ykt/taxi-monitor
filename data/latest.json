@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T15:04:12.623130+00:00",
+  "generated_at": "2026-08-07T16:06:27.771580+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+12°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 14.4,
-        "feels_like": 13.3,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 2.0,
+        "temp": 12.3,
+        "feels_like": 10.9,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 4.1,
         "wind_gusts": 8.6,
         "precip": 0.0,
         "snowfall": 0.0
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
         0.094,
         0.094,
         0.079,
@@ -54,6 +53,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+27°C · пасмурно",
+        "val": "+26°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 27.3,
-        "feels_like": 29.9,
+        "temp": 26.5,
+        "feels_like": 28.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.2,
-        "wind_gusts": 30.6,
+        "wind": 9.6,
+        "wind_gusts": 27.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -125,7 +125,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.118,
         0.368,
         0.518,
@@ -137,6 +136,7 @@
         0.383,
         0.368,
         0.518,
+        0.368,
         0.368
       ],
       "_raw_events": [
@@ -171,14 +171,6 @@
             "exhibition",
             "kids",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -224,6 +216,15 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "развлечения в Smile Park на ВДНХ",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -234,19 +235,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+34°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.0,
+        "val": "+33°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 34.2,
-        "feels_like": 33.3,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 12.6,
-        "wind_gusts": 39.6,
+        "temp": 32.9,
+        "feels_like": 32.6,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 9.7,
+        "wind_gusts": 31.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +273,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -294,7 +294,8 @@
         0.272,
         0.272,
         0.272,
-        0.257
+        0.257,
+        0.242
       ],
       "_raw_events": [
         {
@@ -345,15 +346,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+16°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 16.6,
-        "feels_like": 17.3,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 6.2,
-        "wind_gusts": 15.1,
+        "temp": 16.1,
+        "feels_like": 16.4,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 4.3,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -378,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.381,
         0.381,
         0.366,
@@ -401,6 +401,7 @@
         0.516,
         0.516,
         0.341,
+        0.266,
         0.266
       ],
       "_raw_events": [
