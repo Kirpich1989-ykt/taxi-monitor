@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T17:56:00.825877+00:00",
+  "generated_at": "2026-08-07T19:09:29.681717+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · пасмурно",
-        "icon": "☁",
+        "val": "+10°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 9.8,
-        "feels_like": 8.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 4.7,
+        "temp": 9.7,
+        "feels_like": 7.8,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.6,
         "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.094,
         0.079,
         0.079,
         0.079,
@@ -52,6 +51,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · пасмурно",
+        "val": "+23°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 24.2,
-        "feels_like": 26.7,
+        "temp": 23.0,
+        "feels_like": 25.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.8,
-        "wind_gusts": 19.8,
+        "wind": 5.9,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "42 крупных из 50",
+        "val": "39 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -123,7 +123,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.118,
         0.368,
         0.518,
@@ -137,18 +136,10 @@
         0.518,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -187,24 +178,6 @@
           "is_high": true
         },
         {
-          "title": "Стендап + джаз: два концерта в один вечер",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
             "stock",
@@ -214,16 +187,43 @@
           "is_high": true
         },
         {
-          "title": "мультисенсорная выставка «Сон в музее»",
+          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Загадочные миры Иеронима Босха»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "выставка «СЕНС. Эволюция стихий»",
+          "title": "летний совместный проект World Class Сколково и SurfHouse",
           "cats": [
-            "exhibition"
+            "stock",
+            "recreation",
+            "entertainment",
+            "wellness-and-health"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийный проект «Айвазовский. Ожившие полотна»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         }
@@ -240,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+30°C · ясно",
+        "val": "+28°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 29.5,
-        "feels_like": 29.7,
+        "temp": 28.0,
+        "feels_like": 28.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 8.2,
-        "wind_gusts": 19.1,
+        "wind": 8.7,
+        "wind_gusts": 21.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +279,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.257,
@@ -295,6 +294,7 @@
         0.272,
         0.272,
         0.257,
+        0.242,
         0.242,
         0.242
       ],
@@ -347,15 +347,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+14°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 14.5,
-        "feels_like": 14.2,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 6.1,
-        "wind_gusts": 10.1,
+        "temp": 14.3,
+        "feels_like": 13.6,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 6.6,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -380,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.366,
         0.381,
         0.266,
@@ -401,6 +400,7 @@
         0.516,
         0.516,
         0.341,
+        0.266,
         0.266,
         0.266,
         0.266
