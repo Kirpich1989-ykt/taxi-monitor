@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T15:38:33.960325+00:00",
+  "generated_at": "2026-08-08T16:47:18.353931+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · ясно",
+        "val": "+11°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 11.7,
-        "feels_like": 9.7,
+        "temp": 11.0,
+        "feels_like": 8.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.6,
-        "wind_gusts": 10.4,
+        "wind": 7.0,
+        "wind_gusts": 11.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+22°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 22.7,
-        "feels_like": 22.2,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 7.7,
-        "wind_gusts": 26.3,
+        "temp": 21.6,
+        "feels_like": 21.6,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 4.9,
+        "wind_gusts": 20.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -115,7 +115,6 @@
       },
       "history": [
         0.368,
-        0.368,
         0.383,
         0.368,
         0.518,
@@ -127,6 +126,7 @@
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -163,14 +163,6 @@
             "exhibition",
             "kids",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -225,6 +217,15 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "развлечения в Smile Park на ВДНХ",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -239,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+33°C · пасмурно",
+        "val": "+31°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 33.1,
-        "feels_like": 36.2,
+        "temp": 31.2,
+        "feels_like": 34.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 0.5,
-        "wind_gusts": 5.4,
+        "wind": 3.3,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +273,6 @@
         "icon": "📰"
       },
       "history": [
-        0.22,
         0.257,
         0.272,
         0.272,
@@ -289,6 +289,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -346,14 +347,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · пасмурно",
+        "val": "+18°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 17.4,
-        "feels_like": 15.8,
+        "temp": 18.2,
+        "feels_like": 16.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.9,
+        "wind": 10.2,
         "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
@@ -379,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.366,
         0.516,
         0.516,
@@ -401,6 +401,7 @@
         0.381,
         0.366,
         0.366,
+        0.341,
         0.341,
         0.341
       ],
