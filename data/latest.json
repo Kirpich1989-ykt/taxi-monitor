@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T21:40:00.438802+00:00",
+  "generated_at": "2026-08-08T22:40:02.724678+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · ясно",
-        "icon": "☀",
+        "val": "+15°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 12.6,
-        "feels_like": 11.1,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 5.5,
-        "wind_gusts": 10.8,
+        "temp": 15.4,
+        "feels_like": 14.7,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 2.7,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+17°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 17.5,
-        "feels_like": 17.9,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 3.5,
-        "wind_gusts": 9.4,
+        "temp": 16.9,
+        "feels_like": 17.2,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 3.8,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "27 крупных из 38",
+        "val": "27 крупных из 39",
         "icon": "🎭"
       },
       "traffic": {
@@ -118,9 +118,9 @@
         0.368,
         0.368,
         0.368,
+        0.518,
+        0.518,
         0.368,
-        0.518,
-        0.518,
         0.368,
         0.368,
         0.368,
@@ -238,25 +238,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
         "val": "+25°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 25.2,
-        "feels_like": 27.4,
+        "temp": 24.6,
+        "feels_like": 26.8,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 4.6,
-        "wind_gusts": 15.5,
+        "wind": 4.0,
+        "wind_gusts": 11.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -278,7 +278,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -298,16 +297,10 @@
         0.242,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -352,18 +345,18 @@
         "val": "+18°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 17.8,
-        "feels_like": 15.1,
+        "temp": 18.5,
+        "feels_like": 15.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 20.5,
-        "wind_gusts": 24.5,
+        "wind": 21.3,
+        "wind_gusts": 25.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "8 крупных из 11",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -382,7 +375,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.266,
         0.266,
         0.341,
@@ -405,6 +397,7 @@
         0.491,
         0.506,
         0.531,
+        0.396,
         0.396
       ],
       "_raw_events": [
@@ -425,6 +418,14 @@
           "is_high": true
         },
         {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
@@ -436,6 +437,20 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Иконы»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
@@ -456,29 +471,6 @@
         },
         {
           "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "свободное рисование в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сибирь в древности»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
           "cats": [
             "education"
           ],
