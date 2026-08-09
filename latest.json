@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T20:47:03.802085+00:00",
+  "generated_at": "2026-08-09T21:42:29.110022+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+14°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 13.0,
-        "feels_like": 12.5,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 5.3,
-        "wind_gusts": 15.1,
+        "temp": 14.1,
+        "feels_like": 13.6,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 6.0,
+        "wind_gusts": 14.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · ясно",
+        "val": "+16°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 16.7,
-        "feels_like": 16.2,
+        "temp": 16.0,
+        "feels_like": 15.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 2.4,
-        "wind_gusts": 3.2,
+        "wind": 3.2,
+        "wind_gusts": 5.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "31 крупных из 43",
+        "val": "27 крупных из 38",
         "icon": "🎭"
       },
       "traffic": {
@@ -242,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+25°C · ясно",
-        "icon": "☀",
+        "val": "+24°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 25.3,
-        "feels_like": 28.6,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 5.6,
-        "wind_gusts": 14.4,
+        "temp": 24.4,
+        "feels_like": 27.8,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.5,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -280,11 +280,11 @@
         0.242,
         0.242,
         0.242,
+        0.205,
+        0.205,
+        0.205,
+        0.205,
         0.242,
-        0.205,
-        0.205,
-        0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -345,25 +345,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.341,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · ясно",
+        "val": "+17°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 17.8,
-        "feels_like": 18.6,
+        "temp": 17.1,
+        "feels_like": 17.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.4,
-        "wind_gusts": 10.1,
+        "wind": 6.2,
+        "wind_gusts": 10.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 9",
+        "score": 1.0,
+        "val": "7 крупных из 10",
         "icon": "🎭"
       },
       "traffic": {
@@ -382,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.491,
         0.491,
         0.506,
@@ -405,9 +404,18 @@
         0.266,
         0.266,
         0.266,
-        0.341
+        0.341,
+        0.366
       ],
       "_raw_events": [
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
           "cats": [
