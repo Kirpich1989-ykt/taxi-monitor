@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T02:23:10.912102+00:00",
+  "generated_at": "2026-08-09T04:24:46.362709+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+24°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 22.7,
-        "feels_like": 22.7,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 2.7,
-        "wind_gusts": 13.0,
+        "temp": 24.3,
+        "feels_like": 24.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 4.2,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+16°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 15.2,
-        "feels_like": 15.0,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 7.5,
-        "wind_gusts": 19.4,
+        "temp": 16.3,
+        "feels_like": 16.3,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 7.7,
+        "wind_gusts": 21.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "39 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -115,9 +115,9 @@
       },
       "history": [
         0.368,
+        0.518,
+        0.518,
         0.368,
-        0.518,
-        0.518,
         0.368,
         0.368,
         0.368,
@@ -186,6 +186,24 @@
           "is_high": true
         },
         {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "маркет «4 сезона»",
+          "cats": [
+            "festival",
+            "yarmarki-razvlecheniya-yarmarki",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "развлечения в Smile Park на ВДНХ",
           "cats": [
             "kids",
@@ -205,30 +223,9 @@
           "is_high": true
         },
         {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
           "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "серия культурных завтраков в Котельнической высотке",
-          "cats": [
-            "education",
-            "tour",
+            "theater",
             "entertainment"
           ],
           "is_high": true
@@ -246,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · переменная облачность",
+        "val": "+24°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 23.1,
-        "feels_like": 26.2,
+        "temp": 24.4,
+        "feels_like": 27.9,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 5.4,
-        "wind_gusts": 18.4,
+        "wind": 3.0,
+        "wind_gusts": 12.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +276,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -300,6 +296,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205,
         0.205
@@ -346,21 +343,21 @@
       "alert": "green",
       "weather": {
         "score": 0.1,
-        "val": "+20°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+23°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 19.8,
-        "feels_like": 16.9,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 23.4,
-        "wind_gusts": 41.4,
+        "temp": 22.7,
+        "feels_like": 20.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 25.3,
+        "wind_gusts": 46.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -379,7 +376,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.366,
         0.366,
         0.366,
@@ -402,9 +398,18 @@
         0.396,
         0.396,
         0.396,
+        0.396,
         0.396
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "музей инопланетян",
           "cats": [
@@ -418,6 +423,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -437,17 +450,17 @@
           "is_high": true
         },
         {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка морских рыб",
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
@@ -465,20 +478,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "экспозиция «Природа Новосибирской области»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
