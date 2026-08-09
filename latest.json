@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T16:48:08.683281+00:00",
+  "generated_at": "2026-08-09T17:41:06.042104+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+14°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 13.8,
-        "feels_like": 12.9,
+        "temp": 13.5,
+        "feels_like": 12.4,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 7.4,
-        "wind_gusts": 16.2,
+        "wind": 8.6,
+        "wind_gusts": 15.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+18°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 19.6,
-        "feels_like": 18.6,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 6.5,
-        "wind_gusts": 23.8,
+        "temp": 18.4,
+        "feels_like": 17.9,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 3.7,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "43 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,13 +141,6 @@
       ],
       "_raw_events": [
         {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "конные прогулки по национальному парку «Лосиный остров»",
           "cats": [
             "kids",
@@ -180,15 +173,6 @@
           "cats": [
             "kids",
             "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -229,6 +213,23 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -243,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+30°C · переменная облачность",
+        "val": "+29°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 30.1,
-        "feels_like": 33.3,
+        "temp": 28.8,
+        "feels_like": 32.4,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 3.3,
-        "wind_gusts": 15.1,
+        "wind": 2.9,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -285,11 +286,11 @@
         0.242,
         0.242,
         0.242,
+        0.205,
+        0.205,
+        0.205,
+        0.205,
         0.242,
-        0.205,
-        0.205,
-        0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -350,15 +351,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · пасмурно",
-        "icon": "☁",
+        "val": "+19°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 20.0,
-        "feels_like": 21.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 6.2,
-        "wind_gusts": 9.4,
+        "temp": 19.4,
+        "feels_like": 20.8,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.6,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -384,7 +385,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.341,
         0.341,
         0.341,
@@ -405,6 +405,7 @@
         0.381,
         0.381,
         0.303,
+        0.266,
         0.266,
         0.266
       ],
