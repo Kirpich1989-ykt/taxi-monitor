@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T06:18:12.010201+00:00",
+  "generated_at": "2026-08-10T08:47:29.428523+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · пасмурно",
+        "val": "+24°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 25.9,
-        "feels_like": 26.0,
+        "temp": 23.9,
+        "feels_like": 24.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.2,
-        "wind_gusts": 23.0,
+        "wind": 9.0,
+        "wind_gusts": 17.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · ясно",
-        "icon": "☀",
+        "val": "+22°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 19.0,
-        "feels_like": 19.0,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 2.9,
-        "wind_gusts": 10.4,
+        "temp": 22.0,
+        "feels_like": 22.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.4,
+        "wind_gusts": 17.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -242,20 +242,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.392,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+28°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.5,
+        "val": "+32°C · ливень слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 28.5,
-        "feels_like": 32.6,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 2.3,
-        "wind_gusts": 10.8,
-        "precip": 0.0,
+        "temp": 32.2,
+        "feels_like": 36.8,
+        "condition": "ливень слабый",
+        "wmo_code": 80,
+        "wind": 2.6,
+        "wind_gusts": 15.5,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -282,7 +282,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -302,7 +301,8 @@
         0.205,
         0.205,
         0.205,
-        0.242
+        0.242,
+        0.392
       ],
       "_raw_events": [
         {
@@ -353,15 +353,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · ясно",
+        "val": "+25°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 24.2,
-        "feels_like": 25.0,
+        "temp": 25.1,
+        "feels_like": 24.9,
         "condition": "ясно",
         "wmo_code": 0,
         "wind": 8.5,
-        "wind_gusts": 28.1,
+        "wind_gusts": 26.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -393,7 +393,6 @@
         0.396,
         0.396,
         0.396,
-        0.396,
         0.381,
         0.381,
         0.381,
@@ -404,6 +403,7 @@
         0.266,
         0.266,
         0.341,
+        0.366,
         0.366,
         0.366,
         0.366,
