@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T17:03:15.332793+00:00",
+  "generated_at": "2026-08-10T17:59:18.023328+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · пасмурно",
+        "val": "+15°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 15.6,
-        "feels_like": 16.4,
+        "temp": 15.2,
+        "feels_like": 16.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.4,
+        "wind": 3.0,
         "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · преим. ясно",
+        "val": "+20°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 20.7,
-        "feels_like": 20.5,
+        "temp": 19.6,
+        "feels_like": 19.4,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 4.7,
-        "wind_gusts": 14.8,
+        "wind": 4.4,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "42 крупных из 50",
+        "val": "38 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,16 +141,6 @@
       ],
       "_raw_events": [
         {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
@@ -170,15 +160,6 @@
         },
         {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
           "cats": [
             "kids",
             "recreation",
@@ -227,6 +208,25 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -241,15 +241,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+27°C · пасмурно",
-        "icon": "☁",
+        "val": "+25°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 27.0,
-        "feels_like": 30.5,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 4.3,
-        "wind_gusts": 9.4,
+        "temp": 25.2,
+        "feels_like": 28.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 2.2,
+        "wind_gusts": 23.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -286,7 +286,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -296,6 +295,7 @@
         0.392,
         0.242,
         0.392,
+        0.242,
         0.242,
         0.242
       ],
@@ -351,11 +351,11 @@
         "val": "+17°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 17.2,
-        "feels_like": 16.3,
+        "temp": 16.7,
+        "feels_like": 15.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 10.4,
+        "wind": 9.6,
         "wind_gusts": 13.7,
         "precip": 0.0,
         "snowfall": 0.0
@@ -382,7 +382,6 @@
       },
       "history": [
         0.396,
-        0.396,
         0.381,
         0.381,
         0.381,
@@ -403,6 +402,7 @@
         0.366,
         0.366,
         0.303,
+        0.266,
         0.266,
         0.266
       ],
