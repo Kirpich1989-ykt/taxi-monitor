@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-11T15:10:54.107098+00:00",
+  "generated_at": "2026-08-11T17:07:58.797139+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.229,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+17°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+17°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 17.4,
-        "feels_like": 17.6,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 12.4,
-        "wind_gusts": 7.2,
-        "precip": 0.1,
+        "temp": 16.8,
+        "feels_like": 16.9,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 11.3,
+        "wind_gusts": 10.4,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -63,10 +63,10 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.214,
-        0.229
+        0.229,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+20°C · дождь слабый",
+        "val": "+20°C · ливень слабый",
         "icon": "🌧",
         "live": true,
         "temp": 20.1,
-        "feels_like": 20.3,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
-        "wind": 8.4,
-        "wind_gusts": 23.4,
-        "precip": 0.0,
+        "feels_like": 20.4,
+        "condition": "ливень слабый",
+        "wmo_code": 80,
+        "wind": 8.0,
+        "wind_gusts": 25.2,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "44 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -131,11 +131,11 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
         0.383,
         0.383,
         0.383,
+        0.518,
         0.518,
         0.518
       ],
@@ -160,14 +160,6 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
@@ -177,26 +169,10 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
             "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "игровые знакомства «Быстрые свидания № 1» в Москве от Fast Life",
-          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -220,11 +196,36 @@
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
-            "exhibition",
+            "stock",
             "kids",
-            "tour",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
+          "cats": [
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -242,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+33°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+29°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 33.2,
-        "feels_like": 33.6,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 8.2,
-        "wind_gusts": 24.1,
+        "temp": 29.3,
+        "feels_like": 30.7,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 5.6,
+        "wind_gusts": 15.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +277,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.392,
         0.392,
@@ -292,6 +292,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -349,14 +350,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · ясно",
+        "val": "+19°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 20.6,
-        "feels_like": 20.0,
+        "temp": 18.8,
+        "feels_like": 18.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.2,
+        "wind": 10.1,
         "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
@@ -387,7 +388,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.303,
         0.266,
         0.266,
@@ -405,6 +405,7 @@
         0.366,
         0.366,
         0.303,
+        0.266,
         0.266
       ],
       "_raw_events": [
