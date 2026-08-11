@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T23:46:13.834452+00:00",
+  "generated_at": "2026-08-11T02:21:33.487221+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+21°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 18.4,
-        "feels_like": 19.6,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 3.6,
-        "wind_gusts": 10.8,
+        "temp": 21.3,
+        "feels_like": 22.2,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 5.5,
+        "wind_gusts": 14.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -84,18 +84,18 @@
         "val": "+16°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 15.9,
-        "feels_like": 15.7,
+        "temp": 15.7,
+        "feels_like": 15.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.7,
-        "wind_gusts": 10.4,
+        "wind": 5.9,
+        "wind_gusts": 15.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "27 крупных из 39",
+        "val": "37 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,6 +141,24 @@
       ],
       "_raw_events": [
         {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
@@ -159,6 +177,45 @@
           "is_high": true
         },
         {
+          "title": "развлечения в Smile Park на ВДНХ",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
           "cats": [
             "concert",
@@ -167,64 +224,10 @@
           "is_high": true
         },
         {
-          "title": "вокал в «Музыкальном сообществе» / Music Community",
-          "cats": [
-            "stock",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Спортивный фестиваль в Лужниках",
-          "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "быстрые свидания от Fast Life",
-          "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "летний совместный проект World Class Сколково и SurfHouse",
-          "cats": [
-            "stock",
-            "recreation",
-            "entertainment",
-            "wellness-and-health"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "иммерсивная выставка «Чудеса света»",
+          "title": "выставка современного искусства «Человек расшифрованный» в Sistema Gallery",
           "cats": [
             "exhibition",
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "речной круиз «Московская кругосветка» на теплоходе «Золотое кольцо» со стоянкой у Московского Кремля",
-          "cats": [
-            "stock",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids",
-            "quest",
-            "recreation",
+            "education",
             "entertainment"
           ],
           "is_high": true
@@ -242,15 +245,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+22°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 22.5,
-        "feels_like": 26.0,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 3.3,
-        "wind_gusts": 7.2,
+        "temp": 22.0,
+        "feels_like": 24.4,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 4.1,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -281,7 +284,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -296,6 +298,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205,
         0.205
@@ -342,15 +345,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · ясно",
+        "val": "+20°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 14.9,
-        "feels_like": 14.2,
+        "temp": 19.5,
+        "feels_like": 19.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 8.3,
-        "wind_gusts": 8.6,
+        "wind": 4.9,
+        "wind_gusts": 17.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -379,7 +382,6 @@
         0.266,
         0.266,
         0.266,
-        0.266,
         0.341,
         0.366,
         0.366,
@@ -395,6 +397,7 @@
         0.266,
         0.266,
         0.266,
+        0.366,
         0.366,
         0.366,
         0.366,
