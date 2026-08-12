@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T22:55:44.316574+00:00",
+  "generated_at": "2026-08-11T23:52:37.427375+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,16 +10,16 @@
       "alert": "green",
       "weather": {
         "score": 0.55,
-        "val": "+16°C · ливень умеренный",
-        "icon": "🌧",
+        "val": "+16°C · морось умеренная",
+        "icon": "🌦",
         "live": true,
-        "temp": 15.6,
-        "feels_like": 15.3,
-        "condition": "ливень умеренный",
-        "wmo_code": 81,
-        "wind": 12.4,
-        "wind_gusts": 31.0,
-        "precip": 1.0,
+        "temp": 15.9,
+        "feels_like": 15.4,
+        "condition": "морось умеренная",
+        "wmo_code": 53,
+        "wind": 13.7,
+        "wind_gusts": 28.4,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
@@ -58,12 +58,12 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.214,
         0.229,
         0.064,
         0.064,
+        0.229,
         0.229,
         0.229,
         0.229
@@ -84,18 +84,18 @@
         "val": "+16°C · ливень слабый",
         "icon": "🌧",
         "live": true,
-        "temp": 16.1,
-        "feels_like": 16.3,
+        "temp": 15.9,
+        "feels_like": 16.0,
         "condition": "ливень слабый",
         "wmo_code": 80,
-        "wind": 9.0,
-        "wind_gusts": 23.8,
+        "wind": 8.7,
+        "wind_gusts": 24.5,
         "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "27 крупных из 39",
+        "val": "27 крупных из 40",
         "icon": "🎭"
       },
       "traffic": {
@@ -126,7 +126,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
         0.383,
         0.383,
@@ -137,9 +136,20 @@
         0.518,
         0.368,
         0.368,
+        0.518,
         0.518
       ],
       "_raw_events": [
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -218,16 +228,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids",
-            "quest",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -242,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · ясно",
+        "val": "+22°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 23.2,
-        "feels_like": 24.9,
+        "temp": 22.5,
+        "feels_like": 24.1,
         "condition": "ясно",
         "wmo_code": 0,
         "wind": 4.6,
-        "wind_gusts": 11.2,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +275,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.392,
         0.242,
         0.242,
@@ -297,6 +296,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205
       ],
@@ -345,11 +345,11 @@
         "val": "+16°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 15.8,
-        "feels_like": 16.0,
+        "temp": 16.1,
+        "feels_like": 16.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 5.8,
+        "wind": 4.1,
         "wind_gusts": 6.5,
         "precip": 0.0,
         "snowfall": 0.0
@@ -375,7 +375,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.303,
         0.266,
         0.266,
@@ -396,6 +395,7 @@
         0.266,
         0.266,
         0.266,
+        0.366,
         0.366,
         0.366,
         0.366
