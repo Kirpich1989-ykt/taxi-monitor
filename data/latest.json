@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T15:08:13.102118+00:00",
+  "generated_at": "2026-08-13T17:06:31.928545+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+14°C · пасмурно",
+        "val": "+13°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 14.1,
-        "feels_like": 11.3,
+        "temp": 12.8,
+        "feels_like": 9.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 16.0,
-        "wind_gusts": 28.1,
+        "wind": 15.4,
+        "wind_gusts": 27.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.229,
-        0.229,
         0.064,
         0.064,
         0.079,
@@ -65,6 +64,7 @@
         0.064,
         0.064,
         0.064,
+        0.079,
         0.079,
         0.079
       ],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · пасмурно",
+        "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 14.8,
-        "feels_like": 12.2,
+        "temp": 13.7,
+        "feels_like": 11.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.0,
-        "wind_gusts": 35.3,
+        "wind": 8.4,
+        "wind_gusts": 25.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "44 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -115,7 +115,6 @@
       },
       "history": [
         0.518,
-        0.518,
         0.368,
         0.368,
         0.383,
@@ -137,24 +136,10 @@
         0.383,
         0.533,
         0.383,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "конные прогулки по национальному парку «Лосиный остров»",
           "cats": [
@@ -175,27 +160,10 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -210,18 +178,56 @@
           "is_high": true
         },
         {
-          "title": "игровые знакомства «Быстрые свидания № 1» в Москве от Fast Life",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
             "concert",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "развлечения в Smile Park на ВДНХ",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатная мини-вечеринка знакомств «Знакомошная»",
+          "cats": [
+            "party",
+            "stock",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         }
@@ -238,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · ясно",
+        "val": "+23°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 26.5,
-        "feels_like": 24.2,
+        "temp": 23.1,
+        "feels_like": 21.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 11.9,
-        "wind_gusts": 33.5,
+        "wind": 8.8,
+        "wind_gusts": 26.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +280,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -294,6 +299,7 @@
         0.257,
         0.257,
         0.257,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -341,25 +347,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.303,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · ясно",
+        "val": "+17°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 19.1,
-        "feels_like": 20.1,
+        "temp": 17.0,
+        "feels_like": 16.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 1.4,
-        "wind_gusts": 5.8,
+        "wind": 6.2,
+        "wind_gusts": 3.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.75,
-        "val": "5 крупных из 8",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -385,7 +391,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.303,
         0.266,
         0.281,
@@ -401,7 +406,8 @@
         0.381,
         0.366,
         0.341,
-        0.303
+        0.303,
+        0.266
       ],
       "_raw_events": [
         {
@@ -422,13 +428,6 @@
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
             "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "открытые игры в клубе спортивной «Мафии»",
-          "cats": [
             "entertainment"
           ],
           "is_high": true
