@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T17:06:31.928545+00:00",
+  "generated_at": "2026-08-13T19:15:07.049181+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+13°C · пасмурно",
+        "val": "+12°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 12.8,
-        "feels_like": 9.8,
+        "temp": 11.7,
+        "feels_like": 8.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 15.4,
-        "wind_gusts": 27.7,
+        "wind": 16.1,
+        "wind_gusts": 30.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.229,
         0.064,
         0.064,
         0.079,
@@ -64,6 +63,7 @@
         0.064,
         0.064,
         0.064,
+        0.079,
         0.079,
         0.079,
         0.079
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · пасмурно",
+        "val": "+12°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.7,
-        "feels_like": 11.6,
+        "temp": 12.5,
+        "feels_like": 10.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.4,
-        "wind_gusts": 25.6,
+        "wind": 7.2,
+        "wind_gusts": 18.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "44 крупных из 50",
+        "val": "38 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.518,
         0.368,
         0.368,
         0.383,
@@ -136,29 +135,11 @@
         0.383,
         0.533,
         0.383,
+        0.368,
         0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -187,15 +168,6 @@
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
@@ -215,19 +187,44 @@
           "is_high": true
         },
         {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
           "cats": [
-            "stock",
-            "education",
-            "other",
+            "concert",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "мультисенсорная выставка «Сон в музее»",
+          "title": "Спортивный фестиваль в Лужниках",
           "cats": [
-            "exhibition"
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "летний совместный проект World Class Сколково и SurfHouse",
+          "cats": [
+            "stock",
+            "recreation",
+            "entertainment",
+            "wellness-and-health"
           ],
           "is_high": true
         }
@@ -244,15 +241,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · ясно",
+        "val": "+20°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 23.1,
-        "feels_like": 21.2,
+        "temp": 19.8,
+        "feels_like": 17.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 8.8,
-        "wind_gusts": 26.6,
+        "wind": 9.4,
+        "wind_gusts": 22.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +276,6 @@
       "history": [
         0.205,
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -299,6 +295,7 @@
         0.257,
         0.257,
         0.257,
+        0.242,
         0.242,
         0.242
       ],
@@ -351,15 +348,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · ясно",
+        "val": "+16°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 17.0,
-        "feels_like": 16.4,
+        "temp": 15.7,
+        "feels_like": 15.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.2,
-        "wind_gusts": 3.6,
+        "wind": 3.3,
+        "wind_gusts": 1.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -390,7 +387,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.303,
         0.266,
         0.281,
@@ -407,6 +403,7 @@
         0.366,
         0.341,
         0.303,
+        0.266,
         0.266
       ],
       "_raw_events": [
