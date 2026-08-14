@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T23:52:17.693749+00:00",
+  "generated_at": "2026-08-14T02:37:45.657229+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+13°C · пасмурно",
+        "val": "+16°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.4,
-        "feels_like": 10.2,
+        "temp": 15.7,
+        "feels_like": 12.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 14.6,
-        "wind_gusts": 34.9,
+        "wind": 17.1,
+        "wind_gusts": 35.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -45,7 +45,6 @@
       "history": [
         0.079,
         0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -59,6 +58,7 @@
         0.064,
         0.064,
         0.064,
+        0.079,
         0.079,
         0.079,
         0.079,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · преим. ясно",
+        "val": "+9°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 9.7,
-        "feels_like": 7.4,
+        "temp": 8.6,
+        "feels_like": 6.0,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 8.9,
-        "wind_gusts": 23.0,
+        "wind": 10.1,
+        "wind_gusts": 26.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "27 крупных из 40",
+        "val": "38 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.533,
         0.383,
         0.383,
         0.368,
@@ -131,6 +130,7 @@
         0.383,
         0.533,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -147,6 +147,14 @@
             "education",
             "recreation",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -169,51 +177,18 @@
           "is_high": true
         },
         {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Спортивный фестиваль в Лужниках",
-          "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "быстрые свидания от Fast Life",
-          "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "вокал в «Музыкальном сообществе» / Music Community",
-          "cats": [
-            "stock",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "летний совместный проект World Class Сколково и SurfHouse",
-          "cats": [
-            "stock",
-            "recreation",
-            "entertainment",
-            "wellness-and-health"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "иммерсивная выставка «Чудеса света»",
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
           "cats": [
             "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "развлечения в Smile Park на ВДНХ",
+          "cats": [
             "kids",
             "recreation",
             "entertainment"
@@ -221,10 +196,40 @@
           "is_high": true
         },
         {
-          "title": "речной круиз «Московская кругосветка» на теплоходе «Золотое кольцо» со стоянкой у Московского Кремля",
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
-            "tour",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка современного искусства «Человек расшифрованный» в Sistema Gallery",
+          "cats": [
+            "exhibition",
+            "education",
             "entertainment"
           ],
           "is_high": true
@@ -242,15 +247,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · переменная облачность",
+        "val": "+16°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 17.0,
-        "feels_like": 15.2,
+        "temp": 15.8,
+        "feels_like": 13.8,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 8.3,
-        "wind_gusts": 21.6,
+        "wind": 8.5,
+        "wind_gusts": 20.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +280,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.092,
         0.242,
         0.242,
@@ -298,6 +302,7 @@
         0.242,
         0.205,
         0.205,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -316,18 +321,18 @@
           "is_high": true
         },
         {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock"
-          ],
-          "is_high": false
-        },
-        {
           "title": "выставка  «Мне вечность глянула в глаза…»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -342,21 +347,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · ясно",
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 14.4,
-        "feels_like": 14.2,
+        "temp": 21.2,
+        "feels_like": 21.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 2.1,
-        "wind_gusts": 2.9,
+        "wind": 5.2,
+        "wind_gusts": 5.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "16 крупных из 19",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -375,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.303,
         0.266,
@@ -398,6 +402,7 @@
         0.366,
         0.366,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -414,6 +419,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -467,15 +480,6 @@
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "свободное рисование в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
