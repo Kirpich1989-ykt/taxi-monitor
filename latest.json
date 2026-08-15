@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T14:33:03.630594+00:00",
+  "generated_at": "2026-08-15T15:30:22.993375+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+9°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 9.7,
-        "feels_like": 7.0,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 10.4,
-        "wind_gusts": 19.1,
+        "temp": 8.6,
+        "feels_like": 6.3,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 7.4,
+        "wind_gusts": 22.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -48,7 +48,6 @@
         0.079,
         0.079,
         0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -58,6 +57,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+19°C · пасмурно",
+        "val": "+18°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 19.2,
-        "feels_like": 16.6,
+        "temp": 18.1,
+        "feels_like": 16.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.3,
-        "wind_gusts": 33.1,
+        "wind": 12.1,
+        "wind_gusts": 32.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -115,7 +115,6 @@
       },
       "history": [
         0.383,
-        0.383,
         0.368,
         0.368,
         0.368,
@@ -137,17 +136,10 @@
         0.133,
         0.383,
         0.368,
+        0.383,
         0.383
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
           "cats": [
@@ -224,6 +216,16 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -234,19 +236,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+27°C · преим. ясно",
+        "score": 0.0,
+        "val": "+26°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 27.3,
-        "feels_like": 24.6,
+        "temp": 26.2,
+        "feels_like": 23.6,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 12.7,
-        "wind_gusts": 37.1,
+        "wind": 11.0,
+        "wind_gusts": 33.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +274,6 @@
       },
       "history": [
         0.257,
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -294,7 +295,8 @@
         0.107,
         0.257,
         0.107,
-        0.257
+        0.257,
+        0.242
       ],
       "_raw_events": [
         {
@@ -345,15 +347,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · ясно",
+        "val": "+19°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 20.1,
-        "feels_like": 19.0,
+        "temp": 19.4,
+        "feels_like": 18.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 11.2,
-        "wind_gusts": 16.9,
+        "wind": 12.0,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -378,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.303,
         0.266,
         0.266,
@@ -401,6 +402,7 @@
         0.366,
         0.366,
         0.381,
+        0.341,
         0.341
       ],
       "_raw_events": [
