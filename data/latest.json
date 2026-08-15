@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-14T22:33:56.793932+00:00",
+  "generated_at": "2026-08-14T23:30:40.691410+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+11°C · пасмурно",
+        "score": 0.05,
+        "val": "+13°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 11.4,
-        "feels_like": 8.6,
+        "temp": 12.6,
+        "feels_like": 9.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.8,
-        "wind_gusts": 23.4,
+        "wind": 12.4,
+        "wind_gusts": 25.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -66,7 +65,8 @@
         0.079,
         0.064,
         0.064,
-        0.064
+        0.064,
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -84,12 +84,12 @@
         "val": "+12°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 11.8,
-        "feels_like": 10.3,
+        "temp": 11.6,
+        "feels_like": 10.1,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 3.4,
-        "wind_gusts": 11.2,
+        "wind": 2.9,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.383,
         0.533,
         0.383,
         0.368,
@@ -131,6 +130,7 @@
         0.383,
         0.383,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -159,17 +159,17 @@
           "is_high": true
         },
         {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
+          "title": "Спортивный фестиваль в Лужниках",
           "cats": [
-            "concert",
-            "entertainment"
+            "festival"
           ],
           "is_high": true
         },
         {
-          "title": "Спортивный фестиваль в Лужниках",
+          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
           "cats": [
-            "festival"
+            "concert",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -240,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · переменная облачность",
+        "val": "+17°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 17.7,
-        "feels_like": 15.8,
+        "temp": 17.3,
+        "feels_like": 15.3,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 7.1,
-        "wind_gusts": 18.4,
+        "wind": 7.4,
+        "wind_gusts": 18.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +275,6 @@
       "history": [
         0.257,
         0.257,
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -296,6 +295,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -340,15 +340,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · ясно",
+        "val": "+15°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 14.3,
-        "feels_like": 14.4,
+        "temp": 14.6,
+        "feels_like": 14.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.2,
-        "wind_gusts": 7.6,
+        "wind": 5.7,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -373,7 +373,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.366,
         0.341,
         0.303,
@@ -395,6 +394,7 @@
         0.266,
         0.266,
         0.341,
+        0.366,
         0.366,
         0.366
       ],
