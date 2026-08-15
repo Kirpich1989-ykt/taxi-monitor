@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-15T03:00:00.785146+00:00",
+  "generated_at": "2026-08-15T03:49:04.180837+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "нет данных",
-        "icon": "🌡",
-        "live": false,
-        "temp": null,
-        "feels_like": null,
-        "condition": null,
-        "wmo_code": null,
-        "wind": null,
-        "wind_gusts": null,
-        "precip": null,
-        "snowfall": null
+        "score": 0.05,
+        "val": "+17°C · переменная облачность",
+        "icon": "⛅",
+        "live": true,
+        "temp": 16.8,
+        "feels_like": 13.6,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 14.7,
+        "wind_gusts": 35.3,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 0.0,
@@ -53,7 +53,6 @@
         0.079,
         0.079,
         0.079,
-        0.079,
         0.064,
         0.079,
         0.079,
@@ -66,7 +65,8 @@
         0.064,
         0.079,
         0.079,
-        0.064
+        0.064,
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -84,12 +84,12 @@
         "val": "+10°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 10.3,
-        "feels_like": 8.2,
+        "temp": 10.1,
+        "feels_like": 8.0,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 8.9,
-        "wind_gusts": 23.4,
+        "wind": 8.6,
+        "wind_gusts": 22.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -122,12 +122,12 @@
         0.368,
         0.368,
         0.368,
+        0.383,
+        0.383,
+        0.383,
+        0.383,
+        0.383,
         0.368,
-        0.383,
-        0.383,
-        0.383,
-        0.383,
-        0.383,
         0.368,
         0.368,
         0.368,
@@ -246,15 +246,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · переменная облачность",
+        "val": "+17°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 16.1,
-        "feels_like": 13.4,
+        "temp": 16.7,
+        "feels_like": 14.3,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 8.9,
-        "wind_gusts": 22.0,
+        "wind": 8.4,
+        "wind_gusts": 21.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -282,7 +282,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -299,6 +298,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205,
         0.205,
@@ -346,21 +346,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · ясно",
+        "val": "+23°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.1,
-        "feels_like": 21.0,
+        "temp": 22.7,
+        "feels_like": 22.9,
         "condition": "ясно",
         "wmo_code": 0,
         "wind": 6.8,
-        "wind_gusts": 19.1,
+        "wind_gusts": 23.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 21",
+        "val": "19 крупных из 23",
         "icon": "🎭"
       },
       "traffic": {
@@ -379,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.303,
         0.266,
         0.266,
         0.366,
@@ -402,9 +401,18 @@
         0.366,
         0.366,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "музей инопланетян",
           "cats": [
@@ -426,6 +434,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -464,21 +480,6 @@
             "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
