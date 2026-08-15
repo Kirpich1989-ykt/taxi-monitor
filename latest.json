@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-15T01:45:12.250721+00:00",
+  "generated_at": "2026-08-15T03:00:00.785146+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+15°C · преим. ясно",
-        "icon": "🌤",
-        "live": true,
-        "temp": 14.7,
-        "feels_like": 11.5,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 13.6,
-        "wind_gusts": 32.0,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "score": 0.0,
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 0.0,
@@ -54,7 +54,6 @@
         0.079,
         0.079,
         0.079,
-        0.079,
         0.064,
         0.079,
         0.079,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.079,
-        0.079
+        0.079,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+11°C · переменная облачность",
+        "val": "+10°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 10.8,
-        "feels_like": 8.7,
+        "temp": 10.3,
+        "feels_like": 8.2,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 8.6,
-        "wind_gusts": 22.3,
+        "wind": 8.9,
+        "wind_gusts": 23.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "35 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.383,
         0.368,
         0.368,
         0.368,
@@ -129,6 +128,7 @@
         0.383,
         0.383,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -147,6 +147,23 @@
             "education",
             "recreation",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийная выставка «Эйфория»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -198,38 +215,21 @@
           "is_high": true
         },
         {
+          "title": "психологический фестиваль «Инпсихо Фест»",
+          "cats": [
+            "stock",
+            "education",
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
           "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
           "cats": [
             "stock",
             "education",
             "other",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "серия культурных завтраков в Котельнической высотке",
-          "cats": [
-            "education",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Спортивный фестиваль в Лужниках",
-          "cats": [
-            "festival"
           ],
           "is_high": true
         }
@@ -249,11 +249,11 @@
         "val": "+16°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 16.3,
-        "feels_like": 13.7,
+        "temp": 16.1,
+        "feels_like": 13.4,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 8.7,
+        "wind": 8.9,
         "wind_gusts": 22.0,
         "precip": 0.0,
         "snowfall": 0.0
@@ -279,7 +279,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -300,6 +299,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205,
         0.205
@@ -346,21 +346,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · ясно",
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 18.2,
-        "feels_like": 18.7,
+        "temp": 21.1,
+        "feels_like": 21.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.2,
-        "wind_gusts": 16.2,
+        "wind": 6.8,
+        "wind_gusts": 19.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "17 крупных из 21",
         "icon": "🎭"
       },
       "traffic": {
@@ -379,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.303,
         0.266,
         0.266,
@@ -399,6 +398,7 @@
         0.266,
         0.266,
         0.341,
+        0.366,
         0.366,
         0.366,
         0.366,
@@ -452,14 +452,14 @@
           "is_high": true
         },
         {
-          "title": "экспозиция «Природа Новосибирской области»",
+          "title": "выставка «Иконы»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "выставка «Иконы»",
+          "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
           ],
