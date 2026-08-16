@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T12:56:10.487234+00:00",
+  "generated_at": "2026-08-16T13:38:52.946390+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 9.7,
-        "feels_like": 6.6,
+        "temp": 9.5,
+        "feels_like": 6.1,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.9,
-        "wind_gusts": 14.4,
+        "wind": 11.9,
+        "wind_gusts": 15.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -63,8 +63,8 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.0,
+        0.064,
         0.064,
         0.064
       ],
@@ -84,12 +84,12 @@
         "val": "+23°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 23.0,
-        "feels_like": 23.2,
+        "temp": 23.1,
+        "feels_like": 23.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.7,
-        "wind_gusts": 39.2,
+        "wind": 9.0,
+        "wind_gusts": 35.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -114,11 +114,11 @@
         "icon": "📰"
       },
       "history": [
-        0.133,
         0.383,
         0.368,
         0.383,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -238,15 +238,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+31°C · ясно",
-        "icon": "☀",
+        "val": "+31°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 31.2,
-        "feels_like": 28.7,
-        "condition": "ясно",
-        "wmo_code": 0,
+        "temp": 30.8,
+        "feels_like": 28.2,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
         "wind": 13.0,
-        "wind_gusts": 35.3,
+        "wind_gusts": 34.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -271,7 +271,6 @@
         "icon": "📰"
       },
       "history": [
-        0.107,
         0.257,
         0.107,
         0.257,
@@ -290,6 +289,7 @@
         0.205,
         0.242,
         0.242,
+        0.257,
         0.257,
         0.257,
         0.257,
@@ -341,25 +341,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.381,
+      "impact": 0.356,
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+23°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+22°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 23.4,
-        "feels_like": 22.0,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 12.1,
-        "wind_gusts": 26.6,
+        "temp": 22.2,
+        "feels_like": 20.6,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 13.7,
+        "wind_gusts": 25.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "7 крупных из 10",
+        "score": 0.9,
+        "val": "6 крупных из 9",
         "icon": "🎭"
       },
       "traffic": {
@@ -379,7 +379,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.381,
         0.341,
         0.341,
@@ -401,19 +400,12 @@
         0.381,
         0.381,
         0.381,
-        0.381
+        0.381,
+        0.356
       ],
       "_raw_events": [
         {
           "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
           "cats": [
             "exhibition",
             "entertainment"
