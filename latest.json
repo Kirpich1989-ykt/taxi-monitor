@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T07:38:57.833934+00:00",
+  "generated_at": "2026-08-16T08:41:20.510325+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,17 +10,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · пасмурно",
-        "icon": "☁",
-        "live": true,
-        "temp": 11.8,
-        "feels_like": 8.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 10.8,
-        "wind_gusts": 20.5,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 0.0,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+20°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 19.3,
-        "feels_like": 19.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 7.9,
-        "wind_gusts": 23.8,
+        "temp": 20.4,
+        "feels_like": 19.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 10.9,
+        "wind_gusts": 31.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.133,
         0.383,
         0.383,
@@ -124,6 +123,7 @@
         0.368,
         0.383,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -195,6 +195,14 @@
           "is_high": true
         },
         {
+          "title": "вечер знакомств «Большие быстрые свидания» от компании Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "экскурсия с представлением в Музее фокусов и иллюзий",
           "cats": [
             "exhibition",
@@ -222,14 +230,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
-          "cats": [
-            "theater",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -240,19 +240,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.257,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+26°C · ясно",
+        "score": 0.05,
+        "val": "+29°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 26.5,
-        "feels_like": 25.3,
+        "temp": 28.6,
+        "feels_like": 27.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 11.1,
-        "wind_gusts": 31.0,
+        "wind": 12.9,
+        "wind_gusts": 35.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +278,6 @@
       },
       "history": [
         0.22,
-        0.22,
         0.257,
         0.257,
         0.257,
@@ -300,7 +299,8 @@
         0.205,
         0.205,
         0.242,
-        0.242
+        0.242,
+        0.257
       ],
       "_raw_events": [
         {
@@ -351,15 +351,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+26°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 25.5,
-        "feels_like": 25.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 11.1,
-        "wind_gusts": 29.2,
+        "temp": 25.8,
+        "feels_like": 24.8,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 11.9,
+        "wind_gusts": 29.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -390,7 +390,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.381,
         0.341,
         0.341,
@@ -398,6 +397,7 @@
         0.341,
         0.341,
         0.341,
+        0.366,
         0.366,
         0.366,
         0.366,
