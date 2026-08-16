@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T19:28:26.950228+00:00",
+  "generated_at": "2026-08-16T20:33:18.351542+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · пасмурно",
-        "icon": "☁",
+        "val": "+7°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 7.3,
-        "feels_like": 4.0,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 10.8,
-        "wind_gusts": 22.0,
+        "temp": 6.9,
+        "feels_like": 3.5,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 12.0,
+        "wind_gusts": 25.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -56,8 +56,8 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.0,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -84,18 +84,18 @@
         "val": "+20°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 19.9,
-        "feels_like": 20.9,
+        "temp": 19.6,
+        "feels_like": 20.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.8,
-        "wind_gusts": 15.8,
+        "wind": 2.6,
+        "wind_gusts": 13.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "37 крупных из 49",
+        "val": "29 крупных из 41",
         "icon": "🎭"
       },
       "traffic": {
@@ -159,16 +159,6 @@
           "is_high": true
         },
         {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Спортивный фестиваль в Лужниках",
           "cats": [
             "festival"
@@ -211,16 +201,29 @@
           "is_high": true
         },
         {
-          "title": "выставка «Загадочные миры Иеронима Босха»",
+          "title": "речной круиз «Московская кругосветка» на теплоходе «Золотое кольцо» со стоянкой у Московского Кремля",
           "cats": [
-            "exhibition"
+            "stock",
+            "tour",
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "трибьют-фестиваль «РокМотоФиеста»",
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
           "cats": [
-            "festival"
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "шоу Music Loto",
+          "cats": [
+            "party",
+            "entertainment"
           ],
           "is_high": true
         }
@@ -237,14 +240,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.8,
-        "feels_like": 19.8,
+        "temp": 21.0,
+        "feels_like": 19.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.6,
+        "wind": 9.4,
         "wind_gusts": 24.1,
         "precip": 0.0,
         "snowfall": 0.0
@@ -273,7 +276,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -289,6 +291,7 @@
         0.257,
         0.257,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -340,25 +343,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.281,
+      "impact": 0.341,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+17°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.0,
+        "val": "+16°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 17.1,
-        "feels_like": 15.2,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 13.5,
-        "wind_gusts": 18.0,
+        "temp": 16.3,
+        "feels_like": 14.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 11.5,
+        "wind_gusts": 14.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 0.9,
+        "val": "6 крупных из 9",
         "icon": "🎭"
       },
       "traffic": {
@@ -377,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.341,
         0.366,
         0.366,
@@ -400,9 +402,26 @@
         0.281,
         0.281,
         0.281,
-        0.281
+        0.281,
+        0.341
       ],
       "_raw_events": [
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
