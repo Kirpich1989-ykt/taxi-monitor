@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T18:41:30.668942+00:00",
+  "generated_at": "2026-08-16T19:28:26.950228+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+8°C · пасмурно",
+        "val": "+7°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 7.6,
-        "feels_like": 4.5,
+        "temp": 7.3,
+        "feels_like": 4.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.1,
-        "wind_gusts": 20.9,
+        "wind": 10.8,
+        "wind_gusts": 22.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -57,8 +57,8 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.0,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -84,18 +84,18 @@
         "val": "+20°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 20.3,
-        "feels_like": 21.2,
+        "temp": 19.9,
+        "feels_like": 20.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 5.1,
-        "wind_gusts": 13.0,
+        "wind": 4.8,
+        "wind_gusts": 15.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "37 крупных из 50",
+        "val": "37 крупных из 49",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,15 +141,6 @@
       ],
       "_raw_events": [
         {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
@@ -178,33 +169,6 @@
           "is_high": true
         },
         {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультисенсорная выставка «Сон в музее»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Спортивный фестиваль в Лужниках",
           "cats": [
             "festival"
@@ -220,9 +184,43 @@
           "is_high": true
         },
         {
-          "title": "выставка «СЕНС. Эволюция стихий»",
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "летний совместный проект World Class Сколково и SurfHouse",
+          "cats": [
+            "stock",
+            "recreation",
+            "entertainment",
+            "wellness-and-health"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Загадочные миры Иеронима Босха»",
           "cats": [
             "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "трибьют-фестиваль «РокМотоФиеста»",
+          "cats": [
+            "festival"
           ],
           "is_high": true
         }
@@ -239,15 +237,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · ясно",
+        "val": "+22°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 22.8,
-        "feels_like": 20.9,
+        "temp": 21.8,
+        "feels_like": 19.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.3,
-        "wind_gusts": 23.4,
+        "wind": 9.6,
+        "wind_gusts": 24.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +274,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -292,6 +289,7 @@
         0.257,
         0.257,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -346,15 +344,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+18°C · ясно",
-        "icon": "☀",
+        "val": "+17°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 17.5,
-        "feels_like": 15.5,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 14.2,
-        "wind_gusts": 20.9,
+        "temp": 17.1,
+        "feels_like": 15.2,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 13.5,
+        "wind_gusts": 18.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -381,7 +379,6 @@
       "history": [
         0.341,
         0.341,
-        0.341,
         0.366,
         0.366,
         0.366,
@@ -399,6 +396,7 @@
         0.381,
         0.356,
         0.319,
+        0.281,
         0.281,
         0.281,
         0.281,
