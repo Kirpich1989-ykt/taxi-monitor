@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-16T10:33:03.677030+00:00",
+  "generated_at": "2026-08-16T11:29:26.899471+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.0,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+11°C · пасмурно",
+        "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 10.9,
-        "feels_like": 9.9,
+        "temp": 10.4,
+        "feels_like": 9.1,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 0.5,
-        "wind_gusts": 13.3,
+        "wind": 1.7,
+        "wind_gusts": 11.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -28,8 +28,8 @@
         "icon": "🎭"
       },
       "traffic": {
-        "score": 0.0,
-        "val": "нет данных",
+        "score": 0.32,
+        "val": "45 км/ч · умеренные пробки",
         "icon": "🚗"
       },
       "trends": {
@@ -65,8 +65,8 @@
         0.064,
         0.064,
         0.064,
-        0.064,
-        0.0
+        0.0,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -84,18 +84,18 @@
         "val": "+23°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 22.7,
-        "feels_like": 22.5,
+        "temp": 23.1,
+        "feels_like": 22.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.5,
-        "wind_gusts": 31.3,
+        "wind": 11.5,
+        "wind_gusts": 35.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "47 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -115,12 +115,12 @@
       },
       "history": [
         0.383,
-        0.383,
         0.133,
         0.383,
         0.368,
         0.383,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -144,6 +144,13 @@
           "title": "большой стендап-концерт",
           "cats": [
             "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -203,28 +210,17 @@
           "is_high": true
         },
         {
+          "title": "игровые знакомства «Быстрые свидания № 1» в Москве от Fast Life",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
             "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "вечер знакомств «Большие быстрые свидания» от компании Fast Life",
-          "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -242,15 +238,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+31°C · ясно",
+        "val": "+32°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 31.2,
-        "feels_like": 29.9,
+        "temp": 31.6,
+        "feels_like": 29.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 13.4,
-        "wind_gusts": 37.1,
+        "wind": 13.0,
+        "wind_gusts": 36.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +272,6 @@
       },
       "history": [
         0.257,
-        0.257,
         0.107,
         0.257,
         0.107,
@@ -296,6 +291,7 @@
         0.205,
         0.242,
         0.242,
+        0.257,
         0.257,
         0.257,
         0.257
@@ -349,15 +345,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+26°C · преим. ясно",
+        "val": "+25°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 25.5,
-        "feels_like": 23.8,
+        "temp": 24.9,
+        "feels_like": 23.1,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 12.4,
-        "wind_gusts": 27.7,
+        "wind": 13.0,
+        "wind_gusts": 27.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -385,7 +381,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.381,
         0.341,
         0.341,
@@ -404,6 +399,7 @@
         0.366,
         0.366,
         0.366,
+        0.381,
         0.381,
         0.381
       ],
