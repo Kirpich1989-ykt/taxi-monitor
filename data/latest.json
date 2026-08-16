@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T13:38:52.946390+00:00",
+  "generated_at": "2026-08-16T14:32:59.912482+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · пасмурно",
+        "val": "+9°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 9.5,
-        "feels_like": 6.1,
+        "temp": 8.9,
+        "feels_like": 5.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 11.9,
-        "wind_gusts": 15.1,
+        "wind": 10.0,
+        "wind_gusts": 15.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -62,8 +62,8 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.0,
+        0.064,
         0.064,
         0.064,
         0.064
@@ -88,14 +88,14 @@
         "feels_like": 23.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.0,
-        "wind_gusts": 35.6,
+        "wind": 8.7,
+        "wind_gusts": 28.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "47 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,10 +114,10 @@
         "icon": "📰"
       },
       "history": [
-        0.383,
         0.368,
         0.383,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -238,14 +238,14 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+31°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+30°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 30.8,
-        "feels_like": 28.2,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 13.0,
+        "temp": 30.1,
+        "feels_like": 27.4,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 12.5,
         "wind_gusts": 34.6,
         "precip": 0.0,
         "snowfall": 0.0
@@ -271,7 +271,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.107,
         0.257,
         0.242,
@@ -289,6 +288,7 @@
         0.205,
         0.242,
         0.242,
+        0.257,
         0.257,
         0.257,
         0.257,
@@ -341,25 +341,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.356,
+      "impact": 0.319,
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+22°C · ясно",
-        "icon": "☀",
+        "val": "+21°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 22.2,
-        "feels_like": 20.6,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 13.7,
-        "wind_gusts": 25.2,
+        "temp": 20.7,
+        "feels_like": 19.2,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 14.2,
+        "wind_gusts": 19.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 9",
+        "score": 0.75,
+        "val": "5 крупных из 8",
         "icon": "🎭"
       },
       "traffic": {
@@ -378,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.381,
         0.341,
         0.341,
@@ -401,17 +400,10 @@
         0.381,
         0.381,
         0.381,
-        0.356
+        0.356,
+        0.319
       ],
       "_raw_events": [
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "еженедельная сальса-вечеринка",
           "cats": [
