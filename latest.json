@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T17:37:20.919936+00:00",
+  "generated_at": "2026-08-17T18:52:40.010923+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+8°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 7.2,
-        "feels_like": 3.9,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 10.6,
-        "wind_gusts": 13.7,
+        "temp": 7.5,
+        "feels_like": 4.3,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 9.8,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -49,7 +49,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -58,6 +57,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · пасмурно",
+        "val": "+18°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 18.9,
-        "feels_like": 19.1,
+        "temp": 17.8,
+        "feels_like": 17.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 5.4,
-        "wind_gusts": 14.0,
+        "wind": 6.2,
+        "wind_gusts": 14.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "40 крупных из 50",
+        "val": "35 крупных из 48",
         "icon": "🎭"
       },
       "traffic": {
@@ -120,7 +120,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -129,6 +128,7 @@
         0.518,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -140,25 +140,6 @@
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "групповые знакомства GOKON",
           "cats": [
@@ -188,45 +169,61 @@
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
+          "title": "Спортивный фестиваль в Лужниках",
           "cats": [
-            "kids",
-            "recreation",
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
+          "cats": [
+            "concert",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "title": "быстрые свидания от Fast Life",
           "cats": [
-            "kids",
-            "education",
-            "recreation",
+            "party",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
             "stock",
             "education",
-            "other",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "мультисенсорная выставка «Сон в музее»",
+          "title": "выставка «Загадочные миры Иеронима Босха»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "Спортивный фестиваль в Лужниках",
+          "title": "речной круиз «Московская кругосветка» на теплоходе «Золотое кольцо» со стоянкой у Московского Кремля",
           "cats": [
-            "festival"
+            "stock",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "cats": [
+            "party",
+            "theater",
+            "stock",
+            "kids",
+            "entertainment"
           ],
           "is_high": true
         }
@@ -243,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · ясно",
+        "val": "+24°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 25.7,
-        "feels_like": 27.1,
+        "temp": 23.9,
+        "feels_like": 27.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.8,
-        "wind_gusts": 15.1,
+        "wind": 3.8,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +273,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -297,6 +293,7 @@
         0.257,
         0.257,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -350,15 +347,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · ясно",
+        "val": "+15°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 15.8,
-        "feels_like": 16.2,
+        "temp": 14.9,
+        "feels_like": 14.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.8,
-        "wind_gusts": 15.8,
+        "wind": 9.9,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -383,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.319,
         0.281,
         0.281,
         0.281,
@@ -406,6 +402,7 @@
         0.303,
         0.266,
         0.416,
+        0.266,
         0.266
       ],
       "_raw_events": [
