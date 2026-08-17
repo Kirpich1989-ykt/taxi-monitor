@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-17T03:08:18.551619+00:00",
+  "generated_at": "2026-08-17T04:53:07.921217+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+14°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.05,
+        "val": "+15°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 13.7,
-        "feels_like": 10.8,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 11.3,
-        "wind_gusts": 37.4,
+        "temp": 14.8,
+        "feels_like": 11.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 13.5,
+        "wind_gusts": 33.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -50,7 +50,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.0,
         0.064,
         0.064,
@@ -66,7 +65,8 @@
         0.079,
         0.079,
         0.079,
-        0.064
+        0.064,
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.518,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+17°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+18°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 17.2,
-        "feels_like": 18.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 4.1,
-        "wind_gusts": 22.3,
-        "precip": 0.0,
+        "temp": 17.6,
+        "feels_like": 18.5,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 6.6,
+        "wind_gusts": 25.9,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "43 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -132,12 +132,12 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
         0.518,
-        0.368
+        0.368,
+        0.518
       ],
       "_raw_events": [
         {
@@ -151,6 +151,14 @@
           "is_high": true
         },
         {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
@@ -160,18 +168,19 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -223,16 +232,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -247,15 +246,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · ясно",
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 17.7,
-        "feels_like": 16.0,
+        "temp": 21.1,
+        "feels_like": 20.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.0,
-        "wind_gusts": 10.8,
+        "wind": 5.5,
+        "wind_gusts": 15.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -283,23 +282,23 @@
         0.205,
         0.205,
         0.205,
+        0.242,
+        0.242,
+        0.257,
+        0.257,
+        0.257,
+        0.257,
+        0.257,
+        0.257,
+        0.257,
+        0.242,
+        0.242,
+        0.242,
+        0.242,
+        0.242,
+        0.242,
+        0.242,
         0.205,
-        0.242,
-        0.242,
-        0.257,
-        0.257,
-        0.257,
-        0.257,
-        0.257,
-        0.257,
-        0.257,
-        0.242,
-        0.242,
-        0.242,
-        0.242,
-        0.242,
-        0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -347,21 +346,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · пасмурно",
+        "val": "+22°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 19.5,
-        "feels_like": 19.1,
+        "temp": 21.5,
+        "feels_like": 21.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.2,
-        "wind_gusts": 21.6,
+        "wind": 2.5,
+        "wind_gusts": 22.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "8 крупных из 11",
+        "val": "9 крупных из 12",
         "icon": "🎭"
       },
       "traffic": {
@@ -386,7 +385,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.381,
         0.381,
         0.381,
@@ -403,9 +401,18 @@
         0.366,
         0.366,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "музей инопланетян",
           "cats": [
@@ -473,15 +480,6 @@
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "свободное рисование в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
