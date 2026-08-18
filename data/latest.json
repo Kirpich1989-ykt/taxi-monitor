@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-18T16:42:50.146077+00:00",
+  "generated_at": "2026-08-18T17:37:07.251114+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.214,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+9°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+9°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 9.0,
-        "feels_like": 7.0,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 6.9,
+        "temp": 8.7,
+        "feels_like": 6.9,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 6.7,
         "wind_gusts": 10.4,
-        "precip": 0.1,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -51,7 +51,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.214,
-        0.214
+        0.214,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -84,18 +84,18 @@
         "val": "+20°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 20.5,
-        "feels_like": 20.3,
+        "temp": 19.5,
+        "feels_like": 19.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.1,
-        "wind_gusts": 16.6,
+        "wind": 6.6,
+        "wind_gusts": 17.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "41 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -178,15 +178,6 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
@@ -225,10 +216,19 @@
           "is_high": true
         },
         {
-          "title": "Стендап + джаз: два концерта в один вечер",
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
           "cats": [
-            "concert",
+            "stock",
+            "education",
+            "other",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Спортивный фестиваль в Лужниках",
+          "cats": [
+            "festival"
           ],
           "is_high": true
         }
@@ -245,15 +245,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+28°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+27°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 27.8,
-        "feels_like": 29.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 10.1,
-        "wind_gusts": 25.2,
+        "temp": 26.7,
+        "feels_like": 28.3,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 8.4,
+        "wind_gusts": 25.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -283,7 +283,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -300,6 +299,7 @@
         0.242,
         0.242,
         0.257,
+        0.242,
         0.242,
         0.242
       ],
@@ -348,20 +348,20 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.266,
+      "impact": 0.416,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+14°C · переменная облачность",
-        "icon": "⛅",
+        "score": 0.5,
+        "val": "+13°C · морось слабая",
+        "icon": "🌦",
         "live": true,
-        "temp": 13.5,
-        "feels_like": 13.6,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 5.0,
-        "wind_gusts": 19.8,
-        "precip": 0.0,
+        "temp": 13.1,
+        "feels_like": 12.9,
+        "condition": "морось слабая",
+        "wmo_code": 51,
+        "wind": 6.5,
+        "wind_gusts": 15.1,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
@@ -385,7 +385,6 @@
         "icon": "📰"
       },
       "history": [
-        0.416,
         0.266,
         0.266,
         0.266,
@@ -408,7 +407,8 @@
         0.303,
         0.266,
         0.416,
-        0.266
+        0.266,
+        0.416
       ],
       "_raw_events": [
         {
