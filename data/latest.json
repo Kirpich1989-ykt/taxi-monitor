@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:39:37.847109+00:00",
+  "generated_at": "2026-08-18T11:34:40.149063+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+11°C · пасмурно",
+        "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 10.7,
-        "feels_like": 8.7,
+        "temp": 10.2,
+        "feels_like": 7.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 5.3,
-        "wind_gusts": 16.6,
+        "wind": 7.7,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -57,9 +57,9 @@
         0.064,
         0.064,
         0.064,
+        0.079,
+        0.079,
         0.064,
-        0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+23°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 22.6,
-        "feels_like": 22.0,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 5.1,
-        "wind_gusts": 16.9,
+        "temp": 23.0,
+        "feels_like": 22.5,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 5.8,
+        "wind_gusts": 18.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -195,6 +195,15 @@
           "is_high": true
         },
         {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
@@ -221,15 +230,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -244,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+31°C · ясно",
+        "val": "+32°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 31.4,
-        "feels_like": 33.5,
+        "temp": 32.0,
+        "feels_like": 33.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 1.8,
-        "wind_gusts": 15.8,
+        "wind": 2.9,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -281,7 +281,6 @@
         0.257,
         0.257,
         0.257,
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -296,6 +295,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -347,20 +347,20 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.516,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+16°C · морось умеренная",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+17°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 16.1,
-        "feels_like": 17.0,
-        "condition": "морось умеренная",
-        "wmo_code": 53,
-        "wind": 0.9,
-        "wind_gusts": 41.4,
-        "precip": 0.2,
+        "temp": 17.3,
+        "feels_like": 17.9,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 1.5,
+        "wind_gusts": 24.8,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -385,7 +385,6 @@
       },
       "history": [
         0.516,
-        0.516,
         0.366,
         0.341,
         0.303,
@@ -407,7 +406,8 @@
         0.381,
         0.531,
         0.531,
-        0.516
+        0.516,
+        0.366
       ],
       "_raw_events": [
         {
