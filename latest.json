@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T06:59:05.717300+00:00",
+  "generated_at": "2026-08-18T07:48:04.961478+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+12°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 12.5,
-        "feels_like": 9.4,
+        "temp": 12.0,
+        "feels_like": 9.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.0,
-        "wind_gusts": 26.3,
+        "wind": 7.6,
+        "wind_gusts": 22.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -45,7 +45,6 @@
       "history": [
         0.079,
         0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -64,6 +63,7 @@
         0.064,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+20°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 19.6,
-        "feels_like": 19.8,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 3.6,
-        "wind_gusts": 12.6,
+        "temp": 20.5,
+        "feels_like": 20.3,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 4.7,
+        "wind_gusts": 15.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -116,7 +116,7 @@
       "history": [
         0.518,
         0.518,
-        0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -177,19 +177,19 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
-            "exhibition",
-            "tour",
+            "kids",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
           "cats": [
-            "kids",
-            "recreation",
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -246,15 +246,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · ясно",
+        "val": "+27°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 25.8,
-        "feels_like": 28.6,
+        "temp": 27.3,
+        "feels_like": 30.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.1,
-        "wind_gusts": 11.2,
+        "wind": 4.4,
+        "wind_gusts": 14.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +279,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.242,
         0.257,
@@ -302,6 +301,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -349,20 +349,20 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.531,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+21°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.05,
+        "val": "+21°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 20.6,
-        "feels_like": 18.6,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 15.5,
-        "wind_gusts": 39.2,
-        "precip": 0.1,
+        "temp": 20.8,
+        "feels_like": 18.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 17.1,
+        "wind_gusts": 40.3,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -388,7 +388,6 @@
       "history": [
         0.366,
         0.366,
-        0.366,
         0.516,
         0.516,
         0.516,
@@ -409,7 +408,8 @@
         0.381,
         0.381,
         0.366,
-        0.531
+        0.531,
+        0.381
       ],
       "_raw_events": [
         {
