@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T15:40:10.501600+00:00",
+  "generated_at": "2026-08-18T16:42:50.146077+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+10°C · морось слабая",
+        "val": "+9°C · морось слабая",
         "icon": "🌦",
         "live": true,
-        "temp": 9.8,
-        "feels_like": 7.4,
+        "temp": 9.0,
+        "feels_like": 7.0,
         "condition": "морось слабая",
         "wmo_code": 51,
-        "wind": 7.5,
-        "wind_gusts": 8.6,
+        "wind": 6.9,
+        "wind_gusts": 10.4,
         "precip": 0.1,
         "snowfall": 0.0
       },
@@ -52,7 +52,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.064,
+        0.214,
         0.214
       ],
       "_raw_events": [],
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · пасмурно",
+        "val": "+20°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 21.5,
-        "feels_like": 21.1,
+        "temp": 20.5,
+        "feels_like": 20.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.0,
-        "wind_gusts": 19.8,
+        "wind": 6.1,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -151,14 +151,6 @@
           "is_high": true
         },
         {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мультимедийная выставка «Эйфория»",
           "cats": [
             "exhibition",
@@ -168,19 +160,19 @@
           "is_high": true
         },
         {
-          "title": "групповые знакомства GOKON",
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
-            "party",
-            "other",
+            "kids",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "title": "групповые знакомства GOKON",
           "cats": [
-            "kids",
-            "recreation",
+            "party",
+            "other",
             "entertainment"
           ],
           "is_high": true
@@ -214,19 +206,28 @@
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "title": "развлечения в Smile Park на ВДНХ",
           "cats": [
-            "exhibition",
             "kids",
-            "tour",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
+          "title": "мастер-класс по скульптуре в студии «Объём»",
           "cats": [
-            "theater",
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Стендап + джаз: два концерта в один вечер",
+          "cats": [
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -244,15 +245,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+30°C · преим. ясно",
+        "val": "+28°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 29.8,
-        "feels_like": 30.6,
+        "temp": 27.8,
+        "feels_like": 29.1,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 9.6,
-        "wind_gusts": 31.3,
+        "wind": 10.1,
+        "wind_gusts": 25.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -283,7 +284,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -300,6 +300,7 @@
         0.242,
         0.242,
         0.257,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -347,20 +348,20 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.416,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+14°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+14°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 13.6,
-        "feels_like": 14.1,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 2.7,
-        "wind_gusts": 23.0,
-        "precip": 0.1,
+        "temp": 13.5,
+        "feels_like": 13.6,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 5.0,
+        "wind_gusts": 19.8,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -384,7 +385,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.416,
         0.266,
         0.266,
@@ -407,7 +407,8 @@
         0.491,
         0.303,
         0.266,
-        0.416
+        0.416,
+        0.266
       ],
       "_raw_events": [
         {
