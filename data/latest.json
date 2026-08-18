@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:43:22.138817+00:00",
+  "generated_at": "2026-08-18T10:39:37.847109+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+11°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 11.4,
-        "feels_like": 9.5,
+        "temp": 10.7,
+        "feels_like": 8.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.9,
-        "wind_gusts": 21.2,
+        "wind": 5.3,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -58,9 +58,9 @@
         0.064,
         0.064,
         0.064,
+        0.079,
+        0.079,
         0.064,
-        0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · переменная облачность",
+        "val": "+23°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 21.9,
-        "feels_like": 21.5,
+        "temp": 22.6,
+        "feels_like": 22.0,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 5.0,
-        "wind_gusts": 15.8,
+        "wind": 5.1,
+        "wind_gusts": 16.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -215,19 +215,17 @@
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
+          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
           "cats": [
-            "kids",
-            "recreation",
+            "theater",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "title": "развлечения в Smile Park на ВДНХ",
           "cats": [
             "kids",
-            "education",
             "recreation",
             "entertainment"
           ],
@@ -249,11 +247,11 @@
         "val": "+31°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 30.6,
-        "feels_like": 33.1,
+        "temp": 31.4,
+        "feels_like": 33.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.6,
+        "wind": 1.8,
         "wind_gusts": 15.8,
         "precip": 0.0,
         "snowfall": 0.0
@@ -284,7 +282,6 @@
         0.257,
         0.257,
         0.257,
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -299,6 +296,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -349,25 +347,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.531,
+      "impact": 0.516,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+16°C · ливень умеренный",
-        "icon": "🌧",
+        "score": 0.5,
+        "val": "+16°C · морось умеренная",
+        "icon": "🌦",
         "live": true,
-        "temp": 16.4,
-        "feels_like": 15.1,
-        "condition": "ливень умеренный",
-        "wmo_code": 81,
-        "wind": 16.1,
-        "wind_gusts": 37.1,
-        "precip": 0.8,
+        "temp": 16.1,
+        "feels_like": 17.0,
+        "condition": "морось умеренная",
+        "wmo_code": 53,
+        "wind": 0.9,
+        "wind_gusts": 41.4,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "10 крупных из 13",
         "icon": "🎭"
       },
       "traffic": {
@@ -386,7 +384,6 @@
         "icon": "📰"
       },
       "history": [
-        0.516,
         0.516,
         0.516,
         0.366,
@@ -409,7 +406,8 @@
         0.531,
         0.381,
         0.531,
-        0.531
+        0.531,
+        0.516
       ],
       "_raw_events": [
         {
@@ -460,21 +458,7 @@
           "is_high": true
         },
         {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "экспозиция «Природа Новосибирской области»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Иконы»",
           "cats": [
             "exhibition"
           ],
@@ -487,6 +471,22 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "свободное рисование в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
