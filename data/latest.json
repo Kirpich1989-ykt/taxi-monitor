@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T20:34:21.984921+00:00",
+  "generated_at": "2026-08-18T21:33:06.151412+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+8°C · морось слабая",
+        "val": "+9°C · морось слабая",
         "icon": "🌦",
         "live": true,
-        "temp": 8.5,
-        "feels_like": 6.9,
+        "temp": 8.7,
+        "feels_like": 7.0,
         "condition": "морось слабая",
         "wmo_code": 51,
-        "wind": 6.6,
-        "wind_gusts": 7.6,
+        "wind": 7.6,
+        "wind_gusts": 7.2,
         "precip": 0.1,
         "snowfall": 0.0
       },
@@ -47,7 +47,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.064,
+        0.214,
         0.214
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · пасмурно",
-        "icon": "☁",
+        "val": "+18°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 18.4,
+        "temp": 18.3,
         "feels_like": 18.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 9.7,
-        "wind_gusts": 25.9,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 9.9,
+        "wind_gusts": 27.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "26 крупных из 38",
+        "val": "24 крупных из 35",
         "icon": "🎭"
       },
       "traffic": {
@@ -191,17 +191,6 @@
           "is_high": true
         },
         {
-          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
-          "cats": [
-            "party",
-            "theater",
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "речной круиз «Московская кругосветка» на теплоходе «Золотое кольцо» со стоянкой у Московского Кремля",
           "cats": [
             "stock",
@@ -227,6 +216,14 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
+          "cats": [
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -241,15 +238,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+24°C · ясно",
+        "val": "+23°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 23.6,
-        "feels_like": 26.1,
+        "temp": 22.8,
+        "feels_like": 25.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.6,
-        "wind_gusts": 11.5,
+        "wind": 4.2,
+        "wind_gusts": 10.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +272,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -292,6 +288,7 @@
         0.242,
         0.242,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -348,21 +345,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+11°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 11.7,
-        "feels_like": 11.2,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 6.6,
-        "wind_gusts": 19.4,
+        "temp": 11.4,
+        "feels_like": 10.8,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 5.6,
+        "wind_gusts": 20.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "14 крупных из 17",
+        "val": "15 крупных из 18",
         "icon": "🎭"
       },
       "traffic": {
@@ -386,7 +383,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.381,
         0.381,
         0.366,
@@ -404,9 +400,18 @@
         0.416,
         0.266,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
           "cats": [
@@ -474,13 +479,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
