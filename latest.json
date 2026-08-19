@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T16:41:41.287090+00:00",
+  "generated_at": "2026-08-19T17:35:27.273531+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+9°C · морось слабая",
         "icon": "🌦",
         "live": true,
-        "temp": 8.9,
-        "feels_like": 7.6,
+        "temp": 8.8,
+        "feels_like": 7.2,
         "condition": "морось слабая",
         "wmo_code": 51,
-        "wind": 6.0,
-        "wind_gusts": 25.2,
+        "wind": 7.5,
+        "wind_gusts": 27.4,
         "precip": 0.1,
         "snowfall": 0.0
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.214,
-        0.214,
         0.064,
         0.064,
         0.064,
@@ -66,6 +65,7 @@
         0.064,
         0.214,
         0.214,
+        0.214,
         0.214
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · преим. ясно",
+        "val": "+16°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 16.7,
-        "feels_like": 15.9,
+        "temp": 16.0,
+        "feels_like": 15.3,
         "condition": "преим. ясно",
         "wmo_code": 1,
         "wind": 5.8,
-        "wind_gusts": 19.8,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "41 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -124,7 +124,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
         0.383,
         0.383,
@@ -137,16 +136,10 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "конные прогулки по национальному парку «Лосиный остров»",
           "cats": [
@@ -185,15 +178,6 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
@@ -222,10 +206,29 @@
           "is_high": true
         },
         {
-          "title": "Стендап + джаз: два концерта в один вечер",
+          "title": "мастер-класс по скульптуре в студии «Объём»",
           "cats": [
-            "concert",
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Спортивный фестиваль в Лужниках",
+          "cats": [
+            "festival"
           ],
           "is_high": true
         }
@@ -242,15 +245,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+28°C · переменная облачность",
+        "val": "+27°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 27.8,
-        "feels_like": 29.1,
+        "temp": 26.9,
+        "feels_like": 27.8,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 6.7,
-        "wind_gusts": 29.5,
+        "wind": 8.0,
+        "wind_gusts": 21.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -281,7 +284,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -298,6 +300,7 @@
         0.257,
         0.257,
         0.257,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -352,11 +355,11 @@
         "val": "+13°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 13.3,
-        "feels_like": 13.3,
+        "temp": 12.8,
+        "feels_like": 12.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.9,
+        "wind": 3.4,
         "wind_gusts": 1.8,
         "precip": 0.0,
         "snowfall": 0.0
@@ -382,7 +385,6 @@
         "icon": "📰"
       },
       "history": [
-        0.416,
         0.266,
         0.416,
         0.266,
@@ -404,6 +406,7 @@
         0.366,
         0.303,
         0.116,
+        0.266,
         0.266,
         0.266
       ],
