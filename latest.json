@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-19T01:47:51.277637+00:00",
+  "generated_at": "2026-08-19T03:06:21.712862+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.0,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · пасмурно",
-        "icon": "☁",
+        "val": "+13°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 11.9,
-        "feels_like": 10.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 3.1,
-        "wind_gusts": 24.5,
+        "temp": 12.9,
+        "feels_like": 11.8,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 2.8,
+        "wind_gusts": 24.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -28,8 +28,8 @@
         "icon": "🎭"
       },
       "traffic": {
-        "score": 0.32,
-        "val": "45 км/ч · умеренные пробки",
+        "score": 0.0,
+        "val": "нет данных",
         "icon": "🚗"
       },
       "trends": {
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -66,7 +65,8 @@
         0.214,
         0.064,
         0.064,
-        0.064
+        0.064,
+        0.0
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · пасмурно",
-        "icon": "☁",
+        "val": "+19°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
         "temp": 18.6,
-        "feels_like": 19.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 8.3,
-        "wind_gusts": 22.3,
+        "feels_like": 18.4,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 11.6,
+        "wind_gusts": 32.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "36 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -146,6 +146,23 @@
             "kids",
             "education",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийная выставка «Эйфория»",
+          "cats": [
+            "exhibition",
+            "kids",
             "entertainment"
           ],
           "is_high": true
@@ -216,21 +233,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "Спортивный фестиваль в Лужниках",
-          "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -245,15 +247,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+21°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 21.3,
-        "feels_like": 24.2,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 3.7,
-        "wind_gusts": 8.3,
+        "temp": 21.4,
+        "feels_like": 24.3,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 4.2,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -282,7 +284,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -299,6 +300,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205,
         0.205
@@ -345,21 +347,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · пасмурно",
-        "icon": "☁",
+        "val": "+16°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 13.6,
-        "feels_like": 12.3,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 10.3,
+        "temp": 15.8,
+        "feels_like": 14.2,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 11.1,
         "wind_gusts": 32.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "16 крупных из 19",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -378,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.381,
         0.381,
@@ -401,6 +402,7 @@
         0.366,
         0.366,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -417,6 +419,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -467,15 +477,6 @@
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
             "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "свободное рисование в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "education",
             "entertainment"
           ],
           "is_high": true
