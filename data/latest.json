@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:43:41.209311+00:00",
+  "generated_at": "2026-08-19T10:39:25.485030+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · пасмурно",
+        "val": "+13°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 14.2,
-        "feels_like": 12.9,
+        "temp": 12.7,
+        "feels_like": 11.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 2.5,
-        "wind_gusts": 13.0,
+        "wind": 4.7,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -49,7 +49,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.214,
         0.064,
@@ -63,6 +62,7 @@
         0.0,
         0.214,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -84,18 +84,18 @@
         "val": "+18°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 18.0,
+        "temp": 17.7,
         "feels_like": 15.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 16.1,
-        "wind_gusts": 45.7,
+        "wind": 15.1,
+        "wind_gusts": 43.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -131,7 +131,7 @@
         0.368,
         0.368,
         0.368,
-        0.368,
+        0.383,
         0.383,
         0.383,
         0.383,
@@ -215,19 +215,17 @@
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
+          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
           "cats": [
-            "kids",
-            "recreation",
+            "theater",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "title": "развлечения в Smile Park на ВДНХ",
           "cats": [
             "kids",
-            "education",
             "recreation",
             "entertainment"
           ],
@@ -246,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+32°C · преим. ясно",
+        "val": "+33°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 32.3,
+        "temp": 32.8,
         "feels_like": 34.0,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 9.0,
-        "wind_gusts": 24.8,
+        "wind": 9.5,
+        "wind_gusts": 26.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -284,7 +282,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.257,
         0.242,
         0.242,
@@ -299,6 +296,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -349,25 +347,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.381,
+      "impact": 0.531,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+20°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.55,
+        "val": "+20°C · морось слабая",
+        "icon": "🌦",
         "live": true,
-        "temp": 20.1,
-        "feels_like": 17.5,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 15.4,
-        "wind_gusts": 36.7,
-        "precip": 0.0,
+        "temp": 19.8,
+        "feels_like": 17.8,
+        "condition": "морось слабая",
+        "wmo_code": 51,
+        "wind": 13.3,
+        "wind_gusts": 36.0,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "11 крупных из 14",
         "icon": "🎭"
       },
       "traffic": {
@@ -386,7 +384,6 @@
         "icon": "📰"
       },
       "history": [
-        0.531,
         0.531,
         0.516,
         0.366,
@@ -409,7 +406,8 @@
         0.381,
         0.381,
         0.381,
-        0.381
+        0.381,
+        0.531
       ],
       "_raw_events": [
         {
@@ -460,13 +458,6 @@
           "is_high": true
         },
         {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
@@ -474,16 +465,26 @@
           "is_high": true
         },
         {
-          "title": "выставка «Иконы»",
+          "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
-            "exhibition"
+            "kids",
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "выставка «Сибирь в древности»",
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
           "cats": [
-            "exhibition"
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "свободное рисование в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "education",
+            "entertainment"
           ],
           "is_high": true
         }
