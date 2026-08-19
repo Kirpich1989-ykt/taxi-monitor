@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T14:45:44.181692+00:00",
+  "generated_at": "2026-08-19T15:39:59.592105+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,16 +10,16 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+9°C · морось слабая",
+        "val": "+9°C · морось умеренная",
         "icon": "🌦",
         "live": true,
-        "temp": 9.2,
-        "feels_like": 7.8,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 5.6,
-        "wind_gusts": 13.3,
-        "precip": 0.1,
+        "temp": 9.1,
+        "feels_like": 7.9,
+        "condition": "морось умеренная",
+        "wmo_code": 53,
+        "wind": 4.4,
+        "wind_gusts": 18.4,
+        "precip": 0.2,
         "snowfall": 0.0
       },
       "events": {
@@ -44,7 +44,6 @@
       },
       "history": [
         0.064,
-        0.064,
         0.214,
         0.214,
         0.064,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.064,
+        0.214,
         0.214
       ],
       "_raw_events": [],
@@ -84,12 +84,12 @@
         "val": "+18°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 17.9,
-        "feels_like": 16.2,
+        "temp": 17.7,
+        "feels_like": 16.5,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 10.1,
-        "wind_gusts": 33.1,
+        "wind": 7.5,
+        "wind_gusts": 26.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -126,7 +126,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
         0.383,
         0.383,
@@ -136,6 +135,7 @@
         0.383,
         0.383,
         0.133,
+        0.368,
         0.368,
         0.368
       ],
@@ -243,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+31°C · преим. ясно",
+        "val": "+30°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 31.1,
-        "feels_like": 30.0,
+        "temp": 29.9,
+        "feels_like": 29.2,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 14.1,
-        "wind_gusts": 34.6,
+        "wind": 12.6,
+        "wind_gusts": 34.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +276,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.257,
         0.242,
         0.242,
@@ -298,6 +297,7 @@
         0.242,
         0.242,
         0.242,
+        0.257,
         0.257,
         0.257
       ],
@@ -346,25 +346,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.116,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
         "score": 0.0,
         "val": "+14°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 14.4,
-        "feels_like": 14.5,
+        "temp": 13.8,
+        "feels_like": 14.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.4,
-        "wind_gusts": 7.9,
+        "wind": 2.8,
+        "wind_gusts": 2.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.0,
-        "val": "KudaGo таймаут",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -383,7 +383,6 @@
         "icon": "📰"
       },
       "history": [
-        0.303,
         0.266,
         0.416,
         0.266,
@@ -406,9 +405,64 @@
         0.366,
         0.366,
         0.303,
-        0.116
+        0.116,
+        0.266
       ],
-      "_raw_events": [],
+      "_raw_events": [
+        {
+          "title": "ролевые настольные игры в «Башне»",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экспозиция «Природа Новосибирской области»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "шоу мыльных пузырей в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "свободное рисование в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock",
+            "education"
+          ],
+          "is_high": false
+        }
+      ],
       "_raw_news": [],
       "_raw_trends": {}
     }
