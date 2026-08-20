@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-20T03:06:05.253588+00:00",
+  "generated_at": "2026-08-20T04:47:11.487104+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+12°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.0,
+        "val": "+13°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 11.8,
-        "feels_like": 8.6,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 13.0,
-        "wind_gusts": 22.0,
+        "temp": 12.7,
+        "feels_like": 9.8,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 10.6,
+        "wind_gusts": 25.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.0,
         0.214,
         0.214,
@@ -66,7 +65,8 @@
         0.064,
         0.079,
         0.079,
-        0.079
+        0.079,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.118,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · пасмурно",
+        "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.0,
-        "feels_like": 12.5,
+        "temp": 14.5,
+        "feels_like": 14.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.7,
-        "wind_gusts": 8.6,
+        "wind": 5.0,
+        "wind_gusts": 13.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.0,
-        "val": "KudaGo таймаут",
+        "score": 1.0,
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.368,
         0.383,
         0.383,
@@ -137,9 +136,104 @@
         0.368,
         0.368,
         0.368,
-        0.118
+        0.118,
+        0.368
       ],
-      "_raw_events": [],
+      "_raw_events": [
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийная выставка «Эйфория»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "групповые знакомства GOKON",
+          "cats": [
+            "party",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "развлечения в Smile Park на ВДНХ",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        }
+      ],
       "_raw_news": [],
       "_raw_trends": {}
     },
@@ -148,25 +242,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+21°C · дождь слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+21°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 20.7,
+        "temp": 21.3,
         "feels_like": 23.0,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
-        "wind": 5.7,
-        "wind_gusts": 19.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 6.6,
+        "wind_gusts": 20.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.0,
-        "val": "KudaGo таймаут",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -188,7 +282,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -208,9 +301,39 @@
         0.205,
         0.205,
         0.205,
-        0.242
+        0.242,
+        0.205
       ],
-      "_raw_events": [],
+      "_raw_events": [
+        {
+          "title": "выставка  «Особенности национальной охоты»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Литературная жизнь Кубани» в литмузее",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка  «Мне вечность глянула в глаза…»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock"
+          ],
+          "is_high": false
+        }
+      ],
       "_raw_news": [],
       "_raw_trends": {}
     },
@@ -223,21 +346,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · преим. ясно",
+        "val": "+19°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 16.9,
-        "feels_like": 17.6,
+        "temp": 19.0,
+        "feels_like": 19.7,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 1.5,
-        "wind_gusts": 7.6,
+        "wind": 2.1,
+        "wind_gusts": 9.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "18 крупных из 21",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -256,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.381,
         0.381,
@@ -279,9 +401,18 @@
         0.366,
         0.366,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "музей инопланетян",
           "cats": [
@@ -345,13 +476,6 @@
         },
         {
           "title": "выставка «Иконы»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сибирь в древности»",
           "cats": [
             "exhibition"
           ],
