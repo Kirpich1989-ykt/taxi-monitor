@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T01:46:33.499380+00:00",
+  "generated_at": "2026-08-20T03:06:05.253588+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+11°C · пасмурно",
-        "icon": "☁",
+        "val": "+12°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 10.9,
-        "feels_like": 7.8,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 14.2,
-        "wind_gusts": 22.7,
+        "temp": 11.8,
+        "feels_like": 8.6,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 13.0,
+        "wind_gusts": 22.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.064,
-        0.064,
         0.0,
         0.214,
         0.214,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.079,
+        0.079,
         0.079
       ],
       "_raw_events": [],
@@ -77,7 +77,7 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.118,
       "alert": "green",
       "weather": {
         "score": 0.0,
@@ -94,8 +94,8 @@
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "37 крупных из 50",
+        "score": 0.0,
+        "val": "KudaGo таймаут",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.368,
         0.368,
         0.383,
@@ -137,102 +136,10 @@
         0.368,
         0.368,
         0.368,
-        0.368
+        0.368,
+        0.118
       ],
-      "_raw_events": [
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "групповые знакомства GOKON",
-          "cats": [
-            "party",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Спортивный фестиваль в Лужниках",
-          "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        }
-      ],
+      "_raw_events": [],
       "_raw_news": [],
       "_raw_trends": {}
     },
@@ -241,25 +148,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+21°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+21°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 21.0,
+        "temp": 20.7,
         "feels_like": 23.0,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 7.9,
-        "wind_gusts": 20.9,
-        "precip": 0.1,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 5.7,
+        "wind_gusts": 19.4,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.0,
+        "val": "KudaGo таймаут",
         "icon": "🎭"
       },
       "traffic": {
@@ -282,7 +189,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -301,38 +207,10 @@
         0.242,
         0.205,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
-      "_raw_events": [
-        {
-          "title": "выставка  «Особенности национальной охоты»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Литературная жизнь Кубани» в литмузее",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка  «Мне вечность глянула в глаза…»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock"
-          ],
-          "is_high": false
-        }
-      ],
+      "_raw_events": [],
       "_raw_news": [],
       "_raw_trends": {}
     },
@@ -345,21 +223,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · пасмурно",
-        "icon": "☁",
+        "val": "+17°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 13.8,
-        "feels_like": 14.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 2.0,
-        "wind_gusts": 4.7,
+        "temp": 16.9,
+        "feels_like": 17.6,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 1.5,
+        "wind_gusts": 7.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "18 крупных из 21",
         "icon": "🎭"
       },
       "traffic": {
@@ -378,7 +256,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.381,
@@ -401,6 +278,7 @@
         0.366,
         0.366,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -417,6 +295,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -468,14 +354,6 @@
           "title": "выставка «Сибирь в древности»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "entertainment"
           ],
           "is_high": true
         }
