@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T05:39:47.956155+00:00",
+  "generated_at": "2026-08-20T07:00:24.847500+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+13°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 12.9,
-        "feels_like": 10.0,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 10.0,
+        "temp": 13.2,
+        "feels_like": 9.9,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 11.8,
         "wind_gusts": 27.4,
         "precip": 0.0,
         "snowfall": 0.0
@@ -44,7 +44,6 @@
       },
       "history": [
         0.214,
-        0.214,
         0.064,
         0.064,
         0.064,
@@ -65,6 +64,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064
       ],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.118,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · пасмурно",
-        "icon": "☁",
+        "val": "+19°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 16.4,
-        "feels_like": 15.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 6.0,
-        "wind_gusts": 17.3,
+        "temp": 18.9,
+        "feels_like": 18.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 7.3,
+        "wind_gusts": 21.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.0,
-        "val": "KudaGo таймаут",
+        "score": 1.0,
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -121,7 +121,6 @@
         0.383,
         0.383,
         0.383,
-        0.383,
         0.133,
         0.368,
         0.368,
@@ -137,9 +136,104 @@
         0.368,
         0.118,
         0.368,
-        0.118
+        0.118,
+        0.368
       ],
-      "_raw_events": [],
+      "_raw_events": [
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийная выставка «Эйфория»",
+          "cats": [
+            "exhibition",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "групповые знакомства GOKON",
+          "cats": [
+            "party",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "развлечения в Smile Park на ВДНХ",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        }
+      ],
       "_raw_news": [],
       "_raw_trends": {}
     },
@@ -148,25 +242,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · переменная облачность",
+        "val": "+24°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 22.1,
-        "feels_like": 24.0,
+        "temp": 24.1,
+        "feels_like": 25.7,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 5.4,
-        "wind_gusts": 18.4,
+        "wind": 5.7,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -186,7 +280,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -208,9 +301,17 @@
         0.205,
         0.242,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -255,11 +356,11 @@
         "val": "+20°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 19.9,
-        "feels_like": 20.6,
+        "temp": 20.5,
+        "feels_like": 20.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 2.5,
+        "wind": 2.4,
         "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
@@ -290,7 +391,6 @@
         0.381,
         0.381,
         0.381,
-        0.381,
         0.531,
         0.366,
         0.366,
@@ -301,6 +401,7 @@
         0.266,
         0.266,
         0.266,
+        0.366,
         0.366,
         0.366,
         0.366,
@@ -336,17 +437,17 @@
           "is_high": true
         },
         {
-          "title": "беззвучная выставка-квест «Тишина»",
+          "title": "цирковое представление с морскими животными",
           "cats": [
-            "exhibition",
+            "kids",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
+          "title": "беззвучная выставка-квест «Тишина»",
           "cats": [
-            "kids",
+            "exhibition",
             "entertainment"
           ],
           "is_high": true
