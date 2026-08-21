@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T09:47:48.884212+00:00",
+  "generated_at": "2026-08-21T10:40:07.837465+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · ясно",
+        "val": "+13°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 14.1,
-        "feels_like": 11.6,
+        "temp": 12.7,
+        "feels_like": 10.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.3,
-        "wind_gusts": 25.9,
+        "wind": 8.5,
+        "wind_gusts": 21.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.214,
         0.064,
         0.214,
         0.214,
@@ -66,6 +65,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -84,12 +84,12 @@
         "val": "+22°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 21.6,
-        "feels_like": 20.2,
+        "temp": 22.1,
+        "feels_like": 20.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 13.8,
-        "wind_gusts": 37.1,
+        "wind": 12.9,
+        "wind_gusts": 36.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -116,7 +116,6 @@
       "history": [
         0.368,
         0.368,
-        0.368,
         0.383,
         0.383,
         0.368,
@@ -137,6 +136,7 @@
         0.383,
         0.383,
         0.368,
+        0.383,
         0.383
       ],
       "_raw_events": [
@@ -215,20 +215,18 @@
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
+          "title": "мюзикл «Ничего не бойся, я с тобой!» в Театре МДМ",
           "cats": [
-            "kids",
-            "recreation",
+            "theater",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "title": "развлечения в Smile Park на ВДНХ",
           "cats": [
-            "stock",
-            "education",
-            "other",
+            "kids",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -246,14 +244,14 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+32°C · ясно",
+        "val": "+33°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 32.2,
-        "feels_like": 31.8,
+        "temp": 32.8,
+        "feels_like": 32.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 12.9,
+        "wind": 12.8,
         "wind_gusts": 35.3,
         "precip": 0.0,
         "snowfall": 0.0
@@ -287,7 +285,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.092,
         0.242,
         0.242,
@@ -301,6 +298,7 @@
         0.205,
         0.205,
         0.242,
+        0.257,
         0.257,
         0.257
       ],
@@ -356,18 +354,18 @@
         "val": "+20°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 20.4,
-        "feels_like": 19.3,
+        "temp": 20.5,
+        "feels_like": 19.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.5,
+        "wind": 5.1,
         "wind_gusts": 23.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "10 крупных из 13",
         "icon": "🎭"
       },
       "traffic": {
@@ -391,7 +389,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.303,
         0.266,
         0.266,
@@ -408,6 +405,7 @@
         0.516,
         0.381,
         0.531,
+        0.366,
         0.366,
         0.366
       ],
@@ -437,14 +435,6 @@
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "беззвучная выставка-квест «Тишина»",
           "cats": [
             "exhibition",
@@ -468,25 +458,33 @@
           "is_high": true
         },
         {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Иконы»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
+        },
+        {
+          "title": "шоу мыльных пузырей в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
