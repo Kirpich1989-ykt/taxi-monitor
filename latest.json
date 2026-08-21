@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T13:04:38.611106+00:00",
+  "generated_at": "2026-08-21T13:55:23.245322+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · ясно",
+        "val": "+9°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 9.6,
-        "feels_like": 7.0,
+        "temp": 9.1,
+        "feels_like": 6.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 10.0,
-        "wind_gusts": 12.6,
+        "wind": 10.5,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.214,
-        0.214,
         0.064,
         0.064,
         0.214,
@@ -63,6 +62,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -84,12 +84,12 @@
         "val": "+21°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 21.3,
-        "feels_like": 20.0,
+        "temp": 20.9,
+        "feels_like": 19.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 11.5,
-        "wind_gusts": 32.4,
+        "wind": 10.9,
+        "wind_gusts": 31.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -115,7 +115,6 @@
       },
       "history": [
         0.383,
-        0.383,
         0.368,
         0.368,
         0.368,
@@ -137,6 +136,7 @@
         0.383,
         0.383,
         0.383,
+        0.368,
         0.368
       ],
       "_raw_events": [
@@ -234,19 +234,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
+        "score": 0.0,
         "val": "+33°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 33.0,
-        "feels_like": 30.8,
+        "temp": 32.7,
+        "feels_like": 30.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 12.4,
-        "wind_gusts": 34.2,
+        "wind": 12.0,
+        "wind_gusts": 33.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +276,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.092,
         0.242,
         0.242,
@@ -294,7 +293,8 @@
         0.257,
         0.257,
         0.257,
-        0.257
+        0.257,
+        0.242
       ],
       "_raw_events": [
         {
@@ -341,25 +341,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.491,
+      "impact": 0.303,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+14°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+14°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 14.4,
-        "feels_like": 14.8,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 5.1,
-        "wind_gusts": 19.1,
-        "precip": 0.1,
+        "temp": 14.1,
+        "feels_like": 14.7,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 3.2,
+        "wind_gusts": 13.0,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 9",
+        "score": 0.75,
+        "val": "5 крупных из 8",
         "icon": "🎭"
       },
       "traffic": {
@@ -378,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.303,
@@ -401,19 +400,12 @@
         0.366,
         0.366,
         0.516,
-        0.491
+        0.491,
+        0.303
       ],
       "_raw_events": [
         {
           "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
           "cats": [
             "exhibition",
             "entertainment"
