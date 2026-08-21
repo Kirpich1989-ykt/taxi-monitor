@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-21T16:46:26.317280+00:00",
+  "generated_at": "2026-08-21T17:38:03.525383+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+8°C · ясно",
-        "icon": "☀",
+        "score": 0.05,
+        "val": "+7°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 7.7,
-        "feels_like": 4.8,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 11.7,
+        "temp": 7.4,
+        "feels_like": 4.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 12.1,
         "wind_gusts": 15.5,
         "precip": 0.0,
         "snowfall": 0.0
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.214,
         0.079,
         0.079,
         0.079,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.064,
-        0.064
+        0.064,
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+17°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 18.2,
-        "feels_like": 17.8,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 7.1,
-        "wind_gusts": 23.0,
+        "temp": 17.1,
+        "feels_like": 17.0,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 6.4,
+        "wind_gusts": 17.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "43 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.368,
         0.368,
         0.518,
@@ -137,30 +136,16 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "конные прогулки по национальному парку «Лосиный остров»",
           "cats": [
             "kids",
             "education",
             "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -202,28 +187,46 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "игровые знакомства «Быстрые свидания № 1» в Москве от Fast Life",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
             "kids",
             "education",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "развлечения в Smile Park на ВДНХ",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Стендап + джаз: два концерта в один вечер",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Спортивный фестиваль в Лужниках",
+          "cats": [
+            "festival"
           ],
           "is_high": true
         }
@@ -240,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+28°C · ясно",
+        "val": "+27°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 27.9,
-        "feels_like": 26.5,
+        "temp": 26.8,
+        "feels_like": 25.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.9,
-        "wind_gusts": 19.4,
+        "wind": 8.4,
+        "wind_gusts": 20.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -274,7 +277,6 @@
       },
       "history": [
         0.242,
-        0.242,
         0.092,
         0.242,
         0.242,
@@ -293,6 +295,7 @@
         0.257,
         0.257,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -347,15 +350,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · пасмурно",
-        "icon": "☁",
+        "val": "+13°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 12.8,
-        "feels_like": 13.0,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 2.9,
-        "wind_gusts": 6.8,
+        "temp": 12.6,
+        "feels_like": 12.7,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 3.6,
+        "wind_gusts": 5.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -382,7 +385,6 @@
       "history": [
         0.266,
         0.266,
-        0.266,
         0.116,
         0.266,
         0.366,
@@ -401,6 +403,7 @@
         0.516,
         0.491,
         0.303,
+        0.266,
         0.266,
         0.266,
         0.266
