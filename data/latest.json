@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T01:52:01.643084+00:00",
+  "generated_at": "2026-08-21T03:11:49.714934+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+12°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+14°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 12.2,
-        "feels_like": 9.2,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 13.3,
-        "wind_gusts": 33.5,
+        "temp": 14.0,
+        "feels_like": 10.8,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 15.3,
+        "wind_gusts": 35.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -58,6 +57,7 @@
         0.064,
         0.064,
         0.214,
+        0.079,
         0.079,
         0.079,
         0.079,
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.118,
       "alert": "green",
       "weather": {
         "score": 0.0,
         "val": "+16°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 15.8,
-        "feels_like": 16.1,
+        "temp": 16.0,
+        "feels_like": 16.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.7,
-        "wind_gusts": 23.8,
+        "wind": 8.9,
+        "wind_gusts": 23.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "36 крупных из 50",
+        "score": 0.0,
+        "val": "KudaGo HTTP 403",
         "icon": "🎭"
       },
       "traffic": {
@@ -116,7 +116,6 @@
       "history": [
         0.368,
         0.368,
-        0.368,
         0.118,
         0.368,
         0.118,
@@ -137,102 +136,10 @@
         0.518,
         0.518,
         0.368,
-        0.368
+        0.368,
+        0.118
       ],
-      "_raw_events": [
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "групповые знакомства GOKON",
-          "cats": [
-            "party",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Спортивный фестиваль в Лужниках",
-          "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        }
-      ],
+      "_raw_events": [],
       "_raw_news": [],
       "_raw_trends": {}
     },
@@ -245,15 +152,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · ясно",
+        "val": "+18°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 17.3,
+        "temp": 17.5,
         "feels_like": 17.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.2,
-        "wind_gusts": 9.0,
+        "wind": 4.9,
+        "wind_gusts": 11.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -280,7 +187,6 @@
       "history": [
         0.205,
         0.205,
-        0.205,
         0.242,
         0.205,
         0.205,
@@ -299,6 +205,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205,
         0.205
@@ -345,21 +252,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · ясно",
-        "icon": "☀",
+        "val": "+18°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 15.9,
-        "feels_like": 16.4,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 4.0,
-        "wind_gusts": 15.5,
+        "temp": 18.1,
+        "feels_like": 18.2,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.4,
+        "wind_gusts": 19.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "18 крупных из 21",
         "icon": "🎭"
       },
       "traffic": {
@@ -390,13 +297,13 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.303,
         0.266,
         0.266,
         0.266,
         0.116,
         0.266,
+        0.366,
         0.366,
         0.366,
         0.366,
@@ -424,6 +331,14 @@
           "title": "цирковое представление с морскими животными",
           "cats": [
             "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
             "entertainment"
           ],
           "is_high": true
@@ -468,14 +383,6 @@
           "title": "выставка «Сибирь в древности»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "entertainment"
           ],
           "is_high": true
         }
