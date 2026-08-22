@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T01:45:22.668635+00:00",
+  "generated_at": "2026-08-22T03:02:59.139698+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · ясно",
+        "val": "+14°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 12.9,
-        "feels_like": 10.9,
+        "temp": 14.3,
+        "feels_like": 12.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.8,
-        "wind_gusts": 17.6,
+        "wind": 3.9,
+        "wind_gusts": 15.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -50,7 +50,6 @@
         0.079,
         0.079,
         0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -60,6 +59,7 @@
         0.064,
         0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · пасмурно",
-        "icon": "☁",
+        "val": "+13°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 13.0,
-        "feels_like": 13.1,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 3.1,
-        "wind_gusts": 6.1,
+        "temp": 12.9,
+        "feels_like": 13.0,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 2.4,
+        "wind_gusts": 5.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "34 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -115,7 +115,6 @@
       },
       "history": [
         0.368,
-        0.368,
         0.118,
         0.368,
         0.383,
@@ -125,6 +124,7 @@
         0.383,
         0.383,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -151,10 +151,27 @@
           "is_high": true
         },
         {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультимедийная выставка «Эйфория»",
+          "cats": [
+            "exhibition",
+            "kids",
             "entertainment"
           ],
           "is_high": true
@@ -213,27 +230,6 @@
             "festival"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
-          "cats": [
-            "party",
-            "theater",
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -248,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · ясно",
+        "val": "+20°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 20.6,
-        "feels_like": 19.4,
+        "temp": 20.4,
+        "feels_like": 19.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 8.3,
-        "wind_gusts": 20.2,
+        "wind": 7.8,
+        "wind_gusts": 19.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -286,22 +282,22 @@
         0.205,
         0.205,
         0.205,
+        0.242,
+        0.257,
+        0.257,
+        0.257,
+        0.257,
+        0.257,
+        0.242,
+        0.242,
+        0.242,
+        0.242,
+        0.242,
+        0.242,
+        0.242,
+        0.242,
+        0.242,
         0.205,
-        0.242,
-        0.257,
-        0.257,
-        0.257,
-        0.257,
-        0.257,
-        0.242,
-        0.242,
-        0.242,
-        0.242,
-        0.242,
-        0.242,
-        0.242,
-        0.242,
-        0.242,
         0.205,
         0.205,
         0.205
@@ -348,21 +344,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+15°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 12.5,
-        "feels_like": 12.4,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 3.2,
-        "wind_gusts": 8.6,
+        "temp": 15.1,
+        "feels_like": 15.2,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 4.4,
+        "wind_gusts": 12.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "18 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -381,7 +377,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.516,
@@ -404,6 +399,7 @@
         0.366,
         0.366,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -420,6 +416,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -461,13 +465,6 @@
           "is_high": true
         },
         {
-          "title": "экспозиция «Природа Новосибирской области»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Сибирь в древности»",
           "cats": [
             "exhibition"
@@ -475,10 +472,9 @@
           "is_high": true
         },
         {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
+          "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
-            "kids",
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         }
