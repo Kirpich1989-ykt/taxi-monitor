@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T17:30:17.050615+00:00",
+  "generated_at": "2026-08-22T18:43:42.686016+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+6°C · ясно",
+        "val": "+5°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 6.5,
-        "feels_like": 3.9,
+        "temp": 5.4,
+        "feels_like": 2.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.6,
+        "wind": 6.0,
         "wind_gusts": 9.4,
         "precip": 0.0,
         "snowfall": 0.0
@@ -43,7 +43,7 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+18°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 19.0,
-        "feels_like": 18.4,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 8.7,
-        "wind_gusts": 22.7,
+        "temp": 18.2,
+        "feels_like": 17.7,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 9.4,
+        "wind_gusts": 24.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "44 крупных из 50",
+        "val": "37 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -131,33 +131,15 @@
         0.368,
         0.368,
         0.368,
+        0.518,
+        0.518,
         0.368,
-        0.518,
-        0.518,
         0.368,
         0.368,
         0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
@@ -213,18 +195,38 @@
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
           "cats": [
-            "kids",
-            "recreation",
+            "stock",
+            "education",
+            "other",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "Стендап + джаз: два концерта в один вечер",
+          "title": "Спортивный фестиваль в Лужниках",
           "cats": [
-            "concert",
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "cats": [
+            "party",
+            "theater",
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "гастрофестиваль «Вкусы на крыше»",
+          "cats": [
+            "stock",
+            "festival",
             "entertainment"
           ],
           "is_high": true
@@ -242,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+29°C · ясно",
+        "val": "+28°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 29.3,
-        "feels_like": 28.8,
+        "temp": 27.5,
+        "feels_like": 26.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.9,
-        "wind_gusts": 19.4,
+        "wind": 8.4,
+        "wind_gusts": 20.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +281,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -296,6 +297,7 @@
         0.272,
         0.272,
         0.272,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -349,14 +351,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · пасмурно",
-        "icon": "☁",
+        "val": "+14°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 13.3,
-        "feels_like": 13.5,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.0,
+        "temp": 13.9,
+        "feels_like": 14.7,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 2.4,
         "wind_gusts": 5.0,
         "precip": 0.0,
         "snowfall": 0.0
@@ -384,7 +386,6 @@
       "history": [
         0.266,
         0.266,
-        0.266,
         0.341,
         0.366,
         0.366,
@@ -403,6 +404,7 @@
         0.366,
         0.366,
         0.366,
+        0.341,
         0.341,
         0.341,
         0.341
