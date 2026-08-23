@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T22:33:07.004682+00:00",
+  "generated_at": "2026-08-22T23:30:01.197402+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · ясно",
+        "val": "+12°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 9.1,
-        "feels_like": 7.1,
+        "temp": 11.6,
+        "feels_like": 10.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.4,
-        "wind_gusts": 8.6,
+        "wind": 3.5,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+16°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 16.6,
-        "feels_like": 16.3,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 9.7,
-        "wind_gusts": 25.9,
+        "temp": 16.4,
+        "feels_like": 16.6,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 7.6,
+        "wind_gusts": 25.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -126,7 +126,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -137,6 +136,7 @@
         0.368,
         0.368,
         0.118,
+        0.368,
         0.368
       ],
       "_raw_events": [
@@ -174,18 +174,18 @@
           "is_high": true
         },
         {
-          "title": "быстрые свидания от Fast Life",
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
-            "party",
+            "stock",
+            "education",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "title": "быстрые свидания от Fast Life",
           "cats": [
-            "stock",
-            "education",
+            "party",
             "entertainment"
           ],
           "is_high": true
@@ -238,15 +238,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · ясно",
+        "val": "+22°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 23.4,
-        "feels_like": 21.7,
+        "temp": 22.3,
+        "feels_like": 20.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.5,
-        "wind_gusts": 17.6,
+        "wind": 5.6,
+        "wind_gusts": 14.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +279,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.242,
         0.257,
         0.272,
@@ -294,6 +293,7 @@
         0.242,
         0.242,
         0.092,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -338,15 +338,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · пасмурно",
+        "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.2,
-        "feels_like": 13.8,
+        "temp": 13.5,
+        "feels_like": 14.2,
         "condition": "пасмурно",
         "wmo_code": 3,
         "wind": 2.7,
-        "wind_gusts": 1.4,
+        "wind_gusts": 1.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -379,7 +379,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.516,
         0.516,
         0.366,
@@ -394,6 +393,7 @@
         0.341,
         0.366,
         0.116,
+        0.366,
         0.366
       ],
       "_raw_events": [
