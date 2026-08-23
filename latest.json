@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T17:29:35.645971+00:00",
+  "generated_at": "2026-08-23T18:43:03.046761+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+8°C · ясно",
+        "val": "+6°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 7.6,
-        "feels_like": 5.4,
+        "temp": 6.2,
+        "feels_like": 4.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.1,
-        "wind_gusts": 10.4,
+        "wind": 2.1,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · ясно",
+        "val": "+17°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 18.4,
-        "feels_like": 17.6,
+        "temp": 17.2,
+        "feels_like": 16.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.5,
-        "wind_gusts": 19.8,
+        "wind": 6.1,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "39 крупных из 50",
+        "val": "35 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -118,7 +118,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.118,
         0.368,
         0.368,
@@ -137,33 +136,15 @@
         0.383,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
             "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
-          "cats": [
-            "theater",
-            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -197,23 +178,6 @@
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "фестиваль «Четыре Лапы Фест»",
-          "cats": [
-            "kids",
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
           "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
           "cats": [
             "stock",
@@ -227,6 +191,41 @@
           "title": "Спортивный фестиваль в Лужниках",
           "cats": [
             "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "гастрофестиваль «Вкусы на крыше»",
+          "cats": [
+            "stock",
+            "festival",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "cats": [
+            "party",
+            "theater",
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
+          "cats": [
+            "concert",
+            "entertainment"
           ],
           "is_high": true
         }
@@ -243,15 +242,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+29°C · ясно",
+        "val": "+27°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 28.7,
-        "feels_like": 30.1,
+        "temp": 26.8,
+        "feels_like": 29.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.3,
-        "wind_gusts": 23.0,
+        "wind": 5.2,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -280,7 +279,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.092,
         0.205,
         0.205,
@@ -297,6 +295,7 @@
         0.272,
         0.257,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -350,14 +349,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+15°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 15.8,
-        "feels_like": 15.2,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 7.8,
+        "temp": 15.4,
+        "feels_like": 14.6,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 8.5,
         "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
@@ -386,7 +385,6 @@
         0.341,
         0.341,
         0.341,
-        0.341,
         0.366,
         0.116,
         0.366,
@@ -404,6 +402,7 @@
         0.366,
         0.341,
         0.303,
+        0.266,
         0.266,
         0.266,
         0.266
