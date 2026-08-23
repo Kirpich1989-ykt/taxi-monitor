@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T10:34:17.237861+00:00",
+  "generated_at": "2026-08-23T11:30:15.935257+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · ясно",
+        "val": "+12°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 12.9,
-        "feels_like": 11.2,
+        "temp": 11.5,
+        "feels_like": 9.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.3,
-        "wind_gusts": 7.9,
+        "wind": 6.5,
+        "wind_gusts": 5.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+23°C · ясно",
-        "icon": "☀",
+        "val": "+23°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 22.6,
-        "feels_like": 21.4,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 13.0,
-        "wind_gusts": 35.6,
+        "temp": 23.1,
+        "feels_like": 21.5,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 14.1,
+        "wind_gusts": 37.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -116,7 +116,6 @@
       "history": [
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -137,6 +136,7 @@
         0.368,
         0.383,
         0.383,
+        0.383,
         0.383
       ],
       "_raw_events": [
@@ -154,6 +154,13 @@
             "kids",
             "education",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -212,21 +219,8 @@
           "is_high": true
         },
         {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "title": "игровые знакомства «Быстрые свидания № 1» в Москве от Fast Life",
           "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -240,19 +234,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.272,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+36°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.1,
+        "val": "+37°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 36.3,
-        "feels_like": 37.5,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 9.2,
-        "wind_gusts": 27.0,
+        "temp": 36.8,
+        "feels_like": 36.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 14.0,
+        "wind_gusts": 37.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -277,7 +271,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.272,
         0.272,
         0.272,
@@ -300,7 +293,8 @@
         0.242,
         0.242,
         0.257,
-        0.257
+        0.257,
+        0.272
       ],
       "_raw_events": [
         {
@@ -354,12 +348,12 @@
         "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.4,
-        "feels_like": 20.2,
+        "temp": 21.2,
+        "feels_like": 20.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 8.1,
-        "wind_gusts": 17.3,
+        "wind": 8.4,
+        "wind_gusts": 14.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -384,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.516,
         0.366,
         0.516,
         0.366,
@@ -397,6 +390,7 @@
         0.341,
         0.366,
         0.116,
+        0.366,
         0.366,
         0.366,
         0.366,
