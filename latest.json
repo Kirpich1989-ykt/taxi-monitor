@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T18:43:03.046761+00:00",
+  "generated_at": "2026-08-23T19:29:37.726815+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,11 +13,11 @@
         "val": "+6°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 6.2,
-        "feels_like": 4.3,
+        "temp": 5.8,
+        "feels_like": 3.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 2.1,
+        "wind": 2.4,
         "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · ясно",
+        "val": "+16°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 17.2,
-        "feels_like": 16.3,
+        "temp": 16.5,
+        "feels_like": 15.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.1,
+        "wind": 6.6,
         "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "35 крупных из 50",
+        "val": "33 крупных из 45",
         "icon": "🎭"
       },
       "traffic": {
@@ -117,7 +117,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.118,
         0.368,
         0.368,
@@ -134,6 +133,7 @@
         0.383,
         0.383,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -159,15 +159,6 @@
           "is_high": true
         },
         {
-          "title": "мультимедийная выставка «Эйфория»",
-          "cats": [
-            "exhibition",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
@@ -178,28 +169,9 @@
           "is_high": true
         },
         {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Спортивный фестиваль в Лужниках",
           "cats": [
             "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "гастрофестиваль «Вкусы на крыше»",
-          "cats": [
-            "stock",
-            "festival",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -215,16 +187,46 @@
           "is_high": true
         },
         {
-          "title": "мультисенсорная выставка «Сон в музее»",
+          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
           "cats": [
-            "exhibition"
+            "concert",
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
-            "concert",
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Московская международная неделя кино",
+          "cats": [
+            "cinema",
+            "festival",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -242,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+27°C · ясно",
+        "val": "+26°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 26.8,
-        "feels_like": 29.2,
+        "temp": 26.0,
+        "feels_like": 28.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.2,
-        "wind_gusts": 16.2,
+        "wind": 4.9,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +280,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.092,
         0.205,
         0.205,
@@ -295,6 +296,7 @@
         0.272,
         0.257,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -349,15 +351,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+15°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 15.4,
-        "feels_like": 14.6,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 8.5,
-        "wind_gusts": 9.0,
+        "temp": 15.1,
+        "feels_like": 14.4,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 7.6,
+        "wind_gusts": 8.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -384,7 +386,6 @@
       "history": [
         0.341,
         0.341,
-        0.341,
         0.366,
         0.116,
         0.366,
@@ -402,6 +403,7 @@
         0.366,
         0.341,
         0.303,
+        0.266,
         0.266,
         0.266,
         0.266,
