@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T01:55:14.289895+00:00",
+  "generated_at": "2026-08-23T03:11:37.890861+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+16°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 14.6,
-        "feels_like": 13.5,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 1.0,
-        "wind_gusts": 14.0,
+        "temp": 16.0,
+        "feels_like": 15.2,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 0.6,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.518,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+16°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+17°C · ливень слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 16.5,
-        "feels_like": 17.6,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 4.9,
-        "wind_gusts": 13.3,
-        "precip": 0.0,
+        "temp": 16.9,
+        "feels_like": 17.7,
+        "condition": "ливень слабый",
+        "wmo_code": 80,
+        "wind": 7.3,
+        "wind_gusts": 19.8,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "36 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -124,7 +124,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -137,7 +136,8 @@
         0.118,
         0.368,
         0.368,
-        0.368
+        0.368,
+        0.518
       ],
       "_raw_events": [
         {
@@ -247,12 +247,12 @@
         "val": "+20°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 20.4,
-        "feels_like": 19.3,
+        "temp": 19.8,
+        "feels_like": 19.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.7,
-        "wind_gusts": 11.5,
+        "wind": 4.5,
+        "wind_gusts": 11.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -283,7 +283,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.242,
         0.257,
         0.272,
@@ -298,6 +297,7 @@
         0.242,
         0.242,
         0.092,
+        0.205,
         0.205,
         0.205,
         0.205
@@ -344,21 +344,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · пасмурно",
-        "icon": "☁",
+        "val": "+17°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 15.4,
-        "feels_like": 15.3,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 7.9,
-        "wind_gusts": 10.4,
+        "temp": 16.7,
+        "feels_like": 16.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 8.9,
+        "wind_gusts": 12.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "18 крупных из 21",
         "icon": "🎭"
       },
       "traffic": {
@@ -383,7 +383,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.516,
         0.516,
         0.366,
@@ -398,6 +397,7 @@
         0.341,
         0.366,
         0.116,
+        0.366,
         0.366,
         0.366,
         0.366
@@ -416,6 +416,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -466,13 +474,6 @@
         },
         {
           "title": "выставка «Сибирь в древности»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
           ],
