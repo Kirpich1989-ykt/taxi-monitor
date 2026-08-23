@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T14:33:16.953382+00:00",
+  "generated_at": "2026-08-23T15:31:55.314315+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · ясно",
+        "val": "+8°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 9.1,
-        "feels_like": 7.1,
+        "temp": 8.4,
+        "feels_like": 6.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.2,
-        "wind_gusts": 9.4,
+        "wind": 4.9,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.383,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+22°C · пасмурно",
+        "score": 0.0,
+        "val": "+21°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 22.3,
-        "feels_like": 20.4,
+        "temp": 21.1,
+        "feels_like": 19.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 12.1,
-        "wind_gusts": 35.6,
+        "wind": 10.9,
+        "wind_gusts": 31.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "47 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.518,
         0.368,
         0.368,
         0.368,
@@ -137,7 +136,8 @@
         0.383,
         0.383,
         0.383,
-        0.383
+        0.383,
+        0.368
       ],
       "_raw_events": [
         {
@@ -234,19 +234,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+34°C · преим. ясно",
+        "score": 0.0,
+        "val": "+32°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 33.7,
-        "feels_like": 34.0,
+        "temp": 32.5,
+        "feels_like": 33.2,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 14.5,
-        "wind_gusts": 39.6,
+        "wind": 11.5,
+        "wind_gusts": 37.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +272,6 @@
       },
       "history": [
         0.272,
-        0.272,
         0.242,
         0.242,
         0.242,
@@ -294,7 +293,8 @@
         0.272,
         0.272,
         0.257,
-        0.257
+        0.257,
+        0.242
       ],
       "_raw_events": [
         {
@@ -341,25 +341,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.303,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · ясно",
-        "icon": "☀",
+        "val": "+17°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 17.4,
-        "feels_like": 16.9,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 7.9,
-        "wind_gusts": 16.6,
+        "temp": 16.9,
+        "feels_like": 16.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 7.7,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.75,
-        "val": "5 крупных из 8",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -378,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.341,
         0.341,
@@ -401,18 +400,10 @@
         0.366,
         0.366,
         0.341,
-        0.303
+        0.303,
+        0.266
       ],
       "_raw_events": [
-        {
-          "title": "еженедельная сальса-вечеринка",
-          "cats": [
-            "party",
-            "education",
-            "recreation"
-          ],
-          "is_high": true
-        },
         {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
