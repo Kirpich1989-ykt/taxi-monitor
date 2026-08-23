@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T11:30:15.935257+00:00",
+  "generated_at": "2026-08-23T12:57:03.677000+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · ясно",
+        "val": "+11°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 11.5,
-        "feels_like": 9.7,
+        "temp": 10.6,
+        "feels_like": 8.6,
         "condition": "ясно",
         "wmo_code": 0,
         "wind": 6.5,
-        "wind_gusts": 5.8,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+23°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+23°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 23.1,
-        "feels_like": 21.5,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 14.1,
-        "wind_gusts": 37.4,
+        "temp": 23.0,
+        "feels_like": 20.9,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 13.9,
+        "wind_gusts": 40.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -115,7 +115,6 @@
       },
       "history": [
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -134,6 +133,7 @@
         0.368,
         0.368,
         0.368,
+        0.383,
         0.383,
         0.383,
         0.383,
@@ -174,19 +174,19 @@
           "is_high": true
         },
         {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
-            "theater",
-            "concert",
+            "kids",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
-            "kids",
-            "recreation",
+            "theater",
+            "concert",
             "entertainment"
           ],
           "is_high": true
@@ -238,15 +238,15 @@
       "alert": "green",
       "weather": {
         "score": 0.1,
-        "val": "+37°C · пасмурно",
-        "icon": "☁",
+        "val": "+35°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 36.8,
-        "feels_like": 36.7,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 14.0,
-        "wind_gusts": 37.8,
+        "temp": 35.3,
+        "feels_like": 35.3,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 15.7,
+        "wind_gusts": 43.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +275,6 @@
         0.272,
         0.272,
         0.272,
-        0.272,
         0.242,
         0.242,
         0.242,
@@ -294,6 +293,7 @@
         0.242,
         0.257,
         0.257,
+        0.272,
         0.272
       ],
       "_raw_events": [
@@ -345,21 +345,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · ясно",
+        "val": "+19°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.2,
-        "feels_like": 20.0,
+        "temp": 19.3,
+        "feels_like": 18.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 8.4,
-        "wind_gusts": 14.0,
+        "wind": 7.2,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "7 крупных из 10",
         "icon": "🎭"
       },
       "traffic": {
@@ -378,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.516,
         0.366,
         0.366,
@@ -390,6 +389,7 @@
         0.341,
         0.366,
         0.116,
+        0.366,
         0.366,
         0.366,
         0.366,
@@ -413,34 +413,10 @@
           "is_high": true
         },
         {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
           "title": "беззвучная выставка-квест «Тишина»",
           "cats": [
             "exhibition",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
           ],
           "is_high": true
         },
@@ -454,23 +430,9 @@
           "is_high": true
         },
         {
-          "title": "выставка «Иконы»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         },
@@ -481,6 +443,44 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "экспозиция «Природа Новосибирской области»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "свободное рисование в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock",
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
