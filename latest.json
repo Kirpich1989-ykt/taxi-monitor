@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T09:36:59.268340+00:00",
+  "generated_at": "2026-08-23T10:34:17.237861+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+13°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 14.9,
-        "feels_like": 13.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 6.7,
-        "wind_gusts": 13.0,
+        "temp": 12.9,
+        "feels_like": 11.2,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 6.3,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+22°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+23°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 22.0,
-        "feels_like": 21.0,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
+        "temp": 22.6,
+        "feels_like": 21.4,
+        "condition": "ясно",
+        "wmo_code": 0,
         "wind": 13.0,
-        "wind_gusts": 35.3,
+        "wind_gusts": 35.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -117,7 +117,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -137,9 +136,18 @@
         0.368,
         0.368,
         0.383,
+        0.383,
         0.383
       ],
       "_raw_events": [
+        {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "конные прогулки по национальному парку «Лосиный остров»",
           "cats": [
@@ -222,15 +230,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -248,12 +247,12 @@
         "val": "+36°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 35.7,
+        "temp": 36.3,
         "feels_like": 37.5,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 8.7,
-        "wind_gusts": 25.2,
+        "wind": 9.2,
+        "wind_gusts": 27.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +277,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.257,
         0.272,
         0.272,
@@ -301,6 +299,7 @@
         0.242,
         0.242,
         0.242,
+        0.257,
         0.257
       ],
       "_raw_events": [
@@ -352,15 +351,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.5,
-        "feels_like": 20.3,
+        "temp": 21.4,
+        "feels_like": 20.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 8.2,
-        "wind_gusts": 20.2,
+        "wind": 8.1,
+        "wind_gusts": 17.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -386,7 +385,6 @@
       },
       "history": [
         0.516,
-        0.516,
         0.366,
         0.516,
         0.366,
@@ -399,6 +397,7 @@
         0.341,
         0.366,
         0.116,
+        0.366,
         0.366,
         0.366,
         0.366,
