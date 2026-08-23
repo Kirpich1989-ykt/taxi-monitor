@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T04:47:32.560416+00:00",
+  "generated_at": "2026-08-23T05:38:14.851393+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · ясно",
-        "icon": "☀",
+        "val": "+17°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 17.1,
-        "feels_like": 15.5,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 4.2,
-        "wind_gusts": 15.8,
+        "temp": 17.3,
+        "feels_like": 15.3,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.9,
+        "wind_gusts": 15.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -77,20 +77,20 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.518,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+17°C · дождь слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+17°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 16.7,
-        "feels_like": 17.0,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
-        "wind": 7.4,
-        "wind_gusts": 20.5,
-        "precip": 0.1,
+        "temp": 16.9,
+        "feels_like": 16.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 9.2,
+        "wind_gusts": 24.5,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -122,7 +122,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.518,
         0.368,
@@ -137,7 +136,8 @@
         0.368,
         0.368,
         0.518,
-        0.518
+        0.518,
+        0.368
       ],
       "_raw_events": [
         {
@@ -244,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+23°C · ясно",
+        "val": "+25°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 22.7,
-        "feels_like": 22.3,
+        "temp": 24.7,
+        "feels_like": 24.6,
         "condition": "ясно",
         "wmo_code": 0,
         "wind": 4.7,
-        "wind_gusts": 14.8,
+        "wind_gusts": 15.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -281,7 +281,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.242,
         0.257,
         0.272,
@@ -296,6 +295,7 @@
         0.242,
         0.242,
         0.092,
+        0.205,
         0.205,
         0.205,
         0.205,
@@ -344,21 +344,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · ясно",
-        "icon": "☀",
+        "val": "+19°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 18.2,
-        "feels_like": 17.9,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 9.3,
-        "wind_gusts": 16.9,
+        "temp": 19.3,
+        "feels_like": 19.1,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 8.9,
+        "wind_gusts": 19.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "20 крупных из 23",
         "icon": "🎭"
       },
       "traffic": {
@@ -381,7 +381,6 @@
         0.366,
         0.366,
         0.366,
-        0.366,
         0.516,
         0.516,
         0.366,
@@ -396,6 +395,7 @@
         0.341,
         0.366,
         0.116,
+        0.366,
         0.366,
         0.366,
         0.366,
@@ -459,6 +459,15 @@
           "is_high": true
         },
         {
+          "title": "еженедельная сальса-вечеринка",
+          "cats": [
+            "party",
+            "education",
+            "recreation"
+          ],
+          "is_high": true
+        },
+        {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
@@ -469,14 +478,6 @@
           "title": "выставка «Зарубежное искусство»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "entertainment"
           ],
           "is_high": true
         }
