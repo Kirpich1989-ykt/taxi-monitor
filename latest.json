@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T11:37:39.661602+00:00",
+  "generated_at": "2026-08-24T13:07:25.123232+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · ясно",
+        "val": "+11°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 12.2,
-        "feels_like": 9.9,
+        "temp": 11.0,
+        "feels_like": 8.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.5,
+        "wind": 8.3,
         "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
@@ -77,19 +77,19 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.383,
+      "impact": 0.368,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+20°C · пасмурно",
+        "score": 0.0,
+        "val": "+19°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 19.7,
-        "feels_like": 17.7,
+        "temp": 19.1,
+        "feels_like": 17.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 14.2,
-        "wind_gusts": 38.5,
+        "wind": 11.9,
+        "wind_gusts": 37.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -119,7 +119,6 @@
         0.383,
         0.383,
         0.383,
-        0.383,
         0.368,
         0.368,
         0.368,
@@ -137,7 +136,8 @@
         0.383,
         0.383,
         0.383,
-        0.383
+        0.383,
+        0.368
       ],
       "_raw_events": [
         {
@@ -246,15 +246,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+33°C · ясно",
+        "val": "+32°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 33.2,
-        "feels_like": 32.7,
+        "temp": 32.0,
+        "feels_like": 30.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 15.0,
-        "wind_gusts": 38.2,
+        "wind": 15.3,
+        "wind_gusts": 39.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -280,7 +280,6 @@
       },
       "history": [
         0.257,
-        0.257,
         0.272,
         0.272,
         0.257,
@@ -297,6 +296,7 @@
         0.205,
         0.205,
         0.205,
+        0.257,
         0.257,
         0.257,
         0.257,
@@ -349,25 +349,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.341,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · пасмурно",
+        "val": "+20°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 22.5,
-        "feels_like": 21.1,
+        "temp": 20.1,
+        "feels_like": 20.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 11.3,
-        "wind_gusts": 27.7,
+        "wind": 5.5,
+        "wind_gusts": 19.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "9 крупных из 13",
+        "score": 0.9,
+        "val": "6 крупных из 9",
         "icon": "🎭"
       },
       "traffic": {
@@ -386,7 +386,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.366,
@@ -409,7 +408,8 @@
         0.381,
         0.381,
         0.381,
-        0.366
+        0.366,
+        0.341
       ],
       "_raw_events": [
         {
@@ -421,34 +421,10 @@
           "is_high": true
         },
         {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
           "title": "беззвучная выставка-квест «Тишина»",
           "cats": [
             "exhibition",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
           ],
           "is_high": true
         },
@@ -487,6 +463,23 @@
             "exhibition"
           ],
           "is_high": true
+        },
+        {
+          "title": "свободное рисование в семейном арт-пространстве",
+          "cats": [
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "cats": [
+            "stock",
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
