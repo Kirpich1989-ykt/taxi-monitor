@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T17:39:37.349498+00:00",
+  "generated_at": "2026-08-25T18:52:14.430062+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+10°C · ясно",
+        "val": "+9°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 10.2,
-        "feels_like": 7.2,
+        "temp": 8.9,
+        "feels_like": 5.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 14.1,
-        "wind_gusts": 20.5,
+        "wind": 13.8,
+        "wind_gusts": 20.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -63,7 +63,7 @@
         0.064,
         0.064,
         0.064,
-        0.064,
+        0.079,
         0.079,
         0.079,
         0.079
@@ -84,18 +84,18 @@
         "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 14.4,
+        "temp": 14.1,
         "feels_like": 13.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.1,
-        "wind_gusts": 28.4,
+        "wind": 8.7,
+        "wind_gusts": 25.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "39 крупных из 50",
+        "val": "35 крупных из 47",
         "icon": "🎭"
       },
       "traffic": {
@@ -123,7 +123,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -137,19 +136,10 @@
         0.518,
         0.518,
         0.518,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
@@ -188,28 +178,9 @@
           "is_high": true
         },
         {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Спортивный фестиваль в Лужниках",
           "cats": [
             "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -222,9 +193,40 @@
           "is_high": true
         },
         {
-          "title": "мультисенсорная выставка «Сон в музее»",
+          "title": "Московская международная неделя кино",
           "cats": [
-            "exhibition"
+            "cinema",
+            "festival",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "cats": [
+            "party",
+            "theater",
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
           ],
           "is_high": true
         }
@@ -241,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+25°C · ясно",
+        "val": "+23°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 24.9,
-        "feels_like": 23.2,
+        "temp": 23.3,
+        "feels_like": 21.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 7.2,
-        "wind_gusts": 18.7,
+        "wind": 6.9,
+        "wind_gusts": 16.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -280,7 +282,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -294,6 +295,7 @@
         0.242,
         0.242,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -348,15 +350,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · ясно",
+        "val": "+13°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 13.5,
-        "feels_like": 13.3,
+        "temp": 13.0,
+        "feels_like": 12.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.9,
-        "wind_gusts": 12.6,
+        "wind": 8.3,
+        "wind_gusts": 12.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -385,7 +387,6 @@
         0.266,
         0.266,
         0.266,
-        0.266,
         0.366,
         0.366,
         0.366,
@@ -401,6 +402,7 @@
         0.381,
         0.531,
         0.356,
+        0.266,
         0.266,
         0.266,
         0.266,
