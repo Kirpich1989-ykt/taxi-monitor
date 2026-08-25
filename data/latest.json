@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T20:39:03.518899+00:00",
+  "generated_at": "2026-08-25T21:37:18.264523+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+8°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 7.6,
-        "feels_like": 4.1,
+        "temp": 7.8,
+        "feels_like": 4.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 13.3,
-        "wind_gusts": 21.6,
+        "wind": 12.3,
+        "wind_gusts": 21.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -60,7 +60,7 @@
         0.064,
         0.064,
         0.064,
-        0.064,
+        0.079,
         0.079,
         0.079,
         0.079,
@@ -84,18 +84,18 @@
         "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.7,
-        "feels_like": 13.1,
+        "temp": 13.6,
+        "feels_like": 13.0,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.9,
-        "wind_gusts": 23.4,
+        "wind": 8.2,
+        "wind_gusts": 23.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "25 крупных из 37",
+        "val": "23 крупных из 34",
         "icon": "🎭"
       },
       "traffic": {
@@ -120,7 +120,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -134,6 +133,7 @@
         0.518,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -193,17 +193,6 @@
           "is_high": true
         },
         {
-          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
-          "cats": [
-            "party",
-            "theater",
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "быстрые свидания от Fast Life",
           "cats": [
             "party",
@@ -228,6 +217,15 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -242,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · преим. ясно",
+        "val": "+21°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 21.5,
-        "feels_like": 19.8,
+        "temp": 20.9,
+        "feels_like": 18.8,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 7.9,
-        "wind_gusts": 19.1,
+        "wind": 8.1,
+        "wind_gusts": 20.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +276,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -292,6 +289,7 @@
         0.242,
         0.242,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -352,18 +350,18 @@
         "val": "+12°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 12.3,
-        "feels_like": 11.5,
+        "temp": 12.0,
+        "feels_like": 11.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 8.5,
+        "wind": 9.0,
         "wind_gusts": 14.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "14 крупных из 17",
+        "val": "15 крупных из 18",
         "icon": "🎭"
       },
       "traffic": {
@@ -382,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.266,
         0.366,
         0.366,
@@ -405,9 +402,18 @@
         0.266,
         0.266,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
           "cats": [
@@ -473,13 +479,6 @@
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "выставка «Сибирь в древности»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
