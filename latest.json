@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:39:38.499928+00:00",
+  "generated_at": "2026-08-25T20:39:03.518899+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+8°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 8.2,
-        "feels_like": 4.8,
+        "temp": 7.6,
+        "feels_like": 4.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 13.4,
-        "wind_gusts": 20.9,
+        "wind": 13.3,
+        "wind_gusts": 21.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -61,7 +61,7 @@
         0.064,
         0.064,
         0.064,
-        0.064,
+        0.079,
         0.079,
         0.079,
         0.079,
@@ -84,18 +84,18 @@
         "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.9,
-        "feels_like": 13.4,
+        "temp": 13.7,
+        "feels_like": 13.1,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.1,
-        "wind_gusts": 23.8,
+        "wind": 8.9,
+        "wind_gusts": 23.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "34 крупных из 46",
+        "val": "25 крупных из 37",
         "icon": "🎭"
       },
       "traffic": {
@@ -121,7 +121,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -135,6 +134,7 @@
         0.518,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368
@@ -150,29 +150,10 @@
           "is_high": true
         },
         {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
-          "cats": [
-            "theater",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
             "entertainment"
           ],
           "is_high": true
@@ -229,6 +210,24 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
+          "cats": [
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -246,12 +245,12 @@
         "val": "+22°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 22.4,
-        "feels_like": 20.7,
+        "temp": 21.5,
+        "feels_like": 19.8,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 7.3,
-        "wind_gusts": 17.6,
+        "wind": 7.9,
+        "wind_gusts": 19.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -280,7 +279,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -294,6 +292,7 @@
         0.242,
         0.242,
         0.257,
+        0.242,
         0.242,
         0.242,
         0.242,
@@ -346,25 +345,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.266,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · ясно",
+        "val": "+12°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 12.6,
-        "feels_like": 11.9,
+        "temp": 12.3,
+        "feels_like": 11.5,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 8.2,
-        "wind_gusts": 13.3,
+        "wind": 8.5,
+        "wind_gusts": 14.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 1.0,
+        "val": "14 крупных из 17",
         "icon": "🎭"
       },
       "traffic": {
@@ -383,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.266,
         0.266,
         0.366,
@@ -406,9 +404,33 @@
         0.266,
         0.266,
         0.266,
-        0.266
+        0.266,
+        0.366
       ],
       "_raw_events": [
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Иконы»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
         {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
@@ -417,10 +439,24 @@
           "is_high": true
         },
         {
+          "title": "выставка «Зарубежное искусство»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
             "kids",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка Роберта Фалька",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
@@ -439,28 +475,11 @@
           "is_high": false
         },
         {
-          "title": "экспозиция «Природа Новосибирской области»",
+          "title": "выставка «Сибирь в древности»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "свободное рисование в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
