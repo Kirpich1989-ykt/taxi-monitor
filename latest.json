@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T10:46:49.535775+00:00",
+  "generated_at": "2026-08-26T11:38:25.149647+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · ясно",
+        "val": "+12°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 12.8,
-        "feels_like": 10.8,
+        "temp": 12.2,
+        "feels_like": 9.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 9.6,
-        "wind_gusts": 13.3,
+        "wind": 11.1,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -48,14 +48,14 @@
         0.064,
         0.064,
         0.064,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
+        0.079,
         0.064,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -84,12 +84,12 @@
         "val": "+16°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 15.9,
-        "feels_like": 15.1,
+        "temp": 16.1,
+        "feels_like": 15.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.7,
-        "wind_gusts": 24.1,
+        "wind": 8.2,
+        "wind_gusts": 23.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -115,13 +115,13 @@
       },
       "history": [
         0.383,
-        0.383,
         0.533,
         0.383,
         0.533,
         0.518,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -146,6 +146,13 @@
             "kids",
             "education",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -178,6 +185,15 @@
           "is_high": true
         },
         {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
@@ -196,38 +212,18 @@
           "is_high": true
         },
         {
+          "title": "игровые знакомства «Быстрые свидания № 1» в Москве от Fast Life",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
             "kids",
             "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "обучение актёрскому мастерству в «Школе Театра Москвы»",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "развлечения в Smile Park на ВДНХ",
-          "cats": [
-            "kids",
-            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -248,12 +244,12 @@
         "val": "+32°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 32.3,
+        "temp": 32.5,
         "feels_like": 30.0,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 15.5,
-        "wind_gusts": 41.8,
+        "wind": 15.3,
+        "wind_gusts": 41.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +274,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.242,
         0.242,
         0.242,
@@ -297,6 +292,7 @@
         0.205,
         0.205,
         0.242,
+        0.257,
         0.257,
         0.257,
         0.257,
@@ -348,19 +344,19 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.381,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
-        "score": 0.05,
+        "score": 0.0,
         "val": "+20°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 20.3,
-        "feels_like": 17.6,
+        "temp": 19.7,
+        "feels_like": 18.1,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 13.6,
-        "wind_gusts": 25.2,
+        "wind": 8.8,
+        "wind_gusts": 24.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -387,7 +383,6 @@
       "history": [
         0.381,
         0.381,
-        0.381,
         0.531,
         0.356,
         0.266,
@@ -408,7 +403,8 @@
         0.381,
         0.381,
         0.381,
-        0.381
+        0.381,
+        0.366
       ],
       "_raw_events": [
         {
