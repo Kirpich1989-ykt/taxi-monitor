@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T20:20:08.653408+00:00",
+  "generated_at": "2026-08-28T05:18:41.810875+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · пасмурно",
+        "val": "+21°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 11.6,
-        "feels_like": 10.2,
+        "temp": 20.8,
+        "feels_like": 18.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.0,
-        "wind_gusts": 12.2,
+        "wind": 9.3,
+        "wind_gusts": 15.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -47,7 +47,6 @@
         0.079,
         0.079,
         0.079,
-        0.079,
         0.064,
         0.064,
         0.064,
@@ -61,6 +60,7 @@
         0.064,
         0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+12°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 13.8,
-        "feels_like": 13.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 2.7,
-        "wind_gusts": 3.6,
+        "temp": 12.4,
+        "feels_like": 11.9,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 4.5,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "26 крупных из 39",
+        "val": "44 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,6 +141,34 @@
       ],
       "_raw_events": [
         {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсии по обновлённым школам Москвы",
+          "cats": [
+            "kids",
+            "education",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
@@ -159,22 +187,23 @@
           "is_high": true
         },
         {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
           "cats": [
-            "theater",
-            "concert",
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "конференция ТОК 2026",
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
+            "kids",
             "education",
-            "business-events"
+            "entertainment"
           ],
-          "is_high": false
+          "is_high": true
         },
         {
           "title": "вокал в «Музыкальном сообществе» / Music Community",
@@ -186,45 +215,21 @@
           "is_high": true
         },
         {
-          "title": "Спортивный фестиваль в Лужниках",
+          "title": "мастер-класс по скульптуре в студии «Объём»",
           "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Московская международная неделя кино",
-          "cats": [
-            "cinema",
-            "festival",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
-          "cats": [
-            "party",
-            "theater",
-            "stock",
             "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "быстрые свидания от Fast Life",
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
           "cats": [
-            "party",
+            "exhibition",
+            "kids",
+            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -238,25 +243,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.355,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+22°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+22°C · ливень слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 22.3,
-        "feels_like": 25.6,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 2.5,
-        "wind_gusts": 10.1,
-        "precip": 0.0,
+        "temp": 21.6,
+        "feels_like": 24.2,
+        "condition": "ливень слабый",
+        "wmo_code": 80,
+        "wind": 6.5,
+        "wind_gusts": 19.8,
+        "precip": 0.4,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -279,7 +284,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.205,
@@ -298,16 +302,10 @@
         0.242,
         0.205,
         0.242,
-        0.242
+        0.242,
+        0.355
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -345,25 +343,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.281,
+      "impact": 0.516,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+18°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+18°C · ливень слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 17.5,
-        "feels_like": 14.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 19.3,
-        "wind_gusts": 25.6,
-        "precip": 0.0,
+        "temp": 18.5,
+        "feels_like": 19.0,
+        "condition": "ливень слабый",
+        "wmo_code": 80,
+        "wind": 9.8,
+        "wind_gusts": 19.1,
+        "precip": 0.4,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 7",
+        "score": 1.0,
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -384,7 +382,6 @@
       "history": [
         0.266,
         0.266,
-        0.266,
         0.366,
         0.366,
         0.366,
@@ -405,9 +402,50 @@
         0.266,
         0.366,
         0.381,
-        0.281
+        0.281,
+        0.516
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
@@ -416,10 +454,17 @@
           "is_high": true
         },
         {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
+          "title": "цирковое представление с морскими животными",
           "cats": [
             "kids",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Иконы»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
@@ -431,35 +476,11 @@
           "is_high": true
         },
         {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "title": "выставка Роберта Фалька",
           "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "свободное рисование в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "education",
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
