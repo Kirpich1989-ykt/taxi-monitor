@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T18:22:27.394172+00:00",
+  "generated_at": "2026-08-29T21:40:43.821336+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -13,12 +13,12 @@
         "val": "+10°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 10.4,
-        "feels_like": 9.6,
+        "temp": 9.6,
+        "feels_like": 9.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 0.0,
-        "wind_gusts": 5.8,
+        "wind": 0.4,
+        "wind_gusts": 5.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -53,8 +53,8 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · ясно",
-        "icon": "☀",
+        "val": "+14°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 16.8,
-        "feels_like": 16.4,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 2.9,
-        "wind_gusts": 3.2,
+        "temp": 14.2,
+        "feels_like": 13.1,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 4.0,
+        "wind_gusts": 5.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "37 крупных из 50",
+        "val": "31 крупных из 43",
         "icon": "🎭"
       },
       "traffic": {
@@ -150,14 +150,6 @@
           "is_high": true
         },
         {
-          "title": "проект «Ночь в поликлинике»",
-          "cats": [
-            "holiday",
-            "wellness-and-health"
-          ],
-          "is_high": false
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
@@ -167,39 +159,10 @@
           "is_high": true
         },
         {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
-          "cats": [
-            "theater",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
             "stock",
             "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -228,6 +191,41 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вечеринка журнала «Молодость» и ЛЭТУАЛЬ «Последний разворот лета»",
+          "cats": [
+            "party",
+            "stock"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -242,15 +240,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+24°C · пасмурно",
-        "icon": "☁",
+        "val": "+22°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 24.2,
-        "feels_like": 22.8,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 13.1,
-        "wind_gusts": 35.3,
+        "temp": 22.4,
+        "feels_like": 20.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 14.5,
+        "wind_gusts": 37.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +276,6 @@
         0.205,
         0.205,
         0.205,
-        0.205,
         0.242,
         0.257,
         0.257,
@@ -297,6 +294,7 @@
         0.242,
         0.205,
         0.272,
+        0.257,
         0.257,
         0.257
       ],
@@ -345,25 +343,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.341,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · ясно",
-        "icon": "☀",
+        "val": "+12°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 11.9,
-        "feels_like": 11.1,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 6.8,
-        "wind_gusts": 8.6,
+        "temp": 11.6,
+        "feels_like": 10.6,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 9.6,
+        "wind_gusts": 16.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 9",
+        "score": 1.0,
+        "val": "8 крупных из 11",
         "icon": "🎭"
       },
       "traffic": {
@@ -382,7 +380,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.381,
@@ -405,15 +402,31 @@
         0.366,
         0.516,
         0.341,
-        0.341
+        0.341,
+        0.366
       ],
       "_raw_events": [
         {
-          "title": "киноночь в антикафе Fun-Time",
+          "title": "музей инопланетян",
           "cats": [
-            "education",
-            "cinema",
-            "entertainment"
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
           ],
           "is_high": true
         },
@@ -436,14 +449,6 @@
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "ночь настольных игр в клубе-магазине «ИгРРай»",
-          "cats": [
-            "education",
-            "entertainment"
           ],
           "is_high": true
         },
@@ -471,12 +476,11 @@
           "is_high": true
         },
         {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
+          "title": "выставка «Сибирь в древности»",
           "cats": [
-            "stock",
-            "education"
+            "exhibition"
           ],
-          "is_high": false
+          "is_high": true
         }
       ],
       "_raw_news": [],
