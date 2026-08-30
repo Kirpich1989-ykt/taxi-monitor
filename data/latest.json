@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T21:40:43.821336+00:00",
+  "generated_at": "2026-08-30T00:11:01.318053+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · ясно",
-        "icon": "☀",
+        "val": "+12°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 9.6,
-        "feels_like": 9.1,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 0.4,
-        "wind_gusts": 5.0,
+        "temp": 12.2,
+        "feels_like": 11.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 1.9,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -52,8 +52,8 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+13°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 14.2,
-        "feels_like": 13.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 4.0,
+        "temp": 12.9,
+        "feels_like": 12.5,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 4.4,
         "wind_gusts": 5.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "31 крупных из 43",
+        "val": "32 крупных из 46",
         "icon": "🎭"
       },
       "traffic": {
@@ -140,6 +140,16 @@
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
@@ -211,19 +221,11 @@
           "is_high": true
         },
         {
-          "title": "частный стендап от проекта «Стендап Импорт»",
+          "title": "Рассветомания. Фотоэкскурсия на крыше небоскрёба на рассвете",
           "cats": [
-            "party",
-            "concert",
+            "photo",
+            "tour",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "вечеринка журнала «Молодость» и ЛЭТУАЛЬ «Последний разворот лета»",
-          "cats": [
-            "party",
-            "stock"
           ],
           "is_high": true
         }
@@ -236,25 +238,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.257,
+      "impact": 0.22,
       "alert": "green",
       "weather": {
         "score": 0.05,
         "val": "+22°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 22.4,
-        "feels_like": 20.9,
+        "temp": 21.7,
+        "feels_like": 19.0,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 14.5,
-        "wind_gusts": 37.1,
+        "wind": 15.1,
+        "wind_gusts": 38.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -273,7 +275,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.205,
         0.205,
         0.242,
@@ -296,16 +297,10 @@
         0.272,
         0.257,
         0.257,
-        0.257
+        0.257,
+        0.22
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -347,21 +342,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+9°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 11.6,
-        "feels_like": 10.6,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 9.6,
-        "wind_gusts": 16.9,
+        "temp": 9.2,
+        "feels_like": 7.4,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 8.4,
+        "wind_gusts": 18.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "8 крупных из 11",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -380,7 +375,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.381,
         0.381,
@@ -403,6 +397,7 @@
         0.516,
         0.341,
         0.341,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -438,6 +433,28 @@
           "is_high": true
         },
         {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Иконы»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка Роберта Фалька",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
             "kids",
@@ -453,30 +470,7 @@
           "is_high": true
         },
         {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "свободное рисование в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сибирь в древности»",
+          "title": "выставка «Зарубежное искусство»",
           "cats": [
             "exhibition"
           ],
