@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T23:25:09.130829+00:00",
+  "generated_at": "2026-08-31T05:22:36.683611+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+11°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+20°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 11.4,
-        "feels_like": 10.9,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 3.1,
-        "wind_gusts": 5.8,
+        "temp": 20.0,
+        "feels_like": 19.3,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 5.1,
+        "wind_gusts": 14.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -46,8 +46,8 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+16°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 15.0,
-        "feels_like": 15.9,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 3.9,
-        "wind_gusts": 10.1,
+        "temp": 16.1,
+        "feels_like": 16.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 5.0,
+        "wind_gusts": 14.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "29 крупных из 41",
+        "val": "40 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -134,12 +134,22 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
+        0.368,
         0.368,
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
@@ -150,10 +160,27 @@
           "is_high": true
         },
         {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -168,61 +195,43 @@
           "is_high": true
         },
         {
-          "title": "Спортивный фестиваль в Лужниках",
-          "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "быстрые свидания от Fast Life",
-          "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "title": "мастер-класс по скульптуре в студии «Объём»",
           "cats": [
             "kids",
-            "quest",
+            "education",
             "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "частный стендап от проекта «Стендап Импорт»",
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
-            "party",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
-          "cats": [
+            "stock",
+            "kids",
             "education",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "курс по скетчингу (быстрым зарисовкам) в студии «Рисуй»",
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
           "cats": [
-            "education"
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
           ],
-          "is_high": false
+          "is_high": true
+        },
+        {
+          "title": "развлечения в Smile Park на ВДНХ",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -233,19 +242,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.22,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+19°C · ясно",
+        "score": 0.05,
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 18.9,
-        "feels_like": 16.0,
+        "temp": 21.0,
+        "feels_like": 19.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 12.0,
-        "wind_gusts": 31.0,
+        "wind": 13.0,
+        "wind_gusts": 34.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -275,7 +284,6 @@
         0.257,
         0.257,
         0.257,
-        0.257,
         0.242,
         0.242,
         0.205,
@@ -293,7 +301,8 @@
         0.272,
         0.242,
         0.257,
-        0.205
+        0.205,
+        0.22
       ],
       "_raw_events": [
         {
@@ -333,25 +342,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+10°C · переменная облачность",
-        "icon": "⛅",
+        "score": 0.05,
+        "val": "+13°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 10.4,
-        "feels_like": 8.5,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 9.2,
-        "wind_gusts": 20.9,
+        "temp": 12.6,
+        "feels_like": 9.1,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 16.9,
+        "wind_gusts": 38.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "7 крупных из 10",
+        "val": "9 крупных из 12",
         "icon": "🎭"
       },
       "traffic": {
@@ -370,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.381,
         0.381,
         0.366,
@@ -393,9 +401,18 @@
         0.366,
         0.266,
         0.341,
-        0.366
+        0.366,
+        0.381
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "музей инопланетян",
           "cats": [
@@ -409,6 +426,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -452,23 +477,6 @@
         {
           "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "свободное рисование в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
             "education"
           ],
           "is_high": false
