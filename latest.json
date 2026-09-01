@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T23:45:37.672276+00:00",
+  "generated_at": "2026-09-01T04:57:04.919774+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+20°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 11.8,
-        "feels_like": 11.6,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 1.3,
-        "wind_gusts": 7.6,
+        "temp": 19.8,
+        "feels_like": 19.7,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 3.3,
+        "wind_gusts": 15.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,7 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · ясно",
-        "icon": "☀",
+        "val": "+14°C · туман",
+        "icon": "🌫",
         "live": true,
-        "temp": 14.3,
-        "feels_like": 14.7,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 4.0,
-        "wind_gusts": 5.0,
+        "temp": 13.9,
+        "feels_like": 14.6,
+        "condition": "туман",
+        "wmo_code": 45,
+        "wind": 3.9,
+        "wind_gusts": 11.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "29 крупных из 41",
+        "val": "43 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -130,8 +130,8 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -141,11 +141,29 @@
       ],
       "_raw_events": [
         {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
             "recreation",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -168,61 +186,50 @@
           "is_high": true
         },
         {
-          "title": "Спортивный фестиваль в Лужниках",
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
           "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
-          "cats": [
-            "concert",
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "быстрые свидания от Fast Life",
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
+            "stock",
             "kids",
-            "quest",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "частный стендап от проекта «Стендап Импорт»",
-          "cats": [
-            "party",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
-          "cats": [
             "education",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "курс по скетчингу (быстрым зарисовкам) в студии «Рисуй»",
+          "title": "мастер-класс по скульптуре в студии «Объём»",
           "cats": [
-            "education"
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
           ],
-          "is_high": false
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Спортивный фестиваль в Лужниках",
+          "cats": [
+            "festival"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -237,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+21°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 19.1,
-        "feels_like": 17.2,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 8.4,
-        "wind_gusts": 20.5,
+        "temp": 20.6,
+        "feels_like": 18.7,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 9.3,
+        "wind_gusts": 25.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -271,7 +278,6 @@
       },
       "history": [
         0.257,
-        0.257,
         0.242,
         0.242,
         0.205,
@@ -293,6 +299,7 @@
         0.22,
         0.257,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -333,25 +340,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.381,
+      "impact": 0.396,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+9°C · ясно",
-        "icon": "☀",
+        "score": 0.1,
+        "val": "+11°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 8.9,
-        "feels_like": 4.9,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 15.6,
-        "wind_gusts": 20.2,
+        "temp": 10.7,
+        "feels_like": 5.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 22.9,
+        "wind_gusts": 51.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "15 крупных из 18",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -370,7 +377,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.266,
         0.266,
         0.266,
@@ -393,9 +399,18 @@
         0.381,
         0.303,
         0.266,
-        0.381
+        0.381,
+        0.396
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "музей инопланетян",
           "cats": [
@@ -417,6 +432,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -448,20 +471,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "экспозиция «Природа Новосибирской области»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         },
         {
           "title": "выставка «Зарубежное искусство»",
