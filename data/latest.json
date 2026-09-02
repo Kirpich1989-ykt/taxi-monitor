@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T04:22:00.992637+00:00",
+  "generated_at": "2026-09-02T09:30:09.399991+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · ясно",
+        "val": "+18°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 19.5,
-        "feels_like": 19.1,
+        "temp": 17.8,
+        "feels_like": 17.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.6,
-        "wind_gusts": 23.4,
+        "wind": 6.4,
+        "wind_gusts": 13.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.383,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+17°C · пасмурно",
-        "icon": "☁",
+        "score": 0.05,
+        "val": "+21°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 16.8,
-        "feels_like": 16.6,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 10.5,
-        "wind_gusts": 27.0,
+        "temp": 21.1,
+        "feels_like": 19.9,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 14.3,
+        "wind_gusts": 41.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "43 крупных из 50",
+        "val": "42 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -123,7 +123,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -137,7 +136,8 @@
         0.368,
         0.368,
         0.518,
-        0.368
+        0.368,
+        0.383
       ],
       "_raw_events": [
         {
@@ -151,19 +151,19 @@
           "is_high": true
         },
         {
-          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
-            "kids",
-            "recreation",
+            "stock",
+            "education",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
-            "stock",
-            "education",
+            "kids",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -240,25 +240,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+21°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+30°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 20.8,
-        "feels_like": 22.3,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 3.0,
-        "wind_gusts": 9.0,
+        "temp": 30.3,
+        "feels_like": 32.3,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 5.2,
+        "wind_gusts": 16.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -277,7 +277,6 @@
         "icon": "📰"
       },
       "history": [
-        0.355,
         0.242,
         0.205,
         0.272,
@@ -300,9 +299,17 @@
         0.242,
         0.242,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -344,21 +351,21 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+12°C · пасмурно",
-        "icon": "☁",
+        "val": "+14°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 11.8,
-        "feels_like": 8.0,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 16.0,
-        "wind_gusts": 27.4,
+        "temp": 14.3,
+        "feels_like": 10.4,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 17.3,
+        "wind_gusts": 34.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "18 крупных из 21",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -377,7 +384,6 @@
         "icon": "📰"
       },
       "history": [
-        0.516,
         0.266,
         0.366,
         0.516,
@@ -400,6 +406,7 @@
         0.266,
         0.366,
         0.366,
+        0.381,
         0.381
       ],
       "_raw_events": [
@@ -412,7 +419,7 @@
           "is_high": true
         },
         {
-          "title": "музей инопланетян",
+          "title": "выставка морских рыб",
           "cats": [
             "exhibition",
             "kids"
@@ -420,7 +427,7 @@
           "is_high": true
         },
         {
-          "title": "выставка морских рыб",
+          "title": "музей инопланетян",
           "cats": [
             "exhibition",
             "kids"
