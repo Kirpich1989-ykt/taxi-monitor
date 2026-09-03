@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T00:05:52.867987+00:00",
+  "generated_at": "2026-09-03T05:41:25.881080+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,17 +10,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · ясно",
-        "icon": "☀",
-        "live": true,
-        "temp": 13.0,
-        "feels_like": 12.7,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 1.9,
-        "wind_gusts": 7.2,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 0.0,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · пасмурно",
-        "icon": "☁",
-        "live": true,
-        "temp": 14.3,
-        "feels_like": 14.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 6.3,
-        "wind_gusts": 16.6,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 1.0,
-        "val": "31 крупных из 44",
+        "val": "42 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -118,7 +118,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -134,6 +133,7 @@
         0.518,
         0.368,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -169,6 +169,23 @@
           "is_high": true
         },
         {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
@@ -178,51 +195,39 @@
           "is_high": true
         },
         {
-          "title": "Спортивный фестиваль в Лужниках",
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
-          "cats": [
-            "concert",
+            "stock",
+            "kids",
+            "education",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "быстрые свидания от Fast Life",
-          "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "title": "мастер-класс по скульптуре в студии «Объём»",
           "cats": [
             "kids",
-            "quest",
+            "education",
             "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "Международный кинофестиваль документального кино «Докер»",
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
           "cats": [
-            "festival"
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "частный стендап от проекта «Стендап Импорт»",
+          "title": "Спортивный фестиваль в Лужниках",
           "cats": [
-            "party",
-            "concert",
-            "entertainment"
+            "festival"
           ],
           "is_high": true
         }
@@ -239,17 +244,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · ясно",
-        "icon": "☀",
-        "live": true,
-        "temp": 18.7,
-        "feels_like": 19.4,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 4.7,
-        "wind_gusts": 12.2,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 0.45,
@@ -273,7 +278,6 @@
       },
       "history": [
         0.257,
-        0.257,
         0.22,
         0.257,
         0.272,
@@ -295,6 +299,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -339,21 +344,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+6°C · ясно",
-        "icon": "☀",
-        "live": true,
-        "temp": 6.2,
-        "feels_like": 3.5,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 9.8,
-        "wind_gusts": 10.4,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "21 крупных из 24",
         "icon": "🎭"
       },
       "traffic": {
@@ -372,7 +377,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.366,
         0.366,
         0.366,
@@ -395,9 +399,18 @@
         0.319,
         0.266,
         0.516,
+        0.366,
         0.366
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "музей инопланетян",
           "cats": [
@@ -419,6 +432,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -456,20 +477,6 @@
           "cats": [
             "kids",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экспозиция «Природа Новосибирской области»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         }
