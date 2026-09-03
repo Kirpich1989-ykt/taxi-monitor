@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T16:20:05.214342+00:00",
+  "generated_at": "2026-09-03T19:44:39.079404+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · ясно",
-        "icon": "☀",
+        "val": "+7°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 13.1,
-        "feels_like": 12.1,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 0.4,
-        "wind_gusts": 9.7,
+        "temp": 7.1,
+        "feels_like": 5.3,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 4.6,
+        "wind_gusts": 11.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · ясно",
-        "icon": "☀",
+        "val": "+15°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 17.2,
-        "feels_like": 17.2,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 4.9,
-        "wind_gusts": 18.7,
+        "temp": 14.8,
+        "feels_like": 15.1,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 4.3,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "37 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.368,
         0.518,
         0.368,
@@ -137,34 +136,10 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
@@ -179,15 +154,6 @@
           "cats": [
             "kids",
             "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -211,19 +177,52 @@
           "is_high": true
         },
         {
-          "title": "игровые знакомства «Быстрые свидания № 1» в Москве от Fast Life",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
             "kids",
             "education",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Спортивный фестиваль в Лужниках",
+          "cats": [
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Международный кинофестиваль документального кино «Докер»",
+          "cats": [
+            "festival"
           ],
           "is_high": true
         }
@@ -240,15 +239,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+27°C · ясно",
+        "val": "+22°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 26.9,
-        "feels_like": 25.9,
+        "temp": 21.9,
+        "feels_like": 21.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.7,
-        "wind_gusts": 13.7,
+        "wind": 6.1,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -273,7 +272,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.272,
         0.242,
         0.257,
@@ -295,6 +293,7 @@
         0.242,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242
       ],
@@ -321,18 +320,18 @@
           "is_high": true
         },
         {
-          "title": "выставка  «Мне вечность глянула в глаза…»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
           "cats": [
             "stock"
           ],
           "is_high": false
+        },
+        {
+          "title": "выставка  «Мне вечность глянула в глаза…»",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -347,15 +346,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · преим. ясно",
+        "val": "+9°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 10.0,
-        "feels_like": 8.2,
+        "temp": 9.2,
+        "feels_like": 7.3,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 6.8,
-        "wind_gusts": 3.6,
+        "wind": 7.0,
+        "wind_gusts": 8.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -381,7 +380,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.266,
         0.341,
         0.366,
@@ -403,6 +401,7 @@
         0.366,
         0.366,
         0.366,
+        0.266,
         0.266
       ],
       "_raw_events": [
