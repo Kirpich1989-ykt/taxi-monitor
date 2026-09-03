@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T21:45:15.464645+00:00",
+  "generated_at": "2026-09-03T00:05:52.867987+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · ясно",
+        "val": "+13°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 8.9,
-        "feels_like": 7.9,
+        "temp": 13.0,
+        "feels_like": 12.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.1,
-        "wind_gusts": 4.7,
+        "wind": 1.9,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+14°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 14.9,
-        "feels_like": 14.7,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 7.4,
-        "wind_gusts": 21.2,
+        "temp": 14.3,
+        "feels_like": 14.2,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 6.3,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "30 крупных из 41",
+        "val": "31 крупных из 44",
         "icon": "🎭"
       },
       "traffic": {
@@ -119,7 +119,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -137,9 +136,20 @@
         0.383,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
@@ -215,14 +225,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -233,25 +235,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+19°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 20.1,
-        "feels_like": 20.9,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 6.1,
-        "wind_gusts": 15.1,
+        "temp": 18.7,
+        "feels_like": 19.4,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 4.7,
+        "wind_gusts": 12.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -270,7 +272,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.257,
         0.257,
         0.22,
@@ -293,16 +294,10 @@
         0.242,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -340,25 +335,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.516,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+7°C · морось слабая",
-        "icon": "🌦",
+        "score": 0.0,
+        "val": "+6°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 6.6,
-        "feels_like": 4.0,
-        "condition": "морось слабая",
-        "wmo_code": 51,
-        "wind": 8.5,
-        "wind_gusts": 11.5,
-        "precip": 0.1,
+        "temp": 6.2,
+        "feels_like": 3.5,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 9.8,
+        "wind_gusts": 10.4,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "16 крупных из 19",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -377,7 +372,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.341,
         0.366,
         0.366,
@@ -400,7 +394,8 @@
         0.381,
         0.319,
         0.266,
-        0.516
+        0.516,
+        0.366
       ],
       "_raw_events": [
         {
