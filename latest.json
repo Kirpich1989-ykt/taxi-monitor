@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T22:30:03.696663+00:00",
+  "generated_at": "2026-09-04T00:55:43.538340+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · пасмурно",
-        "icon": "☁",
+        "val": "+13°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 9.3,
-        "feels_like": 8.0,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 3.9,
-        "wind_gusts": 10.4,
+        "temp": 13.4,
+        "feels_like": 12.8,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 1.7,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · пасмурно",
-        "icon": "☁",
+        "val": "+13°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 13.4,
-        "feels_like": 13.6,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 4.4,
-        "wind_gusts": 10.8,
+        "temp": 12.9,
+        "feels_like": 13.2,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 3.0,
+        "wind_gusts": 6.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "30 крупных из 42",
+        "val": "36 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.518,
         0.368,
         0.368,
         0.368,
@@ -137,13 +136,15 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
         {
-          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
           "cats": [
             "kids",
+            "education",
             "recreation",
             "entertainment"
           ],
@@ -159,10 +160,49 @@
           "is_high": true
         },
         {
+          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
             "entertainment"
           ],
           "is_high": true
@@ -189,40 +229,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids",
-            "quest",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Международный кинофестиваль документального кино «Докер»",
-          "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "частный стендап от проекта «Стендап Импорт»",
-          "cats": [
-            "party",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -237,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · ясно",
-        "icon": "☀",
+        "val": "+18°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 19.2,
-        "feels_like": 19.3,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 4.7,
-        "wind_gusts": 10.4,
+        "temp": 17.8,
+        "feels_like": 17.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 5.2,
+        "wind_gusts": 12.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -270,7 +276,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.257,
         0.205,
         0.22,
@@ -293,6 +298,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -337,21 +343,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+10°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 8.6,
-        "feels_like": 6.6,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 6.6,
-        "wind_gusts": 7.6,
+        "temp": 10.1,
+        "feels_like": 7.8,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 9.7,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "15 крупных из 18",
+        "val": "16 крупных из 19",
         "icon": "🎭"
       },
       "traffic": {
@@ -370,7 +376,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.341,
         0.366,
         0.381,
@@ -393,6 +398,7 @@
         0.366,
         0.266,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
