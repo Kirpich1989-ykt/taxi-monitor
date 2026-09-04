@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-04T16:15:36.249931+00:00",
+  "generated_at": "2026-09-04T19:27:00.505389+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.094,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+14°C · пасмурно",
+        "score": 0.1,
+        "val": "+10°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.8,
-        "feels_like": 11.2,
+        "temp": 9.8,
+        "feels_like": 5.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 18.3,
-        "wind_gusts": 41.0,
+        "wind": 20.4,
+        "wind_gusts": 42.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -65,8 +65,8 @@
         0.064,
         0.064,
         0.064,
-        0.064,
-        0.079
+        0.079,
+        0.094
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · ясно",
-        "icon": "☀",
+        "val": "+16°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 18.2,
-        "feels_like": 17.8,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 5.0,
-        "wind_gusts": 17.3,
+        "temp": 15.5,
+        "feels_like": 14.5,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 6.9,
+        "wind_gusts": 16.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "39 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -121,7 +121,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.383,
@@ -137,34 +136,10 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
-        {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
@@ -193,22 +168,6 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "игровые знакомства «Быстрые свидания № 1» в Москве от Fast Life",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
             "theater",
@@ -226,6 +185,44 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "День города в Москве 2026",
+          "cats": [
+            "holiday",
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Спортивный фестиваль в Лужниках",
+          "cats": [
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Международный культурный форум-фестиваль «Амаркорд»",
+          "cats": [
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -240,15 +237,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+26°C · пасмурно",
-        "icon": "☁",
+        "val": "+22°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 25.5,
-        "feels_like": 26.3,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.1,
-        "wind_gusts": 15.1,
+        "temp": 22.4,
+        "feels_like": 22.8,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 4.1,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -273,7 +270,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.242,
         0.205,
         0.205,
@@ -295,6 +291,7 @@
         0.205,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242
       ],
@@ -351,11 +348,11 @@
         "icon": "☀",
         "live": true,
         "temp": 10.4,
-        "feels_like": 8.9,
+        "feels_like": 8.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.0,
-        "wind_gusts": 6.1,
+        "wind": 7.1,
+        "wind_gusts": 4.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -380,7 +377,6 @@
         "icon": "📰"
       },
       "history": [
-        0.303,
         0.266,
         0.381,
         0.396,
@@ -403,6 +399,7 @@
         0.366,
         0.366,
         0.366,
+        0.266,
         0.266
       ],
       "_raw_events": [
