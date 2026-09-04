@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T05:46:27.758724+00:00",
+  "generated_at": "2026-09-04T11:09:03.629320+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+17°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 20.5,
-        "feels_like": 20.2,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 4.8,
-        "wind_gusts": 23.8,
+        "temp": 16.9,
+        "feels_like": 14.8,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 11.3,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · переменная облачность",
+        "val": "+20°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 14.1,
-        "feels_like": 14.0,
+        "temp": 20.4,
+        "feels_like": 19.3,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 4.9,
-        "wind_gusts": 15.5,
+        "wind": 8.9,
+        "wind_gusts": 25.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "43 крупных из 50",
+        "val": "46 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -123,10 +123,10 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -141,11 +141,26 @@
       ],
       "_raw_events": [
         {
+          "title": "большой стендап-концерт",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "конные прогулки по национальному парку «Лосиный остров»",
           "cats": [
             "kids",
             "education",
             "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
             "entertainment"
           ],
           "is_high": true
@@ -195,39 +210,18 @@
           "is_high": true
         },
         {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "title": "игровые знакомства «Быстрые свидания № 1» в Москве от Fast Life",
           "cats": [
-            "stock",
-            "kids",
-            "education",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
           "cats": [
-            "kids",
-            "education",
-            "recreation",
+            "theater",
+            "concert",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Спортивный фестиваль в Лужниках",
-          "cats": [
-            "festival"
           ],
           "is_high": true
         }
@@ -240,25 +234,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+30°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 21.7,
-        "feels_like": 22.4,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 3.1,
-        "wind_gusts": 11.2,
+        "temp": 29.9,
+        "feels_like": 29.6,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 7.9,
+        "wind_gusts": 22.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -277,7 +271,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.22,
         0.257,
         0.242,
@@ -300,9 +293,17 @@
         0.242,
         0.205,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -344,21 +345,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+17°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 15.3,
-        "feels_like": 13.2,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 7.8,
-        "wind_gusts": 26.3,
+        "temp": 17.0,
+        "feels_like": 14.6,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 9.2,
+        "wind_gusts": 22.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "19 крупных из 22",
+        "val": "10 крупных из 13",
         "icon": "🎭"
       },
       "traffic": {
@@ -377,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.381,
         0.303,
         0.266,
@@ -398,6 +398,7 @@
         0.366,
         0.266,
         0.266,
+        0.366,
         0.366,
         0.366,
         0.366
@@ -451,7 +452,7 @@
           "is_high": true
         },
         {
-          "title": "цирковое представление с морскими животными",
+          "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
             "kids",
             "entertainment"
@@ -459,23 +460,24 @@
           "is_high": true
         },
         {
-          "title": "выставка Роберта Фалька",
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "выставка «Иконы»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
+          "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
             "kids",
+            "education",
             "entertainment"
           ],
           "is_high": true
