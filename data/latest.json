@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T00:55:43.538340+00:00",
+  "generated_at": "2026-09-04T05:46:27.758724+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · переменная облачность",
+        "val": "+20°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 13.4,
-        "feels_like": 12.8,
+        "temp": 20.5,
+        "feels_like": 20.2,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 1.7,
-        "wind_gusts": 7.9,
+        "wind": 4.8,
+        "wind_gusts": 23.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · переменная облачность",
+        "val": "+14°C · переменная облачность",
         "icon": "⛅",
         "live": true,
-        "temp": 12.9,
-        "feels_like": 13.2,
+        "temp": 14.1,
+        "feels_like": 14.0,
         "condition": "переменная облачность",
         "wmo_code": 2,
-        "wind": 3.0,
-        "wind_gusts": 6.8,
+        "wind": 4.9,
+        "wind_gusts": 15.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "36 крупных из 50",
+        "val": "43 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -124,10 +124,10 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.383,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -151,15 +151,6 @@
           "is_high": true
         },
         {
-          "title": "вокал в «Музыкальном сообществе» / Music Community",
-          "cats": [
-            "stock",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
@@ -169,10 +160,36 @@
           "is_high": true
         },
         {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -188,16 +205,6 @@
           "is_high": true
         },
         {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мастер-класс по скульптуре в студии «Объём»",
           "cats": [
             "kids",
@@ -208,25 +215,19 @@
           "is_high": true
         },
         {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "Спортивный фестиваль в Лужниках",
           "cats": [
             "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "быстрые свидания от Fast Life",
-          "cats": [
-            "party",
-            "entertainment"
           ],
           "is_high": true
         }
@@ -243,15 +244,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+22°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 17.8,
-        "feels_like": 17.9,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 5.2,
-        "wind_gusts": 12.6,
+        "temp": 21.7,
+        "feels_like": 22.4,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 3.1,
+        "wind_gusts": 11.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +277,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.205,
         0.22,
         0.257,
@@ -298,6 +298,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205
       ],
@@ -343,21 +344,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · пасмурно",
-        "icon": "☁",
+        "val": "+15°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 10.1,
-        "feels_like": 7.8,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 9.7,
-        "wind_gusts": 9.7,
+        "temp": 15.3,
+        "feels_like": 13.2,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 7.8,
+        "wind_gusts": 26.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "16 крупных из 19",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -376,7 +377,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.366,
         0.381,
         0.303,
@@ -399,9 +399,18 @@
         0.266,
         0.266,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "музей инопланетян",
           "cats": [
@@ -427,8 +436,24 @@
           "is_high": true
         },
         {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
             "entertainment"
           ],
           "is_high": true
@@ -452,27 +477,6 @@
           "cats": [
             "kids",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экспозиция «Природа Новосибирской области»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         }
