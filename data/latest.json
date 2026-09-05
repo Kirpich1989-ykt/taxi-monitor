@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T22:18:48.922270+00:00",
+  "generated_at": "2026-09-05T00:51:25.161926+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+10°C · пасмурно",
-        "icon": "☁",
+        "val": "+12°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 9.6,
-        "feels_like": 5.7,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 17.0,
-        "wind_gusts": 34.9,
+        "temp": 11.9,
+        "feels_like": 8.1,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 16.4,
+        "wind_gusts": 33.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -63,9 +63,9 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.094,
+        0.079,
         0.079
       ],
       "_raw_events": [],
@@ -84,18 +84,18 @@
         "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 14.4,
-        "feels_like": 13.5,
+        "temp": 14.5,
+        "feels_like": 13.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.6,
-        "wind_gusts": 18.7,
+        "wind": 10.2,
+        "wind_gusts": 26.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "33 крупных из 45",
+        "val": "35 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -119,7 +119,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.383,
@@ -137,9 +136,20 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
@@ -168,6 +178,36 @@
           "is_high": true
         },
         {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "День города в Москве 2026",
           "cats": [
             "holiday",
@@ -189,38 +229,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "Международный культурный форум-фестиваль «Амаркорд»",
-          "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "быстрые свидания от Fast Life",
-          "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids",
-            "quest",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Международный кинофестиваль документального кино «Докер»",
-          "cats": [
-            "festival"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -235,15 +243,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+18°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 19.6,
-        "feels_like": 19.6,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 4.5,
-        "wind_gusts": 10.1,
+        "temp": 17.7,
+        "feels_like": 18.0,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 3.9,
+        "wind_gusts": 10.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -269,7 +277,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -291,6 +298,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -335,21 +343,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · ясно",
-        "icon": "☀",
+        "val": "+12°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 10.0,
-        "feels_like": 8.0,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 9.2,
-        "wind_gusts": 8.6,
+        "temp": 11.6,
+        "feels_like": 9.4,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 11.2,
+        "wind_gusts": 11.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "8 крупных из 11",
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -368,7 +376,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.396,
         0.381,
         0.266,
@@ -391,6 +398,7 @@
         0.366,
         0.266,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -426,10 +434,32 @@
           "is_high": true
         },
         {
+          "title": "выставка Роберта Фалька",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
             "kids",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Иконы»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
@@ -446,29 +476,6 @@
             "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "свободное рисование в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сибирь в древности»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
