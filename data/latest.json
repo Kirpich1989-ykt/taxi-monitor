@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T00:51:25.161926+00:00",
+  "generated_at": "2026-09-05T05:36:44.599511+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+12°C · преим. ясно",
+        "val": "+15°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 11.9,
-        "feels_like": 8.1,
+        "temp": 15.2,
+        "feels_like": 10.9,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 16.4,
-        "wind_gusts": 33.8,
+        "wind": 17.8,
+        "wind_gusts": 37.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -62,9 +62,9 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.094,
+        0.079,
         0.079,
         0.079
       ],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.533,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+14°C · пасмурно",
-        "icon": "☁",
+        "score": 0.55,
+        "val": "+14°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 14.5,
-        "feels_like": 13.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 10.2,
-        "wind_gusts": 26.6,
-        "precip": 0.0,
+        "temp": 14.1,
+        "feels_like": 12.9,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 12.4,
+        "wind_gusts": 33.5,
+        "precip": 0.5,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "35 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -118,7 +118,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.383,
@@ -137,7 +136,8 @@
         0.368,
         0.368,
         0.368,
-        0.368
+        0.368,
+        0.533
       ],
       "_raw_events": [
         {
@@ -160,6 +160,14 @@
           "is_high": true
         },
         {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
           "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
             "stock",
@@ -173,6 +181,15 @@
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -214,21 +231,6 @@
             "festival"
           ],
           "is_high": true
-        },
-        {
-          "title": "Спортивный фестиваль в Лужниках",
-          "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -243,15 +245,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · ясно",
+        "val": "+21°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 17.7,
-        "feels_like": 18.0,
+        "temp": 20.7,
+        "feels_like": 21.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.9,
-        "wind_gusts": 10.4,
+        "wind": 4.3,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -276,7 +278,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -298,6 +299,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205,
         0.205
       ],
@@ -339,25 +341,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+12°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.05,
+        "val": "+17°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 11.6,
-        "feels_like": 9.4,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 11.2,
-        "wind_gusts": 11.5,
+        "temp": 17.0,
+        "feels_like": 14.2,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 14.4,
+        "wind_gusts": 25.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "19 крупных из 23",
         "icon": "🎭"
       },
       "traffic": {
@@ -376,7 +378,6 @@
         "icon": "📰"
       },
       "history": [
-        0.396,
         0.381,
         0.266,
         0.266,
@@ -399,9 +400,18 @@
         0.266,
         0.266,
         0.366,
-        0.366
+        0.366,
+        0.381
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "музей инопланетян",
           "cats": [
@@ -434,6 +444,14 @@
           "is_high": true
         },
         {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "выставка Роберта Фалька",
           "cats": [
             "exhibition"
@@ -457,25 +475,11 @@
           "is_high": true
         },
         {
-          "title": "выставка «Иконы»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
           "cats": [
             "education"
           ],
           "is_high": false
-        },
-        {
-          "title": "экспозиция «Природа Новосибирской области»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
