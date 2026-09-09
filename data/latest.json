@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T00:05:43.452684+00:00",
+  "generated_at": "2026-09-09T05:54:51.928340+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · ясно",
+        "val": "+12°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 7.2,
-        "feels_like": 4.1,
+        "temp": 11.9,
+        "feels_like": 9.1,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.4,
-        "wind_gusts": 5.8,
+        "wind": 3.5,
+        "wind_gusts": 13.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -49,7 +49,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -62,6 +61,7 @@
         0.079,
         0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · преим. ясно",
+        "val": "+9°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 6.7,
-        "feels_like": 5.0,
+        "temp": 9.1,
+        "feels_like": 8.1,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 4.5,
-        "wind_gusts": 5.0,
+        "wind": 2.2,
+        "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "29 крупных из 41",
+        "val": "41 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.533,
         0.383,
         0.368,
         0.368,
@@ -122,6 +121,7 @@
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -160,6 +160,14 @@
           "is_high": true
         },
         {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
           "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
             "stock",
@@ -178,51 +186,48 @@
           "is_high": true
         },
         {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
           "cats": [
-            "concert",
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
           "cats": [
             "kids",
-            "quest",
+            "education",
             "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "быстрые свидания от Fast Life",
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
           "cats": [
-            "party",
+            "exhibition",
+            "kids",
+            "tour",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "частный стендап от проекта «Стендап Импорт»",
+          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
           "cats": [
-            "party",
             "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Международный кинофестиваль документального кино «Докер»",
-          "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
-          "cats": [
-            "education",
             "entertainment"
           ],
           "is_high": true
@@ -236,25 +241,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+18°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 13.9,
-        "feels_like": 13.2,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 5.4,
-        "wind_gusts": 12.6,
+        "temp": 18.4,
+        "feels_like": 17.3,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 4.2,
+        "wind_gusts": 13.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -277,7 +282,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.257,
@@ -296,9 +300,17 @@
         0.242,
         0.242,
         0.242,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -340,21 +352,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · ясно",
+        "val": "+26°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 15.1,
-        "feels_like": 13.6,
+        "temp": 26.2,
+        "feels_like": 25.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 10.1,
-        "wind_gusts": 9.4,
+        "wind": 9.2,
+        "wind_gusts": 28.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "16 крупных из 19",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -373,7 +385,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.516,
         0.356,
         0.341,
@@ -396,9 +407,18 @@
         0.303,
         0.266,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка морских рыб",
           "cats": [
@@ -420,6 +440,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -454,20 +482,6 @@
         },
         {
           "title": "экспозиция «Природа Новосибирской области»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Иконы»",
           "cats": [
             "exhibition"
           ],
