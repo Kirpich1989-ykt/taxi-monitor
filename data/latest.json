@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T01:00:26.914131+00:00",
+  "generated_at": "2026-09-10T05:52:55.615294+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · ясно",
+        "val": "+13°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 9.2,
-        "feels_like": 6.0,
+        "temp": 12.6,
+        "feels_like": 8.4,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.1,
-        "wind_gusts": 5.8,
+        "wind": 11.1,
+        "wind_gusts": 34.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.079,
         0.079,
         0.064,
@@ -56,6 +55,7 @@
         0.079,
         0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · ясно",
+        "val": "+16°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 12.4,
-        "feels_like": 11.7,
+        "temp": 16.0,
+        "feels_like": 15.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.2,
-        "wind_gusts": 4.7,
+        "wind": 5.4,
+        "wind_gusts": 15.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "37 крупных из 50",
+        "val": "43 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -115,7 +115,7 @@
       },
       "history": [
         0.518,
-        0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -160,6 +160,14 @@
           "is_high": true
         },
         {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
           "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
             "stock",
@@ -173,6 +181,15 @@
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -214,27 +231,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
-          "cats": [
-            "party",
-            "theater",
-            "stock",
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids",
-            "quest",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -245,25 +241,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · ясно",
+        "val": "+18°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 11.6,
-        "feels_like": 10.6,
+        "temp": 17.5,
+        "feels_like": 17.0,
         "condition": "ясно",
         "wmo_code": 0,
         "wind": 3.7,
-        "wind_gusts": 7.2,
+        "wind_gusts": 13.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -282,7 +278,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.257,
         0.257,
         0.257,
@@ -305,9 +300,17 @@
         0.242,
         0.242,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -349,21 +352,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · ясно",
+        "val": "+26°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 14.9,
-        "feels_like": 14.3,
+        "temp": 26.1,
+        "feels_like": 26.3,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.3,
-        "wind_gusts": 3.2,
+        "wind": 3.1,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "21 крупных из 24",
         "icon": "🎭"
       },
       "traffic": {
@@ -382,7 +385,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.341,
         0.266,
@@ -405,9 +407,18 @@
         0.266,
         0.266,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка морских рыб",
           "cats": [
@@ -429,6 +440,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -468,20 +487,6 @@
             "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
