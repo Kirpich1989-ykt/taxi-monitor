@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T16:18:39.777215+00:00",
+  "generated_at": "2026-09-10T19:34:27.865703+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+4°C · пасмурно",
-        "icon": "☁",
+        "val": "+4°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 4.5,
-        "feels_like": 0.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 8.8,
-        "wind_gusts": 12.2,
+        "temp": 3.7,
+        "feels_like": -0.2,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 9.6,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -53,6 +52,7 @@
         0.079,
         0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · ясно",
-        "icon": "☀",
+        "val": "+18°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 20.5,
-        "feels_like": 20.1,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 6.0,
-        "wind_gusts": 15.8,
+        "temp": 17.8,
+        "feels_like": 17.6,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 6.5,
+        "wind_gusts": 14.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "45 крупных из 50",
+        "val": "38 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,45 +141,9 @@
       ],
       "_raw_events": [
         {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "конное гала-шоу и турнир по конкуру «Конные сезоны»",
-          "cats": [
-            "stock",
-            "kids",
-            "festival",
             "recreation",
             "entertainment"
           ],
@@ -204,15 +168,6 @@
           "is_high": true
         },
         {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
@@ -230,6 +185,48 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "квест «Красная кнопка»",
+          "cats": [
+            "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "эногастрономический фестиваль «Виноград»",
+          "cats": [
+            "festival"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "быстрые свидания от Fast Life",
+          "cats": [
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -244,15 +241,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+22°C · ясно",
+        "val": "+17°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 21.6,
-        "feels_like": 20.1,
+        "temp": 17.1,
+        "feels_like": 15.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.7,
-        "wind_gusts": 11.5,
+        "wind": 4.6,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -277,7 +274,6 @@
         "icon": "📰"
       },
       "history": [
-        0.257,
         0.392,
         0.242,
         0.205,
@@ -298,6 +294,7 @@
         0.242,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -351,15 +348,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+19°C · ясно",
+        "val": "+16°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 18.8,
-        "feels_like": 17.6,
+        "temp": 16.3,
+        "feels_like": 16.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 5.7,
-        "wind_gusts": 5.0,
+        "wind": 1.4,
+        "wind_gusts": 3.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -385,7 +382,6 @@
       },
       "history": [
         0.266,
-        0.266,
         0.341,
         0.366,
         0.366,
@@ -407,6 +403,7 @@
         0.366,
         0.366,
         0.366,
+        0.266,
         0.266
       ],
       "_raw_events": [
