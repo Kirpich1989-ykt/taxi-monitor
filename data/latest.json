@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T22:29:17.270160+00:00",
+  "generated_at": "2026-09-11T00:58:49.158186+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+4°C · ясно",
+        "val": "+7°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 3.8,
-        "feels_like": 0.1,
+        "temp": 7.3,
+        "feels_like": 4.2,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 8.9,
-        "wind_gusts": 12.2,
+        "wind": 5.4,
+        "wind_gusts": 22.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,13 +44,13 @@
       },
       "history": [
         0.079,
-        0.079,
         0.094,
         0.064,
         0.079,
         0.079,
         0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.518,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+17°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+16°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 17.1,
-        "feels_like": 16.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 6.6,
-        "wind_gusts": 18.0,
-        "precip": 0.0,
+        "temp": 15.9,
+        "feels_like": 16.2,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 4.3,
+        "wind_gusts": 12.6,
+        "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "29 крупных из 40",
+        "val": "37 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -137,9 +137,19 @@
         0.368,
         0.368,
         0.368,
-        0.368
+        0.518
       ],
       "_raw_events": [
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
@@ -168,6 +178,36 @@
           "is_high": true
         },
         {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
           "cats": [
             "concert",
@@ -176,53 +216,25 @@
           "is_high": true
         },
         {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
           "cats": [
+            "party",
+            "theater",
+            "stock",
             "kids",
-            "quest",
-            "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "быстрые свидания от Fast Life",
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
           "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "Международный кинофестиваль документального кино «Докер»",
-          "cats": [
-            "festival"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "частный стендап от проекта «Стендап Импорт»",
-          "cats": [
-            "party",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
-          "cats": [
+            "stock",
             "education",
+            "other",
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "курс по скетчингу (быстрым зарисовкам) в студии «Рисуй»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -237,15 +249,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · ясно",
+        "val": "+12°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 13.6,
-        "feels_like": 12.2,
+        "temp": 12.0,
+        "feels_like": 10.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 3.7,
-        "wind_gusts": 9.4,
+        "wind": 4.3,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -270,7 +282,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.205,
         0.205,
         0.107,
@@ -293,6 +304,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -337,21 +349,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · ясно",
+        "val": "+15°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 14.3,
-        "feels_like": 14.3,
+        "temp": 14.8,
+        "feels_like": 15.0,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 1.5,
-        "wind_gusts": 2.5,
+        "wind": 2.2,
+        "wind_gusts": 3.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "15 крупных из 18",
+        "val": "16 крупных из 19",
         "icon": "🎭"
       },
       "traffic": {
@@ -370,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.366,
         0.366,
         0.116,
@@ -393,6 +404,7 @@
         0.366,
         0.266,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
