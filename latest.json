@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T22:08:02.614761+00:00",
+  "generated_at": "2026-09-16T01:20:28.207941+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-3°C · преим. ясно",
+        "val": "+2°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": -3.0,
-        "feels_like": -6.5,
+        "temp": 1.6,
+        "feels_like": -1.6,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 5.2,
-        "wind_gusts": 7.6,
+        "wind": 3.1,
+        "wind_gusts": 11.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -44,7 +44,6 @@
       },
       "history": [
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.064,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · ясно",
+        "val": "+7°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 9.4,
-        "feels_like": 8.3,
+        "temp": 7.3,
+        "feels_like": 5.8,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 4.0,
-        "wind_gusts": 9.4,
+        "wind": 3.7,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "30 крупных из 41",
+        "val": "37 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,9 +141,39 @@
       ],
       "_raw_events": [
         {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
             "recreation",
             "entertainment"
           ],
@@ -168,6 +198,27 @@
           "is_high": true
         },
         {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "cats": [
+            "party",
+            "theater",
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
           "cats": [
             "concert",
@@ -176,53 +227,14 @@
           "is_high": true
         },
         {
-          "title": "быстрые свидания от Fast Life",
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
           "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids",
-            "quest",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "частный стендап от проекта «Стендап Импорт»",
-          "cats": [
-            "party",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
-          "cats": [
+            "stock",
             "education",
+            "other",
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "курс по скетчингу (быстрым зарисовкам) в студии «Рисуй»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "курс «Анатомия человека для начинающих художников» в студии «Рисуй»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -237,15 +249,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+16°C · пасмурно",
-        "icon": "☁",
+        "val": "+16°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 16.2,
-        "feels_like": 16.1,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.0,
-        "wind_gusts": 13.0,
+        "temp": 15.6,
+        "feels_like": 15.7,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 3.6,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -272,7 +284,6 @@
       "history": [
         0.205,
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -293,6 +304,7 @@
         0.257,
         0.257,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -337,21 +349,21 @@
       "alert": "green",
       "weather": {
         "score": 0.5,
-        "val": "+11°C · морось слабая",
+        "val": "+12°C · морось слабая",
         "icon": "🌦",
         "live": true,
-        "temp": 10.8,
-        "feels_like": 9.2,
+        "temp": 11.7,
+        "feels_like": 10.4,
         "condition": "морось слабая",
         "wmo_code": 51,
-        "wind": 11.4,
-        "wind_gusts": 24.8,
+        "wind": 10.9,
+        "wind_gusts": 19.4,
         "precip": 0.1,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "15 крупных из 18",
+        "val": "16 крупных из 19",
         "icon": "🎭"
       },
       "traffic": {
@@ -370,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.366,
@@ -393,6 +404,7 @@
         0.531,
         0.356,
         0.281,
+        0.516,
         0.516
       ],
       "_raw_events": [
@@ -466,11 +478,11 @@
           "is_high": true
         },
         {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
-            "education"
+            "exhibition"
           ],
-          "is_high": false
+          "is_high": true
         }
       ],
       "_raw_news": [],
