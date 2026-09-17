@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T00:26:10.724277+00:00",
+  "generated_at": "2026-09-17T06:02:47.263093+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+1°C · пасмурно",
-        "icon": "☁",
+        "val": "+6°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 0.8,
-        "feels_like": -2.7,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.6,
-        "wind_gusts": 12.2,
+        "temp": 5.7,
+        "feels_like": 1.2,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 11.1,
+        "wind_gusts": 23.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -45,7 +45,6 @@
       "history": [
         0.064,
         0.064,
-        0.064,
         0.214,
         0.064,
         0.079,
@@ -57,6 +56,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+13°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 9.9,
-        "feels_like": 8.2,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 6.0,
-        "wind_gusts": 6.5,
+        "temp": 13.2,
+        "feels_like": 12.2,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 6.2,
+        "wind_gusts": 17.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "32 крупных из 44",
+        "val": "44 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,6 +141,16 @@
       ],
       "_raw_events": [
         {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "конные прогулки по национальному парку «Лосиный остров»",
           "cats": [
             "kids",
@@ -160,10 +170,37 @@
           "is_high": true
         },
         {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -178,54 +215,25 @@
           "is_high": true
         },
         {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "быстрые свидания от Fast Life",
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
           "cats": [
             "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
+            "theater",
+            "stock",
             "kids",
-            "quest",
-            "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "частный стендап от проекта «Стендап Импорт»",
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
           "cats": [
-            "party",
-            "concert",
+            "exhibition",
+            "kids",
+            "tour",
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "курс по скетчингу (быстрым зарисовкам) в студии «Рисуй»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -236,25 +244,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+15°C · пасмурно",
+        "val": "+16°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 15.2,
-        "feels_like": 15.3,
+        "temp": 16.5,
+        "feels_like": 16.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.2,
-        "wind_gusts": 11.2,
+        "wind": 5.9,
+        "wind_gusts": 16.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -273,7 +281,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -296,9 +303,17 @@
         0.242,
         0.242,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -340,21 +355,21 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "+12°C · пасмурно",
-        "icon": "☁",
+        "val": "+17°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 11.8,
-        "feels_like": 10.3,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 13.1,
-        "wind_gusts": 24.5,
+        "temp": 17.3,
+        "feels_like": 14.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 15.8,
+        "wind_gusts": 29.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "21 крупных из 24",
         "icon": "🎭"
       },
       "traffic": {
@@ -373,7 +388,6 @@
         "icon": "📰"
       },
       "history": [
-        0.341,
         0.366,
         0.366,
         0.381,
@@ -396,6 +410,7 @@
         0.366,
         0.431,
         0.381,
+        0.381,
         0.381
       ],
       "_raw_events": [
@@ -404,6 +419,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -427,6 +450,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -456,21 +487,6 @@
         },
         {
           "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Иконы»",
           "cats": [
             "exhibition"
           ],
