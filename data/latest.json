@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T20:32:19.474759+00:00",
+  "generated_at": "2026-09-19T22:55:08.870368+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,14 +10,14 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-1°C · пасмурно",
+        "val": "+0°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -0.9,
-        "feels_like": -4.2,
+        "temp": 0.5,
+        "feels_like": -2.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 6.8,
+        "wind": 4.0,
         "wind_gusts": 7.9,
         "precip": 0.0,
         "snowfall": 0.0
@@ -56,10 +56,10 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.064,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · преим. ясно",
+        "val": "+11°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 11.9,
-        "feels_like": 11.0,
+        "temp": 11.0,
+        "feels_like": 10.4,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 6.1,
-        "wind_gusts": 15.8,
+        "wind": 4.8,
+        "wind_gusts": 12.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "36 крупных из 47",
+        "val": "33 крупных из 44",
         "icon": "🎭"
       },
       "traffic": {
@@ -122,13 +122,13 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.383,
         0.368,
         0.368,
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -184,15 +184,6 @@
           "is_high": true
         },
         {
-          "title": "квест «Красная кнопка»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
           "cats": [
             "kids",
@@ -227,6 +218,13 @@
             "entertainment"
           ],
           "is_high": true
+        },
+        {
+          "title": "курс по скетчингу (быстрым зарисовкам) в студии «Рисуй»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -237,25 +235,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+20°C · ясно",
+        "val": "+18°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 19.5,
-        "feels_like": 20.0,
+        "temp": 18.4,
+        "feels_like": 18.7,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 6.0,
-        "wind_gusts": 15.5,
+        "wind": 5.8,
+        "wind_gusts": 14.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -274,7 +272,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -297,16 +294,10 @@
         0.242,
         0.242,
         0.242,
-        0.242
+        0.242,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -344,25 +335,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.341,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+8°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 9.8,
-        "feels_like": 7.8,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 10.1,
-        "wind_gusts": 8.6,
+        "temp": 8.3,
+        "feels_like": 6.4,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 7.7,
+        "wind_gusts": 11.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 9",
+        "score": 1.0,
+        "val": "17 крупных из 20",
         "icon": "🎭"
       },
       "traffic": {
@@ -381,7 +372,6 @@
         "icon": "📰"
       },
       "history": [
-        0.281,
         0.516,
         0.516,
         0.381,
@@ -404,15 +394,46 @@
         0.381,
         0.366,
         0.341,
-        0.341
+        0.341,
+        0.366
       ],
       "_raw_events": [
         {
-          "title": "киноночь в антикафе Fun-Time",
+          "title": "выставка морских рыб",
           "cats": [
-            "education",
-            "cinema",
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "музей инопланетян",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "цирковое представление с морскими животными",
+          "cats": [
+            "kids",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка Роберта Фалька",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         },
@@ -433,49 +454,26 @@
           "is_high": true
         },
         {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экспозиция «Природа Новосибирской области»",
+          "title": "выставка «Зарубежное искусство»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "ночь настольных игр в клубе-магазине «ИгРРай»",
+          "title": "выставка «Сибирь в древности»",
           "cats": [
-            "education",
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
-            "education"
+            "kids",
+            "entertainment"
           ],
-          "is_high": false
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
-            "education"
-          ],
-          "is_high": false
+          "is_high": true
         }
       ],
       "_raw_news": [],
