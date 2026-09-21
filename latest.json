@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T01:01:06.413710+00:00",
+  "generated_at": "2026-09-21T06:13:30.698820+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+1°C · пасмурно",
+        "val": "+2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 0.7,
-        "feels_like": -2.1,
+        "temp": 2.1,
+        "feels_like": -0.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 4.3,
-        "wind_gusts": 13.0,
+        "wind": 0.9,
+        "wind_gusts": 11.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -48,7 +48,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.214,
         0.064,
         0.214,
@@ -63,6 +62,7 @@
         0.064,
         0.214,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · пасмурно",
+        "val": "+16°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.7,
-        "feels_like": 12.8,
+        "temp": 15.7,
+        "feels_like": 14.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.0,
-        "wind_gusts": 22.7,
+        "wind": 8.6,
+        "wind_gusts": 23.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "37 крупных из 50",
+        "val": "40 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,13 +114,13 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.383,
         0.368,
         0.368,
         0.368,
         0.518,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -180,10 +180,27 @@
           "is_high": true
         },
         {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -217,24 +234,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
         }
       ],
       "_raw_news": [],
@@ -245,25 +244,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · преим. ясно",
-        "icon": "🌤",
+        "val": "+20°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 16.9,
-        "feels_like": 16.9,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 6.2,
-        "wind_gusts": 14.8,
+        "temp": 20.4,
+        "feels_like": 20.5,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 8.0,
+        "wind_gusts": 23.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -285,7 +284,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -305,9 +303,17 @@
         0.242,
         0.242,
         0.205,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -316,14 +322,14 @@
           "is_high": true
         },
         {
-          "title": "выставка «Литературная жизнь Кубани» в литмузее",
+          "title": "выставка  «Мне вечность глянула в глаза…»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "выставка  «Мне вечность глянула в глаза…»",
+          "title": "выставка «Литературная жизнь Кубани» в литмузее",
           "cats": [
             "exhibition"
           ],
@@ -349,21 +355,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+11°C · пасмурно",
+        "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 10.6,
-        "feels_like": 9.4,
+        "temp": 13.9,
+        "feels_like": 11.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.6,
-        "wind_gusts": 11.2,
+        "wind": 9.5,
+        "wind_gusts": 15.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "7 крупных из 10",
+        "val": "9 крупных из 14",
         "icon": "🎭"
       },
       "traffic": {
@@ -382,7 +388,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.516,
         0.266,
         0.266,
@@ -405,6 +410,7 @@
         0.266,
         0.266,
         0.366,
+        0.366,
         0.366
       ],
       "_raw_events": [
@@ -413,6 +419,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -433,17 +447,18 @@
           "is_high": true
         },
         {
-          "title": "свободное рисование в семейном арт-пространстве",
+          "title": "беззвучная выставка-квест «Тишина»",
           "cats": [
-            "kids",
-            "education",
+            "exhibition",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "ролевые настольные игры в «Башне»",
+          "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
+            "kids",
+            "education",
             "entertainment"
           ],
           "is_high": true
@@ -457,33 +472,25 @@
           "is_high": true
         },
         {
+          "title": "ролевые настольные игры в «Башне»",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "занятия клуба философии и размышлений «КСЭП»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
           "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
-        },
-        {
-          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
