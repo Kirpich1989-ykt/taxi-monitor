@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T06:37:05.954659+00:00",
+  "generated_at": "2026-09-30T13:36:00.724302+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · ясно",
+        "val": "0°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 7.2,
-        "feels_like": 2.9,
+        "temp": -0.5,
+        "feels_like": -4.9,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 10.3,
-        "wind_gusts": 24.8,
+        "wind": 11.2,
+        "wind_gusts": 16.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+8°C · пасмурно",
-        "icon": "☁",
+        "val": "+16°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 7.7,
-        "feels_like": 6.1,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 4.3,
-        "wind_gusts": 13.0,
+        "temp": 16.1,
+        "feels_like": 14.1,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 7.5,
+        "wind_gusts": 20.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "44 крупных из 50",
+        "val": "45 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,8 +114,8 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.118,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -151,6 +151,13 @@
           "is_high": true
         },
         {
+          "title": "cтендап-шоу от Stand Up Afisha с бесплатным входом",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
@@ -164,6 +171,32 @@
           "cats": [
             "exhibition",
             "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
+          "cats": [
+            "theater",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мюзикл «Плакса»",
+          "cats": [
+            "theater",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "групповые знакомства GOKON",
+          "cats": [
+            "party",
+            "other",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -188,47 +221,10 @@
           "is_high": true
         },
         {
-          "title": "групповые знакомства GOKON",
-          "cats": [
-            "party",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
           "cats": [
             "exhibition",
             "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мюзикл «Аленький цветочек»",
-          "cats": [
-            "theater",
-            "stock",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "вокал в «Музыкальном сообществе» / Music Community",
-          "cats": [
-            "stock",
-            "education",
             "entertainment"
           ],
           "is_high": true
@@ -242,19 +238,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.257,
       "alert": "green",
       "weather": {
-        "score": 0.0,
+        "score": 0.05,
         "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.7,
-        "feels_like": 11.6,
+        "temp": 13.5,
+        "feels_like": 11.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 11.7,
-        "wind_gusts": 31.3,
+        "wind": 12.7,
+        "wind_gusts": 38.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -279,7 +275,6 @@
         "icon": "📰"
       },
       "history": [
-        0.242,
         0.092,
         0.205,
         0.205,
@@ -302,7 +297,8 @@
         0.257,
         0.392,
         0.205,
-        0.242
+        0.242,
+        0.257
       ],
       "_raw_events": [
         {
@@ -349,25 +345,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.381,
+      "impact": 0.303,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+14°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.0,
+        "val": "+8°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 14.2,
-        "feels_like": 10.8,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 15.4,
-        "wind_gusts": 31.7,
+        "temp": 8.2,
+        "feels_like": 5.4,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 9.0,
+        "wind_gusts": 14.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "19 крупных из 22",
+        "score": 0.75,
+        "val": "5 крупных из 8",
         "icon": "🎭"
       },
       "traffic": {
@@ -386,7 +382,6 @@
         "icon": "📰"
       },
       "history": [
-        0.319,
         0.116,
         0.366,
         0.366,
@@ -409,7 +404,8 @@
         0.266,
         0.366,
         0.366,
-        0.381
+        0.381,
+        0.303
       ],
       "_raw_events": [
         {
@@ -417,38 +413,6 @@
           "cats": [
             "exhibition",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
           ],
           "is_high": true
         },
@@ -477,18 +441,33 @@
           "is_high": true
         },
         {
-          "title": "выставка Роберта Фалька",
+          "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
             "exhibition"
           ],
           "is_high": true
         },
         {
-          "title": "выставка «Сибирь в древности»",
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
           "cats": [
-            "exhibition"
+            "stock",
+            "education"
           ],
-          "is_high": true
+          "is_high": false
         }
       ],
       "_raw_news": [],
