@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:41:12.558490+00:00",
+  "generated_at": "2026-09-30T00:20:07.093301+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-1°C · пасмурно",
+        "val": "+2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -1.4,
-        "feels_like": -5.4,
+        "temp": 1.9,
+        "feels_like": -2.2,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.9,
-        "wind_gusts": 12.2,
+        "wind": 8.7,
+        "wind_gusts": 15.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,8 +43,8 @@
         "icon": "📰"
       },
       "history": [
-        0.079,
         0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · пасмурно",
-        "icon": "☁",
+        "val": "+6°C · туман",
+        "icon": "🌫",
         "live": true,
-        "temp": 9.3,
-        "feels_like": 7.8,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 3.0,
-        "wind_gusts": 4.3,
+        "temp": 6.3,
+        "feels_like": 4.7,
+        "condition": "туман",
+        "wmo_code": 45,
+        "wind": 4.5,
+        "wind_gusts": 6.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "36 крупных из 47",
+        "val": "32 крупных из 44",
         "icon": "🎭"
       },
       "traffic": {
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.368,
         0.368,
         0.368,
         0.118,
@@ -137,9 +136,20 @@
         0.368,
         0.368,
         0.368,
+        0.368,
         0.368
       ],
       "_raw_events": [
+        {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
@@ -203,15 +213,6 @@
           "is_high": true
         },
         {
-          "title": "квест «Красная кнопка»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "курс по скетчингу (быстрым зарисовкам) в студии «Рисуй»",
           "cats": [
             "education"
@@ -234,25 +235,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.392,
+      "impact": 0.205,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+14°C · дождь слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+13°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 14.2,
-        "feels_like": 13.1,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
-        "wind": 8.9,
-        "wind_gusts": 31.3,
-        "precip": 0.1,
+        "temp": 13.3,
+        "feels_like": 12.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 7.7,
+        "wind_gusts": 19.8,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.45,
+        "val": "3 крупных из 4",
         "icon": "🎭"
       },
       "traffic": {
@@ -271,7 +272,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.205,
         0.242,
         0.092,
@@ -294,16 +294,10 @@
         0.37,
         0.407,
         0.257,
-        0.392
+        0.392,
+        0.205
       ],
       "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -345,21 +339,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · пасмурно",
+        "val": "+8°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 9.1,
-        "feels_like": 7.4,
+        "temp": 8.0,
+        "feels_like": 5.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.4,
-        "wind_gusts": 9.7,
+        "wind": 11.2,
+        "wind_gusts": 14.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "14 крупных из 17",
+        "val": "16 крупных из 19",
         "icon": "🎭"
       },
       "traffic": {
@@ -378,7 +372,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.381,
         0.319,
         0.116,
@@ -401,11 +394,20 @@
         0.366,
         0.366,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
         {
           "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "музей инопланетян",
           "cats": [
             "exhibition",
             "kids"
@@ -467,13 +469,6 @@
         },
         {
           "title": "выставка «Зарубежное искусство»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Русское искусство XVIII-XIX вв.»",
           "cats": [
             "exhibition"
           ],
