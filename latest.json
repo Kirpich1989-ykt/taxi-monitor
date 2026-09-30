@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T00:20:07.093301+00:00",
+  "generated_at": "2026-09-30T06:37:05.954659+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+2°C · пасмурно",
-        "icon": "☁",
+        "val": "+7°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": 1.9,
-        "feels_like": -2.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 8.7,
-        "wind_gusts": 15.1,
+        "temp": 7.2,
+        "feels_like": 2.9,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 10.3,
+        "wind_gusts": 24.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,7 @@
         "icon": "📰"
       },
       "history": [
-        0.214,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+6°C · туман",
-        "icon": "🌫",
+        "val": "+8°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 6.3,
-        "feels_like": 4.7,
-        "condition": "туман",
-        "wmo_code": 45,
-        "wind": 4.5,
-        "wind_gusts": 6.5,
+        "temp": 7.7,
+        "feels_like": 6.1,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 4.3,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "32 крупных из 44",
+        "val": "44 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -115,8 +115,8 @@
       },
       "history": [
         0.368,
-        0.368,
         0.118,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -160,10 +160,66 @@
           "is_high": true
         },
         {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
+          "cats": [
+            "exhibition",
+            "tour",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мюзикл «Аленький цветочек»",
+          "cats": [
+            "theater",
+            "stock",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -176,55 +232,6 @@
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "быстрые свидания от Fast Life",
-          "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "частный стендап от проекта «Стендап Импорт»",
-          "cats": [
-            "party",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
-            "kids",
-            "quest",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "курс по скетчингу (быстрым зарисовкам) в студии «Рисуй»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "курс «Анатомия человека для начинающих художников» в студии «Рисуй»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -235,25 +242,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.205,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · пасмурно",
+        "val": "+14°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.3,
-        "feels_like": 12.0,
+        "temp": 13.7,
+        "feels_like": 11.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.7,
-        "wind_gusts": 19.8,
+        "wind": 11.7,
+        "wind_gusts": 31.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.45,
-        "val": "3 крупных из 4",
+        "score": 0.6,
+        "val": "4 крупных из 5",
         "icon": "🎭"
       },
       "traffic": {
@@ -272,7 +279,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.242,
         0.092,
         0.205,
@@ -295,9 +301,17 @@
         0.407,
         0.257,
         0.392,
-        0.205
+        0.205,
+        0.242
       ],
       "_raw_events": [
+        {
+          "title": "вечер игр в sgt. Peppers Bar",
+          "cats": [
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка  «Особенности национальной охоты»",
           "cats": [
@@ -335,25 +349,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.381,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "+8°C · пасмурно",
-        "icon": "☁",
+        "score": 0.05,
+        "val": "+14°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 8.0,
-        "feels_like": 5.7,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 11.2,
-        "wind_gusts": 14.0,
+        "temp": 14.2,
+        "feels_like": 10.8,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 15.4,
+        "wind_gusts": 31.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "16 крупных из 19",
+        "val": "19 крупных из 22",
         "icon": "🎭"
       },
       "traffic": {
@@ -372,7 +386,6 @@
         "icon": "📰"
       },
       "history": [
-        0.381,
         0.319,
         0.116,
         0.366,
@@ -395,9 +408,18 @@
         0.366,
         0.266,
         0.366,
-        0.366
+        0.366,
+        0.381
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка морских рыб",
           "cats": [
@@ -411,6 +433,14 @@
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -440,13 +470,6 @@
           "is_high": true
         },
         {
-          "title": "выставка Роберта Фалька",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
@@ -454,21 +477,14 @@
           "is_high": true
         },
         {
+          "title": "выставка Роберта Фалька",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
           "title": "выставка «Сибирь в древности»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Иконы»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Зарубежное искусство»",
           "cats": [
             "exhibition"
           ],
