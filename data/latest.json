@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T23:41:30.902432+00:00",
+  "generated_at": "2026-10-01T05:40:52.524756+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,17 +10,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "нет данных",
-        "icon": "🌡",
-        "live": false,
-        "temp": null,
-        "feels_like": null,
-        "condition": null,
-        "wmo_code": null,
-        "wind": null,
-        "wind_gusts": null,
-        "precip": null,
-        "snowfall": null
+        "val": "+6°C · пасмурно",
+        "icon": "☁",
+        "live": true,
+        "temp": 5.8,
+        "feels_like": 1.6,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 11.4,
+        "wind_gusts": 26.3,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 0.0,
@@ -64,8 +64,8 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · пасмурно",
+        "val": "+8°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 7.4,
-        "feels_like": 6.0,
+        "temp": 7.9,
+        "feels_like": 5.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.9,
-        "wind_gusts": 7.9,
+        "wind": 6.9,
+        "wind_gusts": 19.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "32 крупных из 43",
+        "val": "44 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,11 +141,29 @@
       ],
       "_raw_events": [
         {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
             "recreation",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -159,66 +177,57 @@
           "is_high": true
         },
         {
-          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
+            "kids",
             "education",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
+          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
           "cats": [
-            "concert",
+            "exhibition",
+            "tour",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "быстрые свидания от Fast Life",
-          "cats": [
-            "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "title": "мастер-класс по скульптуре в студии «Объём»",
           "cats": [
             "kids",
-            "quest",
+            "education",
             "recreation",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "частный стендап от проекта «Стендап Импорт»",
+          "title": "мюзикл «Аленький цветочек»",
           "cats": [
-            "party",
-            "concert",
+            "theater",
+            "stock",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
+          "cats": [
+            "exhibition",
+            "kids",
+            "tour",
             "entertainment"
           ],
           "is_high": true
         },
         {
-          "title": "курс по скетчингу (быстрым зарисовкам) в студии «Рисуй»",
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
           "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "курс «Анатомия человека для начинающих художников» в студии «Рисуй»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
-          "cats": [
+            "stock",
             "education",
             "entertainment"
           ],
@@ -237,15 +246,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · пасмурно",
-        "icon": "☁",
+        "val": "+14°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 12.5,
-        "feels_like": 12.2,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.1,
-        "wind_gusts": 13.0,
+        "temp": 13.7,
+        "feels_like": 12.7,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 9.4,
+        "wind_gusts": 25.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -271,7 +280,6 @@
       },
       "history": [
         0.205,
-        0.205,
         0.242,
         0.242,
         0.242,
@@ -293,6 +301,7 @@
         0.242,
         0.257,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -337,21 +346,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+3°C · ясно",
-        "icon": "☀",
+        "val": "+9°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 3.2,
-        "feels_like": 0.5,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 6.0,
-        "wind_gusts": 7.6,
+        "temp": 9.3,
+        "feels_like": 5.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 10.4,
+        "wind_gusts": 23.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "17 крупных из 20",
+        "val": "21 крупных из 24",
         "icon": "🎭"
       },
       "traffic": {
@@ -370,7 +379,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.356,
@@ -393,14 +401,31 @@
         0.381,
         0.303,
         0.266,
+        0.366,
         0.366
       ],
       "_raw_events": [
+        {
+          "title": "невидимая выставка-квест Temnota",
+          "cats": [
+            "exhibition",
+            "entertainment"
+          ],
+          "is_high": true
+        },
         {
           "title": "выставка морских рыб",
           "cats": [
             "exhibition",
             "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "беззвучная выставка-квест «Тишина»",
+          "cats": [
+            "exhibition",
+            "entertainment"
           ],
           "is_high": true
         },
@@ -438,6 +463,13 @@
           "is_high": true
         },
         {
+          "title": "выставка Роберта Фалька",
+          "cats": [
+            "exhibition"
+          ],
+          "is_high": true
+        },
+        {
           "title": "шоу мыльных пузырей в семейном арт-пространстве",
           "cats": [
             "kids",
@@ -446,30 +478,9 @@
           "is_high": true
         },
         {
-          "title": "выставка Роберта Фалька",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
           "title": "ролевые настольные игры в «Башне»",
           "cats": [
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сибирь в древности»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Иконы»",
-          "cats": [
-            "exhibition"
           ],
           "is_high": true
         }
