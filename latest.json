@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:01:59.733091+00:00",
+  "generated_at": "2026-10-01T18:49:27.197069+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+0°C · пасмурно",
+        "val": "+1°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 0.5,
-        "feels_like": -3.5,
+        "temp": 1.3,
+        "feels_like": -2.7,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.5,
-        "wind_gusts": 12.6,
+        "wind": 10.1,
+        "wind_gusts": 12.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -62,8 +62,8 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · пасмурно",
+        "val": "+7°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 13.0,
-        "feels_like": 10.0,
+        "temp": 6.7,
+        "feels_like": 4.3,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 11.2,
-        "wind_gusts": 30.2,
+        "wind": 5.8,
+        "wind_gusts": 14.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "46 крупных из 50",
+        "val": "36 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -141,37 +141,11 @@
       ],
       "_raw_events": [
         {
-          "title": "большой стендап-концерт",
-          "cats": [
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
             "recreation",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
           ],
           "is_high": true
         },
@@ -194,28 +168,11 @@
           "is_high": true
         },
         {
-          "title": "мюзикл «Плакса»",
-          "cats": [
-            "theater",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
           "cats": [
             "stock",
             "kids",
             "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
             "entertainment"
           ],
           "is_high": true
@@ -227,6 +184,51 @@
             "education",
             "recreation",
             "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "вокал в «Музыкальном сообществе» / Music Community",
+          "cats": [
+            "stock",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
+          "cats": [
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
+          "cats": [
+            "party",
+            "theater",
+            "stock",
+            "kids",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мультисенсорная выставка «Сон в музее»",
+          "cats": [
+            "exhibition"
           ],
           "is_high": true
         }
@@ -243,15 +245,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+18°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+14°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 18.2,
-        "feels_like": 17.1,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 9.6,
-        "wind_gusts": 28.8,
+        "temp": 13.9,
+        "feels_like": 13.7,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 5.8,
+        "wind_gusts": 19.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -278,7 +280,6 @@
       "history": [
         0.242,
         0.242,
-        0.242,
         0.205,
         0.205,
         0.242,
@@ -299,6 +300,7 @@
         0.242,
         0.205,
         0.205,
+        0.242,
         0.242
       ],
       "_raw_events": [
@@ -346,25 +348,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.366,
+      "impact": 0.266,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+8°C · ясно",
+        "val": "+6°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 7.8,
-        "feels_like": 4.6,
+        "temp": 5.6,
+        "feels_like": 2.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 10.6,
-        "wind_gusts": 10.8,
+        "wind": 9.2,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "9 крупных из 12",
+        "score": 0.6,
+        "val": "4 крупных из 7",
         "icon": "🎭"
       },
       "traffic": {
@@ -383,7 +385,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.356,
         0.341,
         0.366,
@@ -406,25 +407,10 @@
         0.266,
         0.366,
         0.366,
-        0.366
+        0.366,
+        0.266
       ],
       "_raw_events": [
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
         {
           "title": "свободное рисование в семейном арт-пространстве",
           "cats": [
@@ -457,16 +443,9 @@
           "is_high": false
         },
         {
-          "title": "открытые игры в клубе спортивной «Мафии»",
+          "title": "экспозиция «Природа Новосибирской области»",
           "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "вечера настольных игр на Кошурникова",
-          "cats": [
-            "entertainment"
+            "exhibition"
           ],
           "is_high": true
         },
@@ -478,11 +457,12 @@
           "is_high": false
         },
         {
-          "title": "выставка «Чудеса Полины Чудиновой»",
+          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
           "cats": [
-            "exhibition"
+            "stock",
+            "education"
           ],
-          "is_high": true
+          "is_high": false
         }
       ],
       "_raw_news": [],
