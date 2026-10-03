@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:53:27.878714+00:00",
+  "generated_at": "2026-10-03T21:08:09.455267+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-4°C · ясно",
-        "icon": "☀",
+        "val": "-4°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": -3.5,
-        "feels_like": -7.7,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 8.3,
-        "wind_gusts": 19.8,
+        "temp": -3.6,
+        "feels_like": -8.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 9.6,
+        "wind_gusts": 15.5,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -52,7 +52,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,6 +65,7 @@
         0.079,
         0.094,
         0.079,
+        0.064,
         0.064
       ],
       "_raw_events": [],
@@ -81,21 +81,21 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+6°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+4°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 5.5,
-        "feels_like": 2.8,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 5.5,
-        "wind_gusts": 16.6,
+        "temp": 3.8,
+        "feels_like": 1.7,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 1.6,
+        "wind_gusts": 3.6,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "37 крупных из 50",
+        "val": "31 крупных из 41",
         "icon": "🎭"
       },
       "traffic": {
@@ -131,8 +131,8 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -150,49 +150,11 @@
           "is_high": true
         },
         {
-          "title": "Гастрономический мюзикл «Москва от заката до рассвета»",
-          "cats": [
-            "theater",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
             "other",
             "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мюзикл «Аленький цветочек»",
-          "cats": [
-            "theater",
-            "stock",
-            "kids"
           ],
           "is_high": true
         },
@@ -206,16 +168,6 @@
           "is_high": true
         },
         {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
           "title": "стендап-концерты в STILL с бесплатным входом для зрителей",
           "cats": [
             "concert",
@@ -224,9 +176,51 @@
           "is_high": true
         },
         {
-          "title": "мультисенсорная выставка «Сон в музее»",
+          "title": "быстрые свидания от Fast Life",
           "cats": [
-            "exhibition"
+            "party",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "частный стендап от проекта «Стендап Импорт»",
+          "cats": [
+            "party",
+            "concert",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
+          "cats": [
+            "kids",
+            "quest",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "курс «Анатомия человека для начинающих художников» в студии «Рисуй»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "курс по скетчингу (быстрым зарисовкам) в студии «Рисуй»",
+          "cats": [
+            "education"
+          ],
+          "is_high": false
+        },
+        {
+          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
+          "cats": [
+            "education",
+            "entertainment"
           ],
           "is_high": true
         }
@@ -243,15 +237,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+10°C · ясно",
-        "icon": "☀",
+        "val": "+8°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": 10.4,
-        "feels_like": 8.5,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 3.4,
-        "wind_gusts": 9.0,
+        "temp": 8.5,
+        "feels_like": 6.8,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 4.0,
+        "wind_gusts": 8.3,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -277,7 +271,6 @@
       },
       "history": [
         0.257,
-        0.257,
         0.22,
         0.37,
         0.407,
@@ -297,6 +290,7 @@
         0.242,
         0.205,
         0.205,
+        0.242,
         0.242,
         0.242,
         0.242
@@ -346,25 +340,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.341,
+      "impact": 0.366,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+12°C · пасмурно",
+        "val": "+11°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 12.0,
-        "feels_like": 9.9,
+        "temp": 10.8,
+        "feels_like": 8.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.8,
-        "wind_gusts": 6.5,
+        "wind": 9.0,
+        "wind_gusts": 9.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.9,
-        "val": "6 крупных из 9",
+        "score": 1.0,
+        "val": "8 крупных из 11",
         "icon": "🎭"
       },
       "traffic": {
@@ -383,7 +377,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.266,
         0.366,
         0.366,
@@ -406,9 +399,26 @@
         0.381,
         0.381,
         0.366,
-        0.341
+        0.341,
+        0.366
       ],
       "_raw_events": [
+        {
+          "title": "выставка морских рыб",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
+          "cats": [
+            "exhibition",
+            "kids"
+          ],
+          "is_high": true
+        },
         {
           "title": "киноночь в антикафе Fun-Time",
           "cats": [
@@ -450,6 +460,14 @@
           "is_high": true
         },
         {
+          "title": "ночь настольных игр в клубе-магазине «ИгРРай»",
+          "cats": [
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "творческие мастер-классы в студии рукоделия и декора KnicKnack",
           "cats": [
             "education"
@@ -459,22 +477,6 @@
         {
           "title": "мастер-классы по рукоделию и прикладным искусствам в «Сути вещей»",
           "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "ночь настольных игр в клубе-магазине «ИгРРай»",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock",
             "education"
           ],
           "is_high": false
