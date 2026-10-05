@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:18:09.523581+00:00",
+  "generated_at": "2026-10-05T01:51:46.895864+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.05,
-        "val": "-4°C · ясно",
-        "icon": "☀",
+        "val": "-1°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": -4.0,
-        "feels_like": -8.9,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 13.3,
-        "wind_gusts": 28.1,
+        "temp": -1.1,
+        "feels_like": -5.9,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 12.1,
+        "wind_gusts": 31.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -46,7 +46,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.064,
         0.064,
@@ -66,6 +65,7 @@
         0.229,
         0.094,
         0.094,
+        0.079,
         0.079
       ],
       "_raw_events": [],
@@ -85,17 +85,17 @@
         "icon": "☁",
         "live": true,
         "temp": 9.0,
-        "feels_like": 8.0,
+        "feels_like": 7.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 3.1,
-        "wind_gusts": 5.0,
+        "wind": 4.7,
+        "wind_gusts": 5.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
         "score": 1.0,
-        "val": "30 крупных из 41",
+        "val": "37 крупных из 50",
         "icon": "🎭"
       },
       "traffic": {
@@ -125,8 +125,8 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
+        0.368,
         0.368,
         0.368,
         0.368,
@@ -141,6 +141,24 @@
       ],
       "_raw_events": [
         {
+          "title": "конные прогулки по национальному парку «Лосиный остров»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
+          "cats": [
+            "exhibition",
+            "yarmarki-razvlecheniya-yarmarki"
+          ],
+          "is_high": true
+        },
+        {
           "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
           "cats": [
             "kids",
@@ -150,9 +168,39 @@
           "is_high": true
         },
         {
+          "title": "мастер-класс по скульптуре в студии «Объём»",
+          "cats": [
+            "kids",
+            "education",
+            "recreation",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
           "title": "групповые знакомства GOKON",
           "cats": [
             "party",
+            "other",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
+          "cats": [
+            "stock",
+            "kids",
+            "education",
+            "entertainment"
+          ],
+          "is_high": true
+        },
+        {
+          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
+          "cats": [
+            "stock",
+            "education",
             "other",
             "entertainment"
           ],
@@ -176,53 +224,15 @@
           "is_high": true
         },
         {
-          "title": "быстрые свидания от Fast Life",
+          "title": "Развлекательное шоу по мотивам телевизионных передач Good Night Show",
           "cats": [
             "party",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "частный стендап от проекта «Стендап Импорт»",
-          "cats": [
-            "party",
-            "concert",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "сценарные игры с участием актёров в клубе «Лазертаг Зона»/Lazertag Zone",
-          "cats": [
+            "theater",
+            "stock",
             "kids",
-            "quest",
-            "recreation",
             "entertainment"
           ],
           "is_high": true
-        },
-        {
-          "title": "курс по скетчингу (быстрым зарисовкам) в студии «Рисуй»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
-        },
-        {
-          "title": "мастер-класс «Интерьерная картина для начинающих» в студии рисования и живописи ZuART",
-          "cats": [
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "курс «Анатомия человека для начинающих художников» в студии «Рисуй»",
-          "cats": [
-            "education"
-          ],
-          "is_high": false
         }
       ],
       "_raw_news": [],
@@ -237,17 +247,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "нет данных",
-        "icon": "🌡",
-        "live": false,
-        "temp": null,
-        "feels_like": null,
-        "condition": null,
-        "wmo_code": null,
-        "wind": null,
-        "wind_gusts": null,
-        "precip": null,
-        "snowfall": null
+        "val": "+4°C · туман",
+        "icon": "🌫",
+        "live": true,
+        "temp": 4.5,
+        "feels_like": 2.8,
+        "condition": "туман",
+        "wmo_code": 45,
+        "wind": 2.2,
+        "wind_gusts": 2.5,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 0.45,
@@ -270,7 +280,6 @@
         "icon": "📰"
       },
       "history": [
-        0.392,
         0.205,
         0.242,
         0.257,
@@ -293,6 +302,7 @@
         0.242,
         0.242,
         0.242,
+        0.205,
         0.205
       ],
       "_raw_events": [
@@ -333,19 +343,19 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.531,
+      "impact": 0.546,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+11°C · морось умеренная",
+        "score": 0.6,
+        "val": "+9°C · морось умеренная",
         "icon": "🌦",
         "live": true,
-        "temp": 11.4,
-        "feels_like": 8.9,
+        "temp": 8.7,
+        "feels_like": 5.0,
         "condition": "морось умеренная",
         "wmo_code": 53,
-        "wind": 16.7,
-        "wind_gusts": 30.2,
+        "wind": 20.7,
+        "wind_gusts": 48.2,
         "precip": 0.2,
         "snowfall": 0.0
       },
@@ -371,7 +381,6 @@
       },
       "history": [
         0.366,
-        0.366,
         0.381,
         0.303,
         0.266,
@@ -393,7 +402,8 @@
         0.366,
         0.381,
         0.281,
-        0.531
+        0.531,
+        0.546
       ],
       "_raw_events": [
         {
