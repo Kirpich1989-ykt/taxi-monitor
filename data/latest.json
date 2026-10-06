@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-06T07:28:44.119852+00:00",
+  "generated_at": "2026-10-06T15:02:15.669832+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.079,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "-5°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.05,
+        "val": "-6°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": -5.2,
-        "feels_like": -10.1,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 10.3,
-        "wind_gusts": 21.2,
+        "temp": -5.8,
+        "feels_like": -11.6,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 18.3,
+        "wind_gusts": 28.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -48,7 +48,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -66,7 +65,8 @@
         0.064,
         0.079,
         0.079,
-        0.064
+        0.064,
+        0.079
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,25 +77,25 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.368,
+      "impact": 0.118,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+11°C · пасмурно",
+        "val": "+12°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 10.7,
-        "feels_like": 9.0,
+        "temp": 12.0,
+        "feels_like": 10.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 9.5,
-        "wind_gusts": 25.6,
+        "wind": 10.9,
+        "wind_gusts": 30.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "44 крупных из 50",
+        "score": 0.0,
+        "val": "KudaGo HTTP 403",
         "icon": "🎭"
       },
       "traffic": {
@@ -120,7 +120,6 @@
         0.368,
         0.368,
         0.368,
-        0.368,
         0.518,
         0.368,
         0.368,
@@ -137,104 +136,10 @@
         0.368,
         0.368,
         0.368,
-        0.368
+        0.368,
+        0.118
       ],
-      "_raw_events": [
-        {
-          "title": "конные прогулки по национальному парку «Лосиный остров»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "арт-шоу «Тайны самоцветов: чудеса природы + искусство ювелира»",
-          "cats": [
-            "exhibition",
-            "yarmarki-razvlecheniya-yarmarki"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "подарочные сертификаты в стрелковый клуб «Лабиринт»",
-          "cats": [
-            "kids",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по скульптуре в студии «Объём»",
-          "cats": [
-            "kids",
-            "education",
-            "recreation",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мастер-класс по озвучиванию фильма, мультфильма или аниме в академии «Амфитеатр»",
-          "cats": [
-            "stock",
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Сальвадор Дали и Пабло Пикассо»",
-          "cats": [
-            "exhibition",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "групповые знакомства GOKON",
-          "cats": [
-            "party",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "экскурсия с представлением в Музее фокусов и иллюзий",
-          "cats": [
-            "exhibition",
-            "kids",
-            "tour",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "мюзикл «Аленький цветочек»",
-          "cats": [
-            "theater",
-            "stock",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "бесплатный урок вокала, актёрского мастерства или ораторского искусства в мастерской голоса ReVoice",
-          "cats": [
-            "stock",
-            "education",
-            "other",
-            "entertainment"
-          ],
-          "is_high": true
-        }
-      ],
+      "_raw_events": [],
       "_raw_news": [],
       "_raw_trends": {}
     },
@@ -243,25 +148,25 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.092,
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+17°C · ясно",
-        "icon": "☀",
+        "val": "+17°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 17.3,
+        "temp": 17.0,
         "feels_like": 15.8,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 3.6,
-        "wind_gusts": 12.6,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 4.1,
+        "wind_gusts": 13.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 0.6,
-        "val": "4 крупных из 5",
+        "score": 0.0,
+        "val": "KudaGo HTTP 403",
         "icon": "🎭"
       },
       "traffic": {
@@ -280,7 +185,6 @@
         "icon": "📰"
       },
       "history": [
-        0.205,
         0.205,
         0.242,
         0.242,
@@ -303,45 +207,10 @@
         0.242,
         0.242,
         0.205,
-        0.242
+        0.242,
+        0.092
       ],
-      "_raw_events": [
-        {
-          "title": "вечер игр в sgt. Peppers Bar",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Литературная жизнь Кубани» в литмузее",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка  «Особенности национальной охоты»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка  «Мне вечность глянула в глаза…»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "акция «Найди частного репетитора, тренера или психолога по самой выгодной цене!»",
-          "cats": [
-            "stock"
-          ],
-          "is_high": false
-        }
-      ],
+      "_raw_events": [],
       "_raw_news": [],
       "_raw_trends": {}
     },
@@ -350,25 +219,25 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.396,
+      "impact": 0.146,
       "alert": "green",
       "weather": {
         "score": 0.1,
-        "val": "+10°C · переменная облачность",
-        "icon": "⛅",
+        "val": "+6°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 10.1,
-        "feels_like": 4.3,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 27.7,
-        "wind_gusts": 53.6,
+        "temp": 5.5,
+        "feels_like": 0.5,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 23.7,
+        "wind_gusts": 38.9,
         "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
-        "score": 1.0,
-        "val": "17 крупных из 20",
+        "score": 0.0,
+        "val": "KudaGo HTTP 403",
         "icon": "🎭"
       },
       "traffic": {
@@ -387,7 +256,6 @@
         "icon": "📰"
       },
       "history": [
-        0.366,
         0.366,
         0.366,
         0.266,
@@ -410,88 +278,10 @@
         0.396,
         0.281,
         0.396,
-        0.396
+        0.396,
+        0.146
       ],
-      "_raw_events": [
-        {
-          "title": "невидимая выставка-квест Temnota",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка морских рыб",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "беззвучная выставка-квест «Тишина»",
-          "cats": [
-            "exhibition",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "музей инопланетян",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка хищных растений «В гостях у Венериной мухоловки»",
-          "cats": [
-            "exhibition",
-            "kids"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "шоу мыльных пузырей в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "свободное рисование в семейном арт-пространстве",
-          "cats": [
-            "kids",
-            "education",
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "ролевые настольные игры в «Башне»",
-          "cats": [
-            "entertainment"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка «Иконы»",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        },
-        {
-          "title": "выставка Роберта Фалька",
-          "cats": [
-            "exhibition"
-          ],
-          "is_high": true
-        }
-      ],
+      "_raw_events": [],
       "_raw_news": [],
       "_raw_trends": {}
     }
