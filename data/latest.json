@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-17T04:13:40.605842+00:00",
+  "generated_at": "2026-10-17T09:12:45.946243+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.079,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.05,
+        "score": 0.0,
         "val": "-2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -1.6,
-        "feels_like": -6.6,
+        "temp": -2.2,
+        "feels_like": -6.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 15.2,
-        "wind_gusts": 33.1,
+        "wind": 10.0,
+        "wind_gusts": 21.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -56,7 +56,6 @@
         0.064,
         0.064,
         0.064,
-        0.064,
         0.079,
         0.079,
         0.079,
@@ -66,7 +65,8 @@
         0.079,
         0.064,
         0.064,
-        0.079
+        0.079,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+9°C · пасмурно",
-        "icon": "☁",
+        "val": "+14°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 8.7,
-        "feels_like": 7.7,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 3.3,
-        "wind_gusts": 7.6,
+        "temp": 13.7,
+        "feels_like": 12.7,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 4.6,
+        "wind_gusts": 14.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -114,7 +114,6 @@
         "icon": "📰"
       },
       "history": [
-        0.118,
         0.268,
         0.118,
         0.118,
@@ -132,6 +131,7 @@
         0.118,
         0.118,
         0.268,
+        0.118,
         0.118,
         0.118,
         0.118,
@@ -148,20 +148,20 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.242,
+      "impact": 0.107,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+14°C · ливень слабый",
-        "icon": "🌧",
+        "score": 0.05,
+        "val": "+20°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 13.9,
-        "feels_like": 13.7,
-        "condition": "ливень слабый",
-        "wmo_code": 80,
-        "wind": 6.6,
-        "wind_gusts": 16.6,
-        "precip": 0.1,
+        "temp": 20.4,
+        "feels_like": 20.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 12.3,
+        "wind_gusts": 29.9,
+        "precip": 0.0,
         "snowfall": 0.0
       },
       "events": {
@@ -198,7 +198,6 @@
         0.092,
         0.092,
         0.092,
-        0.092,
         0.242,
         0.092,
         0.242,
@@ -208,7 +207,8 @@
         0.092,
         0.092,
         0.092,
-        0.242
+        0.242,
+        0.107
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -219,21 +219,21 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.281,
+      "impact": 0.131,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+1°C · снег умеренный",
-        "icon": "🌨",
+        "score": 0.05,
+        "val": "+2°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 1.3,
-        "feels_like": -2.6,
-        "condition": "снег умеренный",
-        "wmo_code": 73,
-        "wind": 13.4,
-        "wind_gusts": 23.8,
-        "precip": 0.2,
-        "snowfall": 0.07
+        "temp": 2.5,
+        "feels_like": -1.4,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 13.7,
+        "wind_gusts": 28.4,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 0.0,
@@ -256,7 +256,6 @@
         "icon": "📰"
       },
       "history": [
-        0.116,
         0.131,
         0.266,
         0.131,
@@ -279,7 +278,8 @@
         0.131,
         0.281,
         0.116,
-        0.281
+        0.281,
+        0.131
       ],
       "_raw_events": [],
       "_raw_news": [],
