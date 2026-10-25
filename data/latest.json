@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T18:57:46.176759+00:00",
+  "generated_at": "2026-10-25T21:40:25.508519+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -17,8 +17,8 @@
         "feels_like": -14.4,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 10.0,
-        "wind_gusts": 19.1,
+        "wind": 9.6,
+        "wind_gusts": 19.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.214,
         0.064,
         0.064,
         0.064,
@@ -60,6 +59,7 @@
         0.079,
         0.079,
         0.079,
+        0.064,
         0.064,
         0.064,
         0.064,
@@ -81,15 +81,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+7°C · ясно",
+        "val": "+5°C · ясно",
         "icon": "☀",
         "live": true,
-        "temp": 6.6,
-        "feels_like": 2.8,
+        "temp": 5.2,
+        "feels_like": 1.6,
         "condition": "ясно",
         "wmo_code": 0,
-        "wind": 8.7,
-        "wind_gusts": 23.4,
+        "wind": 7.6,
+        "wind_gusts": 19.1,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -152,15 +152,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+14°C · преим. ясно",
+        "val": "+13°C · преим. ясно",
         "icon": "🌤",
         "live": true,
-        "temp": 14.3,
-        "feels_like": 12.7,
+        "temp": 12.6,
+        "feels_like": 11.1,
         "condition": "преим. ясно",
         "wmo_code": 1,
-        "wind": 11.2,
-        "wind_gusts": 27.0,
+        "wind": 9.0,
+        "wind_gusts": 21.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -206,8 +206,8 @@
         0.092,
         0.092,
         0.092,
-        0.092,
         0.107,
+        0.092,
         0.092
       ],
       "_raw_events": [],
@@ -223,15 +223,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+0°C · пасмурно",
+        "val": "+1°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 0.5,
+        "temp": 0.6,
         "feels_like": -2.9,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 7.0,
-        "wind_gusts": 12.2,
+        "wind": 7.7,
+        "wind_gusts": 14.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -257,7 +257,6 @@
       },
       "history": [
         0.131,
-        0.131,
         0.281,
         0.131,
         0.116,
@@ -277,6 +276,7 @@
         0.281,
         0.281,
         0.281,
+        0.116,
         0.116,
         0.116,
         0.116
