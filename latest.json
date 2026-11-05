@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-05T06:31:04.445622+00:00",
+  "generated_at": "2026-11-05T15:22:40.887238+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.064,
+      "impact": 0.094,
       "alert": "green",
       "weather": {
-        "score": 0.0,
-        "val": "-17°C · пасмурно",
+        "score": 0.1,
+        "val": "-20°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -17.4,
-        "feels_like": -21.5,
+        "temp": -20.1,
+        "feels_like": -24.8,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 1.9,
-        "wind_gusts": 9.7,
+        "wind": 5.3,
+        "wind_gusts": 11.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.094,
         0.094,
         0.094,
@@ -66,7 +65,8 @@
         0.064,
         0.064,
         0.064,
-        0.064
+        0.064,
+        0.094
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,21 +77,21 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.268,
+      "impact": 0.118,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+0°C · снег слабый",
-        "icon": "🌨",
+        "score": 0.0,
+        "val": "+4°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 0.2,
-        "feels_like": -3.6,
-        "condition": "снег слабый",
-        "wmo_code": 71,
-        "wind": 10.2,
-        "wind_gusts": 27.4,
-        "precip": 0.1,
-        "snowfall": 0.07
+        "temp": 4.0,
+        "feels_like": 1.0,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 8.9,
+        "wind_gusts": 24.1,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 0.0,
@@ -130,14 +130,14 @@
         0.118,
         0.118,
         0.118,
-        0.118,
         0.268,
         0.268,
         0.118,
         0.133,
         0.118,
         0.118,
-        0.268
+        0.268,
+        0.118
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -148,19 +148,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.107,
+      "impact": 0.092,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+6°C · преим. ясно",
-        "icon": "🌤",
+        "score": 0.0,
+        "val": "+6°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 5.5,
-        "feels_like": 1.5,
-        "condition": "преим. ясно",
-        "wmo_code": 1,
-        "wind": 12.2,
-        "wind_gusts": 30.6,
+        "temp": 6.3,
+        "feels_like": 3.7,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 4.1,
+        "wind_gusts": 9.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -189,7 +189,6 @@
         0.092,
         0.092,
         0.092,
-        0.092,
         0.107,
         0.092,
         0.092,
@@ -208,7 +207,8 @@
         0.092,
         0.242,
         0.107,
-        0.107
+        0.107,
+        0.092
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -223,15 +223,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+2°C · пасмурно",
-        "icon": "☁",
+        "val": "-3°C · переменная облачность",
+        "icon": "⛅",
         "live": true,
-        "temp": 1.7,
-        "feels_like": -1.0,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 3.7,
-        "wind_gusts": 8.3,
+        "temp": -2.7,
+        "feels_like": -6.0,
+        "condition": "переменная облачность",
+        "wmo_code": 2,
+        "wind": 3.6,
+        "wind_gusts": 5.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -257,7 +257,6 @@
       },
       "history": [
         0.131,
-        0.131,
         0.116,
         0.266,
         0.266,
@@ -277,6 +276,7 @@
         0.131,
         0.131,
         0.266,
+        0.116,
         0.116,
         0.116,
         0.116
