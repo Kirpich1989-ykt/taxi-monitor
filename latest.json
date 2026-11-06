@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T10:42:39.159429+00:00",
+  "generated_at": "2026-11-06T17:53:46.721301+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.1,
-        "val": "-26°C · пасмурно",
-        "icon": "☁",
+        "val": "-27°C · ясно",
+        "icon": "☀",
         "live": true,
-        "temp": -26.3,
-        "feels_like": -31.1,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.5,
-        "wind_gusts": 9.7,
+        "temp": -27.0,
+        "feels_like": -32.1,
+        "condition": "ясно",
+        "wmo_code": 0,
+        "wind": 7.2,
+        "wind_gusts": 13.7,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.064,
         0.094,
         0.094,
         0.094,
@@ -63,6 +62,7 @@
         0.064,
         0.064,
         0.064,
+        0.094,
         0.094,
         0.094,
         0.094,
@@ -77,19 +77,19 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.283,
+      "impact": 0.118,
       "alert": "green",
       "weather": {
-        "score": 0.55,
-        "val": "+2°C · дождь слабый",
-        "icon": "🌧",
+        "score": 0.0,
+        "val": "+1°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 2.5,
-        "feels_like": -1.5,
-        "condition": "дождь слабый",
-        "wmo_code": 61,
-        "wind": 12.6,
-        "wind_gusts": 34.9,
+        "temp": 0.6,
+        "feels_like": -3.1,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 8.7,
+        "wind_gusts": 27.0,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -126,7 +126,6 @@
         0.118,
         0.118,
         0.118,
-        0.118,
         0.268,
         0.268,
         0.118,
@@ -137,7 +136,8 @@
         0.118,
         0.118,
         0.118,
-        0.283
+        0.283,
+        0.118
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -148,19 +148,19 @@
         45.0355,
         38.9753
       ],
-      "impact": 0.107,
+      "impact": 0.242,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+11°C · пасмурно",
-        "icon": "☁",
+        "score": 0.5,
+        "val": "+8°C · дождь слабый",
+        "icon": "🌧",
         "live": true,
-        "temp": 11.4,
-        "feels_like": 7.4,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 16.9,
-        "wind_gusts": 41.4,
+        "temp": 8.4,
+        "feels_like": 6.9,
+        "condition": "дождь слабый",
+        "wmo_code": 61,
+        "wind": 4.4,
+        "wind_gusts": 10.8,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -185,7 +185,6 @@
         "icon": "📰"
       },
       "history": [
-        0.092,
         0.107,
         0.092,
         0.092,
@@ -208,7 +207,8 @@
         0.092,
         0.092,
         0.092,
-        0.107
+        0.107,
+        0.242
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -219,19 +219,19 @@
         54.9833,
         82.8964
       ],
-      "impact": 0.131,
+      "impact": 0.146,
       "alert": "green",
       "weather": {
-        "score": 0.05,
-        "val": "+3°C · ясно",
-        "icon": "☀",
+        "score": 0.1,
+        "val": "+2°C · пасмурно",
+        "icon": "☁",
         "live": true,
-        "temp": 2.8,
-        "feels_like": -2.1,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 17.2,
-        "wind_gusts": 33.5,
+        "temp": 1.5,
+        "feels_like": -4.0,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 21.0,
+        "wind_gusts": 39.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -256,7 +256,6 @@
         "icon": "📰"
       },
       "history": [
-        0.266,
         0.131,
         0.116,
         0.116,
@@ -279,7 +278,8 @@
         0.116,
         0.116,
         0.131,
-        0.131
+        0.131,
+        0.146
       ],
       "_raw_events": [],
       "_raw_news": [],
