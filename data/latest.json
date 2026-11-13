@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:10:16.770890+00:00",
+  "generated_at": "2026-11-13T07:48:57.824983+00:00",
   "cities": {
     "Якутск": {
       "coords": [
@@ -10,15 +10,15 @@
       "alert": "green",
       "weather": {
         "score": 0.1,
-        "val": "-22°C · пасмурно",
-        "icon": "☁",
+        "val": "-24°C · преим. ясно",
+        "icon": "🌤",
         "live": true,
-        "temp": -22.2,
-        "feels_like": -26.9,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 5.2,
-        "wind_gusts": 12.6,
+        "temp": -23.6,
+        "feels_like": -28.1,
+        "condition": "преим. ясно",
+        "wmo_code": 1,
+        "wind": 3.7,
+        "wind_gusts": 7.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -43,7 +43,6 @@
         "icon": "📰"
       },
       "history": [
-        0.094,
         0.064,
         0.094,
         0.094,
@@ -66,6 +65,7 @@
         0.064,
         0.064,
         0.094,
+        0.094,
         0.094
       ],
       "_raw_events": [],
@@ -81,17 +81,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "нет данных",
-        "icon": "🌡",
-        "live": false,
-        "temp": null,
-        "feels_like": null,
-        "condition": null,
-        "wmo_code": null,
-        "wind": null,
-        "wind_gusts": null,
-        "precip": null,
-        "snowfall": null
+        "val": "+2°C · пасмурно",
+        "icon": "☁",
+        "live": true,
+        "temp": 1.8,
+        "feels_like": -2.2,
+        "condition": "пасмурно",
+        "wmo_code": 3,
+        "wind": 11.8,
+        "wind_gusts": 31.7,
+        "precip": 0.0,
+        "snowfall": 0.0
       },
       "events": {
         "score": 0.0,
@@ -133,9 +133,9 @@
         0.118,
         0.118,
         0.118,
+        0.268,
+        0.268,
         0.118,
-        0.268,
-        0.268,
         0.118,
         0.118
       ],
@@ -152,15 +152,15 @@
       "alert": "green",
       "weather": {
         "score": 0.1,
-        "val": "+14°C · пасмурно",
+        "val": "+17°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": 14.5,
-        "feels_like": 11.3,
+        "temp": 17.4,
+        "feels_like": 14.5,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 22.1,
-        "wind_gusts": 55.8,
+        "wind": 25.6,
+        "wind_gusts": 61.2,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -188,7 +188,6 @@
         0.242,
         0.242,
         0.242,
-        0.242,
         0.092,
         0.092,
         0.092,
@@ -208,6 +207,7 @@
         0.122,
         0.122,
         0.122,
+        0.122,
         0.122
       ],
       "_raw_events": [],
@@ -223,15 +223,15 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-1°C · пасмурно",
+        "val": "+2°C · пасмурно",
         "icon": "☁",
         "live": true,
-        "temp": -0.8,
-        "feels_like": -4.8,
+        "temp": 2.2,
+        "feels_like": -1.6,
         "condition": "пасмурно",
         "wmo_code": 3,
-        "wind": 8.3,
-        "wind_gusts": 15.8,
+        "wind": 8.0,
+        "wind_gusts": 18.4,
         "precip": 0.0,
         "snowfall": 0.0
       },
@@ -258,7 +258,6 @@
       "history": [
         0.146,
         0.146,
-        0.146,
         0.281,
         0.131,
         0.116,
@@ -277,6 +276,7 @@
         0.131,
         0.131,
         0.131,
+        0.116,
         0.116,
         0.116,
         0.116
