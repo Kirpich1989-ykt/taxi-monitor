@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-22T11:10:21.104598+00:00",
+  "generated_at": "2026-11-22T19:28:14.406240+00:00",
   "cities": {
     "Якутск": {
       "coords": [
         62.0355,
         129.6755
       ],
-      "impact": 0.094,
+      "impact": 0.064,
       "alert": "green",
       "weather": {
-        "score": 0.1,
-        "val": "-34°C · ясно",
-        "icon": "☀",
-        "live": true,
-        "temp": -33.7,
-        "feels_like": -39.1,
-        "condition": "ясно",
-        "wmo_code": 0,
-        "wind": 8.6,
-        "wind_gusts": 16.6,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "score": 0.0,
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 0.0,
@@ -45,7 +45,6 @@
       "history": [
         0.094,
         0.094,
-        0.094,
         0.064,
         0.094,
         0.094,
@@ -66,7 +65,8 @@
         0.094,
         0.094,
         0.094,
-        0.094
+        0.094,
+        0.064
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -77,21 +77,21 @@
         55.7558,
         37.6176
       ],
-      "impact": 0.268,
+      "impact": 0.118,
       "alert": "green",
       "weather": {
-        "score": 0.5,
-        "val": "+2°C · снегопад слабый",
-        "icon": "🌨",
-        "live": true,
-        "temp": 1.9,
-        "feels_like": -1.8,
-        "condition": "снегопад слабый",
-        "wmo_code": 85,
-        "wind": 10.2,
-        "wind_gusts": 30.2,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "score": 0.0,
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 0.0,
@@ -123,7 +123,6 @@
         0.118,
         0.118,
         0.118,
-        0.118,
         0.268,
         0.268,
         0.118,
@@ -137,7 +136,8 @@
         0.133,
         0.118,
         0.118,
-        0.268
+        0.268,
+        0.118
       ],
       "_raw_events": [],
       "_raw_news": [],
@@ -152,17 +152,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "+13°C · переменная облачность",
-        "icon": "⛅",
-        "live": true,
-        "temp": 13.2,
-        "feels_like": 11.3,
-        "condition": "переменная облачность",
-        "wmo_code": 2,
-        "wind": 10.5,
-        "wind_gusts": 24.5,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 0.0,
@@ -185,7 +185,6 @@
         "icon": "📰"
       },
       "history": [
-        0.107,
         0.092,
         0.092,
         0.092,
@@ -208,6 +207,7 @@
         0.092,
         0.092,
         0.092,
+        0.092,
         0.092
       ],
       "_raw_events": [],
@@ -223,17 +223,17 @@
       "alert": "green",
       "weather": {
         "score": 0.0,
-        "val": "-4°C · пасмурно",
-        "icon": "☁",
-        "live": true,
-        "temp": -3.9,
-        "feels_like": -8.5,
-        "condition": "пасмурно",
-        "wmo_code": 3,
-        "wind": 9.5,
-        "wind_gusts": 16.9,
-        "precip": 0.0,
-        "snowfall": 0.0
+        "val": "нет данных",
+        "icon": "🌡",
+        "live": false,
+        "temp": null,
+        "feels_like": null,
+        "condition": null,
+        "wmo_code": null,
+        "wind": null,
+        "wind_gusts": null,
+        "precip": null,
+        "snowfall": null
       },
       "events": {
         "score": 0.0,
@@ -259,9 +259,9 @@
         0.116,
         0.116,
         0.116,
+        0.131,
+        0.131,
         0.116,
-        0.131,
-        0.131,
         0.116,
         0.116,
         0.116,
